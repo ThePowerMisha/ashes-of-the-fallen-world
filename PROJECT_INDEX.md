@@ -64,3 +64,5 @@
 - #structures #lore #worldgen `tools/structures.py`, `docs/STRUCTURES.md`, `docs/lore-structures.json`, `overrides/kubejs/data/ashes/structures/lore/` — шаблоны, генерация, добыча и открытия.
 
 - #lore-quests Глава 40 `40_lore_sites.snbt`, источники `tools/campaign.txt` и `tools/build.py`; шесть параллельных ветвей и реальные достижения.
+
+- #rc5 Места памяти; 495 квестов / 40 глав; 159 проектов, состав не изменён.
