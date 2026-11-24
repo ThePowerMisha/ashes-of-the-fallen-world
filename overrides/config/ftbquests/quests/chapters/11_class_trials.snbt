@@ -1,0 +1,175 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "11_class_trials",
+  "group": "",
+  "icon": "minecraft:iron_sword",
+  "id": "05977430B9324B1D",
+  "order_index": 10,
+  "quest_links": [],
+  "title": "Испытания специализаций",
+  "quests": [
+    {
+      "id": "1FF7A3BEF4184303",
+      "title": "Воин дозора",
+      "description": [
+        "Паладин: защити союзника в настоящем бою. Это общий пробный квест, не ограничивающий выбор класса."
+      ],
+      "icon": "minecraft:shield",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7915290403E30EDC",
+          "type": "item",
+          "item": "minecraft:shield",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "3975AD60CA7C4E0E"
+      ]
+    },
+    {
+      "id": "6370BAE801526DEC",
+      "title": "Школа магии",
+      "description": [
+        "Архимаг: подготовь заклинания поддержки и обеспечь команду магическими ресурсами."
+      ],
+      "icon": "ars_nouveau:source_gem",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0FDD14AC43F768F1",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "1FF7A3BEF4184303"
+      ]
+    },
+    {
+      "id": "7540BCEBA55E0758",
+      "title": "Мастер приводов",
+      "description": [
+        "Инженер: поставь пресс, подключи вращение и изготовь пластины."
+      ],
+      "icon": "create:mechanical_press",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "584A11C780B86344",
+          "type": "item",
+          "item": "create:mechanical_press",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6370BAE801526DEC"
+      ],
+      "rewards": [
+        {
+          "id": "4B146852BF994233",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "08F6B301D5BC1D01",
+      "title": "След на карте",
+      "description": [
+        "Следопыт: нанеси безопасный маршрут и два опасных места."
+      ],
+      "icon": "minecraft:compass",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0992470C580B9484",
+          "type": "item",
+          "item": "minecraft:compass",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7540BCEBA55E0758"
+      ]
+    },
+    {
+      "id": "488322488FC1D54C",
+      "title": "Первый квартал",
+      "description": [
+        "Архитектор: помоги строителям подготовить дорогу и площадку."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "5A11DCDD63D1E6BF",
+          "type": "item",
+          "item": "minecraft:stone_bricks",
+          "count": 32
+        }
+      ],
+      "dependencies": [
+        "08F6B301D5BC1D01"
+      ]
+    },
+    {
+      "id": "5231601DC7DB2842",
+      "title": "Тень в руинах",
+      "description": [
+        "Оккультист: исследуй тёмную магию; не призывай опасных существ у дома."
+      ],
+      "icon": "minecraft:fermented_spider_eye",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "4356423354AD327B",
+          "type": "item",
+          "item": "minecraft:fermented_spider_eye",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "488322488FC1D54C"
+      ],
+      "rewards": [
+        {
+          "id": "0E471DCA99BC87C5",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "60DE67182F4E10BC",
+      "title": "Испытание союза",
+      "description": [
+        "Каждый выбирает удобную роль. Объедините усилия в экспедиции. Ранги проверяются отдельно командой /trigger ashes_status."
+      ],
+      "icon": "minecraft:iron_sword",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "0C164A6B656AFE02",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "5231601DC7DB2842"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+difficulty=normal
+pvp=false
+view-distance=8
+simulation-distance=6
+max-players=8
+online-mode=true
+allow-flight=true
+spawn-protection=0
+enable-command-block=false
+level-type=minecraft:normal
+max-tick-time=60000
+white-list=true
+enforce-whitelist=true
+motd=Ashes of the Fallen World

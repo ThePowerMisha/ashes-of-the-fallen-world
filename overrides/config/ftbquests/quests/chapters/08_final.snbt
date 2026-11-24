@@ -1,0 +1,145 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "08_final",
+  "group": "",
+  "icon": "kubejs:renewal_heart",
+  "id": "2C22672492EAEDAB",
+  "order_index": 7,
+  "quest_links": [],
+  "title": "VI–VII. Сердце тьмы и новая эпоха",
+  "quests": [
+    {
+      "id": "6EE45C69F5206FB8",
+      "title": "Дыхание края",
+      "description": [
+        "Отправляйся в Край и собери дыхание дракона."
+      ],
+      "icon": "minecraft:dragon_breath",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7088E25E0D799715",
+          "type": "item",
+          "item": "minecraft:dragon_breath",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "73934C8F1D5DA3DA"
+      ]
+    },
+    {
+      "id": "7A8B3EB8F9F29901",
+      "title": "Последний бастион",
+      "description": [
+        "Подготовь тотем для финальной экспедиции."
+      ],
+      "icon": "minecraft:totem_of_undying",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "40DAB2F3A9E9B278",
+          "type": "item",
+          "item": "minecraft:totem_of_undying",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6EE45C69F5206FB8"
+      ]
+    },
+    {
+      "id": "0EF33DB669F46A18",
+      "title": "Сердце тьмы",
+      "description": [
+        "Заверши штатную финальную механику Sculk Horde. Подтверди только после фактического поражения орды."
+      ],
+      "icon": "kubejs:renewal_heart",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5EC9E6B75FA0F1B6",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7A8B3EB8F9F29901"
+      ]
+    },
+    {
+      "id": "3C33689C455BB601",
+      "title": "Возрождение",
+      "description": [
+        "Создай Сердце возрождения из ядра согласия, звезды, дыхания дракона и тотема."
+      ],
+      "icon": "kubejs:renewal_heart",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0CC95F824297D7F9",
+          "type": "item",
+          "item": "kubejs:renewal_heart",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0EF33DB669F46A18"
+      ]
+    },
+    {
+      "id": "222E635081C59D03",
+      "title": "Возвращение жизни",
+      "description": [
+        "Очисти оставшиеся ключевые территории, восстанови поселение."
+      ],
+      "icon": "kubejs:renewal_heart",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "61C5C1E76F5FE826",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "3C33689C455BB601"
+      ]
+    },
+    {
+      "id": "6AE94DF87AB11A87",
+      "title": "Новая эпоха",
+      "description": [
+        "Зажги маяк новой цивилизации. Мир принадлежит выжившим."
+      ],
+      "icon": "minecraft:beacon",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "01DFF1C9C6FF7BC9",
+          "type": "item",
+          "item": "minecraft:beacon",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "222E635081C59D03"
+      ],
+      "rewards": [
+        {
+          "id": "1F9FFEA0874C5039",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

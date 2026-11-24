@@ -1,0 +1,196 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "09_archives",
+  "group": "",
+  "icon": "minecraft:writable_book",
+  "id": "6ED3B9C1FEE5B816",
+  "order_index": 8,
+  "quest_links": [],
+  "title": "Архивы Раскола",
+  "quests": [
+    {
+      "id": "66AA0C6099961B5E",
+      "title": "Обет архивиста",
+      "description": [
+        "Я, Варден, оставляю этот протокол тому, кто найдёт его. Если сигнальный колокол прозвучит трижды, не запускайте установку."
+      ],
+      "icon": "kubejs:archive_fragment",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2D87DB4A15138D49",
+          "type": "item",
+          "item": "kubejs:archive_fragment",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "229FC7D04C879E11"
+      ]
+    },
+    {
+      "id": "3D98162BD082B3E4",
+      "title": "Последний пуск",
+      "description": [
+        "Запись 01. Механики построили проводники, чтобы освещать города и питать фабрики. В ночь запуска счётчики начали работать до подачи энергии."
+      ],
+      "icon": "kubejs:mechanic_dossier",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "34D027A75A670340",
+          "type": "item",
+          "item": "kubejs:mechanic_dossier",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "66AA0C6099961B5E"
+      ]
+    },
+    {
+      "id": "29497AB94C510A94",
+      "title": "Корни тишины",
+      "description": [
+        "Запись 02. Ильма обнаружила, что растения поворачиваются к шахте, даже когда солнце светит с другой стороны. Совет счёл тревогу суеверием."
+      ],
+      "icon": "kubejs:nature_dossier",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "17442FD68F1F110D",
+          "type": "item",
+          "item": "kubejs:nature_dossier",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "3D98162BD082B3E4"
+      ],
+      "rewards": [
+        {
+          "id": "602B9629C7FE5086",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7CD88FDDB243044A",
+      "title": "Голос под камнем",
+      "description": [
+        "Запись 03. Селена слышала зов в собственном голосе. Она поняла: бездна не источник энергии, а организм, использующий память."
+      ],
+      "icon": "kubejs:mage_dossier",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4CDFFFEAF34AEC08",
+          "type": "item",
+          "item": "kubejs:mage_dossier",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "29497AB94C510A94"
+      ]
+    },
+    {
+      "id": "6D077F0F62FE17F1",
+      "title": "Печать экспедиции",
+      "description": [
+        "Собери знак архивистов. Отметь безопасный путь и запасной выход перед исследованием руин."
+      ],
+      "icon": "kubejs:expedition_seal",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "1232EC97D0B952E2",
+          "type": "item",
+          "item": "kubejs:expedition_seal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7CD88FDDB243044A"
+      ]
+    },
+    {
+      "id": "396237BF7C17222D",
+      "title": "Линза памяти",
+      "description": [
+        "Осколок эха хранит отголоски прошлого. Старые записи говорят о трёх независимых печатях."
+      ],
+      "icon": "kubejs:memory_lens",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "097C77FCCB745290",
+          "type": "item",
+          "item": "kubejs:memory_lens",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6D077F0F62FE17F1"
+      ],
+      "rewards": [
+        {
+          "id": "36A8771FB107625F",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5F4DB5BD647D4C7B",
+      "title": "Правда Совета",
+      "description": [
+        "Обсудите с командой три свидетельства. Никто из орденов не был невиновен, но каждый пытался спасти свой народ."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "07451971416D7FCF",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "396237BF7C17222D"
+      ]
+    },
+    {
+      "id": "64DFF8B66685D071",
+      "title": "Свидетельство будущим",
+      "description": [
+        "Запишите свою историю в книгу. Оставьте копию в общем архиве поселения; не требуется сдавать оригинал."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "1F39E8CE22BAB8C6",
+          "type": "item",
+          "item": "minecraft:writable_book",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5F4DB5BD647D4C7B"
+      ]
+    }
+  ]
+}

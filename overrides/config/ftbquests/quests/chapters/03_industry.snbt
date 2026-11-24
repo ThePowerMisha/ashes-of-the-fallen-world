@@ -1,0 +1,280 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "03_industry",
+  "group": "",
+  "icon": "create:precision_mechanism",
+  "id": "355BF65F226CF29A",
+  "order_index": 2,
+  "quest_links": [],
+  "title": "III-A. Возрождение промышленности",
+  "quests": [
+    {
+      "id": "3E032F770950CD2C",
+      "title": "Колесо",
+      "description": [
+        "Поставь водяное колесо и передай вращение валом."
+      ],
+      "icon": "create:water_wheel",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7C76C9DC9304DA1C",
+          "type": "item",
+          "item": "create:water_wheel",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "229FC7D04C879E11"
+      ]
+    },
+    {
+      "id": "549DB9377C136AF9",
+      "title": "Валы",
+      "description": [
+        "Проложи привод к рабочему месту."
+      ],
+      "icon": "create:shaft",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "572E8AD71DECDEA1",
+          "type": "item",
+          "item": "create:shaft",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "3E032F770950CD2C"
+      ]
+    },
+    {
+      "id": "222A5E474AE9240A",
+      "title": "Пресс",
+      "description": [
+        "Автоматизируй изготовление пластин."
+      ],
+      "icon": "create:mechanical_press",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "10394647267648EC",
+          "type": "item",
+          "item": "create:mechanical_press",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "549DB9377C136AF9"
+      ],
+      "rewards": [
+        {
+          "id": "210DEB22AABCB20F",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6EE71188322E8D0A",
+      "title": "Дробление",
+      "description": [
+        "Используй жернова для переработки ресурсов."
+      ],
+      "icon": "create:millstone",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7873796D5C944B12",
+          "type": "item",
+          "item": "create:millstone",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "222A5E474AE9240A"
+      ]
+    },
+    {
+      "id": "564A6E92E67E8E6A",
+      "title": "Бур",
+      "description": [
+        "Построй механический бур. Следи за нагрузкой."
+      ],
+      "icon": "create:mechanical_drill",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "1D3764B116E3F8AE",
+          "type": "item",
+          "item": "create:mechanical_drill",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6EE71188322E8D0A"
+      ]
+    },
+    {
+      "id": "1512734044FD513C",
+      "title": "Точная механика",
+      "description": [
+        "Освой последовательную сборку."
+      ],
+      "icon": "create:precision_mechanism",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "373020F2EA0DD144",
+          "type": "item",
+          "item": "create:precision_mechanism",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "564A6E92E67E8E6A"
+      ],
+      "rewards": [
+        {
+          "id": "3FD3CE4E47265B6E",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7F63FA02814D0D33",
+      "title": "Первые провода",
+      "description": [
+        "Создай генератор и сеть Immersive Engineering. Подтверди после проверки."
+      ],
+      "icon": "create:precision_mechanism",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6E170B6E0EA5645D",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1512734044FD513C"
+      ]
+    },
+    {
+      "id": "10B17F9E5D205ECB",
+      "title": "Энергия",
+      "description": [
+        "Построй генератор Mekanism и подай энергию."
+      ],
+      "icon": "mekanism:heat_generator",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "058A8D47FB0FF408",
+          "type": "item",
+          "item": "mekanism:heat_generator",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7F63FA02814D0D33"
+      ]
+    },
+    {
+      "id": "7E10E03C915EBC7E",
+      "title": "Обогащение",
+      "description": [
+        "Перерабатывай руды с меньшими потерями."
+      ],
+      "icon": "mekanism:enrichment_chamber",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "52513154FCB9E07E",
+          "type": "item",
+          "item": "mekanism:enrichment_chamber",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "10B17F9E5D205ECB"
+      ]
+    },
+    {
+      "id": "0EE99D158C572BC9",
+      "title": "Промышленная логика",
+      "description": [
+        "Освой управляющие схемы."
+      ],
+      "icon": "mekanism:basic_control_circuit",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "088331BDD264DC82",
+          "type": "item",
+          "item": "mekanism:basic_control_circuit",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "7E10E03C915EBC7E"
+      ]
+    },
+    {
+      "id": "03EF95D41D81DC83",
+      "title": "Добыча без шахтёра",
+      "description": [
+        "Настрой фильтр Digital Miner и питание. Не размещай в чужих территориях."
+      ],
+      "icon": "mekanism:digital_miner",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "5283E0C712EF89C0",
+          "type": "item",
+          "item": "mekanism:digital_miner",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0EE99D158C572BC9"
+      ]
+    },
+    {
+      "id": "21CAB2CA77C87AA6",
+      "title": "Знак механиков",
+      "description": [
+        "Объедини запись, точный механизм и управляющую схему."
+      ],
+      "icon": "kubejs:mechanic_seal",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "64751F6674ADBC7B",
+          "type": "item",
+          "item": "kubejs:mechanic_seal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "03EF95D41D81DC83"
+      ]
+    }
+  ]
+}

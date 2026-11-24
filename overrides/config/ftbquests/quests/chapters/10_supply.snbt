@@ -1,0 +1,196 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "10_supply",
+  "group": "",
+  "icon": "minecraft:chest",
+  "id": "6B991D3310281564",
+  "order_index": 9,
+  "quest_links": [],
+  "title": "Логистика и снабжение",
+  "quests": [
+    {
+      "id": "59B3BE45BFA33BD1",
+      "title": "Склад припасов",
+      "description": [
+        "Раздели продовольствие, инструменты и добычу. Склад общего пользования важнее личных сундуков."
+      ],
+      "icon": "minecraft:barrel",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5141B92992B0F58E",
+          "type": "item",
+          "item": "minecraft:barrel",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "3975AD60CA7C4E0E"
+      ]
+    },
+    {
+      "id": "4DA284338E6694AE",
+      "title": "Кухня выживших",
+      "description": [
+        "Освой разделочную доску. Готовьте разнообразную еду между экспедициями."
+      ],
+      "icon": "farmersdelight:cutting_board",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2F1AF7AE5CA9A7F1",
+          "type": "item",
+          "item": "farmersdelight:cutting_board",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "59B3BE45BFA33BD1"
+      ]
+    },
+    {
+      "id": "2735B34AD6437D19",
+      "title": "Аварийные пайки",
+      "description": [
+        "Новый рецепт полевого пайка: один слиток золота и четыре моркови. Не требуется добыча из редких сундуков."
+      ],
+      "icon": "minecraft:golden_carrot",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7161B0D5018DEF8A",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "4DA284338E6694AE"
+      ],
+      "rewards": [
+        {
+          "id": "3739D8E2F98EF470",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6A690C9B9A35F096",
+      "title": "Свет на дорогах",
+      "description": [
+        "Авторский рецепт даёт два фонаря за слиток железа и два факела. Освети дороги между строениями."
+      ],
+      "icon": "minecraft:lantern",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5CDC6CD65580E146",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "2735B34AD6437D19"
+      ]
+    },
+    {
+      "id": "114676AB1F71CAB4",
+      "title": "Передача энергии",
+      "description": [
+        "Проложи сеть к общим механизмам. Храни запас топлива."
+      ],
+      "icon": "mekanism:basic_universal_cable",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7139BEECD4E3B395",
+          "type": "item",
+          "item": "mekanism:basic_universal_cable",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "6A690C9B9A35F096"
+      ]
+    },
+    {
+      "id": "66E1FA7B1F64D94B",
+      "title": "Хранилище ордена",
+      "description": [
+        "Добавь ME Drive к цифровому складу. Не забудь обеспечить сеть энергией."
+      ],
+      "icon": "ae2:drive",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "088741DE54BFF3E1",
+          "type": "item",
+          "item": "ae2:drive",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "114676AB1F71CAB4"
+      ],
+      "rewards": [
+        {
+          "id": "319086B623DDC1D0",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "2F4BD0D1790C3B68",
+      "title": "Караван",
+      "description": [
+        "Организуйте перевозку из удалённой шахты в поселение: поезд Create или другой безопасный путь."
+      ],
+      "icon": "minecraft:chest",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "302971F02E98D2A2",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "66E1FA7B1F64D94B"
+      ]
+    },
+    {
+      "id": "5AE4BC5C32DC848E",
+      "title": "Хартия",
+      "description": [
+        "Устав союза: общие склады, неприкосновенность личных вещей, общие цели и взаимная помощь."
+      ],
+      "icon": "kubejs:settlement_charter",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "5C03C18905E4C7BF",
+          "type": "item",
+          "item": "kubejs:settlement_charter",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2F4BD0D1790C3B68"
+      ]
+    }
+  ]
+}

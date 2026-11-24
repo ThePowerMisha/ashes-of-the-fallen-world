@@ -1,0 +1,207 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "02_ruins",
+  "group": "",
+  "icon": "minecraft:spyglass",
+  "id": "0D76C0E42543182D",
+  "order_index": 1,
+  "quest_links": [],
+  "title": "II. Эхо старого мира",
+  "quests": [
+    {
+      "id": "639F04B923139E25",
+      "title": "На север от пепла",
+      "description": [
+        "Возьми подзорную трубу. Ищи руины в долинах."
+      ],
+      "icon": "minecraft:spyglass",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "596CF6B441A3B424",
+          "type": "item",
+          "item": "minecraft:spyglass",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "3975AD60CA7C4E0E"
+      ]
+    },
+    {
+      "id": "143236E99B6B5F81",
+      "title": "Заброшенный замок",
+      "description": [
+        "Исследуй крупную крепость When Dungeons Arise. Установи точку на карте и сообщи друзьям."
+      ],
+      "icon": "minecraft:spyglass",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0A8191CBC5888768",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "639F04B923139E25"
+      ]
+    },
+    {
+      "id": "34F6A332C65D628C",
+      "title": "Голоса под землёй",
+      "description": [
+        "Исследуй заброшенную шахту YUNG’s и найди следы нежити."
+      ],
+      "icon": "minecraft:spyglass",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "547ACE9BF8A56328",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "143236E99B6B5F81"
+      ]
+    },
+    {
+      "id": "1FDA02C6559DB142",
+      "title": "Хранилища старого мира",
+      "description": [
+        "Принеси золото из экспедиции или шахты."
+      ],
+      "icon": "minecraft:gold_ingot",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "117BD15ACF725623",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "34F6A332C65D628C"
+      ]
+    },
+    {
+      "id": "3D1B0CEECE3886EE",
+      "title": "Крипта",
+      "description": [
+        "Посети кладбище или склеп The Graveyard. Подтверди возвращение живым."
+      ],
+      "icon": "minecraft:spyglass",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7585B6EA28ACA05C",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1FDA02C6559DB142"
+      ]
+    },
+    {
+      "id": "5315D5636D729C28",
+      "title": "Архив механиков",
+      "description": [
+        "Красная пыль была кровью машин."
+      ],
+      "icon": "minecraft:redstone",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "56392B0F0A6C83B2",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "3D1B0CEECE3886EE"
+      ],
+      "rewards": [
+        {
+          "id": "0B98F4AAC03C4EE7",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "46E61D4D7DEB9AA1",
+      "title": "Архив хранителей",
+      "description": [
+        "Изумруд напоминает о союзе поселений."
+      ],
+      "icon": "minecraft:emerald",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "3A59C1D105F6C014",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "5315D5636D729C28"
+      ]
+    },
+    {
+      "id": "25A79AE367225ACF",
+      "title": "Архив архимагов",
+      "description": [
+        "Кристалл помнит голос бездны."
+      ],
+      "icon": "minecraft:amethyst_shard",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "23DD32BBE81DAFBF",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "46E61D4D7DEB9AA1"
+      ]
+    },
+    {
+      "id": "229FC7D04C879E11",
+      "title": "Три ордена",
+      "description": [
+        "Восстанови записи всех трёх орденов. Раскол произошёл по вине их общего эксперимента."
+      ],
+      "icon": "kubejs:archive_fragment",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "6FBB11A3E51FD603",
+          "type": "item",
+          "item": "kubejs:archive_fragment",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "25A79AE367225ACF"
+      ]
+    }
+  ]
+}

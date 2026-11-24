@@ -1,0 +1,4 @@
+version:3465
+lang:ru_ru
+renderDistance:12
+simulationDistance:8

@@ -1,0 +1,20 @@
+# Minecraft runtime and proprietary downloads
+*.jar
+*.zip
+*.mrpack
+mods/
+saves/
+world/
+world_nether/
+world_the_end/
+logs/
+crash-reports/
+backups/
+shaderpacks/
+.local/
+.env
+.env.*
+__pycache__/
+*.pyc
+.idea/
+.vscode/

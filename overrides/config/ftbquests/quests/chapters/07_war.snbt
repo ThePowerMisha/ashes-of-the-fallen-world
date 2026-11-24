@@ -1,0 +1,185 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "07_war",
+  "group": "",
+  "icon": "minecraft:netherite_ingot",
+  "id": "5E094994214D6FAB",
+  "order_index": 6,
+  "quest_links": [],
+  "title": "V. Война за будущее",
+  "quests": [
+    {
+      "id": "7A11800646229BFC",
+      "title": "Кузница",
+      "description": [
+        "Обнови броню команды."
+      ],
+      "icon": "minecraft:diamond_chestplate",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4F2F312EE252C41D",
+          "type": "item",
+          "item": "minecraft:diamond_chestplate",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "38741EC4B6B368B9"
+      ]
+    },
+    {
+      "id": "062F55E8EBF358DF",
+      "title": "Сила реликвий",
+      "description": [
+        "Найди артефакт Artifacts и экипируй его."
+      ],
+      "icon": "minecraft:netherite_ingot",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0C24103BEE1CA57A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7A11800646229BFC"
+      ]
+    },
+    {
+      "id": "2F401BDF179ECC75",
+      "title": "Кузнец судьбы",
+      "description": [
+        "Улучши экипировку через Apotheosis."
+      ],
+      "icon": "minecraft:netherite_ingot",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "3B12951A7DC3A0B3",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "062F55E8EBF358DF"
+      ]
+    },
+    {
+      "id": "39139ED24DBF80A3",
+      "title": "Первый хранитель",
+      "description": [
+        "Победи босса Mowzie’s Mobs вместе с командой."
+      ],
+      "icon": "minecraft:netherite_ingot",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4235812F7E88FDBC",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2F401BDF179ECC75"
+      ]
+    },
+    {
+      "id": "2FB794E20955968E",
+      "title": "Хранитель катакомб",
+      "description": [
+        "Победи босса Cataclysm. Не подтверждай до победы."
+      ],
+      "icon": "minecraft:netherite_ingot",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7A6A9B4D74033100",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "39139ED24DBF80A3"
+      ]
+    },
+    {
+      "id": "198341DE6390175C",
+      "title": "Врата преисподней",
+      "description": [
+        "Заготовь ресурсы Нижнего мира."
+      ],
+      "icon": "minecraft:blaze_rod",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "2EF31CF5EF5AB18C",
+          "type": "item",
+          "item": "minecraft:blaze_rod",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "2FB794E20955968E"
+      ],
+      "rewards": [
+        {
+          "id": "186470AD67E13B7A",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "2F935CCC6B25B20C",
+      "title": "Вершина стали",
+      "description": [
+        "Подготовь снаряжение к последнему походу."
+      ],
+      "icon": "minecraft:netherite_ingot",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "54598B7B4132BBA6",
+          "type": "item",
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "198341DE6390175C"
+      ]
+    },
+    {
+      "id": "73934C8F1D5DA3DA",
+      "title": "Падение древнего владыки",
+      "description": [
+        "Победи иссушителя и получи звезду."
+      ],
+      "icon": "minecraft:nether_star",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "664FED8CB191BE4B",
+          "type": "item",
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2F935CCC6B25B20C"
+      ]
+    }
+  ]
+}

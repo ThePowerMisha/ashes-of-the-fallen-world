@@ -1,0 +1,145 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "12_recovery",
+  "group": "",
+  "icon": "minecraft:prismarine_crystals",
+  "id": "42CFC75D19E1695E",
+  "order_index": 11,
+  "quest_links": [],
+  "title": "После долгой ночи",
+  "quests": [
+    {
+      "id": "345483B6D9AF0E64",
+      "title": "Матрица очищения",
+      "description": [
+        "Создай экспериментальную матрицу. Она предназначена для переработки знаков, а не для автоматического удаления заражённых блоков."
+      ],
+      "icon": "kubejs:purifier_matrix",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "036EDDB1E585BA68",
+          "type": "item",
+          "item": "kubejs:purifier_matrix",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "38741EC4B6B368B9"
+      ]
+    },
+    {
+      "id": "4FEC3C13F13B3356",
+      "title": "Полевой комплект",
+      "description": [
+        "Запаси знаки для участников. /trigger ashes_purify очищает только персонажа."
+      ],
+      "icon": "kubejs:purity_sigil",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "1CEB373B9497DDA9",
+          "type": "item",
+          "item": "kubejs:purity_sigil",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "345483B6D9AF0E64"
+      ]
+    },
+    {
+      "id": "0E490542BD998D2F",
+      "title": "Перепись очагов",
+      "description": [
+        "Вместе обозначьте очаги заражения на карте и оцените пути отхода."
+      ],
+      "icon": "minecraft:prismarine_crystals",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "61ABFC53F311DF4A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4FEC3C13F13B3356"
+      ]
+    },
+    {
+      "id": "19F055DFDBEFF2F7",
+      "title": "Земля снова дышит",
+      "description": [
+        "Примените штатный очиститель Sculk Horde на тестовом участке. Убедитесь, что блоки восстановлены."
+      ],
+      "icon": "minecraft:prismarine_crystals",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "647D717BBD60591F",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0E490542BD998D2F"
+      ]
+    },
+    {
+      "id": "32DDE67B6B13397D",
+      "title": "Зелёный рубеж",
+      "description": [
+        "Высади деревья на освобождённой территории. Верни жизнь в долину."
+      ],
+      "icon": "minecraft:oak_sapling",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "415293B5FD3976A2",
+          "type": "item",
+          "item": "minecraft:oak_sapling",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "19F055DFDBEFF2F7"
+      ]
+    },
+    {
+      "id": "52FCDB09F3490BE2",
+      "title": "Новая страница",
+      "description": [
+        "Запиши имена товарищей и историю первого освобождённого поселения. Это ваш собственный эпилог."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "3D1838527265C421",
+          "type": "item",
+          "item": "minecraft:writable_book",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "32DDE67B6B13397D"
+      ],
+      "rewards": [
+        {
+          "id": "16A33AFCD9C629E3",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

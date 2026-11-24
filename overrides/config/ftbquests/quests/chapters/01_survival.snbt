@@ -1,0 +1,192 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "01_survival",
+  "group": "",
+  "icon": "minecraft:campfire",
+  "id": "1795C5B5DFF17A6F",
+  "order_index": 0,
+  "quest_links": [],
+  "title": "I. Последние выжившие",
+  "quests": [
+    {
+      "id": "2BD8F0EBC1A09919",
+      "title": "Пробуждение",
+      "description": [
+        "Ты очнулся среди руин. Мир помнит Великий Раскол. Открой карту и договорись с друзьями о месте встречи."
+      ],
+      "icon": "minecraft:campfire",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5AC160912AD302B9",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ]
+    },
+    {
+      "id": "241188EAD5CC01B0",
+      "title": "Огонь в ночи",
+      "description": [
+        "Разожги костёр. Ночь опаснее, чем кажется."
+      ],
+      "icon": "minecraft:campfire",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7DEFDC0A97AD779B",
+          "type": "item",
+          "item": "minecraft:campfire",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2BD8F0EBC1A09919"
+      ]
+    },
+    {
+      "id": "1743AC68D363D7A5",
+      "title": "Первое убежище",
+      "description": [
+        "Подготовь кровать и укрытие."
+      ],
+      "icon": "minecraft:white_bed",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "48C8F0C7BBDED2E4",
+          "type": "item",
+          "item": "minecraft:white_bed",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "241188EAD5CC01B0"
+      ],
+      "rewards": [
+        {
+          "id": "267F613CEFF0A60F",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "32A0C94B9D047B54",
+      "title": "Камень и сталь",
+      "description": [
+        "Добудь железо и изготовь кирку. Ultimine ускоряет добычу."
+      ],
+      "icon": "minecraft:iron_pickaxe",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "489C46D33B02BFD6",
+          "type": "item",
+          "item": "minecraft:iron_pickaxe",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1743AC68D363D7A5"
+      ]
+    },
+    {
+      "id": "60117B7CC818676B",
+      "title": "Запасы",
+      "description": [
+        "Обеспечь команду едой."
+      ],
+      "icon": "minecraft:bread",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "71623F40D658726C",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "32A0C94B9D047B54"
+      ]
+    },
+    {
+      "id": "101FA07CABA6B876",
+      "title": "Дорога домой",
+      "description": [
+        "Построй путевой камень; активируй его в общем поселении."
+      ],
+      "icon": "waystones:waystone",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7F83E164841228CA",
+          "type": "item",
+          "item": "waystones:waystone",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "60117B7CC818676B"
+      ],
+      "rewards": [
+        {
+          "id": "14B8971662D03A93",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1DC2561A626A6D17",
+      "title": "Выбрать путь",
+      "description": [
+        "Выбери класс командой /trigger ashes_class set 1–6. Используй /trigger ashes_status для проверки. Подтверди после выбора."
+      ],
+      "icon": "minecraft:campfire",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "3006D1E6406D6C8A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "101FA07CABA6B876"
+      ]
+    },
+    {
+      "id": "3975AD60CA7C4E0E",
+      "title": "Следы истории",
+      "description": [
+        "Соедини бумагу, чернила и древесный уголь. Восстанови первые записи орденов."
+      ],
+      "icon": "kubejs:archive_fragment",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "582092D95DAF5679",
+          "type": "item",
+          "item": "kubejs:archive_fragment",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1DC2561A626A6D17"
+      ]
+    }
+  ]
+}

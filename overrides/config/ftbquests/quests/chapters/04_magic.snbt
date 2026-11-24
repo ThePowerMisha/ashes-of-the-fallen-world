@@ -1,0 +1,219 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "04_magic",
+  "group": "",
+  "icon": "minecraft:amethyst_shard",
+  "id": "730B4D68CDD366A4",
+  "order_index": 3,
+  "quest_links": [],
+  "title": "III-B. Искусство трёх орденов",
+  "quests": [
+    {
+      "id": "1D129E2C407448C4",
+      "title": "Искра",
+      "description": [
+        "Найди источник магии и добудь Source Gem."
+      ],
+      "icon": "ars_nouveau:source_gem",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "06922FBED0B2FDB4",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "229FC7D04C879E11"
+      ]
+    },
+    {
+      "id": "1DF96CD27A4211A8",
+      "title": "Первые чары",
+      "description": [
+        "Изготовь книгу Ars Nouveau и испытай простое заклинание."
+      ],
+      "icon": "minecraft:amethyst_shard",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "50D1ABB5A1E3542F",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1D129E2C407448C4"
+      ]
+    },
+    {
+      "id": "58B63DEC4AF1CB84",
+      "title": "Боевая магия",
+      "description": [
+        "Изучи Iron’s Spells и примени первое боевое заклинание."
+      ],
+      "icon": "minecraft:amethyst_shard",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "73AB5C4643D864DC",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1DF96CD27A4211A8"
+      ]
+    },
+    {
+      "id": "1A8BD49C70AE18DB",
+      "title": "Защита",
+      "description": [
+        "Не забывай о щите и защите союзников."
+      ],
+      "icon": "minecraft:shield",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0A1A2499523FFFD3",
+          "type": "item",
+          "item": "minecraft:shield",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "58B63DEC4AF1CB84"
+      ]
+    },
+    {
+      "id": "7DD236145D7AD8D2",
+      "title": "Природный дар",
+      "description": [
+        "Собери ягоды и исследуй живые пещеры."
+      ],
+      "icon": "minecraft:glow_berries",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "742148476C9FC4C2",
+          "type": "item",
+          "item": "minecraft:glow_berries",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "1A8BD49C70AE18DB"
+      ]
+    },
+    {
+      "id": "4B56E8B8147F0F62",
+      "title": "Мана",
+      "description": [
+        "Настрой генерацию маны в Botania."
+      ],
+      "icon": "minecraft:amethyst_shard",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "509AB1D5CC0EDD39",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7DD236145D7AD8D2"
+      ]
+    },
+    {
+      "id": "11E799D18454DF19",
+      "title": "Тёмные искусства",
+      "description": [
+        "Изучи Goety. Вызывай слуг вдали от союзного поселения."
+      ],
+      "icon": "minecraft:amethyst_shard",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "5E5990A1C354B05A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4B56E8B8147F0F62"
+      ]
+    },
+    {
+      "id": "2508B4F506213409",
+      "title": "Алхимия",
+      "description": [
+        "Свари зелья перед экспедицией."
+      ],
+      "icon": "minecraft:brewing_stand",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "60D42102AE257C62",
+          "type": "item",
+          "item": "minecraft:brewing_stand",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "11E799D18454DF19"
+      ]
+    },
+    {
+      "id": "389CA07B3D74B71C",
+      "title": "Печать природы",
+      "description": [
+        "Соедини запись с дарами живого мира."
+      ],
+      "icon": "kubejs:nature_seal",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "65B258B2CDE02607",
+          "type": "item",
+          "item": "kubejs:nature_seal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2508B4F506213409"
+      ]
+    },
+    {
+      "id": "0A33175450E0EB37",
+      "title": "Печать магов",
+      "description": [
+        "Соедини запись с кристаллами и Source Gem."
+      ],
+      "icon": "kubejs:mage_seal",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "67AF2FAB8519D80C",
+          "type": "item",
+          "item": "kubejs:mage_seal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "389CA07B3D74B71C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "06_horde",
+  "group": "",
+  "icon": "minecraft:echo_shard",
+  "id": "3084602B66B939BF",
+  "order_index": 5,
+  "quest_links": [],
+  "title": "IV. Пробуждение бездны",
+  "quests": [
+    {
+      "id": "4AFF2B8CB51C1B79",
+      "title": "Совет орденов",
+      "description": [
+        "Соедини три печати и осколок эха. Согласуй с друзьями экспедицию к источнику скверны."
+      ],
+      "icon": "kubejs:concord_core",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "47B1EFD3FDD8387E",
+          "type": "item",
+          "item": "kubejs:concord_core",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "21CAB2CA77C87AA6",
+        "0A33175450E0EB37",
+        "6F94CDE3636A9AC0"
+      ]
+    },
+    {
+      "id": "46FD679DB3CA89ED",
+      "title": "Знак очищения",
+      "description": [
+        "Изготовь знаки. /trigger ashes_purify тратит один знак и снимает вредные эффекты с тебя."
+      ],
+      "icon": "kubejs:purity_sigil",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "53E910F6A4DB11FD",
+          "type": "item",
+          "item": "kubejs:purity_sigil",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "4AFF2B8CB51C1B79"
+      ]
+    },
+    {
+      "id": "544D7A40C64555B1",
+      "title": "Спящие глубины",
+      "description": [
+        "Найди древний город. Не пробуждай орду до готовности команды."
+      ],
+      "icon": "minecraft:echo_shard",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4FA2D2364EDAA6C8",
+          "type": "item",
+          "item": "minecraft:echo_shard",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "46FD679DB3CA89ED"
+      ],
+      "rewards": [
+        {
+          "id": "48DCC52E3B5C9BC8",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "2BAAE2E7923B660A",
+      "title": "План обороны",
+      "description": [
+        "Сделай резервную копию мира и подготовь убежища. Администратор проверяет настройки Sculk Horde."
+      ],
+      "icon": "minecraft:echo_shard",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "37B8A8F798A1D5D9",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "544D7A40C64555B1"
+      ]
+    },
+    {
+      "id": "529ED4693C398388",
+      "title": "Пробуждение",
+      "description": [
+        "Вместе активируйте орду штатной механикой Sculk Horde. Не подтверждай до фактической активации."
+      ],
+      "icon": "minecraft:echo_shard",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "5748C5D5E3919C88",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2BAAE2E7923B660A"
+      ]
+    },
+    {
+      "id": "1654A3EEE4F5E0B9",
+      "title": "Противоядие",
+      "description": [
+        "Освой штатные средства очищения Sculk Horde по внутриигровым рецептам JEI."
+      ],
+      "icon": "minecraft:echo_shard",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "08A9C213F4968D91",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "529ED4693C398388"
+      ]
+    },
+    {
+      "id": "49C76BA065BA149E",
+      "title": "Первая очищенная зона",
+      "description": [
+        "Уничтожь очаг и очисти заражённые блоки штатным очистителем. Подтверди после осмотра зоны."
+      ],
+      "icon": "minecraft:echo_shard",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "47E04D3FF440EEC5",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1654A3EEE4F5E0B9"
+      ]
+    },
+    {
+      "id": "73BEC75D831FF408",
+      "title": "Второй рубеж",
+      "description": [
+        "Освободи ещё один очаг, поставь точку на карте."
+      ],
+      "icon": "minecraft:echo_shard",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7C52B8B19A6C2779",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "49C76BA065BA149E"
+      ]
+    },
+    {
+      "id": "38741EC4B6B368B9",
+      "title": "Подготовка войны",
+      "description": [
+        "Снабди бойцов и обеспечь пути отступления."
+      ],
+      "icon": "minecraft:golden_apple",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "3FEC56BFCA6BB9FE",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "73BEC75D831FF408"
+      ]
+    }
+  ]
+}

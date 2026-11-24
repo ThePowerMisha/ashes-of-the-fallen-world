@@ -1,0 +1,8 @@
+Исключить из выделенного сервера (клиентские функции; могут не требоваться на сервере):
+xaeros-minimap: xaerominimap-forge-1.20.1-26.6.0.jar
+ambientsounds: AmbientSounds_FORGE_v6.3.11_mc1.20.1.jar
+sound-physics-remastered: sound-physics-remastered-forge-1.20.1-1.5.1.jar
+embeddium: embeddium-0.3.31+mc1.20.1.jar
+entityculling: entityculling-forge-1.11.3-mc1.20.1.jar
+oculus: oculus-mc1.20.1-1.8.0.jar
+xaeros-world-map: xaeroworldmap-forge-1.20.1-1.47.0.jar

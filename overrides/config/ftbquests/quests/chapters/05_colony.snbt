@@ -1,0 +1,218 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "05_colony",
+  "group": "",
+  "icon": "minecraft:lantern",
+  "id": "713F65ABB69A046C",
+  "order_index": 4,
+  "quest_links": [],
+  "title": "III-C. Новая цивилизация",
+  "quests": [
+    {
+      "id": "5A38822BEA58C471",
+      "title": "Место для дома",
+      "description": [
+        "Выбери долину рядом с водой. Освети стартовую зону."
+      ],
+      "icon": "minecraft:lantern",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "6618229611B2BD80",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "229FC7D04C879E11"
+      ]
+    },
+    {
+      "id": "10C971F344DFD751",
+      "title": "Команда",
+      "description": [
+        "Создай команду FTB Teams и согласуй доступ к чанкам."
+      ],
+      "icon": "minecraft:lantern",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "3CD4E4C6C8E741F4",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "5A38822BEA58C471"
+      ]
+    },
+    {
+      "id": "603EF95F8B1AC9A2",
+      "title": "Первый город",
+      "description": [
+        "Поставь Supply Camp MineColonies и основную ратушу."
+      ],
+      "icon": "minecraft:lantern",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "45C014B38D0CE6CA",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "10C971F344DFD751"
+      ]
+    },
+    {
+      "id": "20B24E5D57F87692",
+      "title": "Строитель",
+      "description": [
+        "Найми строителя и дострой его хижину."
+      ],
+      "icon": "minecraft:lantern",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2F99EC486084C66A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "603EF95F8B1AC9A2"
+      ]
+    },
+    {
+      "id": "7A2ED58B03CE93AA",
+      "title": "Ферма",
+      "description": [
+        "Обеспечь город зерном."
+      ],
+      "icon": "minecraft:wheat",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "062A6CFFB0B91ADB",
+          "type": "item",
+          "item": "minecraft:wheat",
+          "count": 32
+        }
+      ],
+      "dependencies": [
+        "20B24E5D57F87692"
+      ]
+    },
+    {
+      "id": "36021E84BB9A1ED0",
+      "title": "Кухня",
+      "description": [
+        "Освой Farmer’s Delight и готовь еду для экспедиций."
+      ],
+      "icon": "minecraft:lantern",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "367558330F5FCA27",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7A2ED58B03CE93AA"
+      ]
+    },
+    {
+      "id": "2B66A0ADA89ED9E2",
+      "title": "Дороги",
+      "description": [
+        "Соедини здания дорогами. Архитектор получает прогресс за установку каменных кирпичей."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "3E63E99B6C74209A",
+          "type": "item",
+          "item": "minecraft:stone_bricks",
+          "count": 64
+        }
+      ],
+      "dependencies": [
+        "36021E84BB9A1ED0"
+      ]
+    },
+    {
+      "id": "4F24FA7DD1C8D04C",
+      "title": "Склад",
+      "description": [
+        "Организуй общий склад. Используй Sophisticated Storage."
+      ],
+      "icon": "minecraft:chest",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "01A2174B9C543CFF",
+          "type": "item",
+          "item": "minecraft:chest",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "2B66A0ADA89ED9E2"
+      ]
+    },
+    {
+      "id": "5A227B2112ED0327",
+      "title": "Цифровое сердце",
+      "description": [
+        "Построй ME-сеть и настрой её питание."
+      ],
+      "icon": "ae2:controller",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "0A8C857C5613DB68",
+          "type": "item",
+          "item": "ae2:controller",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "4F24FA7DD1C8D04C"
+      ]
+    },
+    {
+      "id": "6F94CDE3636A9AC0",
+      "title": "Безопасные стены",
+      "description": [
+        "Построй защиту, резервный склад и точку эвакуации."
+      ],
+      "icon": "minecraft:lantern",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "7790AEF73E32B307",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "5A227B2112ED0327"
+      ]
+    }
+  ]
+}
