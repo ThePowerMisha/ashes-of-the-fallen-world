@@ -63,3 +63,4 @@ scoreboard players enable @s ashes_ward
 execute if score @s ashes_ward matches 1 run function ashes:ward/request
 execute if score @s ashes_ward matches 2 run function ashes:ward/status
 scoreboard players set @s ashes_ward 0
+function ashes:news/player

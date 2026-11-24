@@ -54,3 +54,5 @@
 - #worldgen #ores `docs/WORLDGEN.md`, `overrides/config/tectonic.json`, `overrides/config/Mekanism/world.toml`, `overrides/kubejs/data/minecraft/worldgen/configured_feature/` — генерация и параметры жил.
 
 - #expeditions #twilight #aircraft #parkour `tools/campaign.txt` (главы 35–39) — новые побочные линии.
+
+- #news #immersion `tools/news.py`, `docs/WORLD_NEWS.md`, `overrides/kubejs/data/ashes/functions/news/` — события и отключение сообщений.

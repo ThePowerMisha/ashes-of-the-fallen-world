@@ -34,3 +34,8 @@ scoreboard objectives add ashes_ward trigger
 scoreboard objectives add award_have dummy
 scoreboard objectives add award_cd dummy
 scoreboard objectives add award_count dummy
+scoreboard objectives add anews dummy
+scoreboard objectives add ashes_news trigger
+scoreboard players set #eight anews 8
+scoreboard players add #horde_started anews 0
+scoreboard players add #horde_defeated anews 0

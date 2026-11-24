@@ -96,3 +96,11 @@ assert {p.name.removesuffix('.png.mcmeta') for p in textures.glob('*.png.mcmeta'
 for meta in textures.glob('*.png.mcmeta'):
     assert struct.unpack('>II',meta.with_suffix('').read_bytes()[16:24])==(64,512)
 print('PASS: eight animated artifacts, eight frames each.')
+
+# World chronicles: verify referenced predicates and player toggle.
+for p in (functions/'news').glob('*.mcfunction'):
+    for name in re.findall(r'\bpredicate ashes:([a-z0-9_/]+)',p.read_text(encoding='utf-8')):
+        assert (base/'data/ashes/predicates'/(name+'.json')).is_file(),name
+assert 'function ashes:news/player' in (functions/'player.mcfunction').read_text(encoding='utf-8')
+assert 'scoreboard objectives add ashes_news trigger' in (functions/'load.mcfunction').read_text(encoding='utf-8')
+print('PASS: world chronicle function and predicate references.')

@@ -143,3 +143,6 @@ from skills import generate_skills
 generate_skills(DATA, F, fn, js, msg)
 from wards import generate_wards
 generate_wards(DATA,F,fn,js,msg)
+
+from news import generate_news
+generate_news(DATA,F,fn,js)
