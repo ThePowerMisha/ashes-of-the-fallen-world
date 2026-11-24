@@ -14,3 +14,11 @@
 
 ## RC4 — исправление запуска
 Forge сообщил об отсутствующих обязательных mod ID `guideme`, `villagertradingplus`, `fusion`. Добавлены три точных Forge-файла 1.20.1: GuideME 20.1.15, VillagersTradingPlus 1.1.0, Fusion 1.3.16. Все прежние 156 projectID/fileID сохранены. Проверка манифеста и известного графа не заменяет проверку фактических JAR; страница зависимостей AE2 15.4.10 не перечисляла GuideME, хотя Forge требует его. Источник: сообщение Forge от пользователя; обновлённый вручную профиль, по его словам, запускается, точные версии этого профиля неизвестны. RC4 ещё не проверен в игре.
+
+## Сбой при создании мира в MineColonies
+
+Строка `minecolonies.FoodUtilsMixin ... hasBestOptionInInv2 ... (0/1) succeeded` указывает на сбой в MineColonies Tweaks 2.104 при работе с MineColonies 1.1.1318. MineColonies Compatibility 2.128 требует Tweaks через `META-INF/mods.toml`. В сборке закреплён [Tweaks 2.107 для Forge 1.20.1](https://www.curseforge.com/minecraft/mc-mods/minecolonies-tweaks/files/8600075). В этом JAR отсутствует проблемный миксин, что также подтверждено в [обсуждении ошибки у автора](https://github.com/gisellevonbingen-Minecraft/MineColonies_Tweaks/issues/96).
+
+Для существующего экземпляра закройте игру и замените `MineColonies_Tweaks-1.20.1-2.104-all.jar` в папке `mods` на `MineColonies_Tweaks-1.20.1-2.107-all.jar`. В папке должен остаться один JAR Tweaks. Для первого запуска после обновления используйте новый тестовый мир.
+
+Проверены метаданные и содержимое точных JAR-файлов зависимостей. Полный запуск Forge с обновлённым профилем требует игрового теста.
