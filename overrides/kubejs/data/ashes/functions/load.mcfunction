@@ -25,3 +25,8 @@ scoreboard objectives add aritus_have dummy
 scoreboard objectives add aritus_blocks dummy
 scoreboard objectives add aritus_tmp dummy
 execute unless score #configured aclass matches 1 run function ashes:world_defaults
+scoreboard objectives add ashes_menu trigger
+scoreboard objectives add ashes_skills trigger
+scoreboard objectives add amastery dummy
+scoreboard objectives add amastery_ok dummy
+scoreboard objectives add amastery_retry dummy

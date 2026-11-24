@@ -1,0 +1,110 @@
+{
+  "paladin_1": {
+    "definition": "paladin_1",
+    "x": -112,
+    "y": -120,
+    "root": true
+  },
+  "paladin_2": {
+    "definition": "paladin_2",
+    "x": -112,
+    "y": -72,
+    "root": false
+  },
+  "paladin_3": {
+    "definition": "paladin_3",
+    "x": -112,
+    "y": -24,
+    "root": false
+  },
+  "mage_1": {
+    "definition": "mage_1",
+    "x": 0,
+    "y": -120,
+    "root": true
+  },
+  "mage_2": {
+    "definition": "mage_2",
+    "x": 0,
+    "y": -72,
+    "root": false
+  },
+  "mage_3": {
+    "definition": "mage_3",
+    "x": 0,
+    "y": -24,
+    "root": false
+  },
+  "engineer_1": {
+    "definition": "engineer_1",
+    "x": 112,
+    "y": -120,
+    "root": true
+  },
+  "engineer_2": {
+    "definition": "engineer_2",
+    "x": 112,
+    "y": -72,
+    "root": false
+  },
+  "engineer_3": {
+    "definition": "engineer_3",
+    "x": 112,
+    "y": -24,
+    "root": false
+  },
+  "ranger_1": {
+    "definition": "ranger_1",
+    "x": -112,
+    "y": 40,
+    "root": true
+  },
+  "ranger_2": {
+    "definition": "ranger_2",
+    "x": -112,
+    "y": 88,
+    "root": false
+  },
+  "ranger_3": {
+    "definition": "ranger_3",
+    "x": -112,
+    "y": 136,
+    "root": false
+  },
+  "builder_1": {
+    "definition": "builder_1",
+    "x": 0,
+    "y": 40,
+    "root": true
+  },
+  "builder_2": {
+    "definition": "builder_2",
+    "x": 0,
+    "y": 88,
+    "root": false
+  },
+  "builder_3": {
+    "definition": "builder_3",
+    "x": 0,
+    "y": 136,
+    "root": false
+  },
+  "occultist_1": {
+    "definition": "occultist_1",
+    "x": 112,
+    "y": 40,
+    "root": true
+  },
+  "occultist_2": {
+    "definition": "occultist_2",
+    "x": 112,
+    "y": 88,
+    "root": false
+  },
+  "occultist_3": {
+    "definition": "occultist_3",
+    "x": 112,
+    "y": 136,
+    "root": false
+  }
+}

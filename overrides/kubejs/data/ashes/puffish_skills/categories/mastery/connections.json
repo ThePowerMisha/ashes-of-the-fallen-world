@@ -1,0 +1,59 @@
+{
+  "normal": {
+    "bidirectional": [],
+    "unidirectional": [
+      [
+        "paladin_1",
+        "paladin_2"
+      ],
+      [
+        "paladin_2",
+        "paladin_3"
+      ],
+      [
+        "mage_1",
+        "mage_2"
+      ],
+      [
+        "mage_2",
+        "mage_3"
+      ],
+      [
+        "engineer_1",
+        "engineer_2"
+      ],
+      [
+        "engineer_2",
+        "engineer_3"
+      ],
+      [
+        "ranger_1",
+        "ranger_2"
+      ],
+      [
+        "ranger_2",
+        "ranger_3"
+      ],
+      [
+        "builder_1",
+        "builder_2"
+      ],
+      [
+        "builder_2",
+        "builder_3"
+      ],
+      [
+        "occultist_1",
+        "occultist_2"
+      ],
+      [
+        "occultist_2",
+        "occultist_3"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": [],
+    "unidirectional": []
+  }
+}

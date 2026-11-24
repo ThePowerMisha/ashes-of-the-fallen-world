@@ -138,3 +138,5 @@ print(f'{total} quests, {sum(x["task"]=="manual" for x in index)} manual; {len(m
 
 from gameplay import generate_gameplay
 generate_gameplay(ROOT, K, F, DATA, fn, js, msg)
+from skills import generate_skills
+generate_skills(DATA, F, fn, js, msg)

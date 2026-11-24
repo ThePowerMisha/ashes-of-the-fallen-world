@@ -1,0 +1,15 @@
+{
+  "title": "Наследие трёх орденов",
+  "description": "Три очка мастерства за ранги I–III. Шесть путей; можно сочетать небольшие бонусы, не меняя основной класс.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:enchanted_book"
+    }
+  },
+  "background": "minecraft:textures/block/deepslate.png",
+  "unlocked_by_default": true,
+  "starting_points": 0,
+  "spent_points_limit": 3,
+  "exclusive_root": false
+}

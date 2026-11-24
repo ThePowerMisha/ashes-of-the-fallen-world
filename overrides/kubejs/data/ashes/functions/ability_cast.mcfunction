@@ -12,3 +12,5 @@ execute if score @s aclass matches 6 if score @s atalent matches 1 run effect gi
 execute if score @s aclass matches 6 if score @s atalent matches 2 run effect give @s minecraft:resistance 16 0 true
 scoreboard players set @s aability_cd 90
 tellraw @s {"text": "Талант активирован. Перезарядка 90 секунд.", "color": "gold"}
+particle minecraft:enchant ~ ~1 ~ 0.5 0.8 0.5 0.15 32 normal @a[distance=..24]
+playsound minecraft:block.amethyst_block.chime player @a[distance=..16] ~ ~ ~ 0.5 1.1

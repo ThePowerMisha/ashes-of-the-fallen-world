@@ -48,3 +48,14 @@ execute if score @s ashes_ability matches 1.. run function ashes:ability
 scoreboard players set @s ashes_ability 0
 execute if score @s ashes_cleanse matches 1.. run function ashes:cleanse
 scoreboard players set @s ashes_cleanse 0
+scoreboard players add @s amastery 0
+scoreboard players add @s amastery_ok 0
+scoreboard players enable @s ashes_menu
+scoreboard players enable @s ashes_skills
+execute if score @s ashes_skills matches 1.. run puffish_skills open @s
+scoreboard players set @s ashes_skills 0
+execute if score @s ashes_menu matches 1.. run function ashes:skills/menu
+scoreboard players set @s ashes_menu 0
+scoreboard players add @s amastery_retry 0
+execute if score @s amastery_retry matches 1.. run scoreboard players remove @s amastery_retry 1
+execute if score @s aclass matches 1..6 if score @s arank > @s amastery if score @s amastery_retry matches 0 run function ashes:skills/grant

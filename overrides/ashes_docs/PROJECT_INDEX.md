@@ -35,3 +35,5 @@
 - #balance docs/BALANCE.md; #release docs/RELEASE_STATUS.md — реализованные функции и ограничения.
 
 - #audit #dependencies `tools/audit_mods.py`, `docs/mod-plan.json`, `docs/MOD_AUDIT.md` — сверка запланированного состава, официальный API по ключу и анализ скачанных JAR.
+
+- #skills #visual `tools/skills.py`, `docs/SKILLS.md`, `overrides/kubejs/data/ashes/puffish_skills/` — дерево мастерства, очки и меню классов.
