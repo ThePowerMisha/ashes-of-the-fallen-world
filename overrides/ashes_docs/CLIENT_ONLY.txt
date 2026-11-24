@@ -8,3 +8,17 @@ oculus: oculus-mc1.20.1-1.8.0.jar
 xaeros-world-map: xaeroworldmap-forge-1.20.1-1.47.0.jar
 immediatelyfast: ImmediatelyFast-1.2.4+1.20.1.jar
 complementary-unbound: ComplementaryUnbound_r5.6.1.zip (shaderpacks, не мод сервера)
+distant-horizons: DistantHorizons-3.1.2-b-1.20.1-fabric-forge.jar
+dynamiclights-reforged: sodiumdynamiclights-forge-1.0.10-1.20.1.jar
+magnesium-extras: sodiumextras-forge-1.0.7-1.20.1.jar
+sodium-options-api: sodiumoptionsapi-forge-1.0.10-1.20.1.jar
+bliss-shader: Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip
+complementary-reimagined: ComplementaryReimagined_r5.8.1.zip
+solas-shader: Solas Shader V3.6.zip
+bsl-shaders: BSL_v8.4.zip
+jei-integration: jeiintegration_1.20.1-10.0.0.jar
+just-enough-resources-jer: JustEnoughResources-1.20.1-1.4.0.247.jar
+just-enough-professions-jep: JustEnoughProfessions-forge-1.20.1-3.0.1.jar
+just-enough-mekanism-multiblocks: JustEnoughMekanismMultiblocks-1.20.1-4.18.jar
+mouse-tweaks: MouseTweaks-forge-mc1.20.1-2.25.1.jar
+appleskin: appleskin-forge-mc1.20.1-2.5.1.jar

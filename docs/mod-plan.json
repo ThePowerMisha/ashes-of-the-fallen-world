@@ -98,6 +98,35 @@
       "lootjs",
       "almost-unified",
       "polymorph"
+    ],
+    "once_import": [
+      "distant-horizons",
+      "dynamiclights-reforged",
+      "magnesium-extras",
+      "sodium-options-api",
+      "bliss-shader",
+      "complementary-reimagined",
+      "solas-shader",
+      "bsl-shaders",
+      "stylecolonies",
+      "smallcolonies",
+      "smallcolonies-me",
+      "minecolonies-compatibility",
+      "colony-curios",
+      "clumps",
+      "jei-integration",
+      "just-enough-resources-jer",
+      "just-enough-professions-jep",
+      "just-enough-mekanism-multiblocks",
+      "mouse-tweaks",
+      "appleskin",
+      "parcool",
+      "immersive-aircraft",
+      "the-twilight-forest",
+      "yungs-better-ocean-monuments",
+      "yungs-better-nether-fortresses",
+      "yungs-better-jungle-temples",
+      "yungs-better-end-island"
     ]
   },
   "reviewed_dependencies": {
@@ -145,10 +174,50 @@
     ],
     "puffish-skills": [
       "puffish-attributes"
+    ],
+    "dynamiclights-reforged": [
+      "embeddium",
+      "sodium-options-api"
+    ],
+    "magnesium-extras": [
+      "embeddium",
+      "sodium-options-api"
+    ],
+    "stylecolonies": [
+      "minecolonies"
+    ],
+    "smallcolonies": [
+      "minecolonies"
+    ],
+    "smallcolonies-me": [
+      "minecolonies"
+    ],
+    "colony-curios": [
+      "minecolonies",
+      "curios"
+    ],
+    "minecolonies-compatibility": [
+      "minecolonies"
+    ],
+    "just-enough-mekanism-multiblocks": [
+      "jei",
+      "mekanism"
+    ],
+    "just-enough-resources-jer": [
+      "jei"
+    ],
+    "just-enough-professions-jep": [
+      "jei"
+    ],
+    "jei-integration": [
+      "jei"
     ]
   },
   "excluded": {
-    "distant-horizons": "Optional separate graphics profile; no verified compatibility with Oculus shader pipeline.",
-    "sound-filters": "Redundant with Sound Physics Remastered."
+    "sound-filters": "Redundant with Sound Physics Remastered.",
+    "mekalus-oculus-fork-with-fixed-mekanism-mekasuit": "Conflicts with Oculus",
+    "ore-excavation": "Ultimine already installed",
+    "journeymap": "Xaero already installed",
+    "biomes-o-plenty": "Avoid additional biome generator"
   }
 }

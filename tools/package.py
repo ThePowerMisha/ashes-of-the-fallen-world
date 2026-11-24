@@ -8,13 +8,11 @@ lockpath='overrides/ashes_docs/mods-lock.tsv'
 rows=list(csv.DictReader((root/lockpath).open(encoding='utf-8'),delimiter='\t'))
 profile=args.profile
 if profile=='horizons':
-    drop={'oculus','complementary-unbound'}
+    drop={'oculus','complementary-unbound','complementary-reimagined','bliss-shader','solas-shader','bsl-shaders'}
     removed={int(r['projectID']) for r in rows if r['slug'] in drop}
-    assert len(removed)==2
+    assert len(removed)==len(drop)
     rows=[r for r in rows if r['slug'] not in drop]
-    dh={'slug':'distant-horizons','projectID':'508933','fileID':'7334195','filename':'DistantHorizons-2.4.1-b-1.20.1-fabric-forge.jar'}
-    rows.append(dh)
-    m['files']=[f for f in m['files'] if f['projectID'] not in removed]+[{'projectID':int(dh['projectID']),'fileID':int(dh['fileID']),'required':True}]
+    m['files']=[f for f in m['files'] if f['projectID'] not in removed]
     m['name']+=' — Horizons';m['version']+='-horizons'
 assert len(rows)==len(m['files'])==len({x['projectID'] for x in m['files']})
 assert {(int(r['projectID']),int(r['fileID'])) for r in rows}=={(f['projectID'],f['fileID']) for f in m['files']}
@@ -30,9 +28,9 @@ with zipfile.ZipFile(output,'w',zipfile.ZIP_DEFLATED) as z:
         if name==lockpath:continue
         if profile=='horizons' and name in ('overrides/config/oculus.properties','overrides/ashes_docs/graphics/oculus-atmospheric.properties'):continue
         if profile=='horizons' and name=='overrides/ashes_docs/CLIENT_ONLY.txt':
-            z.writestr(name,'\n'.join(l for l in p.read_text(encoding='utf-8').splitlines() if not l.startswith(('oculus:','complementary-unbound:')))+'\ndistant-horizons: '+dh['filename']+' (optional client LOD)\n');continue
+            z.writestr(name,'\n'.join(l for l in p.read_text(encoding='utf-8').splitlines() if not any(l.startswith(s+':') for s in drop))+'\n');continue
         if profile=='horizons' and name=='overrides/ASHES_README_RU.txt':
-            s=p.read_text(encoding='utf-8').replace('129 проектов','128 проектов').replace('Первый запуск без шейдера; затем выбери Complementary Unbound в меню Oculus.','Профиль Horizons: Distant Horizons 2.4.1-b, без Oculus и шейдера. Начни с 64 чанков LOD, не добавляй шейдеры без отдельного теста.');z.writestr(name,s);continue
+            s=p.read_text(encoding='utf-8').replace('156 проектов','150 проектов').replace('Первый запуск без шейдера; затем выбери Complementary Unbound в меню Oculus.','Профиль Horizons: Distant Horizons 3.1.2-b, без Oculus и шейдера. Начни с 64 чанков LOD, не добавляй шейдеры без отдельного теста.');z.writestr(name,s);continue
         z.write(p,name)
 with zipfile.ZipFile(output) as z:
     assert z.testzip() is None and len(z.namelist())==len(set(z.namelist()))
