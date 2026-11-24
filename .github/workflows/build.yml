@@ -16,7 +16,9 @@ jobs:
       - name: Regenerate quest and script files
         run: python tools/build.py
       - name: Validate source
-        run: python tools/validate.py
+        run: |
+          python tools/validate.py
+          python tools/audit_mods.py
       - name: Check generated files are committed
         run: git diff --exit-code
       - name: Validate and package

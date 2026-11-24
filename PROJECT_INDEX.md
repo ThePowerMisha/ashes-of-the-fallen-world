@@ -33,3 +33,5 @@
 - #horde overrides/defaultconfigs/sculkhorde-server.toml — параметры заражения для нового мира.
 - #graphics docs/GRAPHICS.md, overrides/config/oculus.properties, overrides/options.txt.
 - #balance docs/BALANCE.md; #release docs/RELEASE_STATUS.md — реализованные функции и ограничения.
+
+- #audit #dependencies `tools/audit_mods.py`, `docs/mod-plan.json`, `docs/MOD_AUDIT.md` — сверка запланированного состава, официальный API по ключу и анализ скачанных JAR.

@@ -1,0 +1,154 @@
+{
+  "required": {
+    "world": [
+      "tectonic",
+      "terralith",
+      "yungs-better-caves",
+      "yungs-better-mineshafts-forge",
+      "when-dungeons-arise",
+      "idas",
+      "towns-and-towers",
+      "bons-voyage",
+      "minecolonies",
+      "alexs-mobs",
+      "naturalist",
+      "serene-seasons"
+    ],
+    "horror": [
+      "sculk-horde",
+      "born-in-chaos",
+      "the-graveyard-forge",
+      "ambientsounds",
+      "sound-physics-remastered",
+      "enhanced-celestials",
+      "from-the-fog"
+    ],
+    "industry": [
+      "create",
+      "create-steam-n-rails",
+      "immersive-engineering",
+      "mekanism",
+      "mekanism-generators",
+      "mekanism-tools",
+      "industrial-foregoing",
+      "powah-rearchitected",
+      "pipez",
+      "flux-networks"
+    ],
+    "magic_rpg": [
+      "irons-spells-n-spellbooks",
+      "ars-nouveau",
+      "goety",
+      "botania",
+      "puffish-skills",
+      "simply-swords",
+      "better-combat-by-daedelus",
+      "apotheosis",
+      "lendercataclysm",
+      "mowzies-mobs",
+      "artifacts",
+      "relics-mod",
+      "curios"
+    ],
+    "convenience": [
+      "applied-energistics-2",
+      "sophisticated-backpacks",
+      "sophisticated-storage",
+      "functional-storage",
+      "ftb-ultimine-forge",
+      "waystones",
+      "xaeros-world-map",
+      "xaeros-minimap",
+      "natures-compass",
+      "explorers-compass",
+      "jei",
+      "jade",
+      "lootr",
+      "corpse",
+      "ftb-teams-forge",
+      "ftb-chunks-forge"
+    ],
+    "building": [
+      "chipped",
+      "supplementaries",
+      "macaws-bridges",
+      "macaws-roofs",
+      "macaws-doors",
+      "macaws-windows",
+      "macaws-trapdoors",
+      "handcrafted",
+      "framedblocks",
+      "rechiseled",
+      "farmers-delight",
+      "lets-do-vinery",
+      "decorative-blocks"
+    ],
+    "graphics_and_core": [
+      "embeddium",
+      "oculus",
+      "modernfix",
+      "ferritecore",
+      "immediatelyfast",
+      "entityculling",
+      "chunky-pregenerator-forge",
+      "spark",
+      "complementary-unbound",
+      "ftb-quests-forge",
+      "kubejs",
+      "lootjs",
+      "almost-unified",
+      "polymorph"
+    ]
+  },
+  "reviewed_dependencies": {
+    "minecolonies": [
+      "structurize",
+      "blockui",
+      "multi-piston",
+      "domum-ornamentum",
+      "towntalk"
+    ],
+    "sculk-horde": [
+      "geckolib"
+    ],
+    "irons-spells-n-spellbooks": [
+      "geckolib",
+      "curios",
+      "irons-lib",
+      "playeranimator"
+    ],
+    "idas": [
+      "create",
+      "integrated-api",
+      "quark",
+      "supplementaries"
+    ],
+    "bons-voyage": [
+      "balm",
+      "lithostitched",
+      "waystones"
+    ],
+    "relics-mod": [
+      "curios",
+      "shatterbyte-lib"
+    ],
+    "ftb-quests-forge": [
+      "architectury-api",
+      "ftb-library-forge",
+      "ftb-teams-forge"
+    ],
+    "create-steam-n-rails": [
+      "create"
+    ],
+    "industrial-foregoing": [
+      "titanium"
+    ],
+    "puffish-skills": [
+      "puffish-attributes"
+    ]
+  },
+  "excluded": {
+    "distant-horizons": "Optional separate graphics profile; no verified compatibility with Oculus shader pipeline.",
+    "sound-filters": "Redundant with Sound Physics Remastered."
+  }
+}
