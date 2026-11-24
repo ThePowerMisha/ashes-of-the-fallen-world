@@ -4829,5 +4829,125 @@
     "dependencies": [
       "5922EEAE48FBED5C"
     ]
+  },
+  {
+    "chapter": "Места памяти",
+    "quest": "Последний колокол",
+    "task": "advancement:ashes:lore/silent_hamlet",
+    "count": 1,
+    "id": "1D2F64A8F41DAC79",
+    "dependencies": [
+      "639F04B923139E25"
+    ]
+  },
+  {
+    "chapter": "Места памяти",
+    "quest": "Приказ Ильмы",
+    "task": "kubejs:archive_fragment",
+    "count": 1,
+    "id": "2398AA882AB973F4",
+    "dependencies": [
+      "1D2F64A8F41DAC79"
+    ]
+  },
+  {
+    "chapter": "Места памяти",
+    "quest": "Поле последнего рубежа",
+    "task": "advancement:ashes:lore/last_stand",
+    "count": 1,
+    "id": "44A9D6B886C840BF",
+    "dependencies": [
+      "639F04B923139E25"
+    ]
+  },
+  {
+    "chapter": "Места памяти",
+    "quest": "Следы дозорных",
+    "task": "kubejs:scout_report",
+    "count": 1,
+    "id": "2E28075118952C64",
+    "dependencies": [
+      "44A9D6B886C840BF"
+    ]
+  },
+  {
+    "chapter": "Места памяти",
+    "quest": "Кладбище безымянных",
+    "task": "advancement:ashes:lore/nameless_graves",
+    "count": 1,
+    "id": "7C874BDE1167AFEA",
+    "dependencies": [
+      "639F04B923139E25"
+    ]
+  },
+  {
+    "chapter": "Места памяти",
+    "quest": "Имена погибших",
+    "task": "kubejs:nature_dossier",
+    "count": 1,
+    "id": "3C651D1FCB59D704",
+    "dependencies": [
+      "7C874BDE1167AFEA"
+    ]
+  },
+  {
+    "chapter": "Места памяти",
+    "quest": "Алтарь трёх печатей",
+    "task": "advancement:ashes:lore/three_seals_altar",
+    "count": 1,
+    "id": "2DB69C3160172A7A",
+    "dependencies": [
+      "639F04B923139E25"
+    ]
+  },
+  {
+    "chapter": "Места памяти",
+    "quest": "Последняя клятва",
+    "task": "kubejs:mage_dossier",
+    "count": 1,
+    "id": "6B3F42DF2308267C",
+    "dependencies": [
+      "2DB69C3160172A7A"
+    ]
+  },
+  {
+    "chapter": "Места памяти",
+    "quest": "Молчание башен",
+    "task": "advancement:ashes:lore/broken_watch",
+    "count": 1,
+    "id": "508CA2A9E55B97FE",
+    "dependencies": [
+      "639F04B923139E25"
+    ]
+  },
+  {
+    "chapter": "Места памяти",
+    "quest": "Маршрут гонца",
+    "task": "kubejs:expedition_seal",
+    "count": 1,
+    "id": "2D0D941DF3B0E033",
+    "dependencies": [
+      "508CA2A9E55B97FE"
+    ]
+  },
+  {
+    "chapter": "Места памяти",
+    "quest": "Запечатанный архив",
+    "task": "advancement:ashes:lore/sealed_archive",
+    "count": 1,
+    "id": "7845CF5800CA1995",
+    "dependencies": [
+      "639F04B923139E25"
+    ]
+  },
+  {
+    "chapter": "Места памяти",
+    "quest": "Предупреждение Вардена",
+    "task": "kubejs:mechanic_dossier",
+    "count": 1,
+    "id": "55F5A861237B0BE0",
+    "dependencies": [
+      "7845CF5800CA1995"
+    ]
   }
 ]

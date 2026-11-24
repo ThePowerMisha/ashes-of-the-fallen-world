@@ -1,0 +1,275 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "40_lore_sites",
+  "group": "",
+  "icon": "minecraft:written_book",
+  "id": "1AD512357D597B06",
+  "order_index": 39,
+  "quest_links": [],
+  "title": "Места памяти",
+  "quests": [
+    {
+      "id": "1D2F64A8F41DAC79",
+      "title": "Последний колокол",
+      "description": [
+        "Найди авторскую деревню последнего колокола в низинах. Достижение фиксирует реальное посещение руин."
+      ],
+      "icon": "minecraft:written_book",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "45B2C6E03676284A",
+          "type": "advancement",
+          "advancement": "ashes:lore/silent_hamlet"
+        }
+      ],
+      "dependencies": [
+        "639F04B923139E25"
+      ]
+    },
+    {
+      "id": "2398AA882AB973F4",
+      "title": "Приказ Ильмы",
+      "description": [
+        "Отыщи сундук и прочти записку об эвакуации. Фрагмент архива служит свидетельством."
+      ],
+      "icon": "kubejs:archive_fragment",
+      "x": 3.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7FF9F99AAB79945B",
+          "type": "item",
+          "item": "kubejs:archive_fragment",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1D2F64A8F41DAC79"
+      ]
+    },
+    {
+      "id": "44A9D6B886C840BF",
+      "title": "Поле последнего рубежа",
+      "description": [
+        "Отыщи остатки укреплений дозора. Исследуй следы обороны и старые припасы."
+      ],
+      "icon": "minecraft:written_book",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6A24919348B35EB0",
+          "type": "advancement",
+          "advancement": "ashes:lore/last_stand"
+        }
+      ],
+      "dependencies": [
+        "639F04B923139E25"
+      ]
+    },
+    {
+      "id": "2E28075118952C64",
+      "title": "Следы дозорных",
+      "description": [
+        "Прочти журнал дозора из сундука. Сохрани разведывательный отчёт."
+      ],
+      "icon": "kubejs:scout_report",
+      "x": 3.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "28E597486DDFA8E3",
+          "type": "item",
+          "item": "kubejs:scout_report",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "44A9D6B886C840BF"
+      ]
+    },
+    {
+      "id": "7C874BDE1167AFEA",
+      "title": "Кладбище безымянных",
+      "description": [
+        "Посети лесное кладбище. Не обязательно разрушать могилы: сундук расположен у часовни."
+      ],
+      "icon": "minecraft:written_book",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "32824D1F9B22EC15",
+          "type": "advancement",
+          "advancement": "ashes:lore/nameless_graves"
+        }
+      ],
+      "dependencies": [
+        "639F04B923139E25"
+      ]
+    },
+    {
+      "id": "3C651D1FCB59D704",
+      "title": "Имена погибших",
+      "description": [
+        "Прочти свидетельство хранителей. Сохрани досье Ильмы."
+      ],
+      "icon": "kubejs:nature_dossier",
+      "x": 3.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "0476C8DBCCCB3F31",
+          "type": "item",
+          "item": "kubejs:nature_dossier",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7C874BDE1167AFEA"
+      ],
+      "rewards": [
+        {
+          "id": "24B7DF2F8654DBE2",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "2DB69C3160172A7A",
+      "title": "Алтарь трёх печатей",
+      "description": [
+        "Найди каменный круг с аметистом и фонарями душ. Алтарь не пробуждает орду."
+      ],
+      "icon": "minecraft:written_book",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "167FF6D758A8ED9D",
+          "type": "advancement",
+          "advancement": "ashes:lore/three_seals_altar"
+        }
+      ],
+      "dependencies": [
+        "639F04B923139E25"
+      ]
+    },
+    {
+      "id": "6B3F42DF2308267C",
+      "title": "Последняя клятва",
+      "description": [
+        "Прочти запись Селены и сохрани досье архимага."
+      ],
+      "icon": "kubejs:mage_dossier",
+      "x": 3.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "03A8FD44E99DD661",
+          "type": "item",
+          "item": "kubejs:mage_dossier",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2DB69C3160172A7A"
+      ]
+    },
+    {
+      "id": "508CA2A9E55B97FE",
+      "title": "Молчание башен",
+      "description": [
+        "Исследуй дозорную башню в предгорьях. Используй внутреннюю лестницу осторожно."
+      ],
+      "icon": "minecraft:written_book",
+      "x": 0.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "7BAB3E4D539F2A3E",
+          "type": "advancement",
+          "advancement": "ashes:lore/broken_watch"
+        }
+      ],
+      "dependencies": [
+        "639F04B923139E25"
+      ]
+    },
+    {
+      "id": "2D0D941DF3B0E033",
+      "title": "Маршрут гонца",
+      "description": [
+        "Найди старую карту и печать экспедиции. Башня может стать новым наблюдательным постом."
+      ],
+      "icon": "kubejs:expedition_seal",
+      "x": 3.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "1355F47CFB324023",
+          "type": "item",
+          "item": "kubejs:expedition_seal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "508CA2A9E55B97FE"
+      ]
+    },
+    {
+      "id": "7845CF5800CA1995",
+      "title": "Запечатанный архив",
+      "description": [
+        "Найди руины библиотеки механиков. Достижение фиксирует посещение."
+      ],
+      "icon": "minecraft:written_book",
+      "x": 0.0,
+      "y": 10.0,
+      "tasks": [
+        {
+          "id": "73703F21ECBC633E",
+          "type": "advancement",
+          "advancement": "ashes:lore/sealed_archive"
+        }
+      ],
+      "dependencies": [
+        "639F04B923139E25"
+      ]
+    },
+    {
+      "id": "55F5A861237B0BE0",
+      "title": "Предупреждение Вардена",
+      "description": [
+        "Прочти протокол первого пуска. Сохрани досье механиков."
+      ],
+      "icon": "kubejs:mechanic_dossier",
+      "x": 3.0,
+      "y": 10.0,
+      "tasks": [
+        {
+          "id": "3209643408A7A907",
+          "type": "item",
+          "item": "kubejs:mechanic_dossier",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7845CF5800CA1995"
+      ],
+      "rewards": [
+        {
+          "id": "23FA638D79E068D3",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

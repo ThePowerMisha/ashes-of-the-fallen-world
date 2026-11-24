@@ -24,8 +24,8 @@ for p in sorted((root/'overrides/config/ftbquests/quests/chapters').glob('*.snbt
         for r in q.get('rewards',[]):
             assert r['id'] not in reward_ids; reward_ids.add(r['id'])
 byid={q['id']:q for q in quests}
-assert len(byid)==len(quests)==483
-assert len(chapter_ids)==39
+assert len(byid)==len(quests)==495
+assert len(chapter_ids)==40
 assert len(chapter_ids|set(byid)|task_ids|reward_ids)==len(chapter_ids)+len(byid)+len(task_ids)+len(reward_ids)
 seen=set(); visiting=set()
 def visit(qid):
@@ -137,3 +137,6 @@ for entry in site_set['structures']:
     assert (functions/(adv['rewards']['function'].split(':')[1]+'.mcfunction')).is_file()
 assert len(seen_templates)==12
 print('PASS: six lore structures, 12 gzip NBT templates, loot and discovery references.')
+
+assert {t['advancement'] for q in quests for t in q['tasks'] if t.get('advancement','').startswith('ashes:lore/')}=={'ashes:lore/'+e['structure'].split(':')[1] for e in site_set['structures']}
+print('PASS: lore discovery quest coverage.')

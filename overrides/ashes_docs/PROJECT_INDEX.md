@@ -62,3 +62,5 @@
 - #rc4 #launch-dependencies `docs/mod-plan.json` — три обязательные библиотеки, подтверждённые ошибками Forge; `docs/MOD_AUDIT.md`.
 
 - #structures #lore #worldgen `tools/structures.py`, `docs/STRUCTURES.md`, `docs/lore-structures.json`, `overrides/kubejs/data/ashes/structures/lore/` — шаблоны, генерация, добыча и открытия.
+
+- #lore-quests Глава 40 `40_lore_sites.snbt`, источники `tools/campaign.txt` и `tools/build.py`; шесть параллельных ветвей и реальные достижения.

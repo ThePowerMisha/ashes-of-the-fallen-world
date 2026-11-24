@@ -111,6 +111,7 @@ for order,(slug,title,icon,rows) in enumerate(chapters):
    elif slug=='11_class_trials': deps=[ends['01_survival']]
    elif slug=='12_recovery': deps=[ends['06_horde']]
    elif slug in extra_parents: deps=[uid(extra_parents[slug]+'/0')] if slug not in ('32_abyss','33_finale') else [ends[extra_parents[slug]]]
+  if slug=='40_lore_sites' and i%2==0: deps=[uid('02_ruins/0')]
   task={'id':uid(f'{slug}/{i}/task'),'type':'item' if item else 'checkmark'}
   if item: task.update(item=item,count=count)
   else: task['title']='Подтвердить выполненное действие вручную'
@@ -118,12 +119,15 @@ for order,(slug,title,icon,rows) in enumerate(chapters):
   extra_auto={'Разведка узла':'sculkhorde:sculk_tomb_visit','Очищение блока':'sculkhorde:craft_infestation_purifier','Защита поселения':'sculkhorde:craft_infestation_ward_block','Поражение орды':'sculkhorde:sculk_horde_defeat'}
   adv=auto.get((slug,i)) or (extra_auto.get(name) if slug=='32_abyss' else None)
   if slug=='34_wards': adv={3:'ashes:ward/registered',4:'sculkhorde:craft_infestation_ward_block'}.get(i)
+  if slug=='40_lore_sites' and i%2==0:
+   adv='ashes:lore/'+('silent_hamlet','last_stand','nameless_graves','three_seals_altar','broken_watch','sealed_archive')[i//2]
   if adv:
    task={'id':task['id'],'type':'advancement','advancement':adv}
    if name=='Очищение блока': name='Штатный очиститель'; desc='Изготовь очиститель Sculk Horde. После установки проверь восстановление земли.'
    if name=='Разведка узла': name='Гробница орды'; desc='Посети штатную гробницу Sculk Horde; достижение фиксирует посещение.'
    if name=='Защита поселения': desc='Изготовь штатный защитный блок Sculk Horde. Установи его и проверь границу отдельно.'
   q={'id':qid,'title':name,'description':[desc],'icon':item or icon,'x':float(i%4*2),'y':float(i//4*2),'tasks':[task]}
+  if slug=='40_lore_sites': q.update(x=float(i%2*3),y=float(i//2*2))
   if slug=='33_finale' and i==4: deps.append(ends['32_abyss'])
   if deps:q['dependencies']=deps
   if i in (2,5) and item:q['rewards']=[{'id':uid(f'{slug}/{i}/reward'),'type':'item','item':'minecraft:bread','count':4}]
