@@ -72,6 +72,9 @@
 - #registry #nbt #balance #worldgen #logs tools/devtools.py — snapshot, refs, scan-jars, registry-check, structures, balance, worldgen, crash, loot-preview; JSON-отчёты в .local/.
 - #tests tools/test_devtools.py — тесты парсера, JAR-кандидатов, логов и лута; вызываются из tools/validate.py (существующий CI).
 
+## Расширение мест памяти
+- #lore #structures #worldgen `tools/structures.py`, `tools/structure_sites.py`, `docs/STRUCTURES.md` — архитектура 18 локаций, 36 шаблонов, тематические находки и события обнаружения.
+
 - #companions #skins #touhou #succubus docs/COMPANIONS.md, overrides/ashes_docs/COMPANIONS.md — справка и тесты; docs/LORE.md — экспериментальный канон; manifest и mods-lock — 163 проекта в этой ветке. Квесты и игровые ID не изменены.
 
 - #mca #villagers #reputation #family #npcquests docs/MCA.md, overrides/ashes_docs/MCA.md — справка, версии, лор, зависимости, сценарии тестов; 169 проектов / 163 Horizons. MCA-квесты не входят в число авторских FTB Quests.

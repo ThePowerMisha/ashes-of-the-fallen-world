@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "structure": "ashes:infected_hamlet",
+      "weight": 4
+    },
+    {
+      "structure": "ashes:catacombs",
+      "weight": 4
+    },
+    {
+      "structure": "ashes:surviving_hamlet",
+      "weight": 5
+    },
+    {
+      "structure": "ashes:ancient_mine",
+      "weight": 5
+    },
+    {
+      "structure": "ashes:abyss_temple",
+      "weight": 3
+    },
+    {
+      "structure": "ashes:observatory",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 49,
+    "separation": 22,
+    "salt": 185628323
+  }
+}

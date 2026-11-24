@@ -1,1 +1,1 @@
-tellraw @s[tag=!ashes_news_muted] {"text": "[Хроники] Найдено место памяти: Сломанная дозорная башня. Отыщи свидетельство прежней эпохи.", "color": "dark_aqua"}
+tellraw @s[tag=!ashes_news_muted] {"text": "[Хроники] Открыто место: Сломанная дозорная башня.", "color": "dark_aqua"}

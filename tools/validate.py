@@ -107,14 +107,23 @@ print('PASS: world chronicle function and predicate references.')
 
 # Lore structures: real templates, data registries, loot, and discovery.
 import gzip
+from structures import PLACEMENT, SITES
+
 lorebase=base/'data/ashes'
-site_set=json.loads((lorebase/'worldgen/structure_set/lore_sites.json').read_text(encoding='utf-8'))
-assert site_set['placement']['spacing']>site_set['placement']['separation']>=2
-assert len(site_set['structures'])==6
+site_set_dir=lorebase/'worldgen/structure_set'
+site_sets={region:json.loads((site_set_dir/(region+'.json')).read_text(encoding='utf-8'))
+           for region in PLACEMENT}
+site_entries=[]
+for site_set in site_sets.values():
+    assert site_set['placement']['spacing']>site_set['placement']['separation']>=2
+    site_entries.extend(site_set['structures'])
+assert len(site_entries)==len(SITES)
+assert {entry['structure'] for entry in site_entries}=={'ashes:'+site.slug for site in SITES}
 seen_templates=set()
-for entry in site_set['structures']:
+for entry in site_entries:
     site=entry['structure'].split(':')[1]
     conf=json.loads((lorebase/'worldgen/structure'/(site+'.json')).read_text(encoding='utf-8'))
+    assert conf['type']=='minecraft:jigsaw' and conf['size'] > 0
     pool=conf['start_pool'].split(':')[1]
     assert (lorebase/'tags/worldgen/biome'/(conf['biomes'].split(':')[1]+'.json')).is_file()
     template_pool=json.loads((lorebase/'worldgen/template_pool'/(pool+'.json')).read_text(encoding='utf-8'))
@@ -127,6 +136,8 @@ for entry in site_set['structures']:
         nbt=gzip.decompress(p.read_bytes())
         assert nbt.startswith(b'\x0a\x00\x00') and b'DataVersion' in nbt
         assert ('ashes:lore/'+site).encode() in nbt
+        if 'start_jigsaw_name' in conf:
+            assert conf['start_jigsaw_name'].encode() in nbt
     loot=json.loads((lorebase/'loot_tables/lore'/(site+'.json')).read_text(encoding='utf-8'))
     assert loot['type']=='minecraft:chest'
     for pool in loot['pools']:
@@ -135,10 +146,10 @@ for entry in site_set['structures']:
     adv=json.loads((lorebase/'advancements/lore'/(site+'.json')).read_text(encoding='utf-8'))
     assert adv['criteria']['visit']['conditions']['player'][0]['predicate']['location']['structure']==entry['structure']
     assert (functions/(adv['rewards']['function'].split(':')[1]+'.mcfunction')).is_file()
-assert len(seen_templates)==12
-print('PASS: six lore structures, 12 gzip NBT templates, loot and discovery references.')
+assert len(seen_templates)==2*len(SITES)
+print(f'PASS: {len(SITES)} lore structures, {len(seen_templates)} gzip NBT templates, loot and discovery references.')
 
-assert {t['advancement'] for q in quests for t in q['tasks'] if t.get('advancement','').startswith('ashes:lore/')}=={'ashes:lore/'+e['structure'].split(':')[1] for e in site_set['structures']}
+assert {t['advancement'] for q in quests for t in q['tasks'] if t.get('advancement','').startswith('ashes:lore/')}=={'ashes:lore/'+e['structure'].split(':')[1] for e in site_sets['lore_sites']['structures']}
 print('PASS: lore discovery quest coverage.')
 
 # Development tooling: geometry and source references, plus isolated utility tests.

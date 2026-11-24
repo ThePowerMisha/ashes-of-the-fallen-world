@@ -7,10 +7,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:written_book",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{title:'Запечатанный архив механиков',author:'Архивисты',pages:['{\"text\":\"Варден: приборы показали отклонение до запуска. Совет велел продолжать. Копии протокола спрятаны отдельно; никогда не собирайте Предел снова.\"}'],resolved:1b}"
+              "tag": "{title:'Запечатанный архив механиков',author:'Варден',pages:['{\"text\": \"Приборы показали отклонение до запуска. Совет велел продолжать. Подлинник остался в столице.\"}','{\"text\": \"Копии протокола хранятся здесь и в лаборатории. Ищите спуск под каменной аркой, у которой нет ворот.\"}'],resolved:1b}"
             }
           ]
         }
@@ -27,15 +28,11 @@
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2,
-        "max": 4
-      },
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread",
+          "name": "create:andesite_alloy",
           "weight": 5,
           "functions": [
             {
@@ -50,52 +47,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_nugget",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bone",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:paper",
+          "name": "create:cogwheel",
           "weight": 4,
           "functions": [
             {
@@ -103,14 +55,14 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 4
+                "max": 2
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coal",
+          "name": "immersiveengineering:wire_copper",
           "weight": 3,
           "functions": [
             {
@@ -118,7 +70,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 3
+                "max": 4
               }
             }
           ]

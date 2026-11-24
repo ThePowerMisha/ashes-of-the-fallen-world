@@ -14,7 +14,7 @@ python tools/package.py --profile horizons dist/Ashes-Horizons.zip
 
 | Задача | Команда / источник |
 |---|---|
-| Создать структуры, лут, достижения | tools/structures.py, затем build.py; меняем исходник, не NBT вручную |
+| Создать структуры, лут, достижения | tools/structures.py, tools/structure_sites.py, затем build.py |
 | Добавить квесты | tools/campaign.txt, tools/build.py; строки добавлять в конец главы, сохранять ID |
 | Проверить геометрию NBT, палитры, сундуки | python tools/devtools.py structures |
 | Получить карту требуемых игровых ID | python tools/devtools.py refs |

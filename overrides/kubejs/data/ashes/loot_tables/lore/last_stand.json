@@ -7,10 +7,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:written_book",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{title:'Поле последнего рубежа',author:'Архивисты',pages:['{\"text\":\"Дозор удерживал перевал, пока уходили караваны. Приказ был прост: не преследовать голоса из тумана. Последний гонец так и не пришёл.\"}'],resolved:1b}"
+              "tag": "{title:'Поле последнего рубежа',author:'Дозорный Лев',pages:['{\"text\": \"Дозор удерживал дорогу, пока уходили караваны. Приказ был прост: не преследовать голоса из тумана.\"}','{\"text\": \"К рассвету люди Ильмы должны пройти перевал. Положите три стрелы на камень у мельницы, если дорога открыта.\"}'],resolved:1b}"
             }
           ]
         }
@@ -27,30 +28,11 @@
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2,
-        "max": 4
-      },
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_nugget",
+          "name": "minecraft:arrow",
           "weight": 5,
           "functions": [
             {
@@ -65,60 +47,20 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:torch",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 6
-              }
-            }
-          ]
+          "name": "minecraft:shield",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bone",
-          "weight": 3,
+          "name": "immersiveengineering:plate_steel",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:paper",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:coal",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
+                "max": 2
               }
             }
           ]

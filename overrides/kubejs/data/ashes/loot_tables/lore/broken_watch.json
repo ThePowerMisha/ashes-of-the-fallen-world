@@ -7,10 +7,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:written_book",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{title:'Сломанная дозорная башня',author:'Архивисты',pages:['{\"text\":\"В третий удар башня перестала отвечать. В журнале осталась карта безопасных троп. Следуйте к огням, а не к голосам.\"}'],resolved:1b}"
+              "tag": "{title:'Сломанная дозорная башня',author:'Смотритель Егор',pages:['{\"text\": \"До третьего удара я видел огонь с обсерватории. После удара с перевала ответили тем же сигналом дважды.\"}','{\"text\": \"Сигнальная линза осталась на втором этаже. Дожидайтесь белого света и сверяйте тропу с картой.\"}'],resolved:1b}"
             }
           ]
         }
@@ -27,75 +28,16 @@
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2,
-        "max": 4
-      },
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "minecraft:spyglass",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_nugget",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bone",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:paper",
+          "name": "create:copper_sheet",
           "weight": 4,
           "functions": [
             {
@@ -103,25 +45,15 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 4
+                "max": 3
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coal",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "minecraft:compass",
+          "weight": 2
         }
       ]
     }

@@ -145,8 +145,15 @@ def inspect_template(path):
     require(isinstance(obj["entities"], list), "Invalid entity list")
     seen, loot, entities = set(), set(), set()
     for e in obj["entities"]:
-        if resource_id(e.get("nbt", {}).get("id")):
-            entities.add(e["nbt"]["id"])
+        entity_id = e.get("nbt", {}).get("id")
+        require(resource_id(entity_id), "Invalid entity ID")
+        pos = e.get("pos", [])
+        require(len(pos) == 3 and all(type(x) in (int, float) and 0 <= x < n
+                                     for x, n in zip(pos, size)), "Entity out of bounds")
+        block_pos = e.get("blockPos", [])
+        require(len(block_pos) == 3 and all(type(x) is int and x <= axis < x + 1
+                                           for x, axis in zip(block_pos, pos)), "Invalid entity blockPos")
+        entities.add(entity_id)
     for b in blocks:
         pos = tuple(b["pos"])
         require(len(pos) == 3 and all(type(x) is int and 0 <= x < n for x, n in zip(pos, size)), "Out of bounds: " + str(pos))
