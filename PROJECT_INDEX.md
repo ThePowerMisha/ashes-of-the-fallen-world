@@ -4,7 +4,7 @@
 | #context #lore | PROJECT_CONTEXT.md | Цели, история, ограничения |
 | #release #mods #lock | manifest.json, modlist.html, overrides/ashes_docs/mods-lock.tsv | Фиксированные версии и ссылки |
 | #builder #source | tools/build.py | Генератор квестов, предметов, рецептов, классов и функций |
-| #quests #progression | docs/quests.json, overrides/config/ftbquests/quests/chapters/ | 34 главы, зависимости и задания |
+| #quests #progression | docs/quests.json, overrides/config/ftbquests/quests/chapters/ | 39 глав, зависимости и задания |
 | #items #kubejs | overrides/kubejs/startup_scripts/ashes_items.js | 30 предметов |
 | #recipes #balance | overrides/kubejs/server_scripts/ashes_recipes.js | 32 рецепта, существующие рецепты модов не заменяются |
 | #classes #multiplayer | overrides/kubejs/data/ashes/functions/ | Выбор классов, атрибуты, 3 ранга, очищение игрока |
@@ -56,3 +56,5 @@
 - #expeditions #twilight #aircraft #parkour `tools/campaign.txt` (главы 35–39) — новые побочные линии.
 
 - #news #immersion `tools/news.py`, `docs/WORLD_NEWS.md`, `overrides/kubejs/data/ashes/functions/news/` — события и отключение сообщений.
+
+- #rc3 Основной профиль 156 проектов, резервный 150; 483 задания в 39 главах. Источники: tools/news.py, tools/campaign.txt, docs/ONCE_IMPORT.md, WORLDGEN.md, WORLD_NEWS.md.

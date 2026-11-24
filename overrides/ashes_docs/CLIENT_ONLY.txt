@@ -8,7 +8,7 @@ oculus: oculus-mc1.20.1-1.8.0.jar
 xaeros-world-map: xaeroworldmap-forge-1.20.1-1.47.0.jar
 immediatelyfast: ImmediatelyFast-1.2.4+1.20.1.jar
 complementary-unbound: ComplementaryUnbound_r5.6.1.zip (shaderpacks, не мод сервера)
-distant-horizons: DistantHorizons-3.1.2-b-1.20.1-fabric-forge.jar
+Примечание: Distant Horizons (DistantHorizons-3.1.2-b-1.20.1-fabric-forge.jar) опционально устанавливается на сервер для серверной генерации LOD; проверить нагрузку.
 dynamiclights-reforged: sodiumdynamiclights-forge-1.0.10-1.20.1.jar
 magnesium-extras: sodiumextras-forge-1.0.7-1.20.1.jar
 sodium-options-api: sodiumoptionsapi-forge-1.0.10-1.20.1.jar
