@@ -60,3 +60,5 @@
 - #rc3 Основной профиль 159 проектов, резервный 153; 483 задания в 39 главах. Источники: tools/news.py, tools/campaign.txt, docs/ONCE_IMPORT.md, WORLDGEN.md, WORLD_NEWS.md.
 
 - #rc4 #launch-dependencies `docs/mod-plan.json` — три обязательные библиотеки, подтверждённые ошибками Forge; `docs/MOD_AUDIT.md`.
+
+- #structures #lore #worldgen `tools/structures.py`, `docs/STRUCTURES.md`, `docs/lore-structures.json`, `overrides/kubejs/data/ashes/structures/lore/` — шаблоны, генерация, добыча и открытия.

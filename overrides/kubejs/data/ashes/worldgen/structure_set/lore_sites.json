@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "structure": "ashes:silent_hamlet",
+      "weight": 4
+    },
+    {
+      "structure": "ashes:last_stand",
+      "weight": 3
+    },
+    {
+      "structure": "ashes:nameless_graves",
+      "weight": 4
+    },
+    {
+      "structure": "ashes:three_seals_altar",
+      "weight": 2
+    },
+    {
+      "structure": "ashes:broken_watch",
+      "weight": 4
+    },
+    {
+      "structure": "ashes:sealed_archive",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 18,
+    "salt": 185628321
+  }
+}

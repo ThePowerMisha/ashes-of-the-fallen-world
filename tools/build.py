@@ -146,3 +146,6 @@ generate_wards(DATA,F,fn,js,msg)
 
 from news import generate_news
 generate_news(DATA,F,fn,js)
+
+from structures import generate_structures
+generate_structures(ROOT)

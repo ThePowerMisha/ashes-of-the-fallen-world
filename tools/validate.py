@@ -104,3 +104,36 @@ for p in (functions/'news').glob('*.mcfunction'):
 assert 'function ashes:news/player' in (functions/'player.mcfunction').read_text(encoding='utf-8')
 assert 'scoreboard objectives add ashes_news trigger' in (functions/'load.mcfunction').read_text(encoding='utf-8')
 print('PASS: world chronicle function and predicate references.')
+
+# Lore structures: real templates, data registries, loot, and discovery.
+import gzip
+lorebase=base/'data/ashes'
+site_set=json.loads((lorebase/'worldgen/structure_set/lore_sites.json').read_text(encoding='utf-8'))
+assert site_set['placement']['spacing']>site_set['placement']['separation']>=2
+assert len(site_set['structures'])==6
+seen_templates=set()
+for entry in site_set['structures']:
+    site=entry['structure'].split(':')[1]
+    conf=json.loads((lorebase/'worldgen/structure'/(site+'.json')).read_text(encoding='utf-8'))
+    pool=conf['start_pool'].split(':')[1]
+    assert (lorebase/'tags/worldgen/biome'/(conf['biomes'].split(':')[1]+'.json')).is_file()
+    template_pool=json.loads((lorebase/'worldgen/template_pool'/(pool+'.json')).read_text(encoding='utf-8'))
+    assert len(template_pool['elements'])==2
+    for el in template_pool['elements']:
+        name=el['element']['location'].split(':')[1]
+        assert name not in seen_templates
+        seen_templates.add(name)
+        p=lorebase/'structures'/(name+'.nbt')
+        nbt=gzip.decompress(p.read_bytes())
+        assert nbt.startswith(b'\x0a\x00\x00') and b'DataVersion' in nbt
+        assert ('ashes:lore/'+site).encode() in nbt
+    loot=json.loads((lorebase/'loot_tables/lore'/(site+'.json')).read_text(encoding='utf-8'))
+    assert loot['type']=='minecraft:chest'
+    for pool in loot['pools']:
+        for e in pool['entries']:
+            if e['name'].startswith('kubejs:'): assert e['name'].split(':')[1] in items
+    adv=json.loads((lorebase/'advancements/lore'/(site+'.json')).read_text(encoding='utf-8'))
+    assert adv['criteria']['visit']['conditions']['player'][0]['predicate']['location']['structure']==entry['structure']
+    assert (functions/(adv['rewards']['function'].split(':')[1]+'.mcfunction')).is_file()
+assert len(seen_templates)==12
+print('PASS: six lore structures, 12 gzip NBT templates, loot and discovery references.')

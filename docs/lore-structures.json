@@ -1,0 +1,122 @@
+[
+  {
+    "template": "lore/silent_hamlet_1",
+    "size": [
+      31,
+      12,
+      31
+    ],
+    "blocks": 2339,
+    "chests": 2
+  },
+  {
+    "template": "lore/silent_hamlet_2",
+    "size": [
+      31,
+      12,
+      31
+    ],
+    "blocks": 2321,
+    "chests": 2
+  },
+  {
+    "template": "lore/last_stand_1",
+    "size": [
+      29,
+      8,
+      29
+    ],
+    "blocks": 627,
+    "chests": 2
+  },
+  {
+    "template": "lore/last_stand_2",
+    "size": [
+      29,
+      8,
+      29
+    ],
+    "blocks": 635,
+    "chests": 2
+  },
+  {
+    "template": "lore/nameless_graves_1",
+    "size": [
+      21,
+      9,
+      23
+    ],
+    "blocks": 455,
+    "chests": 1
+  },
+  {
+    "template": "lore/nameless_graves_2",
+    "size": [
+      21,
+      9,
+      23
+    ],
+    "blocks": 448,
+    "chests": 1
+  },
+  {
+    "template": "lore/three_seals_altar_1",
+    "size": [
+      17,
+      9,
+      17
+    ],
+    "blocks": 463,
+    "chests": 1
+  },
+  {
+    "template": "lore/three_seals_altar_2",
+    "size": [
+      17,
+      9,
+      17
+    ],
+    "blocks": 456,
+    "chests": 1
+  },
+  {
+    "template": "lore/broken_watch_1",
+    "size": [
+      17,
+      16,
+      17
+    ],
+    "blocks": 1572,
+    "chests": 2
+  },
+  {
+    "template": "lore/broken_watch_2",
+    "size": [
+      17,
+      16,
+      17
+    ],
+    "blocks": 1573,
+    "chests": 2
+  },
+  {
+    "template": "lore/sealed_archive_1",
+    "size": [
+      21,
+      12,
+      21
+    ],
+    "blocks": 2682,
+    "chests": 2
+  },
+  {
+    "template": "lore/sealed_archive_2",
+    "size": [
+      21,
+      12,
+      21
+    ],
+    "blocks": 2703,
+    "chests": 2
+  }
+]
