@@ -127,6 +127,11 @@
       "yungs-better-nether-fortresses",
       "yungs-better-jungle-temples",
       "yungs-better-end-island"
+    ],
+    "launch_dependencies": [
+      "guideme",
+      "villagerstradingplus",
+      "fusion-connected-textures"
     ]
   },
   "reviewed_dependencies": {
@@ -211,6 +216,17 @@
     ],
     "jei-integration": [
       "jei"
+    ],
+    "applied-energistics-2": [
+      "guideme"
+    ],
+    "the-graveyard-forge": [
+      "geckolib",
+      "villagerstradingplus"
+    ],
+    "rechiseled": [
+      "supermartijn642s-core-lib",
+      "fusion-connected-textures"
     ]
   },
   "excluded": {

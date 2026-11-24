@@ -57,4 +57,6 @@
 
 - #news #immersion `tools/news.py`, `docs/WORLD_NEWS.md`, `overrides/kubejs/data/ashes/functions/news/` — события и отключение сообщений.
 
-- #rc3 Основной профиль 156 проектов, резервный 150; 483 задания в 39 главах. Источники: tools/news.py, tools/campaign.txt, docs/ONCE_IMPORT.md, WORLDGEN.md, WORLD_NEWS.md.
+- #rc3 Основной профиль 159 проектов, резервный 153; 483 задания в 39 главах. Источники: tools/news.py, tools/campaign.txt, docs/ONCE_IMPORT.md, WORLDGEN.md, WORLD_NEWS.md.
+
+- #rc4 #launch-dependencies `docs/mod-plan.json` — три обязательные библиотеки, подтверждённые ошибками Forge; `docs/MOD_AUDIT.md`.

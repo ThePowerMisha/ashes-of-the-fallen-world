@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Ashes of the Fallen World",
-  "version": "1.0.0-rc3",
+  "version": "1.0.0-rc4",
   "author": "Ashes Project",
   "files": [
     {
@@ -792,6 +792,21 @@
     {
       "projectID": 901344,
       "fileID": 5193815,
+      "required": true
+    },
+    {
+      "projectID": 1173950,
+      "fileID": 8204776,
+      "required": true
+    },
+    {
+      "projectID": 1635301,
+      "fileID": 9290987,
+      "required": true
+    },
+    {
+      "projectID": 854949,
+      "fileID": 9070201,
       "required": true
     }
   ],
