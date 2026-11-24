@@ -1,5 +1,6 @@
 """Produce reproducible CurseForge manifests. Horizon profile replaces shaders with LODs."""
 from pathlib import Path
+from audit_mods import PLANNED, check_profile_dependencies
 import argparse,csv,html,io,json,zipfile
 root=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser();parser.add_argument('output',nargs='?',type=Path);parser.add_argument('--profile',choices=['standard','horizons'],default='standard');args=parser.parse_args()
@@ -16,6 +17,8 @@ if profile=='horizons':
     m['name']+=' — Horizons';m['version']+='-horizons'
 assert len(rows)==len(m['files'])==len({x['projectID'] for x in m['files']})
 assert {(int(r['projectID']),int(r['fileID'])) for r in rows}=={(f['projectID'],f['fileID']) for f in m['files']}
+dependencies = json.loads(PLANNED.read_text(encoding='utf-8'))['reviewed_dependencies']
+check_profile_dependencies(rows, m['files'], dependencies)
 output=args.output or root.parent/f'Ashes-{m["version"]}-CurseForge.zip';output.parent.mkdir(parents=True,exist_ok=True)
 lock=io.StringIO();w=csv.DictWriter(lock,fieldnames=['slug','projectID','fileID','filename'],delimiter='\t',lineterminator='\n');w.writeheader();w.writerows(rows)
 links=''.join(f'<li><a href="https://www.curseforge.com/minecraft/{"shaders" if r["filename"].endswith(".zip") else "mc-mods"}/{html.escape(r["slug"])}/files/{r["fileID"]}">{html.escape(r["slug"])}</a> — {html.escape(r["filename"])}</li>' for r in sorted(rows,key=lambda r:r['slug']))

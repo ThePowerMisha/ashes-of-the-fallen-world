@@ -149,6 +149,10 @@
     ]
   },
   "reviewed_dependencies": {
+    "botania": [
+      "patchouli",
+      "curios"
+    ],
     "minecolonies": [
       "structurize",
       "blockui",

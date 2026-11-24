@@ -80,3 +80,5 @@
 - #mca #villagers #reputation #family #npcquests docs/MCA.md, overrides/ashes_docs/MCA.md — справка, версии, лор, зависимости, сценарии тестов; 169 проектов / 163 Horizons. MCA-квесты не входят в число авторских FTB Quests.
 
 - #minecolonies #launch #crash `docs/MOD_AUDIT.md`, `docs/mod-plan.json` — краш `FoodUtilsMixin` и обязательная версия Tweaks.
+
+- #botania #patchouli [Диагностика установки](docs/MOD_AUDIT.md#forge-сообщает-об-отсутствии-patchouli). Связи Botania с Patchouli и Curios заданы в `docs/mod-plan.json` и проверяются упаковщиком каждого профиля.

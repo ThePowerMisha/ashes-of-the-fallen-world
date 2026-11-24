@@ -10,6 +10,16 @@ PLANNED=ROOT/'docs/mod-plan.json'
 def read_lock():
     return list(csv.DictReader(LOCK.open(encoding='utf-8'),delimiter='\t'))
 
+def check_profile_dependencies(rows, files, dependencies):
+    included = {row['slug'] for row in rows}
+    required_ids = {entry['projectID'] for entry in files if entry.get('required') is True}
+    required = {row['slug'] for row in rows if int(row['projectID']) in required_ids}
+    for parent, deps in dependencies.items():
+        if parent in included:
+            missing = set(deps) - required
+            if missing:
+                raise ValueError(f"{parent} requires these projects in the profile: {', '.join(sorted(missing))}")
+
 def static(rows):
     m=json.loads((ROOT/'manifest.json').read_text(encoding='utf-8'))
     assert m['minecraft']['version']=='1.20.1' and m['minecraft']['modLoaders'][0]['id'].startswith('forge-47.')
@@ -20,8 +30,9 @@ def static(rows):
     for group,slugs in plan['required'].items():
         missing=set(slugs)-names.keys()
         assert not missing,(group,missing)
-    for parent,deps in plan['reviewed_dependencies'].items():
-        assert parent in names and set(deps)<=names.keys(),(parent,deps)
+    dependencies = plan['reviewed_dependencies']
+    assert dependencies.keys() <= names.keys(), dependencies.keys() - names.keys()
+    check_profile_dependencies(rows, m['files'], dependencies)
     assert not set(plan['excluded'])&names.keys()
     assert not {'optifine','rubidium','sodium','epic-fight-mod'}&names.keys()
     mekanism=[names[s]['filename'].split('10.4.')[-1] for s in ['mekanism','mekanism-tools','mekanism-generators']]
