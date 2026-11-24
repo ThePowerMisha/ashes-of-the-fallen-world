@@ -34,3 +34,9 @@ Forge сообщил об отсутствующих обязательных mo
 Botania 1.20.1-450 требует Patchouli 1.20.1-83 или новее и Curios согласно `META-INF/mods.toml`. В обоих профилях закреплён [Patchouli-1.20.1-85-FORGE.jar](https://www.curseforge.com/minecraft/mc-mods/patchouli/files/7731017). Манифест CurseForge указывает файл для скачивания при импорте.
 
 Если Forge выводит `Currently, patchouli is not installed`, открой папку профиля, указанного в строке `Mod File` отчёта. Закрой игру. Если JAR отключён, включи его в CurseForge. Если файл отсутствует, скачай указанную версию в папку `mods` этого профиля. Запусти тот же профиль повторно. Если файл уже на месте, а ошибка повторяется, для диагностики понадобится `logs/latest.log` с этого запуска.
+
+## Сбой Core Lib при запуске Forge 47.4.28
+
+Если в конце стека указано `supermartijn642corelib.mixins.json:GameDataMixin` и `postRegisterEvents ... (0/1) succeeded`, проверь версию SuperMartijn642’s Core Lib. В 1.1.17a миксин ищет вызов `applyObjectHolders(Predicate)`. Forge 47.4.28 вызывает `applyObjectHolders(ResourceLocation)`. В 1.1.26b миксин поддерживает обе сигнатуры. Обязательный диапазон Core Lib у Rechiseled 1.1.6 — от 1.1.0 включительно до 1.2.0 исключительно.
+
+В обоих профилях закреплён `supermartijn642corelib-1.1.26b-forge-mc1.20.1.jar`. В установленном экземпляре закрой игру и замени старую версию Core Lib в папке `mods`. Config Lib — отдельная зависимость Rechiseled. [Файл для Forge 1.20.1](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/9689182)

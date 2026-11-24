@@ -305,6 +305,7 @@ def snapshot(root):
 def crash_summary(path):
     patterns = {"dependencies": r"missing (?:mandatory |required )?dependenc|requires .+ (?:version|or above)|mod .+ requires",
                 "mixins": r"mixin.{0,100}(?:failed|error|exception)|MixinApplyError|InvalidMixinException",
+                "critical_injections": r"\bInjectionError:\s*Critical injection failure\b",
                 "registry": r"missing registry|unknown registry|unbound values|unknown (?:item|block)|failed to load registries",
                 "datapack": r"(?:datapack|loot table|recipe|worldgen).{0,100}(?:error|failed|exception)|failed to parse",
                 "memory": r"OutOfMemoryError|GC overhead limit", "exception": r"Caused by:|FATAL|Exception in thread"}

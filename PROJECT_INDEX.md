@@ -82,3 +82,5 @@
 - #minecolonies #launch #crash `docs/MOD_AUDIT.md`, `docs/mod-plan.json` — краш `FoodUtilsMixin` и обязательная версия Tweaks.
 
 - #botania #patchouli [Диагностика установки](docs/MOD_AUDIT.md#forge-сообщает-об-отсутствии-patchouli). Связи Botania с Patchouli и Curios заданы в `docs/mod-plan.json` и проверяются упаковщиком каждого профиля.
+
+- #corelib #forge #crash [Диагностика GameDataMixin](docs/MOD_AUDIT.md#сбой-core-lib-при-запуске-forge-47428) и `tools/devtools.py crash` — поиск фатальной ошибки среди предупреждений Mixin.

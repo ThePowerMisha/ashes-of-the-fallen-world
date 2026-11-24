@@ -33,3 +33,5 @@ RC5: игровые тесты клиента/сервера, фактическ
 - #minecolonies #mixin #launch Сигнатура `FoodUtilsMixin` при создании мира, связь Tweaks с Compatibility, зафиксированная версия и процедура проверки описаны в [MOD_AUDIT.md](MOD_AUDIT.md).
 
 - #botania #patchouli Для сообщения `Currently, patchouli is not installed` см. [проверку папки профиля и версию JAR](MOD_AUDIT.md#forge-сообщает-об-отсутствии-patchouli).
+
+- #forge #mixin #rechiseled Если запуск останавливается на `GameDataMixin.postRegisterEvents`, см. [проверенную пару Forge и Core Lib](MOD_AUDIT.md#сбой-core-lib-при-запуске-forge-47428). В отчёте `devtools.py crash` поле `line_numbers.critical_injections` указывает строки с фатальным сбоем внедрения.

@@ -46,6 +46,14 @@ class DevtoolsTests(unittest.TestCase):
             log.write_text("hello\nCaused by: java.lang.OutOfMemoryError\n", encoding="utf-8")
             self.assertEqual(crash_summary(log)["line_numbers"]["memory"], [2])
 
+    def test_critical_injection_after_mixin_warnings(self):
+        with tempfile.TemporaryDirectory() as d:
+            log = Path(d) / "latest.log"
+            warning = "[main/WARN] [mixin/]: Error loading class: optional.Example"
+            failure = "Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: Critical injection failure: Callback method postRegisterEvents"
+            log.write_text("\n".join([warning] * 25 + [failure]), encoding="utf-8")
+            self.assertEqual(crash_summary(log)["line_numbers"]["critical_injections"], [26])
+
 
 if __name__ == "__main__":
     unittest.main()
