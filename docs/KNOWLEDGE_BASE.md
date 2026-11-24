@@ -43,3 +43,5 @@ RC5: игровые тесты клиента/сервера, фактическ
 - #mods #updates `python tools/audit_updates.py --include-beta` ищет более новые файлы по меткам Minecraft 1.20.1 и Forge. [Снимок и приоритеты](MOD_UPDATES.md).
 
 - #chunky #pregen В стандартном профиле и Horizons предгенерация выполняется через Chunky. [Команды и настройка](SERVER.md#предгенерация-чанков).
+
+- #shaders #oculus Оба архива включают одинаковые проекты, в том числе Oculus и пять шейдерпаков. `overrides/config/oculus.properties` хранит выбор Complementary Unbound и оставляет шейдеры выключенными на первом запуске. [Настройки](GRAPHICS.md).

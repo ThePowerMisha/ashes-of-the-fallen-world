@@ -32,12 +32,12 @@ python tools/package.py dist/Ashes-CurseForge.zip
 
 `tools/build.py`, `tools/campaign.txt`, `tools/extension.py` и `tools/gameplay.py` — первичные источники квестов, предметов, рецептов и функций; генерируемые файлы коммитятся вместе с ним. Не менять существующие идентификаторы квестов. `main` — интеграционная ветка; сложные изменения вести в feature-ветках. CI проверяет структуру и упаковывает ZIP, но не запускает Forge.
 
-Графический профиль Horizons (не содержит Oculus и шейдер): `python tools/package.py --profile horizons dist/Ashes-Horizons.zip`. Не смешивать два профиля. [Навыки](docs/SKILLS.md) · [Рубежи](docs/WARDS.md) · [Конфигурации](docs/MOD_CONFIGS.md) · [Аудит](docs/MOD_AUDIT.md).
+`Ashes-CurseForge.zip` и `Ashes-Horizons.zip` используют одинаковый набор модов и шейдеров. Импортируйте любой из архивов. В игре откройте «Настройки → Настройки графики → Шейдеры» и выберите нужный пакет. [Навыки](docs/SKILLS.md) · [Рубежи](docs/WARDS.md) · [Конфигурации](docs/MOD_CONFIGS.md) · [Аудит](docs/MOD_AUDIT.md).
 
 [Авторские текстуры и анимации](docs/ASSETS.md): 30 уникальных текстур, восемь анимированных артефактов.
 
 ## RC3
-В RC3 Distant Horizons входил в оба профиля. В текущей сборке предгенерацию выполняет Chunky, а в стандартном профиле доступен Oculus. Добавлены ParCool, Twilight Forest, Immersive Aircraft, стили MineColonies, дополнения JEI, укрупнённые жилы и хроники мира. Новый мир рекомендуется. `/trigger ashes_news set 2` отключает хроники, `set 1` включает.
+В RC3 Distant Horizons входил в оба профиля. В текущей сборке предгенерацию выполняет Chunky, а Oculus доступен в обоих профилях. Добавлены ParCool, Twilight Forest, Immersive Aircraft, стили MineColonies, дополнения JEI, укрупнённые жилы и хроники мира. Новый мир рекомендуется. `/trigger ashes_news set 2` отключает хроники, `set 1` включает.
 [Импорт Once upon an year](docs/ONCE_IMPORT.md) · [Генерация мира](docs/WORLDGEN.md) · [Хроники](docs/WORLD_NEWS.md).
 
 ## RC4 — исправление запуска
@@ -50,4 +50,4 @@ Forge сообщил об отсутствующих обязательных mo
 Отдельная ветка, 163 проекта (157 Horizons), четыре новых мода. [Справочник и ограничения](docs/COMPANIONS.md). Основная кампания не изменена; тестировать только на отдельном мире. Не удалять Monster Girl из основного сохранения.
 
 ## Живые поселения MCA
-169 проектов / 163 Horizons, MCA Reborn и пять аддонов. [Русская справка](docs/MCA.md). 495 авторских квестов неизменны; задания MCA отдельные. Запуск игры не проверен.
+169 проектов в каждом профиле, MCA Reborn и пять аддонов. [Русская справка](docs/MCA.md). 495 авторских квестов неизменны; задания MCA отдельные. Запуск игры не проверен.

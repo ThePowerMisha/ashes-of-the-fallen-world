@@ -4,7 +4,7 @@
 - Mekanism, Generators и Tools одной версии 10.4.16.80.
 - MineColonies с Structurize, BlockUI, Multi-Piston, Domum Ornamentum, TownTalk.
 - Tectonic + Terralith; другие глобальные генераторы рельефа не включены.
-- Embeddium и Oculus в стандартном профиле. Chunky для предгенерации чанков в обоих профилях.
+- Embeddium, Oculus и Chunky в обоих профилях. Шейдеры включаются в настройках клиента.
 - Almost Unified и Polymorph: базовая поддержка унификации материалов и выбора совпадающих рецептов;
   специально написанных правил рецептов пока нет.
 - Один мод хранения вещей после смерти (Corpse), одна основная система боевой анимации (Better Combat).

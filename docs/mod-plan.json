@@ -148,6 +148,9 @@
     ]
   },
   "reviewed_dependencies": {
+    "oculus": [
+      "embeddium"
+    ],
     "botania": [
       "patchouli",
       "curios"
