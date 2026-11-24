@@ -92,3 +92,5 @@
 - #mods #updates `tools/audit_updates.py` и [сводка по обновлениям](docs/MOD_UPDATES.md).
 
 - #chunky #pregen [Предгенерация чанков](docs/SERVER.md#предгенерация-чанков) и состав обоих профилей в `docs/mod-plan.json`.
+
+- #mca [Файлы MCA Reborn 7.7.1-beta.6 и пяти аддонов](docs/MCA.md#версии-и-источники).

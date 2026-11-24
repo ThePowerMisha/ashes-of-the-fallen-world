@@ -99,3 +99,6 @@
 ### Шейдеры в профиле Horizons
 
 - Oculus и пять шейдерпаков добавлены в архив Horizons. В настройках Oculus по умолчанию выбран Complementary Unbound.
+
+## MCA Reborn 7.7.1-beta.6
+- Оба профиля закрепляют MCA Reborn 7.7.1-beta.6 и вариант Family Life 0.3.0 для MCA 7.7.1-beta.

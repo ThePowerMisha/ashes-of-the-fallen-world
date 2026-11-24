@@ -8,16 +8,16 @@
 - MCA: Conversations: общайся через расширенное меню разговора; темы зависят от доверия, профессии, обстоятельств и истории общения. Не требуется подключение внешнего ИИ для обычных диалогов аддона. Внешние ChatAI/TTS MCA не настраивались, не вводи ключи без согласования.
 - MCA: Reputation: общественная репутация хранится отдельно от личных сердец каждого жителя; добрые и плохие поступки могут менять отношение деревни. Проверь, как это работает в кооперативе.
 - MCA: Mob Compat: интеграции с поддерживаемыми животными и NPC; не считать гарантированной совместимость с MineColonies или Sculk Horde. Не устанавливаем дополнительные моды на стражей и рекрутов только ради интеграций.
-- MCA Family Life: семейные события, дни рождения, годовщины; выбран отдельный файл под MCA 7.6. Проверить фактическую работу на сервере.
+- MCA Family Life: семейные события, дни рождения, годовщины; выбран файл для MCA 7.7.1-beta и новее. Проверить фактическую работу на сервере.
 
 ## Версии и источники
-- minecraft-comes-alive-7.6.26+1.20.1-universal.jar — https://www.curseforge.com/minecraft/mc-mods/minecraft-comes-alive-reborn/files/8315977 (project 535291, file 8315977).
+- minecraft-comes-alive-7.7.1-beta.6-1.20.1-universal.jar — https://www.curseforge.com/minecraft/mc-mods/minecraft-comes-alive-reborn/files/9616432 (project 535291, file 9616432).
 - mcaquests-1.9.0.jar — https://www.curseforge.com/minecraft/mc-mods/mca-quests/files/9650417 (project 1579993, file 9650417).
 - mcaconversations-1.8.2.jar — https://www.curseforge.com/minecraft/mc-mods/mca-conversations/files/9400137 (project 1601191, file 9400137).
 - mcareputation-0.6.2.jar — https://www.curseforge.com/minecraft/mc-mods/mca-reputation/files/9400164 (project 1656551, file 9400164).
 - mcamobcompat-forge-0.3.0-1.20.1.jar — https://www.curseforge.com/minecraft/mc-mods/mca-mob-compat/files/9406119 (project 1691620, file 9406119).
-- mcafamilylife-0.3.0+1.20.1-mca7.6.jar — https://www.curseforge.com/minecraft/mc-mods/mca-family-life/files/9495177 (project 1751458, file 9495177).
-- MCA 7.6.26 помечен Release; ID файла 8315977 также подтверждён списком опубликованных сборок https://modpacks.ch/modpacks/1680216/operation-nightfall. Страница конкретного файла не открылась при проверке. Выбран вместо ветки 7.7 beta. Семейный файл 9495177 подтверждён каталогом https://modpacks.ch/mods/minecraft/1751458/mca-family-life/versions/9495177; точную страницу CurseForge проверить при импорте.
+- mcafamilylife-0.3.0-1.20.1.jar — https://www.curseforge.com/minecraft/mc-mods/mca-family-life/files/9495197 (project 1751458, file 9495197).
+- В Forge-метаданных четырёх аддонов Quests, Conversations, Reputation и Mob Compat указан диапазон MCA [7.6,8), у Family Life — [7.7.1-beta,). Перед переносом мира проверить переход на копии сохранения.
 - Quests и Conversations поддерживают MCA 7.6/7.7 по документации авторов: https://modrinth.com/project/mca-quests и https://github.com/otectus/MCAConversations. Система аддонов тестируется авторами в том числе на 7.6.26: https://github.com/otectus/MCAQuests/blob/main/CLAUDE.md. Это не тест нашей сборки.
 - MCA Colony Integration пока только 1.21.1 NeoForge: https://www.curseforge.com/minecraft/mc-mods/mca-colony-integration/files/all. Не включать. MCA Crime и Kingdoms не включены на данном этапе: отдельные системы правонарушений/политики требуют настройки и проверки баланса; Townstead не добавлен из-за наложения симуляции поселений. Аддоны Easy Villagers и Vampirism не нужны без соответствующих модов.
 
