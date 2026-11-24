@@ -1,7 +1,7 @@
 # Инструкции для разработчиков и ассистентов
 
 1. Начать с PROJECT_INDEX.md и PROJECT_CONTEXT.md; читать только необходимые модули.
-2. Источник истины квестов, предметов, рецептов и mcfunction — tools/build.py, tools/campaign.txt, tools/extension.py, tools/gameplay.py. Не редактировать генерируемые файлы отдельно. Запустить `python tools/build.py`, затем `python tools/validate.py` и `python tools/package.py dist/Ashes-CurseForge.zip` (создать dist).
+2. Источник истины квестов, предметов, рецептов и mcfunction — tools/build.py, tools/campaign.txt, tools/extension.py, tools/gameplay.py, tools/skills.py, tools/wards.py. Не редактировать генерируемые файлы отдельно. Запустить `python tools/build.py`, затем `python tools/validate.py` и `python tools/package.py dist/Ashes-CurseForge.zip` (создать dist).
 3. Сохранять идентификаторы квестов: SHA-256 от `ashes/<chapter>/<index>`; не переставлять существующие строки, добавлять в конец или новые главы. Перед изменениями в прогрессии проверять обратную совместимость.
 4. Не менять зафиксированные projectID/fileID без подтверждения версии Minecraft 1.20.1, Forge и обязательных зависимостей. Не коммитить JAR, логи, миры, учётные данные.
 5. Обязательны отдельные тесты клиента/сервера и испытания Sculk Horde на копии мира. Статическая проверка не является тестом игры.

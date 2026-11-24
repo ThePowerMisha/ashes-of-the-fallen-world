@@ -52,3 +52,21 @@ if shutil.which('node'):
     for p in base.rglob('*.js'):subprocess.run(['node','--check',str(p)],check=True)
 for p in (root/'overrides').rglob('*.toml'): tomllib.loads(p.read_text(encoding='utf-8'))
 print(f'PASS: {len(ids)} projects, {len(quests)} quests, {len(chapter_ids)} chapters, {len(items)} items, {len(rids)} recipes; dependency DAG and references. Game runtime NOT tested.')
+
+# Validate authored skill-tree references and constrained progression.
+mastery=base/'data/ashes/puffish_skills/categories/mastery'
+read=lambda name:json.loads((mastery/(name+'.json')).read_text(encoding='utf-8'))
+skills,defs,edges,cat=read('skills'),read('definitions'),read('connections'),read('category')
+assert len(skills)==len(defs)==18 and cat['spent_points_limit']==3
+assert sum(x['root'] for x in skills.values())==6
+assert {x['definition'] for x in skills.values()}==set(defs)
+assert len(edges['normal']['unidirectional'])==12
+for a,b in edges['normal']['unidirectional']:assert a in skills and b in skills and a!=b
+assert all(d['cost']==1 for d in defs.values())
+assert (base/'data/ashes/advancements/ward/registered.json').exists()
+assert any(t.get('advancement')=='ashes:ward/registered' for q in quests for t in q['tasks'])
+sculk=tomllib.loads((root/'overrides/config/sculkhorde_config.toml').read_text())
+assert sculk['General Variables']['isHordeActiveWithNoPlayers'] is False
+assert sculk['Trigger Automatically Variables']['trigger_ancient_node_automatically'] is False
+assert not (root/'overrides/defaultconfigs/sculkhorde-server.toml').exists()
+print('PASS: mastery nodes, ward advancement and Sculk configuration path.')

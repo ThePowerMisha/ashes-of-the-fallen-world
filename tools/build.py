@@ -133,7 +133,7 @@ for order,(slug,title,icon,rows) in enumerate(chapters):
  js(Q/(slug+'.snbt'),{'default_hide_dependency_lines':False,'default_quest_shape':'','filename':slug,'group':'','icon':icon,'id':uid(slug),'order_index':order,'quest_links':[],'title':title,'quests':quests})
 assert set(refs)<=allids and len(allids)==total
 js(ROOT/'docs'/'quests.json',index)
-manifest=json.loads((ROOT/'manifest.json').read_text());manifest['version']='0.9.0-rc1';js(ROOT/'manifest.json',manifest)
+manifest=json.loads((ROOT/'manifest.json').read_text());manifest['version']='1.0.0-rc1';js(ROOT/'manifest.json',manifest)
 assert len({x['projectID'] for x in manifest['files']})==len(manifest['files'])
 print(f'{total} quests, {sum(x["task"]=="manual" for x in index)} manual; {len(manifest["files"])} locked projects; {len(items)} items')
 
