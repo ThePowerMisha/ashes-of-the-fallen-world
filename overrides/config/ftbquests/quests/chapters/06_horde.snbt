@@ -114,8 +114,8 @@
       "tasks": [
         {
           "id": "5748C5D5E3919C88",
-          "type": "checkmark",
-          "title": "Подтвердить выполненное действие вручную"
+          "type": "advancement",
+          "advancement": "sculkhorde:sculk_horde_start"
         }
       ],
       "dependencies": [

@@ -1,0 +1,236 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "28_ranger",
+  "group": "",
+  "icon": "minecraft:compass",
+  "id": "00032192C7ADE156",
+  "order_index": 27,
+  "quest_links": [],
+  "title": "Путь следопыта",
+  "quests": [
+    {
+      "id": "576FCAA78E484DD0",
+      "title": "Обет дороги",
+      "description": [
+        "Выбери Следопыта: /trigger ashes_class set 4."
+      ],
+      "icon": "minecraft:compass",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "34B8B6380C92334B",
+          "type": "item",
+          "item": "minecraft:compass",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1FF7A3BEF4184303"
+      ]
+    },
+    {
+      "id": "19FBBF7015756695",
+      "title": "Лёгкий лук",
+      "description": [
+        "Подготовь мобильное оружие."
+      ],
+      "icon": "minecraft:bow",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2939E54F0C15996C",
+          "type": "item",
+          "item": "minecraft:bow",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "576FCAA78E484DD0"
+      ]
+    },
+    {
+      "id": "4600598F7290BEE0",
+      "title": "Стрелы",
+      "description": [
+        "Запаси боеприпасы, не перегружай сумку."
+      ],
+      "icon": "minecraft:arrow",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "631A1F26ECD765C6",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 32
+        }
+      ],
+      "dependencies": [
+        "19FBBF7015756695"
+      ],
+      "rewards": [
+        {
+          "id": "669F3536E9579779",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7EC2B1F6E8BE0E39",
+      "title": "Метка пути",
+      "description": [
+        "Создай карту разведанной территории."
+      ],
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4E90B17736E6C0E0",
+          "type": "item",
+          "item": "minecraft:filled_map",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "4600598F7290BEE0"
+      ]
+    },
+    {
+      "id": "40FF13777B441084",
+      "title": "Ночная разведка",
+      "description": [
+        "Разведай местность до входа группы."
+      ],
+      "icon": "minecraft:spyglass",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "1D34C6295BB9CABF",
+          "type": "item",
+          "item": "minecraft:spyglass",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7EC2B1F6E8BE0E39"
+      ]
+    },
+    {
+      "id": "60F081E45A8BDEAC",
+      "title": "Быстрый шаг",
+      "description": [
+        "На втором ранге испытай умение /trigger ashes_ability."
+      ],
+      "icon": "minecraft:compass",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6CBFED14C3F85915",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "40FF13777B441084"
+      ]
+    },
+    {
+      "id": "60D810055300BFFC",
+      "title": "Талант мобильности",
+      "description": [
+        "Открой первый талант через /trigger ashes_talent set 1."
+      ],
+      "icon": "minecraft:compass",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7F86A227C99DB0B2",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "60F081E45A8BDEAC"
+      ]
+    },
+    {
+      "id": "0894CE1CE22DCE25",
+      "title": "Талант разведчика",
+      "description": [
+        "На третьем ранге открой второй талант."
+      ],
+      "icon": "minecraft:compass",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "105961922A97537C",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "60D810055300BFFC"
+      ]
+    },
+    {
+      "id": "6B299AA17A0EC808",
+      "title": "Печать экспедиции",
+      "description": [
+        "Отметь безопасный путь к убежищу."
+      ],
+      "icon": "kubejs:expedition_seal",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "0DB7C1AB0DDDE3DD",
+          "type": "item",
+          "item": "kubejs:expedition_seal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0894CE1CE22DCE25"
+      ]
+    },
+    {
+      "id": "46EA4ED9501B1187",
+      "title": "Свидетель",
+      "description": [
+        "Создай полевой отчёт для архива."
+      ],
+      "icon": "kubejs:scout_report",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "7E4565880EFAB39F",
+          "type": "item",
+          "item": "kubejs:scout_report",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6B299AA17A0EC808"
+      ],
+      "rewards": [
+        {
+          "id": "0B298923FC04DD1F",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "13_create",
+  "group": "",
+  "icon": "create:cogwheel",
+  "id": "7CA069A611891F2C",
+  "order_index": 12,
+  "quest_links": [],
+  "title": "Механики: заводы и железные дороги",
+  "quests": [
+    {
+      "id": "61599793FC06A562",
+      "title": "Андезитовая эпоха",
+      "description": [
+        "Сплав — основа ранней промышленности. Сравни рецепт в JEI и наладь его массовое производство."
+      ],
+      "icon": "create:andesite_alloy",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "67B57420A02556B1",
+          "type": "item",
+          "item": "create:andesite_alloy",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "3E032F770950CD2C"
+      ]
+    },
+    {
+      "id": "639DD19F81ED33BF",
+      "title": "Вращение",
+      "description": [
+        "Передавай вращение валами, учитывая направление и скорость."
+      ],
+      "icon": "create:shaft",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "30FD0BEFDC597E26",
+          "type": "item",
+          "item": "create:shaft",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "61599793FC06A562"
+      ]
+    },
+    {
+      "id": "6AC0CEE2FFA7E038",
+      "title": "Передача",
+      "description": [
+        "Малое и большое колесо меняют передаточное отношение. Не перегружай источник."
+      ],
+      "icon": "create:cogwheel",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "6DB995F27135A016",
+          "type": "item",
+          "item": "create:cogwheel",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "639DD19F81ED33BF"
+      ],
+      "rewards": [
+        {
+          "id": "6F4F7B3059B49C52",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5AD9CD1AA40FC422",
+      "title": "Водяной двигатель",
+      "description": [
+        "Установи колесо у потока; это бесплатный источник механической энергии."
+      ],
+      "icon": "create:water_wheel",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "51E817CBACD7BB46",
+          "type": "item",
+          "item": "create:water_wheel",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6AC0CEE2FFA7E038"
+      ]
+    },
+    {
+      "id": "38D5307597F6C1B0",
+      "title": "Ветер над руинами",
+      "description": [
+        "Собери ветровую мельницу с парусами и безопасным доступом к подшипнику."
+      ],
+      "icon": "create:windmill_bearing",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "15F82B4DE192CA23",
+          "type": "item",
+          "item": "create:windmill_bearing",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5AD9CD1AA40FC422"
+      ]
+    },
+    {
+      "id": "2949889AF9CF8819",
+      "title": "Конвейер",
+      "description": [
+        "Соедини два параллельных вала ремнём. Держи доступ к ремонту."
+      ],
+      "icon": "create:belt_connector",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "27ABBC7B43863EDA",
+          "type": "item",
+          "item": "create:belt_connector",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "38D5307597F6C1B0"
+      ],
+      "rewards": [
+        {
+          "id": "65298AA413FCE686",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6EFBB6D755C36A90",
+      "title": "Дробление",
+      "description": [
+        "Перерабатывай зерно и материалы в жерновах, проверь рецепты."
+      ],
+      "icon": "create:millstone",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "79FE097F1AC1243B",
+          "type": "item",
+          "item": "create:millstone",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2949889AF9CF8819"
+      ]
+    },
+    {
+      "id": "0BF2EE804EFE4A6C",
+      "title": "Пластины",
+      "description": [
+        "Поставь пресс над столом или конвейером. Используй листы вместо ручного крафта."
+      ],
+      "icon": "create:mechanical_press",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "4370C61066E2D432",
+          "type": "item",
+          "item": "create:mechanical_press",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6EFBB6D755C36A90"
+      ]
+    },
+    {
+      "id": "2BD63AE202707DE1",
+      "title": "Смешивание",
+      "description": [
+        "Миксер над чашей автоматизирует сплавы. Проверь минимальную скорость."
+      ],
+      "icon": "create:mechanical_mixer",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "5A6D088FABDE5E57",
+          "type": "item",
+          "item": "create:mechanical_mixer",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0BF2EE804EFE4A6C"
+      ]
+    },
+    {
+      "id": "00DFB75AEF29D433",
+      "title": "Чаша",
+      "description": [
+        "Подведи ингредиенты через воронки и настрой выход, чтобы не забивать машину."
+      ],
+      "icon": "create:basin",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "62D3AF73EE37E24C",
+          "type": "item",
+          "item": "create:basin",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2BD63AE202707DE1"
+      ]
+    },
+    {
+      "id": "4D1724C5FC95C093",
+      "title": "Латунный век",
+      "description": [
+        "Подогревай чашу горелкой для производства латуни."
+      ],
+      "icon": "create:brass_ingot",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "06724720064E4A1A",
+          "type": "item",
+          "item": "create:brass_ingot",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "00DFB75AEF29D433"
+      ]
+    },
+    {
+      "id": "0074E5C2BE8480F8",
+      "title": "Горячий цех",
+      "description": [
+        "Подготовь горелку и запас топлива; не размещай опасный цех в жилом доме."
+      ],
+      "icon": "create:blaze_burner",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "61153DBE5D048616",
+          "type": "item",
+          "item": "create:blaze_burner",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "4D1724C5FC95C093"
+      ]
+    },
+    {
+      "id": "0387158F8348C34E",
+      "title": "Умные фильтры",
+      "description": [
+        "Используй фильтры и размер партии, чтобы распределять ресурсы по линиям."
+      ],
+      "icon": "create:brass_funnel",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "3069C0E4A2E901A6",
+          "type": "item",
+          "item": "create:brass_funnel",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "0074E5C2BE8480F8"
+      ]
+    },
+    {
+      "id": "6A830EEA2BEB48DE",
+      "title": "Золотые руки",
+      "description": [
+        "Автоматизируй применение предметов к заготовке."
+      ],
+      "icon": "create:deployer",
+      "x": 2.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "334095D7047A156F",
+          "type": "item",
+          "item": "create:deployer",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0387158F8348C34E"
+      ]
+    },
+    {
+      "id": "5F1554C042E4514E",
+      "title": "Точный механизм",
+      "description": [
+        "Собери последовательную сборку через конвейер и манипуляторы; учитывай возврат заготовки."
+      ],
+      "icon": "create:precision_mechanism",
+      "x": 4.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "12C287F7AF496457",
+          "type": "item",
+          "item": "create:precision_mechanism",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "6A830EEA2BEB48DE"
+      ]
+    },
+    {
+      "id": "7281570321FA4C0D",
+      "title": "Механические руки",
+      "description": [
+        "Настрой точки забора и выдачи и проверь разные режимы распределения."
+      ],
+      "icon": "create:mechanical_arm",
+      "x": 6.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "6382E14F976B335D",
+          "type": "item",
+          "item": "create:mechanical_arm",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5F1554C042E4514E"
+      ]
+    },
+    {
+      "id": "4830405C159E6D73",
+      "title": "Буровая",
+      "description": [
+        "Сделай буровую платформу, предусмотрев остановку при заполнении склада."
+      ],
+      "icon": "create:mechanical_drill",
+      "x": 0.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "1AA636E6A8EB96FC",
+          "type": "item",
+          "item": "create:mechanical_drill",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "7281570321FA4C0D"
+      ]
+    },
+    {
+      "id": "03431AF36AB450E1",
+      "title": "Лесопилка",
+      "description": [
+        "Создай управляемую заготовку древесины, высаживая новые деревья."
+      ],
+      "icon": "create:mechanical_saw",
+      "x": 2.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "1A9C95985F28050A",
+          "type": "item",
+          "item": "create:mechanical_saw",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "4830405C159E6D73"
+      ]
+    },
+    {
+      "id": "4136CF254A020506",
+      "title": "Рельсовая сеть",
+      "description": [
+        "Проложи железнодорожный путь, избегая крутых склонов и поселений."
+      ],
+      "icon": "create:track",
+      "x": 4.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "43B904491AA2E68E",
+          "type": "item",
+          "item": "create:track",
+          "count": 32
+        }
+      ],
+      "dependencies": [
+        "03431AF36AB450E1"
+      ]
+    },
+    {
+      "id": "23ABE0F37C2F1A26",
+      "title": "Вокзал",
+      "description": [
+        "Поставь станции у шахты и общего склада."
+      ],
+      "icon": "create:track_station",
+      "x": 6.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "67756DF004893018",
+          "type": "item",
+          "item": "create:track_station",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "4136CF254A020506"
+      ]
+    },
+    {
+      "id": "3F16E794BBAF85C0",
+      "title": "Сигнализация",
+      "description": [
+        "Раздели путь на безопасные блок-участки."
+      ],
+      "icon": "create:track_signal",
+      "x": 0.0,
+      "y": 10.0,
+      "tasks": [
+        {
+          "id": "4F3BF87C8FACC063",
+          "type": "item",
+          "item": "create:track_signal",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "23ABE0F37C2F1A26"
+      ]
+    },
+    {
+      "id": "46C8CEB6EBA6EC1A",
+      "title": "План перевозок",
+      "description": [
+        "Настрой расписание грузового состава. Проверь загрузку и разгрузку."
+      ],
+      "icon": "create:schedule",
+      "x": 2.0,
+      "y": 10.0,
+      "tasks": [
+        {
+          "id": "5DC9C70BEAE157A4",
+          "type": "item",
+          "item": "create:schedule",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "3F16E794BBAF85C0"
+      ]
+    },
+    {
+      "id": "76A5017983F68802",
+      "title": "Цех возрождения",
+      "description": [
+        "Соедини точную механику Create и электрические компоненты Mekanism в модуле привода."
+      ],
+      "icon": "kubejs:drive_module",
+      "x": 4.0,
+      "y": 10.0,
+      "tasks": [
+        {
+          "id": "6F6FB667BB642991",
+          "type": "item",
+          "item": "kubejs:drive_module",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "46C8CEB6EBA6EC1A"
+      ],
+      "rewards": [
+        {
+          "id": "29798D8D250BA8AA",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "18_ars",
+  "group": "",
+  "icon": "ars_nouveau:source_gem",
+  "id": "68CE7021E38B209C",
+  "order_index": 17,
+  "quest_links": [],
+  "title": "Архимаги: Ars Nouveau",
+  "quests": [
+    {
+      "id": "0885DA1C2755C4BA",
+      "title": "Первая искра",
+      "description": [
+        "Собери источник магической энергии для первых компонентов."
+      ],
+      "icon": "ars_nouveau:source_gem",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0790C959529358CF",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "1D129E2C407448C4"
+      ]
+    },
+    {
+      "id": "655ADEC1CC9ABCCB",
+      "title": "Книга новичка",
+      "description": [
+        "Создай книгу и изучи меню составления заклинаний."
+      ],
+      "icon": "ars_nouveau:novice_spell_book",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "211ECAC7349C7A5B",
+          "type": "item",
+          "item": "ars_nouveau:novice_spell_book",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0885DA1C2755C4BA"
+      ]
+    },
+    {
+      "id": "5798EB03CC2FD066",
+      "title": "Письменный стол",
+      "description": [
+        "Создавай новые глифы на столе писца."
+      ],
+      "icon": "ars_nouveau:scribes_table",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "6662F5577CFD6605",
+          "type": "item",
+          "item": "ars_nouveau:scribes_table",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "655ADEC1CC9ABCCB"
+      ],
+      "rewards": [
+        {
+          "id": "143DD608582A9BF5",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "01D299A34CE1414C",
+      "title": "Сосуд источника",
+      "description": [
+        "Поставь сосуд рядом с генератором Source."
+      ],
+      "icon": "ars_nouveau:source_jar",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "506A42D7FF3C44A6",
+          "type": "item",
+          "item": "ars_nouveau:source_jar",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5798EB03CC2FD066"
+      ]
+    },
+    {
+      "id": "76DA401CBE95A0BE",
+      "title": "Сбор урожая",
+      "description": [
+        "Освой Agronomic Sourcelink: урожай питает сеть Source."
+      ],
+      "icon": "ars_nouveau:source_gem",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7825FDA8D2364AE6",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "01D299A34CE1414C"
+      ]
+    },
+    {
+      "id": "4185485C2567A8CD",
+      "title": "Магическое питание",
+      "description": [
+        "Подготовь альтернативный источник Source и оцени его расход."
+      ],
+      "icon": "ars_nouveau:source_gem",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "05C507754840E6C3",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "76DA401CBE95A0BE"
+      ]
+    },
+    {
+      "id": "01F77DB579562FD1",
+      "title": "Пьедестал",
+      "description": [
+        "Расставь пьедесталы вокруг камеры зачарования."
+      ],
+      "icon": "ars_nouveau:arcane_pedestal",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "0424EF2432DFC14C",
+          "type": "item",
+          "item": "ars_nouveau:arcane_pedestal",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "4185485C2567A8CD"
+      ]
+    },
+    {
+      "id": "791A35EAA78AA8F7",
+      "title": "Камера",
+      "description": [
+        "Собери аппарат и нужный Arcane Core, сверяй раскладку в книге."
+      ],
+      "icon": "ars_nouveau:enchanting_apparatus",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "4AAAC08FD6861456",
+          "type": "item",
+          "item": "ars_nouveau:enchanting_apparatus",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "01F77DB579562FD1"
+      ]
+    },
+    {
+      "id": "3EEEF1D7FFDF417C",
+      "title": "Релейная сеть",
+      "description": [
+        "Направь Source из генератора к магическим машинам."
+      ],
+      "icon": "ars_nouveau:source_gem",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "31D387889C922769",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "791A35EAA78AA8F7"
+      ]
+    },
+    {
+      "id": "54D86C692707F4DC",
+      "title": "Доставка",
+      "description": [
+        "Настрой транспорт предметов через Starbuncles; защити их маршрут."
+      ],
+      "icon": "ars_nouveau:source_gem",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "446739017A2E70BE",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "3EEEF1D7FFDF417C"
+      ]
+    },
+    {
+      "id": "7B912A79B5502C78",
+      "title": "Урожай без рук",
+      "description": [
+        "Испытай Drygmy или Wixie по руководству; избегай избыточных сущностей."
+      ],
+      "icon": "ars_nouveau:source_gem",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "5CE2D3A7FB9277E3",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "54D86C692707F4DC"
+      ]
+    },
+    {
+      "id": "4E86EB8E77CAB2A5",
+      "title": "Лечение",
+      "description": [
+        "Составь и испытай заклинание лечения на союзнике с его согласия."
+      ],
+      "icon": "ars_nouveau:source_gem",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "5A495BA73A2F12F6",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7B912A79B5502C78"
+      ]
+    },
+    {
+      "id": "47B1D3120FC086E5",
+      "title": "Свет",
+      "description": [
+        "Создай полезное заклинание освещения для пещер."
+      ],
+      "icon": "ars_nouveau:source_gem",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "217B2A951D1AF28A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4E86EB8E77CAB2A5"
+      ]
+    },
+    {
+      "id": "0FA4A5DE6F5A951A",
+      "title": "Защита",
+      "description": [
+        "Составь заклинание с контролем угрозы, не повреждай союзников."
+      ],
+      "icon": "ars_nouveau:source_gem",
+      "x": 2.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "41AA3963C64EDBB0",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "47B1D3120FC086E5"
+      ]
+    },
+    {
+      "id": "67CEA906574E0600",
+      "title": "Книга мага",
+      "description": [
+        "Перейди на среднюю книгу и расширь набор глифов."
+      ],
+      "icon": "ars_nouveau:apprentice_spell_book",
+      "x": 4.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "5A0A5F8DA90C5A0B",
+          "type": "item",
+          "item": "ars_nouveau:apprentice_spell_book",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0FA4A5DE6F5A951A"
+      ]
+    },
+    {
+      "id": "496C8E95991AA68B",
+      "title": "Книга мастера",
+      "description": [
+        "Открой высокоуровневые глифы и проверь расход маны."
+      ],
+      "icon": "ars_nouveau:archmage_spell_book",
+      "x": 6.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "7A2D70D19E88FD5F",
+          "type": "item",
+          "item": "ars_nouveau:archmage_spell_book",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "67CEA906574E0600"
+      ]
+    },
+    {
+      "id": "08731B25A8599E28",
+      "title": "Магический конденсатор",
+      "description": [
+        "Соедини Source Gem и инженерную электронику для артефактов союза."
+      ],
+      "icon": "kubejs:source_capacitor",
+      "x": 0.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "6F518186FE4BE543",
+          "type": "item",
+          "item": "kubejs:source_capacitor",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "496C8E95991AA68B"
+      ],
+      "rewards": [
+        {
+          "id": "487C58A923EBCC12",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

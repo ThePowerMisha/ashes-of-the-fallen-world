@@ -15,3 +15,13 @@ scoreboard objectives add awalk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add abuild minecraft.used:minecraft.stone_bricks
 scoreboard objectives add aclean dummy
 scoreboard players set #seconds acool 0
+scoreboard objectives add ashes_talent trigger
+scoreboard objectives add ashes_ability trigger
+scoreboard objectives add ashes_cleanse trigger
+scoreboard objectives add atalent dummy
+scoreboard objectives add aability_cd dummy
+scoreboard objectives add aritus_cd dummy
+scoreboard objectives add aritus_have dummy
+scoreboard objectives add aritus_blocks dummy
+scoreboard objectives add aritus_tmp dummy
+execute unless score #configured aclass matches 1 run function ashes:world_defaults

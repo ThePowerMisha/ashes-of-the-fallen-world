@@ -29,3 +29,22 @@ execute if score @s ashes_status matches 1.. run function ashes:status
 scoreboard players set @s ashes_status 0
 execute if score @s ashes_purify matches 1.. run function ashes:purify
 scoreboard players set @s ashes_purify 0
+scoreboard players add @s atalent 0
+scoreboard players add @s aability_cd 0
+scoreboard players add @s aritus_cd 0
+scoreboard players add @s aritus_have 0
+scoreboard players add @s aritus_blocks 0
+scoreboard players add @s aritus_tmp 0
+scoreboard players enable @s ashes_talent
+scoreboard players enable @s ashes_ability
+scoreboard players enable @s ashes_cleanse
+execute if score @s aability_cd matches 1.. run scoreboard players remove @s aability_cd 1
+execute if score @s aritus_cd matches 1.. run scoreboard players remove @s aritus_cd 1
+execute if score @s ashes_talent matches 1 if score @s arank matches 2.. run scoreboard players set @s atalent 1
+execute if score @s ashes_talent matches 2 if score @s arank matches 3.. run scoreboard players set @s atalent 2
+execute if score @s ashes_talent matches 1..2 run tellraw @s {"text": "Выбор таланта зависит от ранга. /trigger ashes_status — текущий талант.", "color": "gold"}
+scoreboard players set @s ashes_talent 0
+execute if score @s ashes_ability matches 1.. run function ashes:ability
+scoreboard players set @s ashes_ability 0
+execute if score @s ashes_cleanse matches 1.. run function ashes:cleanse
+scoreboard players set @s ashes_cleanse 0

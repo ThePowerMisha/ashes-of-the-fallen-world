@@ -1,0 +1,362 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "19_spells",
+  "group": "",
+  "icon": "minecraft:enchanted_book",
+  "id": "153297545138F599",
+  "order_index": 18,
+  "quest_links": [],
+  "title": "Боевая магия и тёмный орден",
+  "quests": [
+    {
+      "id": "1C93F5F0EC35EAEF",
+      "title": "Школы магии",
+      "description": [
+        "Открой интерфейс Iron’s Spells и изучи школы, ману, перезарядку."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2A113E3F760D6179",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1D129E2C407448C4"
+      ]
+    },
+    {
+      "id": "4F0EB4F73AC9C3E2",
+      "title": "Стол надписей",
+      "description": [
+        "Создай Inscription Table и добавь первый свиток в книгу."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4F0642BF9A6872C0",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1C93F5F0EC35EAEF"
+      ]
+    },
+    {
+      "id": "482515ECCAF4CBDF",
+      "title": "Чернила",
+      "description": [
+        "Собери чернила и материалы для улучшения редкости заклинаний."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5606412196965CE1",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4F0EB4F73AC9C3E2"
+      ]
+    },
+    {
+      "id": "5B5D6ADDBAA1B0F0",
+      "title": "Боевой свиток",
+      "description": [
+        "Освой дальнобойное заклинание против обычных монстров."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "6FA7636A34438246",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "482515ECCAF4CBDF"
+      ]
+    },
+    {
+      "id": "13261315FFCE0D2F",
+      "title": "Защитный свиток",
+      "description": [
+        "Подготовь защитное или лечебное заклинание для группы."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "2EBE0785ACE0E46E",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "5B5D6ADDBAA1B0F0"
+      ]
+    },
+    {
+      "id": "0EDCFE54C086E397",
+      "title": "Экономия маны",
+      "description": [
+        "Сравни стоимость и перезарядку двух заклинаний. Не трать резерв на слабых врагов."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7E02AB1471609FA4",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "13261315FFCE0D2F"
+      ]
+    },
+    {
+      "id": "4A42601C653D1DA2",
+      "title": "Одежда мага",
+      "description": [
+        "Создай комплект, усиливающий выбранную школу; сверь бонусы в подсказках."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "170BC22309BF001A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0EDCFE54C086E397"
+      ]
+    },
+    {
+      "id": "6D0C2E9E70A1A511",
+      "title": "Походная книга",
+      "description": [
+        "Подготовь отдельный набор заклинаний для подземелий."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "0667F6AB75B8DB99",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4A42601C653D1DA2"
+      ]
+    },
+    {
+      "id": "723898BECE1BB014",
+      "title": "Мастер чар",
+      "description": [
+        "Освой повышение уровня заклинания без уничтожения редких свитков."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "42D31603F6B9B6A5",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "6D0C2E9E70A1A511"
+      ]
+    },
+    {
+      "id": "6E7757423552B7DF",
+      "title": "Тёмный трактат",
+      "description": [
+        "Открой книгу Goety, изучи получение Soul Energy и условия ритуалов."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "15AFCF01858868D7",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "723898BECE1BB014"
+      ]
+    },
+    {
+      "id": "7052F6B8550E1EDA",
+      "title": "Осколок души",
+      "description": [
+        "Подготовь сосуд или инструмент для накопления душ по руководству Goety."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "693C3996E0C91DA5",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "6E7757423552B7DF"
+      ]
+    },
+    {
+      "id": "096367977E149F98",
+      "title": "Первый фокус",
+      "description": [
+        "Создай жезл и фокус, проверь управление и расход энергии."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "1FBB555DA8455BA6",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7052F6B8550E1EDA"
+      ]
+    },
+    {
+      "id": "28DB31F5C8174797",
+      "title": "Призыв",
+      "description": [
+        "Вызови первого прислужника вдали от поселения; научись отзывать его."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "3DB275F304BF67A6",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "096367977E149F98"
+      ]
+    },
+    {
+      "id": "798BED712EB0BB17",
+      "title": "Ритуальный зал",
+      "description": [
+        "Построй отдельную ритуальную площадку и соблюдай требования алтаря."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 2.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "5472576900427523",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "28DB31F5C8174797"
+      ]
+    },
+    {
+      "id": "77EDA001BF8A4D34",
+      "title": "Некромантия",
+      "description": [
+        "Освой защитный призыв; не оставляй много существ постоянно активными."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 4.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "18F86B7B06217720",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "798BED712EB0BB17"
+      ]
+    },
+    {
+      "id": "5821D3458CCB2A6F",
+      "title": "Тьма под контролем",
+      "description": [
+        "Испытай тёмное заклинание против враждебной цели."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 6.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "368FDEF39D9E0798",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "77EDA001BF8A4D34"
+      ]
+    },
+    {
+      "id": "2AF76E99AD0F7370",
+      "title": "Реликварий",
+      "description": [
+        "Изготовь оберег для экспедиции. Бонусы класса действуют отдельно."
+      ],
+      "icon": "kubejs:ward_charm",
+      "x": 0.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "3EA8B8F4C8A57FC8",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5821D3458CCB2A6F"
+      ],
+      "rewards": [
+        {
+          "id": "52D60920B1CC972C",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "29_builder",
+  "group": "",
+  "icon": "minecraft:stone_bricks",
+  "id": "50BFB7E68913E30C",
+  "order_index": 28,
+  "quest_links": [],
+  "title": "Путь архитектора",
+  "quests": [
+    {
+      "id": "5175C1B630C9306D",
+      "title": "Обет основания",
+      "description": [
+        "Выбери Архитектора: /trigger ashes_class set 5."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2BB583FD7AB72948",
+          "type": "item",
+          "item": "minecraft:stone_bricks",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "1FF7A3BEF4184303"
+      ]
+    },
+    {
+      "id": "42BFED70DE7D15AB",
+      "title": "Разметка",
+      "description": [
+        "Размечай дороги и рабочие площадки."
+      ],
+      "icon": "minecraft:torch",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "19FC957B6F9FFCB0",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "5175C1B630C9306D"
+      ]
+    },
+    {
+      "id": "61D36B6E59FC74A5",
+      "title": "Лесоматериалы",
+      "description": [
+        "Сохраняй запас дерева для ремонта."
+      ],
+      "icon": "minecraft:oak_planks",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "72A57C84C1F88B87",
+          "type": "item",
+          "item": "minecraft:oak_planks",
+          "count": 32
+        }
+      ],
+      "dependencies": [
+        "42BFED70DE7D15AB"
+      ],
+      "rewards": [
+        {
+          "id": "3AD83D5ACAD7CA71",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3ACE020AA28EC441",
+      "title": "Ограждения",
+      "description": [
+        "Защити поля и проходы NPC."
+      ],
+      "icon": "minecraft:oak_fence",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4A35FFA2979BCF3F",
+          "type": "item",
+          "item": "minecraft:oak_fence",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "61D36B6E59FC74A5"
+      ]
+    },
+    {
+      "id": "73378BA60CD8932D",
+      "title": "Фасады",
+      "description": [
+        "Установи окна и проверь освещение."
+      ],
+      "icon": "minecraft:glass",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "5A838C87B3D8970C",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "3ACE020AA28EC441"
+      ]
+    },
+    {
+      "id": "62439C8C4D678974",
+      "title": "Талант строителя",
+      "description": [
+        "На втором ранге испытай умение /trigger ashes_ability."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "76F490362D4D0F5F",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "73378BA60CD8932D"
+      ]
+    },
+    {
+      "id": "12D958A8BEDA2CAB",
+      "title": "Талант стойкости",
+      "description": [
+        "Открой первый талант /trigger ashes_talent set 1."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "39BF13126D56E199",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "62439C8C4D678974"
+      ]
+    },
+    {
+      "id": "3114A850261EB94D",
+      "title": "Талант восстановления",
+      "description": [
+        "На третьем ранге выбери второй талант."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "01346BA4ABEA7091",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "12D958A8BEDA2CAB"
+      ]
+    },
+    {
+      "id": "027222E1A169385B",
+      "title": "Камень основания",
+      "description": [
+        "Подготовь символ нового квартала."
+      ],
+      "icon": "kubejs:foundation_stone",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "2F593BD8D949C9BA",
+          "type": "item",
+          "item": "kubejs:foundation_stone",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "3114A850261EB94D"
+      ]
+    },
+    {
+      "id": "225DDDCE40F7ECFF",
+      "title": "Хартия",
+      "description": [
+        "Свяжи личную роль с общим проектом."
+      ],
+      "icon": "kubejs:settlement_charter",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "1CE47414E736103D",
+          "type": "item",
+          "item": "kubejs:settlement_charter",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "027222E1A169385B"
+      ],
+      "rewards": [
+        {
+          "id": "3D569396DA2B88BE",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -177,14 +177,14 @@
       "description": [
         "Построй генератор Mekanism и подай энергию."
       ],
-      "icon": "mekanism:heat_generator",
+      "icon": "mekanismgenerators:heat_generator",
       "x": 6.0,
       "y": 2.0,
       "tasks": [
         {
           "id": "058A8D47FB0FF408",
           "type": "item",
-          "item": "mekanism:heat_generator",
+          "item": "mekanismgenerators:heat_generator",
           "count": 1
         }
       ],

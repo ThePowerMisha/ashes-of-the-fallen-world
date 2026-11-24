@@ -240,7 +240,7 @@
   {
     "chapter": "III-A. Возрождение промышленности",
     "quest": "Энергия",
-    "task": "mekanism:heat_generator",
+    "task": "mekanismgenerators:heat_generator",
     "count": 1,
     "id": "10B17F9E5D205ECB",
     "dependencies": [
@@ -532,7 +532,7 @@
   {
     "chapter": "IV. Пробуждение бездны",
     "quest": "Пробуждение",
-    "task": "manual",
+    "task": "advancement:sculkhorde:sculk_horde_start",
     "count": 1,
     "id": "529ED4693C398388",
     "dependencies": [
@@ -682,7 +682,7 @@
   {
     "chapter": "VI–VII. Сердце тьмы и новая эпоха",
     "quest": "Сердце тьмы",
-    "task": "manual",
+    "task": "advancement:sculkhorde:sculk_horde_defeat",
     "count": 1,
     "id": "0EF33DB669F46A18",
     "dependencies": [
@@ -1007,6 +1007,3227 @@
     "id": "52FCDB09F3490BE2",
     "dependencies": [
       "32DDE67B6B13397D"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Андезитовая эпоха",
+    "task": "create:andesite_alloy",
+    "count": 8,
+    "id": "61599793FC06A562",
+    "dependencies": [
+      "3E032F770950CD2C"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Вращение",
+    "task": "create:shaft",
+    "count": 8,
+    "id": "639DD19F81ED33BF",
+    "dependencies": [
+      "61599793FC06A562"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Передача",
+    "task": "create:cogwheel",
+    "count": 8,
+    "id": "6AC0CEE2FFA7E038",
+    "dependencies": [
+      "639DD19F81ED33BF"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Водяной двигатель",
+    "task": "create:water_wheel",
+    "count": 1,
+    "id": "5AD9CD1AA40FC422",
+    "dependencies": [
+      "6AC0CEE2FFA7E038"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Ветер над руинами",
+    "task": "create:windmill_bearing",
+    "count": 1,
+    "id": "38D5307597F6C1B0",
+    "dependencies": [
+      "5AD9CD1AA40FC422"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Конвейер",
+    "task": "create:belt_connector",
+    "count": 4,
+    "id": "2949889AF9CF8819",
+    "dependencies": [
+      "38D5307597F6C1B0"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Дробление",
+    "task": "create:millstone",
+    "count": 1,
+    "id": "6EFBB6D755C36A90",
+    "dependencies": [
+      "2949889AF9CF8819"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Пластины",
+    "task": "create:mechanical_press",
+    "count": 1,
+    "id": "0BF2EE804EFE4A6C",
+    "dependencies": [
+      "6EFBB6D755C36A90"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Смешивание",
+    "task": "create:mechanical_mixer",
+    "count": 1,
+    "id": "2BD63AE202707DE1",
+    "dependencies": [
+      "0BF2EE804EFE4A6C"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Чаша",
+    "task": "create:basin",
+    "count": 1,
+    "id": "00DFB75AEF29D433",
+    "dependencies": [
+      "2BD63AE202707DE1"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Латунный век",
+    "task": "create:brass_ingot",
+    "count": 8,
+    "id": "4D1724C5FC95C093",
+    "dependencies": [
+      "00DFB75AEF29D433"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Горячий цех",
+    "task": "create:blaze_burner",
+    "count": 1,
+    "id": "0074E5C2BE8480F8",
+    "dependencies": [
+      "4D1724C5FC95C093"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Умные фильтры",
+    "task": "create:brass_funnel",
+    "count": 4,
+    "id": "0387158F8348C34E",
+    "dependencies": [
+      "0074E5C2BE8480F8"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Золотые руки",
+    "task": "create:deployer",
+    "count": 1,
+    "id": "6A830EEA2BEB48DE",
+    "dependencies": [
+      "0387158F8348C34E"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Точный механизм",
+    "task": "create:precision_mechanism",
+    "count": 2,
+    "id": "5F1554C042E4514E",
+    "dependencies": [
+      "6A830EEA2BEB48DE"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Механические руки",
+    "task": "create:mechanical_arm",
+    "count": 1,
+    "id": "7281570321FA4C0D",
+    "dependencies": [
+      "5F1554C042E4514E"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Буровая",
+    "task": "create:mechanical_drill",
+    "count": 4,
+    "id": "4830405C159E6D73",
+    "dependencies": [
+      "7281570321FA4C0D"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Лесопилка",
+    "task": "create:mechanical_saw",
+    "count": 1,
+    "id": "03431AF36AB450E1",
+    "dependencies": [
+      "4830405C159E6D73"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Рельсовая сеть",
+    "task": "create:track",
+    "count": 32,
+    "id": "4136CF254A020506",
+    "dependencies": [
+      "03431AF36AB450E1"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Вокзал",
+    "task": "create:track_station",
+    "count": 2,
+    "id": "23ABE0F37C2F1A26",
+    "dependencies": [
+      "4136CF254A020506"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Сигнализация",
+    "task": "create:track_signal",
+    "count": 2,
+    "id": "3F16E794BBAF85C0",
+    "dependencies": [
+      "23ABE0F37C2F1A26"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "План перевозок",
+    "task": "create:schedule",
+    "count": 1,
+    "id": "46C8CEB6EBA6EC1A",
+    "dependencies": [
+      "3F16E794BBAF85C0"
+    ]
+  },
+  {
+    "chapter": "Механики: заводы и железные дороги",
+    "quest": "Цех возрождения",
+    "task": "kubejs:drive_module",
+    "count": 1,
+    "id": "76A5017983F68802",
+    "dependencies": [
+      "46C8CEB6EBA6EC1A"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Осмий",
+    "task": "mekanism:ingot_osmium",
+    "count": 8,
+    "id": "28318EF40188761A",
+    "dependencies": [
+      "3E032F770950CD2C"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Инфузор",
+    "task": "mekanism:metallurgic_infuser",
+    "count": 1,
+    "id": "333116496E1CFA39",
+    "dependencies": [
+      "28318EF40188761A"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Управление",
+    "task": "mekanism:basic_control_circuit",
+    "count": 8,
+    "id": "790D3B8FCACCD3ED",
+    "dependencies": [
+      "333116496E1CFA39"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Сталь",
+    "task": "mekanism:ingot_steel",
+    "count": 8,
+    "id": "4F1262BD36A0EEE5",
+    "dependencies": [
+      "790D3B8FCACCD3ED"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Корпус",
+    "task": "mekanism:steel_casing",
+    "count": 2,
+    "id": "646D95C9203B374D",
+    "dependencies": [
+      "4F1262BD36A0EEE5"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Электросеть",
+    "task": "mekanism:basic_universal_cable",
+    "count": 16,
+    "id": "43491CF9707B4E89",
+    "dependencies": [
+      "646D95C9203B374D"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Тепловая энергия",
+    "task": "mekanismgenerators:heat_generator",
+    "count": 1,
+    "id": "7B2CAEDD9EDD8981",
+    "dependencies": [
+      "43491CF9707B4E89"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Ветропарк",
+    "task": "mekanismgenerators:wind_generator",
+    "count": 2,
+    "id": "645C46AD04BC642F",
+    "dependencies": [
+      "7B2CAEDD9EDD8981"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Накопитель",
+    "task": "mekanism:basic_energy_cube",
+    "count": 1,
+    "id": "4637DBB340DFFE13",
+    "dependencies": [
+      "645C46AD04BC642F"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Двойная переработка",
+    "task": "mekanism:enrichment_chamber",
+    "count": 1,
+    "id": "6B452FEAE6C697B7",
+    "dependencies": [
+      "4637DBB340DFFE13"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Электроплавка",
+    "task": "mekanism:energized_smelter",
+    "count": 1,
+    "id": "51E049EBE3808EA0",
+    "dependencies": [
+      "6B452FEAE6C697B7"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Дробилка",
+    "task": "mekanism:crusher",
+    "count": 1,
+    "id": "07030D1273858555",
+    "dependencies": [
+      "51E049EBE3808EA0"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Фабрика",
+    "task": "mekanism:basic_enriching_factory",
+    "count": 1,
+    "id": "64F3975F03D00C47",
+    "dependencies": [
+      "07030D1273858555"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Тройная переработка",
+    "task": "mekanism:purification_chamber",
+    "count": 1,
+    "id": "573C0BF53951DCA1",
+    "dependencies": [
+      "64F3975F03D00C47"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Электролиз",
+    "task": "mekanism:electrolytic_separator",
+    "count": 1,
+    "id": "60C13286B9110E6D",
+    "dependencies": [
+      "573C0BF53951DCA1"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Жидкостный контур",
+    "task": "mekanism:basic_mechanical_pipe",
+    "count": 8,
+    "id": "3E17CC4017B2AEBA",
+    "dependencies": [
+      "60C13286B9110E6D"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Газовый контур",
+    "task": "mekanism:basic_pressurized_tube",
+    "count": 8,
+    "id": "4BE133D7FC2BDDAF",
+    "dependencies": [
+      "3E17CC4017B2AEBA"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Автоматический карьер",
+    "task": "mekanism:digital_miner",
+    "count": 1,
+    "id": "1AB32FDE3CFA9BDF",
+    "dependencies": [
+      "4BE133D7FC2BDDAF"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Энергия будущего",
+    "task": "mekanism:advanced_control_circuit",
+    "count": 4,
+    "id": "5B0166D08CB76C78",
+    "dependencies": [
+      "1AB32FDE3CFA9BDF"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Элитная электроника",
+    "task": "mekanism:elite_control_circuit",
+    "count": 4,
+    "id": "3E6B6897AA949D8B",
+    "dependencies": [
+      "5B0166D08CB76C78"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Высшая электроника",
+    "task": "mekanism:ultimate_control_circuit",
+    "count": 2,
+    "id": "22AB5FB425D8095F",
+    "dependencies": [
+      "3E6B6897AA949D8B"
+    ]
+  },
+  {
+    "chapter": "Промышленная сеть: Mekanism",
+    "quest": "Промышленная печать",
+    "task": "kubejs:power_regulator",
+    "count": 1,
+    "id": "25EA8EE395CF438D",
+    "dependencies": [
+      "22AB5FB425D8095F"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Инженерный справочник",
+    "task": "manual",
+    "count": 1,
+    "id": "4ED039172C7EDDFE",
+    "dependencies": [
+      "3E032F770950CD2C"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Креозот",
+    "task": "manual",
+    "count": 1,
+    "id": "7E9EDD7C7585D32C",
+    "dependencies": [
+      "4ED039172C7EDDFE"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Обработанная древесина",
+    "task": "manual",
+    "count": 1,
+    "id": "45D7A75E17044C3C",
+    "dependencies": [
+      "7E9EDD7C7585D32C"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Доменная печь",
+    "task": "manual",
+    "count": 1,
+    "id": "60AD0790CB02E5C8",
+    "dependencies": [
+      "45D7A75E17044C3C"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Медный провод",
+    "task": "minecraft:copper_ingot",
+    "count": 16,
+    "id": "4ED26D2994096579",
+    "dependencies": [
+      "60AD0790CB02E5C8"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Провода и реле",
+    "task": "manual",
+    "count": 1,
+    "id": "0A5AA6950682A39B",
+    "dependencies": [
+      "4ED26D2994096579"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Водяное колесо",
+    "task": "manual",
+    "count": 1,
+    "id": "5F22A35B17F2494C",
+    "dependencies": [
+      "0A5AA6950682A39B"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Дробильный цех",
+    "task": "manual",
+    "count": 1,
+    "id": "47FB2B7095CDC286",
+    "dependencies": [
+      "5F22A35B17F2494C"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Металлопресс",
+    "task": "manual",
+    "count": 1,
+    "id": "725A042E8A511686",
+    "dependencies": [
+      "47FB2B7095CDC286"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Конвейеры",
+    "task": "manual",
+    "count": 1,
+    "id": "54802656C801BD6F",
+    "dependencies": [
+      "725A042E8A511686"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Бурение образцов",
+    "task": "manual",
+    "count": 1,
+    "id": "20B754F36BD104A9",
+    "dependencies": [
+      "54802656C801BD6F"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Экскаватор",
+    "task": "manual",
+    "count": 1,
+    "id": "7D5B5F6732789359",
+    "dependencies": [
+      "20B754F36BD104A9"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Жидкостная логистика",
+    "task": "manual",
+    "count": 1,
+    "id": "2A27EFFBF06768D2",
+    "dependencies": [
+      "7D5B5F6732789359"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Пластик",
+    "task": "manual",
+    "count": 1,
+    "id": "1E84ADF423B47205",
+    "dependencies": [
+      "2A27EFFBF06768D2"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Рабочая рама",
+    "task": "manual",
+    "count": 1,
+    "id": "2FFB4F9E627DAE88",
+    "dependencies": [
+      "1E84ADF423B47205"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Автоферма",
+    "task": "manual",
+    "count": 1,
+    "id": "1AA9D94730B2AA8D",
+    "dependencies": [
+      "2FFB4F9E627DAE88"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Лазерная добыча",
+    "task": "manual",
+    "count": 1,
+    "id": "2EFB56AB51F2C3A5",
+    "dependencies": [
+      "1AA9D94730B2AA8D"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Запас безопасности",
+    "task": "minecraft:iron_block",
+    "count": 4,
+    "id": "0EBB4461DE2A95E3",
+    "dependencies": [
+      "2EFB56AB51F2C3A5"
+    ]
+  },
+  {
+    "chapter": "Тяжёлая промышленность и добыча",
+    "quest": "Ремонтная мастерская",
+    "task": "kubejs:repair_kit",
+    "count": 1,
+    "id": "0069B3AB9D27231C",
+    "dependencies": [
+      "0EBB4461DE2A95E3"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Первые ящики",
+    "task": "manual",
+    "count": 1,
+    "id": "44D76969ACF3EA94",
+    "dependencies": [
+      "59B3BE45BFA33BD1"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Ящик под контролем",
+    "task": "manual",
+    "count": 1,
+    "id": "1FE8444A81C28F44",
+    "dependencies": [
+      "44D76969ACF3EA94"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Умный рюкзак",
+    "task": "sophisticatedbackpacks:backpack",
+    "count": 1,
+    "id": "2766C9EBD515555E",
+    "dependencies": [
+      "1FE8444A81C28F44"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Склад инструментов",
+    "task": "manual",
+    "count": 1,
+    "id": "14D50B416AD42159",
+    "dependencies": [
+      "2766C9EBD515555E"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Предметные трубы",
+    "task": "pipez:item_pipe",
+    "count": 16,
+    "id": "48362597DDBB31F5",
+    "dependencies": [
+      "14D50B416AD42159"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Жидкостные трубы",
+    "task": "pipez:fluid_pipe",
+    "count": 8,
+    "id": "244062727ED0166F",
+    "dependencies": [
+      "48362597DDBB31F5"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Энергетические трубы",
+    "task": "pipez:energy_pipe",
+    "count": 8,
+    "id": "769C41B670988EE6",
+    "dependencies": [
+      "244062727ED0166F"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Кварцевый век",
+    "task": "ae2:certus_quartz_crystal",
+    "count": 8,
+    "id": "2AF8015257B05D95",
+    "dependencies": [
+      "769C41B670988EE6"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Пыль звёзд",
+    "task": "ae2:fluix_crystal",
+    "count": 4,
+    "id": "73CBD1184A28F140",
+    "dependencies": [
+      "2AF8015257B05D95"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Инскрайбер",
+    "task": "ae2:inscriber",
+    "count": 1,
+    "id": "6C4F789B78C7E385",
+    "dependencies": [
+      "73CBD1184A28F140"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Логика",
+    "task": "ae2:logic_processor",
+    "count": 4,
+    "id": "7A3BB9EE22CCA944",
+    "dependencies": [
+      "6C4F789B78C7E385"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Расчёт",
+    "task": "ae2:calculation_processor",
+    "count": 4,
+    "id": "7C606738152D8D38",
+    "dependencies": [
+      "7A3BB9EE22CCA944"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Инженерия",
+    "task": "ae2:engineering_processor",
+    "count": 2,
+    "id": "347E163AD4F1DD16",
+    "dependencies": [
+      "7C606738152D8D38"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Энергетический ввод",
+    "task": "ae2:energy_acceptor",
+    "count": 1,
+    "id": "5CD5FEE01BEB06D8",
+    "dependencies": [
+      "347E163AD4F1DD16"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Контроллер",
+    "task": "ae2:controller",
+    "count": 1,
+    "id": "1518BDA7BD6E814F",
+    "dependencies": [
+      "5CD5FEE01BEB06D8"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Ячейка",
+    "task": "ae2:item_storage_cell_1k",
+    "count": 1,
+    "id": "5B11120FF83CE743",
+    "dependencies": [
+      "1518BDA7BD6E814F"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Терминал",
+    "task": "ae2:crafting_terminal",
+    "count": 1,
+    "id": "2C8963642072C036",
+    "dependencies": [
+      "5B11120FF83CE743"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Шина импорта",
+    "task": "ae2:import_bus",
+    "count": 1,
+    "id": "22B50E4F76097D00",
+    "dependencies": [
+      "2C8963642072C036"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Шина экспорта",
+    "task": "ae2:export_bus",
+    "count": 1,
+    "id": "366E5AEB6B5C03FD",
+    "dependencies": [
+      "22B50E4F76097D00"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Шина хранения",
+    "task": "ae2:storage_bus",
+    "count": 1,
+    "id": "625180778E98F542",
+    "dependencies": [
+      "366E5AEB6B5C03FD"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Автокрафт",
+    "task": "ae2:pattern_provider",
+    "count": 1,
+    "id": "0791BCD58BFB178B",
+    "dependencies": [
+      "625180778E98F542"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Сборочный узел",
+    "task": "ae2:molecular_assembler",
+    "count": 1,
+    "id": "570A91D79923DAEB",
+    "dependencies": [
+      "0791BCD58BFB178B"
+    ]
+  },
+  {
+    "chapter": "Цифровые склады и логистика",
+    "quest": "Общий запас",
+    "task": "kubejs:logistics_badge",
+    "count": 1,
+    "id": "484B6ECF8FB36553",
+    "dependencies": [
+      "570A91D79923DAEB"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Первый конденсатор",
+    "task": "manual",
+    "count": 1,
+    "id": "4C304581395E83C9",
+    "dependencies": [
+      "28318EF40188761A"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Диэлектрик",
+    "task": "manual",
+    "count": 1,
+    "id": "7940EF591DC4A1C0",
+    "dependencies": [
+      "4C304581395E83C9"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Энергизатор",
+    "task": "manual",
+    "count": 1,
+    "id": "58BB26BCF2BF4277",
+    "dependencies": [
+      "7940EF591DC4A1C0"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Низкотемпературный генератор",
+    "task": "manual",
+    "count": 1,
+    "id": "64E9876EA5AFF0C0",
+    "dependencies": [
+      "58BB26BCF2BF4277"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Солнечная станция",
+    "task": "manual",
+    "count": 1,
+    "id": "3C02C31DA8288E0B",
+    "dependencies": [
+      "64E9876EA5AFF0C0"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Модернизация",
+    "task": "manual",
+    "count": 1,
+    "id": "18D68420CE00FB87",
+    "dependencies": [
+      "3C02C31DA8288E0B"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Сеть Flux",
+    "task": "manual",
+    "count": 1,
+    "id": "575475A37A6943FB",
+    "dependencies": [
+      "18D68420CE00FB87"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Разделение нагрузки",
+    "task": "manual",
+    "count": 1,
+    "id": "443945A20D2D98A9",
+    "dependencies": [
+      "575475A37A6943FB"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Резервный источник",
+    "task": "manual",
+    "count": 1,
+    "id": "6A856F922042CD50",
+    "dependencies": [
+      "443945A20D2D98A9"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Турбина",
+    "task": "manual",
+    "count": 1,
+    "id": "6814902E9FD8BBA7",
+    "dependencies": [
+      "6A856F922042CD50"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Безопасный реактор",
+    "task": "manual",
+    "count": 1,
+    "id": "4D7BDE8BCB53DEE9",
+    "dependencies": [
+      "6814902E9FD8BBA7"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Радиационная защита",
+    "task": "manual",
+    "count": 1,
+    "id": "760A41FF680E0FC4",
+    "dependencies": [
+      "4D7BDE8BCB53DEE9"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Тепловой контур",
+    "task": "manual",
+    "count": 1,
+    "id": "12EBB228F8989F6D",
+    "dependencies": [
+      "760A41FF680E0FC4"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Термоядерный горизонт",
+    "task": "manual",
+    "count": 1,
+    "id": "0B03C6FD5F688640",
+    "dependencies": [
+      "12EBB228F8989F6D"
+    ]
+  },
+  {
+    "chapter": "Энергетика и безопасность",
+    "quest": "Стабилизатор",
+    "task": "kubejs:power_regulator",
+    "count": 1,
+    "id": "057A9BA7014F70DE",
+    "dependencies": [
+      "0B03C6FD5F688640"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Первая искра",
+    "task": "ars_nouveau:source_gem",
+    "count": 4,
+    "id": "0885DA1C2755C4BA",
+    "dependencies": [
+      "1D129E2C407448C4"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Книга новичка",
+    "task": "ars_nouveau:novice_spell_book",
+    "count": 1,
+    "id": "655ADEC1CC9ABCCB",
+    "dependencies": [
+      "0885DA1C2755C4BA"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Письменный стол",
+    "task": "ars_nouveau:scribes_table",
+    "count": 1,
+    "id": "5798EB03CC2FD066",
+    "dependencies": [
+      "655ADEC1CC9ABCCB"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Сосуд источника",
+    "task": "ars_nouveau:source_jar",
+    "count": 1,
+    "id": "01D299A34CE1414C",
+    "dependencies": [
+      "5798EB03CC2FD066"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Сбор урожая",
+    "task": "manual",
+    "count": 1,
+    "id": "76DA401CBE95A0BE",
+    "dependencies": [
+      "01D299A34CE1414C"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Магическое питание",
+    "task": "manual",
+    "count": 1,
+    "id": "4185485C2567A8CD",
+    "dependencies": [
+      "76DA401CBE95A0BE"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Пьедестал",
+    "task": "ars_nouveau:arcane_pedestal",
+    "count": 4,
+    "id": "01F77DB579562FD1",
+    "dependencies": [
+      "4185485C2567A8CD"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Камера",
+    "task": "ars_nouveau:enchanting_apparatus",
+    "count": 1,
+    "id": "791A35EAA78AA8F7",
+    "dependencies": [
+      "01F77DB579562FD1"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Релейная сеть",
+    "task": "manual",
+    "count": 1,
+    "id": "3EEEF1D7FFDF417C",
+    "dependencies": [
+      "791A35EAA78AA8F7"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Доставка",
+    "task": "manual",
+    "count": 1,
+    "id": "54D86C692707F4DC",
+    "dependencies": [
+      "3EEEF1D7FFDF417C"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Урожай без рук",
+    "task": "manual",
+    "count": 1,
+    "id": "7B912A79B5502C78",
+    "dependencies": [
+      "54D86C692707F4DC"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Лечение",
+    "task": "manual",
+    "count": 1,
+    "id": "4E86EB8E77CAB2A5",
+    "dependencies": [
+      "7B912A79B5502C78"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Свет",
+    "task": "manual",
+    "count": 1,
+    "id": "47B1D3120FC086E5",
+    "dependencies": [
+      "4E86EB8E77CAB2A5"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Защита",
+    "task": "manual",
+    "count": 1,
+    "id": "0FA4A5DE6F5A951A",
+    "dependencies": [
+      "47B1D3120FC086E5"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Книга мага",
+    "task": "ars_nouveau:apprentice_spell_book",
+    "count": 1,
+    "id": "67CEA906574E0600",
+    "dependencies": [
+      "0FA4A5DE6F5A951A"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Книга мастера",
+    "task": "ars_nouveau:archmage_spell_book",
+    "count": 1,
+    "id": "496C8E95991AA68B",
+    "dependencies": [
+      "67CEA906574E0600"
+    ]
+  },
+  {
+    "chapter": "Архимаги: Ars Nouveau",
+    "quest": "Магический конденсатор",
+    "task": "kubejs:source_capacitor",
+    "count": 1,
+    "id": "08731B25A8599E28",
+    "dependencies": [
+      "496C8E95991AA68B"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Школы магии",
+    "task": "manual",
+    "count": 1,
+    "id": "1C93F5F0EC35EAEF",
+    "dependencies": [
+      "1D129E2C407448C4"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Стол надписей",
+    "task": "manual",
+    "count": 1,
+    "id": "4F0EB4F73AC9C3E2",
+    "dependencies": [
+      "1C93F5F0EC35EAEF"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Чернила",
+    "task": "manual",
+    "count": 1,
+    "id": "482515ECCAF4CBDF",
+    "dependencies": [
+      "4F0EB4F73AC9C3E2"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Боевой свиток",
+    "task": "manual",
+    "count": 1,
+    "id": "5B5D6ADDBAA1B0F0",
+    "dependencies": [
+      "482515ECCAF4CBDF"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Защитный свиток",
+    "task": "manual",
+    "count": 1,
+    "id": "13261315FFCE0D2F",
+    "dependencies": [
+      "5B5D6ADDBAA1B0F0"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Экономия маны",
+    "task": "manual",
+    "count": 1,
+    "id": "0EDCFE54C086E397",
+    "dependencies": [
+      "13261315FFCE0D2F"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Одежда мага",
+    "task": "manual",
+    "count": 1,
+    "id": "4A42601C653D1DA2",
+    "dependencies": [
+      "0EDCFE54C086E397"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Походная книга",
+    "task": "manual",
+    "count": 1,
+    "id": "6D0C2E9E70A1A511",
+    "dependencies": [
+      "4A42601C653D1DA2"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Мастер чар",
+    "task": "manual",
+    "count": 1,
+    "id": "723898BECE1BB014",
+    "dependencies": [
+      "6D0C2E9E70A1A511"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Тёмный трактат",
+    "task": "manual",
+    "count": 1,
+    "id": "6E7757423552B7DF",
+    "dependencies": [
+      "723898BECE1BB014"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Осколок души",
+    "task": "manual",
+    "count": 1,
+    "id": "7052F6B8550E1EDA",
+    "dependencies": [
+      "6E7757423552B7DF"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Первый фокус",
+    "task": "manual",
+    "count": 1,
+    "id": "096367977E149F98",
+    "dependencies": [
+      "7052F6B8550E1EDA"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Призыв",
+    "task": "manual",
+    "count": 1,
+    "id": "28DB31F5C8174797",
+    "dependencies": [
+      "096367977E149F98"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Ритуальный зал",
+    "task": "manual",
+    "count": 1,
+    "id": "798BED712EB0BB17",
+    "dependencies": [
+      "28DB31F5C8174797"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Некромантия",
+    "task": "manual",
+    "count": 1,
+    "id": "77EDA001BF8A4D34",
+    "dependencies": [
+      "798BED712EB0BB17"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Тьма под контролем",
+    "task": "manual",
+    "count": 1,
+    "id": "5821D3458CCB2A6F",
+    "dependencies": [
+      "77EDA001BF8A4D34"
+    ]
+  },
+  {
+    "chapter": "Боевая магия и тёмный орден",
+    "quest": "Реликварий",
+    "task": "kubejs:ward_charm",
+    "count": 1,
+    "id": "2AF76E99AD0F7370",
+    "dependencies": [
+      "5821D3458CCB2A6F"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Цветочный кодекс",
+    "task": "manual",
+    "count": 1,
+    "id": "3FCE3E07BEBF0DDB",
+    "dependencies": [
+      "1D129E2C407448C4"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Чаша лепестков",
+    "task": "botania:apothecary_default",
+    "count": 1,
+    "id": "1E2A5183DE9F6BEA",
+    "dependencies": [
+      "3FCE3E07BEBF0DDB"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Чистая маргаритка",
+    "task": "botania:pure_daisy",
+    "count": 1,
+    "id": "04120274A5CC2B50",
+    "dependencies": [
+      "1E2A5183DE9F6BEA"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Живой камень",
+    "task": "botania:livingrock",
+    "count": 8,
+    "id": "1070B943F69781B4",
+    "dependencies": [
+      "04120274A5CC2B50"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Живая древесина",
+    "task": "botania:livingwood",
+    "count": 8,
+    "id": "035E24B5CAA92CA4",
+    "dependencies": [
+      "1070B943F69781B4"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Бассейн",
+    "task": "botania:mana_pool",
+    "count": 1,
+    "id": "4ED85BDE7C686E6C",
+    "dependencies": [
+      "035E24B5CAA92CA4"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Распространитель",
+    "task": "botania:mana_spreader",
+    "count": 1,
+    "id": "357D38A2BD2098DF",
+    "dependencies": [
+      "4ED85BDE7C686E6C"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Огонь маны",
+    "task": "botania:endoflame",
+    "count": 2,
+    "id": "3127EDA8B48343FB",
+    "dependencies": [
+      "357D38A2BD2098DF"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Манасталь",
+    "task": "botania:manasteel_ingot",
+    "count": 4,
+    "id": "652DA6293D72C443",
+    "dependencies": [
+      "3127EDA8B48343FB"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Мана-алмаз",
+    "task": "botania:mana_diamond",
+    "count": 1,
+    "id": "1809AB27E47B09BA",
+    "dependencies": [
+      "652DA6293D72C443"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Рунный алтарь",
+    "task": "botania:runic_altar",
+    "count": 1,
+    "id": "533A923BFE8E373A",
+    "dependencies": [
+      "1809AB27E47B09BA"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Перенос маны",
+    "task": "botania:mana_tablet",
+    "count": 1,
+    "id": "5CE2296F68D224E4",
+    "dependencies": [
+      "533A923BFE8E373A"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Террасталь",
+    "task": "botania:terrasteel_ingot",
+    "count": 1,
+    "id": "677C1FDE3B7BA4EA",
+    "dependencies": [
+      "5CE2296F68D224E4"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Эльфийское знание",
+    "task": "manual",
+    "count": 1,
+    "id": "16330E6F4AAC873F",
+    "dependencies": [
+      "677C1FDE3B7BA4EA"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Испытание Гайи",
+    "task": "manual",
+    "count": 1,
+    "id": "4C079DE530FE1229",
+    "dependencies": [
+      "16330E6F4AAC873F"
+    ]
+  },
+  {
+    "chapter": "Хранители: природная магия",
+    "quest": "Живая печать",
+    "task": "kubejs:living_heart",
+    "count": 1,
+    "id": "51D168BA5C77BFFE",
+    "dependencies": [
+      "4C079DE530FE1229"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Лесной приют",
+    "task": "minecraft:campfire",
+    "count": 2,
+    "id": "70162E3EEE582478",
+    "dependencies": [
+      "639F04B923139E25"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Высокий перевал",
+    "task": "minecraft:powder_snow_bucket",
+    "count": 1,
+    "id": "7F65AB9CCD0625FD",
+    "dependencies": [
+      "70162E3EEE582478"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Долина рек",
+    "task": "minecraft:oak_boat",
+    "count": 1,
+    "id": "1B0E3F001AEDDB5B",
+    "dependencies": [
+      "7F65AB9CCD0625FD"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Старые дороги",
+    "task": "manual",
+    "count": 1,
+    "id": "3D3EAF0E202B05DD",
+    "dependencies": [
+      "1B0E3F001AEDDB5B"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Пустая деревня",
+    "task": "manual",
+    "count": 1,
+    "id": "49521727BFFDCBE5",
+    "dependencies": [
+      "3D3EAF0E202B05DD"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Крепостная стена",
+    "task": "manual",
+    "count": 1,
+    "id": "11492658362D6EDF",
+    "dependencies": [
+      "49521727BFFDCBE5"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Павшие башни",
+    "task": "manual",
+    "count": 1,
+    "id": "4CE6E410A061A2BF",
+    "dependencies": [
+      "11492658362D6EDF"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Крипта",
+    "task": "manual",
+    "count": 1,
+    "id": "45E36DA2F6B26F88",
+    "dependencies": [
+      "4CE6E410A061A2BF"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Шахта",
+    "task": "manual",
+    "count": 1,
+    "id": "39DA3FC2A9030ECA",
+    "dependencies": [
+      "45E36DA2F6B26F88"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Подземный лабиринт",
+    "task": "manual",
+    "count": 1,
+    "id": "31539A566448FE6C",
+    "dependencies": [
+      "39DA3FC2A9030ECA"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Древний город",
+    "task": "minecraft:echo_shard",
+    "count": 1,
+    "id": "3DFB041B9E3A26C8",
+    "dependencies": [
+      "31539A566448FE6C"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Следы катастрофы",
+    "task": "kubejs:archive_fragment",
+    "count": 3,
+    "id": "1627C65994A6A4E2",
+    "dependencies": [
+      "3DFB041B9E3A26C8"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Забытый склад",
+    "task": "manual",
+    "count": 1,
+    "id": "0AFA200743E91115",
+    "dependencies": [
+      "1627C65994A6A4E2"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Зимний лес",
+    "task": "minecraft:snowball",
+    "count": 8,
+    "id": "3CAD3983287A5AFE",
+    "dependencies": [
+      "0AFA200743E91115"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Океанский путь",
+    "task": "minecraft:conduit",
+    "count": 1,
+    "id": "4D171E57BA3CA057",
+    "dependencies": [
+      "3CAD3983287A5AFE"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Путевой знак",
+    "task": "manual",
+    "count": 1,
+    "id": "1DBC9ADB5C6053AD",
+    "dependencies": [
+      "4D171E57BA3CA057"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Второй аванпост",
+    "task": "manual",
+    "count": 1,
+    "id": "2D3E2BE8D272DDCC",
+    "dependencies": [
+      "1DBC9ADB5C6053AD"
+    ]
+  },
+  {
+    "chapter": "Атлас погибшего мира",
+    "quest": "Карта союза",
+    "task": "kubejs:expedition_seal",
+    "count": 1,
+    "id": "66496E7C346F7113",
+    "dependencies": [
+      "2D3E2BE8D272DDCC"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Щит дозора",
+    "task": "minecraft:shield",
+    "count": 1,
+    "id": "5536D27758BD6EFC",
+    "dependencies": [
+      "639F04B923139E25"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Снаряжение лучника",
+    "task": "minecraft:bow",
+    "count": 1,
+    "id": "0883769F2FD7D7AF",
+    "dependencies": [
+      "5536D27758BD6EFC"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Перевязочный запас",
+    "task": "minecraft:golden_apple",
+    "count": 2,
+    "id": "4878DCC2115F849B",
+    "dependencies": [
+      "0883769F2FD7D7AF"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Пугающая нежить",
+    "task": "manual",
+    "count": 1,
+    "id": "0425098E2DA7488A",
+    "dependencies": [
+      "4878DCC2115F849B"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Склепы",
+    "task": "manual",
+    "count": 1,
+    "id": "2C23AF4D3E05AE03",
+    "dependencies": [
+      "0425098E2DA7488A"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Кровавая луна",
+    "task": "manual",
+    "count": 1,
+    "id": "2AB8EF1828982046",
+    "dependencies": [
+      "2C23AF4D3E05AE03"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Цветок-охотник",
+    "task": "manual",
+    "count": 1,
+    "id": "0CDD0318273B5754",
+    "dependencies": [
+      "2AB8EF1828982046"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Кованый страж",
+    "task": "manual",
+    "count": 1,
+    "id": "44DB31E93CD9C296",
+    "dependencies": [
+      "0CDD0318273B5754"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Ледяная пещера",
+    "task": "manual",
+    "count": 1,
+    "id": "10B2269FB2888FAF",
+    "dependencies": [
+      "44DB31E93CD9C296"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Солнечное испытание",
+    "task": "manual",
+    "count": 1,
+    "id": "2F1D9F460CEA5708",
+    "dependencies": [
+      "10B2269FB2888FAF"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Страж подземья",
+    "task": "manual",
+    "count": 1,
+    "id": "2F9ADEB4E6F50A98",
+    "dependencies": [
+      "2F1D9F460CEA5708"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Забытый кузнец",
+    "task": "manual",
+    "count": 1,
+    "id": "3BBB2D79C054FF7E",
+    "dependencies": [
+      "2F9ADEB4E6F50A98"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Пламя преисподней",
+    "task": "manual",
+    "count": 1,
+    "id": "5C3D2FB5CFD51F5C",
+    "dependencies": [
+      "3BBB2D79C054FF7E"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Глубинное чудовище",
+    "task": "manual",
+    "count": 1,
+    "id": "7EFEEB52E9EBE246",
+    "dependencies": [
+      "5C3D2FB5CFD51F5C"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Пустынный страж",
+    "task": "manual",
+    "count": 1,
+    "id": "0FD5D467A328021E",
+    "dependencies": [
+      "7EFEEB52E9EBE246"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Пустотный хранитель",
+    "task": "manual",
+    "count": 1,
+    "id": "6BA68BC061389FC3",
+    "dependencies": [
+      "0FD5D467A328021E"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Победа над иссушителем",
+    "task": "minecraft:nether_star",
+    "count": 1,
+    "id": "608A3D2F3E352D81",
+    "dependencies": [
+      "6BA68BC061389FC3"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Дыхание дракона",
+    "task": "minecraft:dragon_breath",
+    "count": 4,
+    "id": "16194AFFC9BEEB70",
+    "dependencies": [
+      "608A3D2F3E352D81"
+    ]
+  },
+  {
+    "chapter": "Бестиарий и охота",
+    "quest": "Трофей охотника",
+    "task": "kubejs:hunter_medal",
+    "count": 1,
+    "id": "585F7E148E95FFE0",
+    "dependencies": [
+      "16194AFFC9BEEB70"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Разметка города",
+    "task": "manual",
+    "count": 1,
+    "id": "062F3CFF1FBB87BF",
+    "dependencies": [
+      "5A38822BEA58C471"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Палатка снабжения",
+    "task": "manual",
+    "count": 1,
+    "id": "25A9F9D318ACD8FC",
+    "dependencies": [
+      "062F3CFF1FBB87BF"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Ратуша",
+    "task": "manual",
+    "count": 1,
+    "id": "67BB36F959714D51",
+    "dependencies": [
+      "25A9F9D318ACD8FC"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Строитель",
+    "task": "manual",
+    "count": 1,
+    "id": "12E8465CF93DB390",
+    "dependencies": [
+      "67BB36F959714D51"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Первый дом",
+    "task": "manual",
+    "count": 1,
+    "id": "35A3EF88A0FEA3B7",
+    "dependencies": [
+      "12E8465CF93DB390"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Лесник",
+    "task": "manual",
+    "count": 1,
+    "id": "15E781748B6EBB1D",
+    "dependencies": [
+      "35A3EF88A0FEA3B7"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Шахтёр",
+    "task": "manual",
+    "count": 1,
+    "id": "006DFF636467BAE6",
+    "dependencies": [
+      "15E781748B6EBB1D"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Каменщик",
+    "task": "manual",
+    "count": 1,
+    "id": "461D0D55AB9FBEB9",
+    "dependencies": [
+      "006DFF636467BAE6"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Фермер",
+    "task": "manual",
+    "count": 1,
+    "id": "439C3BDFC79B9115",
+    "dependencies": [
+      "461D0D55AB9FBEB9"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Рыбак",
+    "task": "manual",
+    "count": 1,
+    "id": "2EB604E537516439",
+    "dependencies": [
+      "439C3BDFC79B9115"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Повар",
+    "task": "manual",
+    "count": 1,
+    "id": "62EBF7E6532FA1DC",
+    "dependencies": [
+      "2EB604E537516439"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Склад",
+    "task": "manual",
+    "count": 1,
+    "id": "02274ABFA629F3C5",
+    "dependencies": [
+      "62EBF7E6532FA1DC"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Курьер",
+    "task": "manual",
+    "count": 1,
+    "id": "1A63D91BF54B8763",
+    "dependencies": [
+      "02274ABFA629F3C5"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Университет",
+    "task": "manual",
+    "count": 1,
+    "id": "1958723BCAF65DF6",
+    "dependencies": [
+      "1A63D91BF54B8763"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Казарма",
+    "task": "manual",
+    "count": 1,
+    "id": "477D64C95857A5BD",
+    "dependencies": [
+      "1958723BCAF65DF6"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Лечение",
+    "task": "manual",
+    "count": 1,
+    "id": "2E7B2ED0615E6E60",
+    "dependencies": [
+      "477D64C95857A5BD"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Квартал ремесленников",
+    "task": "minecraft:stone_bricks",
+    "count": 64,
+    "id": "552A47CA9765260D",
+    "dependencies": [
+      "2E7B2ED0615E6E60"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Общественный свет",
+    "task": "minecraft:lantern",
+    "count": 16,
+    "id": "7B37491A0DA4D70E",
+    "dependencies": [
+      "552A47CA9765260D"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Крыши и мосты",
+    "task": "manual",
+    "count": 1,
+    "id": "1DF662DD3C32C95C",
+    "dependencies": [
+      "7B37491A0DA4D70E"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Интерьер",
+    "task": "manual",
+    "count": 1,
+    "id": "1CF9A84DD04FFFD1",
+    "dependencies": [
+      "1DF662DD3C32C95C"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Городской договор",
+    "task": "kubejs:settlement_charter",
+    "count": 1,
+    "id": "2D18EDC390DA94BD",
+    "dependencies": [
+      "1CF9A84DD04FFFD1"
+    ]
+  },
+  {
+    "chapter": "Города на пепелищах",
+    "quest": "Камень основания",
+    "task": "kubejs:foundation_stone",
+    "count": 1,
+    "id": "0D933E554BD2FAC7",
+    "dependencies": [
+      "2D18EDC390DA94BD"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Костёр",
+    "task": "minecraft:campfire",
+    "count": 1,
+    "id": "365F0A63AF35BD13",
+    "dependencies": [
+      "59B3BE45BFA33BD1"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Огород",
+    "task": "minecraft:carrot",
+    "count": 8,
+    "id": "2342108C27AF1A10",
+    "dependencies": [
+      "365F0A63AF35BD13"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Зерно",
+    "task": "minecraft:wheat",
+    "count": 16,
+    "id": "0FD50F494B3103A5",
+    "dependencies": [
+      "2342108C27AF1A10"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Картофель",
+    "task": "minecraft:potato",
+    "count": 8,
+    "id": "2CBBC776F020B772",
+    "dependencies": [
+      "0FD50F494B3103A5"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Пчёлы",
+    "task": "minecraft:honeycomb",
+    "count": 4,
+    "id": "47090CD03F2373D4",
+    "dependencies": [
+      "2CBBC776F020B772"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Грибы",
+    "task": "minecraft:red_mushroom",
+    "count": 4,
+    "id": "4FD5BC87A7617653",
+    "dependencies": [
+      "47090CD03F2373D4"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Нож",
+    "task": "manual",
+    "count": 1,
+    "id": "747CA2EDACA78B9D",
+    "dependencies": [
+      "4FD5BC87A7617653"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Котёл",
+    "task": "farmersdelight:cooking_pot",
+    "count": 1,
+    "id": "2904A4F62830340E",
+    "dependencies": [
+      "747CA2EDACA78B9D"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Разделка",
+    "task": "farmersdelight:cutting_board",
+    "count": 1,
+    "id": "2672CBA464D3AC67",
+    "dependencies": [
+      "2904A4F62830340E"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Компост",
+    "task": "minecraft:composter",
+    "count": 1,
+    "id": "1DAC0078E1F03ED4",
+    "dependencies": [
+      "2672CBA464D3AC67"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Сезонные посадки",
+    "task": "manual",
+    "count": 1,
+    "id": "694CA148F7CE988F",
+    "dependencies": [
+      "1DAC0078E1F03ED4"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Теплица",
+    "task": "manual",
+    "count": 1,
+    "id": "03A3D761FA1AF2F2",
+    "dependencies": [
+      "694CA148F7CE988F"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Погреб",
+    "task": "minecraft:barrel",
+    "count": 4,
+    "id": "5EEC390EA5CA32D0",
+    "dependencies": [
+      "03A3D761FA1AF2F2"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Дальняя дорога",
+    "task": "minecraft:golden_carrot",
+    "count": 8,
+    "id": "30F087AA107199D4",
+    "dependencies": [
+      "5EEC390EA5CA32D0"
+    ]
+  },
+  {
+    "chapter": "Полевое снабжение и фермерство",
+    "quest": "Полевая сумка",
+    "task": "kubejs:field_kit",
+    "count": 1,
+    "id": "751EB08886A99F98",
+    "dependencies": [
+      "30F087AA107199D4"
+    ]
+  },
+  {
+    "chapter": "Путь паладина",
+    "quest": "Клятва защиты",
+    "task": "minecraft:shield",
+    "count": 1,
+    "id": "7F2DC7F1375EBCF2",
+    "dependencies": [
+      "1FF7A3BEF4184303"
+    ]
+  },
+  {
+    "chapter": "Путь паладина",
+    "quest": "Страж ворот",
+    "task": "minecraft:iron_chestplate",
+    "count": 1,
+    "id": "384AB1C6EC81BAE7",
+    "dependencies": [
+      "7F2DC7F1375EBCF2"
+    ]
+  },
+  {
+    "chapter": "Путь паладина",
+    "quest": "Дозорный меч",
+    "task": "minecraft:iron_sword",
+    "count": 1,
+    "id": "326162431F3012AB",
+    "dependencies": [
+      "384AB1C6EC81BAE7"
+    ]
+  },
+  {
+    "chapter": "Путь паладина",
+    "quest": "Запас лечения",
+    "task": "minecraft:golden_apple",
+    "count": 1,
+    "id": "65D64E5A2F0C455D",
+    "dependencies": [
+      "326162431F3012AB"
+    ]
+  },
+  {
+    "chapter": "Путь паладина",
+    "quest": "Знамя дозора",
+    "task": "minecraft:white_banner",
+    "count": 1,
+    "id": "1E9FA3D5C71C7575",
+    "dependencies": [
+      "65D64E5A2F0C455D"
+    ]
+  },
+  {
+    "chapter": "Путь паладина",
+    "quest": "Оборона",
+    "task": "minecraft:crossbow",
+    "count": 1,
+    "id": "66D3541EFE053630",
+    "dependencies": [
+      "1E9FA3D5C71C7575"
+    ]
+  },
+  {
+    "chapter": "Путь паладина",
+    "quest": "Клятва стойкости",
+    "task": "manual",
+    "count": 1,
+    "id": "482A8B31E1DC4177",
+    "dependencies": [
+      "66D3541EFE053630"
+    ]
+  },
+  {
+    "chapter": "Путь паладина",
+    "quest": "Клятва щита",
+    "task": "manual",
+    "count": 1,
+    "id": "0F3B88A0DD93EBB5",
+    "dependencies": [
+      "482A8B31E1DC4177"
+    ]
+  },
+  {
+    "chapter": "Путь паладина",
+    "quest": "Клятва поддержки",
+    "task": "manual",
+    "count": 1,
+    "id": "032CA93C5190D178",
+    "dependencies": [
+      "0F3B88A0DD93EBB5"
+    ]
+  },
+  {
+    "chapter": "Путь паладина",
+    "quest": "Знак паладина",
+    "task": "kubejs:ward_charm",
+    "count": 1,
+    "id": "061B8AC837FEDC58",
+    "dependencies": [
+      "032CA93C5190D178"
+    ]
+  },
+  {
+    "chapter": "Путь архимага",
+    "quest": "Обет знания",
+    "task": "minecraft:book",
+    "count": 1,
+    "id": "673AC15C144A137D",
+    "dependencies": [
+      "1FF7A3BEF4184303"
+    ]
+  },
+  {
+    "chapter": "Путь архимага",
+    "quest": "Резерв",
+    "task": "ars_nouveau:source_gem",
+    "count": 4,
+    "id": "3538073F0E8F906F",
+    "dependencies": [
+      "673AC15C144A137D"
+    ]
+  },
+  {
+    "chapter": "Путь архимага",
+    "quest": "Чары",
+    "task": "minecraft:enchanting_table",
+    "count": 1,
+    "id": "45DB42CB2950A1BE",
+    "dependencies": [
+      "3538073F0E8F906F"
+    ]
+  },
+  {
+    "chapter": "Путь архимага",
+    "quest": "Библиотека",
+    "task": "minecraft:bookshelf",
+    "count": 8,
+    "id": "0155992A68F5EEE3",
+    "dependencies": [
+      "45DB42CB2950A1BE"
+    ]
+  },
+  {
+    "chapter": "Путь архимага",
+    "quest": "Снадобья",
+    "task": "minecraft:brewing_stand",
+    "count": 1,
+    "id": "2F4D4251EC931956",
+    "dependencies": [
+      "0155992A68F5EEE3"
+    ]
+  },
+  {
+    "chapter": "Путь архимага",
+    "quest": "Мана",
+    "task": "manual",
+    "count": 1,
+    "id": "36818D92EDF7F314",
+    "dependencies": [
+      "2F4D4251EC931956"
+    ]
+  },
+  {
+    "chapter": "Путь архимага",
+    "quest": "Защитный талант",
+    "task": "manual",
+    "count": 1,
+    "id": "609A948187BD4EC2",
+    "dependencies": [
+      "36818D92EDF7F314"
+    ]
+  },
+  {
+    "chapter": "Путь архимага",
+    "quest": "Талант восстановления",
+    "task": "manual",
+    "count": 1,
+    "id": "11074EA086C73F10",
+    "dependencies": [
+      "609A948187BD4EC2"
+    ]
+  },
+  {
+    "chapter": "Путь архимага",
+    "quest": "Магическое ядро",
+    "task": "kubejs:source_capacitor",
+    "count": 1,
+    "id": "3AED6F4CC91D2F31",
+    "dependencies": [
+      "11074EA086C73F10"
+    ]
+  },
+  {
+    "chapter": "Путь архимага",
+    "quest": "Клятва архимага",
+    "task": "kubejs:mage_seal",
+    "count": 1,
+    "id": "1CD81BB225F089F8",
+    "dependencies": [
+      "3AED6F4CC91D2F31"
+    ]
+  },
+  {
+    "chapter": "Путь инженера",
+    "quest": "Обет механика",
+    "task": "minecraft:iron_pickaxe",
+    "count": 1,
+    "id": "043E695E38925082",
+    "dependencies": [
+      "1FF7A3BEF4184303"
+    ]
+  },
+  {
+    "chapter": "Путь инженера",
+    "quest": "Ручная работа",
+    "task": "minecraft:cobblestone",
+    "count": 32,
+    "id": "5E4499DD7CD864C4",
+    "dependencies": [
+      "043E695E38925082"
+    ]
+  },
+  {
+    "chapter": "Путь инженера",
+    "quest": "Передача",
+    "task": "create:shaft",
+    "count": 8,
+    "id": "3C0010D64F261A48",
+    "dependencies": [
+      "5E4499DD7CD864C4"
+    ]
+  },
+  {
+    "chapter": "Путь инженера",
+    "quest": "Промежуточный запас",
+    "task": "minecraft:redstone",
+    "count": 16,
+    "id": "0A8ADF8672FF6FA5",
+    "dependencies": [
+      "3C0010D64F261A48"
+    ]
+  },
+  {
+    "chapter": "Путь инженера",
+    "quest": "Набор мастера",
+    "task": "kubejs:repair_kit",
+    "count": 1,
+    "id": "29CDCDDE0C87963F",
+    "dependencies": [
+      "0A8ADF8672FF6FA5"
+    ]
+  },
+  {
+    "chapter": "Путь инженера",
+    "quest": "Ускорение",
+    "task": "manual",
+    "count": 1,
+    "id": "0BA3C87879EF8D4E",
+    "dependencies": [
+      "29CDCDDE0C87963F"
+    ]
+  },
+  {
+    "chapter": "Путь инженера",
+    "quest": "Талант труда",
+    "task": "manual",
+    "count": 1,
+    "id": "1772A46EB596DFEB",
+    "dependencies": [
+      "0BA3C87879EF8D4E"
+    ]
+  },
+  {
+    "chapter": "Путь инженера",
+    "quest": "Талант выносливости",
+    "task": "manual",
+    "count": 1,
+    "id": "2D3E06E7F953299F",
+    "dependencies": [
+      "1772A46EB596DFEB"
+    ]
+  },
+  {
+    "chapter": "Путь инженера",
+    "quest": "Модуль привода",
+    "task": "kubejs:drive_module",
+    "count": 1,
+    "id": "7D0948F2BAD275AE",
+    "dependencies": [
+      "2D3E06E7F953299F"
+    ]
+  },
+  {
+    "chapter": "Путь инженера",
+    "quest": "Клятва механика",
+    "task": "kubejs:mechanic_seal",
+    "count": 1,
+    "id": "3DC0BC8904B2EDA0",
+    "dependencies": [
+      "7D0948F2BAD275AE"
+    ]
+  },
+  {
+    "chapter": "Путь следопыта",
+    "quest": "Обет дороги",
+    "task": "minecraft:compass",
+    "count": 1,
+    "id": "576FCAA78E484DD0",
+    "dependencies": [
+      "1FF7A3BEF4184303"
+    ]
+  },
+  {
+    "chapter": "Путь следопыта",
+    "quest": "Лёгкий лук",
+    "task": "minecraft:bow",
+    "count": 1,
+    "id": "19FBBF7015756695",
+    "dependencies": [
+      "576FCAA78E484DD0"
+    ]
+  },
+  {
+    "chapter": "Путь следопыта",
+    "quest": "Стрелы",
+    "task": "minecraft:arrow",
+    "count": 32,
+    "id": "4600598F7290BEE0",
+    "dependencies": [
+      "19FBBF7015756695"
+    ]
+  },
+  {
+    "chapter": "Путь следопыта",
+    "quest": "Метка пути",
+    "task": "minecraft:filled_map",
+    "count": 1,
+    "id": "7EC2B1F6E8BE0E39",
+    "dependencies": [
+      "4600598F7290BEE0"
+    ]
+  },
+  {
+    "chapter": "Путь следопыта",
+    "quest": "Ночная разведка",
+    "task": "minecraft:spyglass",
+    "count": 1,
+    "id": "40FF13777B441084",
+    "dependencies": [
+      "7EC2B1F6E8BE0E39"
+    ]
+  },
+  {
+    "chapter": "Путь следопыта",
+    "quest": "Быстрый шаг",
+    "task": "manual",
+    "count": 1,
+    "id": "60F081E45A8BDEAC",
+    "dependencies": [
+      "40FF13777B441084"
+    ]
+  },
+  {
+    "chapter": "Путь следопыта",
+    "quest": "Талант мобильности",
+    "task": "manual",
+    "count": 1,
+    "id": "60D810055300BFFC",
+    "dependencies": [
+      "60F081E45A8BDEAC"
+    ]
+  },
+  {
+    "chapter": "Путь следопыта",
+    "quest": "Талант разведчика",
+    "task": "manual",
+    "count": 1,
+    "id": "0894CE1CE22DCE25",
+    "dependencies": [
+      "60D810055300BFFC"
+    ]
+  },
+  {
+    "chapter": "Путь следопыта",
+    "quest": "Печать экспедиции",
+    "task": "kubejs:expedition_seal",
+    "count": 1,
+    "id": "6B299AA17A0EC808",
+    "dependencies": [
+      "0894CE1CE22DCE25"
+    ]
+  },
+  {
+    "chapter": "Путь следопыта",
+    "quest": "Свидетель",
+    "task": "kubejs:scout_report",
+    "count": 1,
+    "id": "46EA4ED9501B1187",
+    "dependencies": [
+      "6B299AA17A0EC808"
+    ]
+  },
+  {
+    "chapter": "Путь архитектора",
+    "quest": "Обет основания",
+    "task": "minecraft:stone_bricks",
+    "count": 16,
+    "id": "5175C1B630C9306D",
+    "dependencies": [
+      "1FF7A3BEF4184303"
+    ]
+  },
+  {
+    "chapter": "Путь архитектора",
+    "quest": "Разметка",
+    "task": "minecraft:torch",
+    "count": 16,
+    "id": "42BFED70DE7D15AB",
+    "dependencies": [
+      "5175C1B630C9306D"
+    ]
+  },
+  {
+    "chapter": "Путь архитектора",
+    "quest": "Лесоматериалы",
+    "task": "minecraft:oak_planks",
+    "count": 32,
+    "id": "61D36B6E59FC74A5",
+    "dependencies": [
+      "42BFED70DE7D15AB"
+    ]
+  },
+  {
+    "chapter": "Путь архитектора",
+    "quest": "Ограждения",
+    "task": "minecraft:oak_fence",
+    "count": 16,
+    "id": "3ACE020AA28EC441",
+    "dependencies": [
+      "61D36B6E59FC74A5"
+    ]
+  },
+  {
+    "chapter": "Путь архитектора",
+    "quest": "Фасады",
+    "task": "minecraft:glass",
+    "count": 16,
+    "id": "73378BA60CD8932D",
+    "dependencies": [
+      "3ACE020AA28EC441"
+    ]
+  },
+  {
+    "chapter": "Путь архитектора",
+    "quest": "Талант строителя",
+    "task": "manual",
+    "count": 1,
+    "id": "62439C8C4D678974",
+    "dependencies": [
+      "73378BA60CD8932D"
+    ]
+  },
+  {
+    "chapter": "Путь архитектора",
+    "quest": "Талант стойкости",
+    "task": "manual",
+    "count": 1,
+    "id": "12D958A8BEDA2CAB",
+    "dependencies": [
+      "62439C8C4D678974"
+    ]
+  },
+  {
+    "chapter": "Путь архитектора",
+    "quest": "Талант восстановления",
+    "task": "manual",
+    "count": 1,
+    "id": "3114A850261EB94D",
+    "dependencies": [
+      "12D958A8BEDA2CAB"
+    ]
+  },
+  {
+    "chapter": "Путь архитектора",
+    "quest": "Камень основания",
+    "task": "kubejs:foundation_stone",
+    "count": 1,
+    "id": "027222E1A169385B",
+    "dependencies": [
+      "3114A850261EB94D"
+    ]
+  },
+  {
+    "chapter": "Путь архитектора",
+    "quest": "Хартия",
+    "task": "kubejs:settlement_charter",
+    "count": 1,
+    "id": "225DDDCE40F7ECFF",
+    "dependencies": [
+      "027222E1A169385B"
+    ]
+  },
+  {
+    "chapter": "Путь оккультиста",
+    "quest": "Обет запретного",
+    "task": "minecraft:fermented_spider_eye",
+    "count": 1,
+    "id": "050093831B5E0F6B",
+    "dependencies": [
+      "1FF7A3BEF4184303"
+    ]
+  },
+  {
+    "chapter": "Путь оккультиста",
+    "quest": "Книга тьмы",
+    "task": "minecraft:writable_book",
+    "count": 1,
+    "id": "4931AAFB7EF81767",
+    "dependencies": [
+      "050093831B5E0F6B"
+    ]
+  },
+  {
+    "chapter": "Путь оккультиста",
+    "quest": "Кости",
+    "task": "minecraft:bone",
+    "count": 16,
+    "id": "1EED5278930A31B7",
+    "dependencies": [
+      "4931AAFB7EF81767"
+    ]
+  },
+  {
+    "chapter": "Путь оккультиста",
+    "quest": "Глаза паука",
+    "task": "minecraft:spider_eye",
+    "count": 8,
+    "id": "0E70630A3E978CBD",
+    "dependencies": [
+      "1EED5278930A31B7"
+    ]
+  },
+  {
+    "chapter": "Путь оккультиста",
+    "quest": "Пламя души",
+    "task": "minecraft:soul_lantern",
+    "count": 2,
+    "id": "12426722078ADFD9",
+    "dependencies": [
+      "0E70630A3E978CBD"
+    ]
+  },
+  {
+    "chapter": "Путь оккультиста",
+    "quest": "Тёмная сила",
+    "task": "manual",
+    "count": 1,
+    "id": "4D00BF4855C08F92",
+    "dependencies": [
+      "12426722078ADFD9"
+    ]
+  },
+  {
+    "chapter": "Путь оккультиста",
+    "quest": "Талант контроля",
+    "task": "manual",
+    "count": 1,
+    "id": "742AA8EDF23B13A6",
+    "dependencies": [
+      "4D00BF4855C08F92"
+    ]
+  },
+  {
+    "chapter": "Путь оккультиста",
+    "quest": "Талант выживания",
+    "task": "manual",
+    "count": 1,
+    "id": "413D852E9F94F4CA",
+    "dependencies": [
+      "742AA8EDF23B13A6"
+    ]
+  },
+  {
+    "chapter": "Путь оккультиста",
+    "quest": "Оберег",
+    "task": "kubejs:ward_charm",
+    "count": 1,
+    "id": "4DF430F8800EC10A",
+    "dependencies": [
+      "413D852E9F94F4CA"
+    ]
+  },
+  {
+    "chapter": "Путь оккультиста",
+    "quest": "Печать бездны",
+    "task": "kubejs:abyssal_seal",
+    "count": 1,
+    "id": "3BFD47DD81D76CA3",
+    "dependencies": [
+      "4DF430F8800EC10A"
+    ]
+  },
+  {
+    "chapter": "Реликвии и арсенал",
+    "quest": "Наковальня",
+    "task": "minecraft:anvil",
+    "count": 1,
+    "id": "3D5B2E253E1F1672",
+    "dependencies": [
+      "5536D27758BD6EFC"
+    ]
+  },
+  {
+    "chapter": "Реликвии и арсенал",
+    "quest": "Чары",
+    "task": "minecraft:lapis_lazuli",
+    "count": 16,
+    "id": "5AFD6990C6E8F831",
+    "dependencies": [
+      "3D5B2E253E1F1672"
+    ]
+  },
+  {
+    "chapter": "Реликвии и арсенал",
+    "quest": "Книжный запас",
+    "task": "minecraft:book",
+    "count": 8,
+    "id": "09F19F0141583E5A",
+    "dependencies": [
+      "5AFD6990C6E8F831"
+    ]
+  },
+  {
+    "chapter": "Реликвии и арсенал",
+    "quest": "Редкость",
+    "task": "manual",
+    "count": 1,
+    "id": "4640E8DFC58CD2F0",
+    "dependencies": [
+      "09F19F0141583E5A"
+    ]
+  },
+  {
+    "chapter": "Реликвии и арсенал",
+    "quest": "Самоцветы",
+    "task": "manual",
+    "count": 1,
+    "id": "27915FE20A08CA40",
+    "dependencies": [
+      "4640E8DFC58CD2F0"
+    ]
+  },
+  {
+    "chapter": "Реликвии и арсенал",
+    "quest": "Перековка",
+    "task": "manual",
+    "count": 1,
+    "id": "75986114284227EE",
+    "dependencies": [
+      "27915FE20A08CA40"
+    ]
+  },
+  {
+    "chapter": "Реликвии и арсенал",
+    "quest": "Артефакты",
+    "task": "manual",
+    "count": 1,
+    "id": "236DADF96EEF23D5",
+    "dependencies": [
+      "75986114284227EE"
+    ]
+  },
+  {
+    "chapter": "Реликвии и арсенал",
+    "quest": "Реликвии",
+    "task": "manual",
+    "count": 1,
+    "id": "2DACD15CDB206685",
+    "dependencies": [
+      "236DADF96EEF23D5"
+    ]
+  },
+  {
+    "chapter": "Реликвии и арсенал",
+    "quest": "Двуручное оружие",
+    "task": "manual",
+    "count": 1,
+    "id": "06444214DC494FE4",
+    "dependencies": [
+      "2DACD15CDB206685"
+    ]
+  },
+  {
+    "chapter": "Реликвии и арсенал",
+    "quest": "Дальний бой",
+    "task": "manual",
+    "count": 1,
+    "id": "22551C127E6185E2",
+    "dependencies": [
+      "06444214DC494FE4"
+    ]
+  },
+  {
+    "chapter": "Реликвии и арсенал",
+    "quest": "Мастер кузницы",
+    "task": "kubejs:hunter_medal",
+    "count": 1,
+    "id": "26E7D4D25FCD9613",
+    "dependencies": [
+      "22551C127E6185E2"
+    ]
+  },
+  {
+    "chapter": "Реликвии и арсенал",
+    "quest": "Печать защиты",
+    "task": "kubejs:ward_charm",
+    "count": 1,
+    "id": "22DBDC8B57B09E51",
+    "dependencies": [
+      "26E7D4D25FCD9613"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Граница Скверны",
+    "task": "minecraft:sculk",
+    "count": 1,
+    "id": "2C3493A6B7560E84",
+    "dependencies": [
+      "38741EC4B6B368B9"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Карта очагов",
+    "task": "kubejs:scout_report",
+    "count": 1,
+    "id": "3E5ECCB17EFEA3CA",
+    "dependencies": [
+      "2C3493A6B7560E84"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Полевое очищение",
+    "task": "kubejs:purity_sigil",
+    "count": 4,
+    "id": "4B13F97D79DB9787",
+    "dependencies": [
+      "3E5ECCB17EFEA3CA"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Санитарный лагерь",
+    "task": "minecraft:campfire",
+    "count": 2,
+    "id": "518B03342432D7F6",
+    "dependencies": [
+      "4B13F97D79DB9787"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Сигнальные огни",
+    "task": "minecraft:soul_lantern",
+    "count": 8,
+    "id": "5D94081C7C4B55A4",
+    "dependencies": [
+      "518B03342432D7F6"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Матрица очищения",
+    "task": "kubejs:purifier_matrix",
+    "count": 1,
+    "id": "3BF642ABC162F31A",
+    "dependencies": [
+      "5D94081C7C4B55A4"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Гробница орды",
+    "task": "advancement:sculkhorde:sculk_tomb_visit",
+    "count": 1,
+    "id": "203C21D46E605DCE",
+    "dependencies": [
+      "3BF642ABC162F31A"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Штатный очиститель",
+    "task": "advancement:sculkhorde:craft_infestation_purifier",
+    "count": 1,
+    "id": "1211359B2EE85CCA",
+    "dependencies": [
+      "203C21D46E605DCE"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Стабилизация",
+    "task": "kubejs:ward_charm",
+    "count": 1,
+    "id": "7055B4DC932D505F",
+    "dependencies": [
+      "1211359B2EE85CCA"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Полевой ритуал",
+    "task": "kubejs:cleansing_charge",
+    "count": 1,
+    "id": "674231FD4603F99B",
+    "dependencies": [
+      "7055B4DC932D505F"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Рубеж восстановлен",
+    "task": "kubejs:purified_sample",
+    "count": 1,
+    "id": "4BC3AEEB0C6F2432",
+    "dependencies": [
+      "674231FD4603F99B"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Защита поселения",
+    "task": "advancement:sculkhorde:craft_infestation_ward_block",
+    "count": 1,
+    "id": "0100000281B229B7",
+    "dependencies": [
+      "4BC3AEEB0C6F2432"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Общее наступление",
+    "task": "manual",
+    "count": 1,
+    "id": "79A7DE1CBDBCC5FF",
+    "dependencies": [
+      "0100000281B229B7"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Поражение орды",
+    "task": "advancement:sculkhorde:sculk_horde_defeat",
+    "count": 1,
+    "id": "2EE909B7EEF8AC0D",
+    "dependencies": [
+      "79A7DE1CBDBCC5FF"
+    ]
+  },
+  {
+    "chapter": "Операция «Тихий рубеж»",
+    "quest": "Контур возрождения",
+    "task": "kubejs:renewal_circuit",
+    "count": 1,
+    "id": "7BFF99070E63F77D",
+    "dependencies": [
+      "2EE909B7EEF8AC0D"
+    ]
+  },
+  {
+    "chapter": "Три колокола: эпилог",
+    "quest": "Последний приказ",
+    "task": "kubejs:mechanic_dossier",
+    "count": 1,
+    "id": "118F88C2E7B31206",
+    "dependencies": [
+      "6AE94DF87AB11A87"
+    ]
+  },
+  {
+    "chapter": "Три колокола: эпилог",
+    "quest": "Письмо эвакуации",
+    "task": "kubejs:nature_dossier",
+    "count": 1,
+    "id": "5116C11FE5B107B1",
+    "dependencies": [
+      "118F88C2E7B31206"
+    ]
+  },
+  {
+    "chapter": "Три колокола: эпилог",
+    "quest": "Три печати",
+    "task": "kubejs:mage_dossier",
+    "count": 1,
+    "id": "5ACC6AC3C523141F",
+    "dependencies": [
+      "5116C11FE5B107B1"
+    ]
+  },
+  {
+    "chapter": "Три колокола: эпилог",
+    "quest": "Совет выживших",
+    "task": "kubejs:concord_core",
+    "count": 1,
+    "id": "139FF74675D791FC",
+    "dependencies": [
+      "5ACC6AC3C523141F"
+    ]
+  },
+  {
+    "chapter": "Три колокола: эпилог",
+    "quest": "Последняя экспедиция",
+    "task": "kubejs:renewal_circuit",
+    "count": 1,
+    "id": "5F2D00CC6DE3E25F",
+    "dependencies": [
+      "139FF74675D791FC",
+      "7BFF99070E63F77D"
+    ]
+  },
+  {
+    "chapter": "Три колокола: эпилог",
+    "quest": "Сердце нового мира",
+    "task": "kubejs:renewal_heart",
+    "count": 1,
+    "id": "6B8353250B12F760",
+    "dependencies": [
+      "5F2D00CC6DE3E25F"
+    ]
+  },
+  {
+    "chapter": "Три колокола: эпилог",
+    "quest": "Третий колокол",
+    "task": "kubejs:final_testament",
+    "count": 1,
+    "id": "5B933812F3D43357",
+    "dependencies": [
+      "6B8353250B12F760"
+    ]
+  },
+  {
+    "chapter": "Три колокола: эпилог",
+    "quest": "Память выживших",
+    "task": "minecraft:writable_book",
+    "count": 1,
+    "id": "1242CD4879093B88",
+    "dependencies": [
+      "5B933812F3D43357"
+    ]
+  },
+  {
+    "chapter": "Три колокола: эпилог",
+    "quest": "Наследие",
+    "task": "minecraft:beacon",
+    "count": 1,
+    "id": "19AE819AED680558",
+    "dependencies": [
+      "1242CD4879093B88"
     ]
   }
 ]

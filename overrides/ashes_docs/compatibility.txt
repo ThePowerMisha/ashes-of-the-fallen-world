@@ -9,8 +9,7 @@
   специально написанных правил рецептов пока нет.
 - Один мод хранения вещей после смерти (Corpse), одна основная система боевой анимации (Better Combat).
 - Один звуковой движок акустики (Sound Physics Remastered); AmbientSounds добавляет фон.
-- Не включены спорные/неподтверждённые дополнения из концепции, включая Bons Voyage, Integrated Dungeons,
-  From The Fog, Relics, отдельные моды декора, готовые деревья навыков, Distant Horizons.
+- Добавлены Bons Voyage, Integrated Dungeons, From The Fog, Relics, Vinery, Quark и декор. Distant Horizons не входит в основной профиль; Sound Filters исключён как дублирование акустики.
 - Alex's Mobs и Naturalist, Sculk Horde и Born in Chaos, моды структур могут потребовать настройки
   частоты появления, баланса, производительности и генерации. Проверять на новом мире.
 - Файлы выбраны по опубликованным данным CurseForge и метаданным Packwiz открытых сборок.

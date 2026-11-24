@@ -1,0 +1,236 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "26_mage",
+  "group": "",
+  "icon": "minecraft:enchanted_book",
+  "id": "74AEB5DC17839167",
+  "order_index": 25,
+  "quest_links": [],
+  "title": "Путь архимага",
+  "quests": [
+    {
+      "id": "673AC15C144A137D",
+      "title": "Обет знания",
+      "description": [
+        "Выбери Архимага: /trigger ashes_class set 2."
+      ],
+      "icon": "minecraft:book",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "65A11A1A049B84B6",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1FF7A3BEF4184303"
+      ]
+    },
+    {
+      "id": "3538073F0E8F906F",
+      "title": "Резерв",
+      "description": [
+        "Держи запас магических компонентов."
+      ],
+      "icon": "ars_nouveau:source_gem",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "3D209B2D20CE02AF",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "673AC15C144A137D"
+      ]
+    },
+    {
+      "id": "45DB42CB2950A1BE",
+      "title": "Чары",
+      "description": [
+        "Зачаровывай экипировку, чтобы развивать класс."
+      ],
+      "icon": "minecraft:enchanting_table",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5E1501D047EF876A",
+          "type": "item",
+          "item": "minecraft:enchanting_table",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "3538073F0E8F906F"
+      ],
+      "rewards": [
+        {
+          "id": "39AD7A9B728036D1",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0155992A68F5EEE3",
+      "title": "Библиотека",
+      "description": [
+        "Подготовь место для обмена знаниями."
+      ],
+      "icon": "minecraft:bookshelf",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "73170A619CB49A6F",
+          "type": "item",
+          "item": "minecraft:bookshelf",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "45DB42CB2950A1BE"
+      ]
+    },
+    {
+      "id": "2F4D4251EC931956",
+      "title": "Снадобья",
+      "description": [
+        "Изучи зелья как резервную поддержку."
+      ],
+      "icon": "minecraft:brewing_stand",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6FB9E6670E22FF01",
+          "type": "item",
+          "item": "minecraft:brewing_stand",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0155992A68F5EEE3"
+      ]
+    },
+    {
+      "id": "36818D92EDF7F314",
+      "title": "Мана",
+      "description": [
+        "Испытай классное умение, когда достигнут второй ранг."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "5FF7F7AAC7200C8F",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2F4D4251EC931956"
+      ]
+    },
+    {
+      "id": "609A948187BD4EC2",
+      "title": "Защитный талант",
+      "description": [
+        "Открой первый талант командой /trigger ashes_talent set 1."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "3FC8FA4B0A8AB16B",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "36818D92EDF7F314"
+      ]
+    },
+    {
+      "id": "11074EA086C73F10",
+      "title": "Талант восстановления",
+      "description": [
+        "На третьем ранге выбери второй талант и испытай его."
+      ],
+      "icon": "minecraft:enchanted_book",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "113F3F75D67117D1",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "609A948187BD4EC2"
+      ]
+    },
+    {
+      "id": "3AED6F4CC91D2F31",
+      "title": "Магическое ядро",
+      "description": [
+        "Помоги инженерам создать источник для общего ритуала."
+      ],
+      "icon": "kubejs:source_capacitor",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "578CB0E0339D114F",
+          "type": "item",
+          "item": "kubejs:source_capacitor",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "11074EA086C73F10"
+      ]
+    },
+    {
+      "id": "1CD81BB225F089F8",
+      "title": "Клятва архимага",
+      "description": [
+        "Передай печать союзу, сохрани собственную специализацию."
+      ],
+      "icon": "kubejs:mage_seal",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "74D63AD69EC63A0B",
+          "type": "item",
+          "item": "kubejs:mage_seal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "3AED6F4CC91D2F31"
+      ],
+      "rewards": [
+        {
+          "id": "3B3EFC9B038EF5E0",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

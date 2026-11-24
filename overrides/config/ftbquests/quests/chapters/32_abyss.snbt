@@ -1,0 +1,347 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "32_abyss",
+  "group": "",
+  "icon": "minecraft:sculk",
+  "id": "17285DC07CCF459F",
+  "order_index": 31,
+  "quest_links": [],
+  "title": "Операция «Тихий рубеж»",
+  "quests": [
+    {
+      "id": "2C3493A6B7560E84",
+      "title": "Граница Скверны",
+      "description": [
+        "Найди участок заражения, не активируй орду без согласия команды."
+      ],
+      "icon": "minecraft:sculk",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2F49AB38147C6FCF",
+          "type": "item",
+          "item": "minecraft:sculk",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "38741EC4B6B368B9"
+      ]
+    },
+    {
+      "id": "3E5ECCB17EFEA3CA",
+      "title": "Карта очагов",
+      "description": [
+        "Зафиксируй координаты источников и безопасные пути отхода."
+      ],
+      "icon": "kubejs:scout_report",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "38734F0C58EF5D44",
+          "type": "item",
+          "item": "kubejs:scout_report",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2C3493A6B7560E84"
+      ]
+    },
+    {
+      "id": "4B13F97D79DB9787",
+      "title": "Полевое очищение",
+      "description": [
+        "Подготовь знаки для лечения участников."
+      ],
+      "icon": "kubejs:purity_sigil",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "61A6E738EF2C4301",
+          "type": "item",
+          "item": "kubejs:purity_sigil",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "3E5ECCB17EFEA3CA"
+      ],
+      "rewards": [
+        {
+          "id": "18F4C81826A465CC",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "518B03342432D7F6",
+      "title": "Санитарный лагерь",
+      "description": [
+        "Организуй временный пункт поддержки вне заражённой зоны."
+      ],
+      "icon": "minecraft:campfire",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "1B4227367FA51324",
+          "type": "item",
+          "item": "minecraft:campfire",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "4B13F97D79DB9787"
+      ]
+    },
+    {
+      "id": "5D94081C7C4B55A4",
+      "title": "Сигнальные огни",
+      "description": [
+        "Разметь границу лагеря и маршруты возвращения."
+      ],
+      "icon": "minecraft:soul_lantern",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "0040B646382222A7",
+          "type": "item",
+          "item": "minecraft:soul_lantern",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "518B03342432D7F6"
+      ]
+    },
+    {
+      "id": "3BF642ABC162F31A",
+      "title": "Матрица очищения",
+      "description": [
+        "Используй штатный очиститель Sculk Horde для настоящего заражения."
+      ],
+      "icon": "kubejs:purifier_matrix",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7516AFC9D3BD2588",
+          "type": "item",
+          "item": "kubejs:purifier_matrix",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5D94081C7C4B55A4"
+      ],
+      "rewards": [
+        {
+          "id": "1F33085C3D9FB85E",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "203C21D46E605DCE",
+      "title": "Гробница орды",
+      "description": [
+        "Посети штатную гробницу Sculk Horde; достижение фиксирует посещение."
+      ],
+      "icon": "minecraft:sculk",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7762D565B18E983E",
+          "type": "advancement",
+          "advancement": "sculkhorde:sculk_tomb_visit"
+        }
+      ],
+      "dependencies": [
+        "3BF642ABC162F31A"
+      ]
+    },
+    {
+      "id": "1211359B2EE85CCA",
+      "title": "Штатный очиститель",
+      "description": [
+        "Изготовь очиститель Sculk Horde. После установки проверь восстановление земли."
+      ],
+      "icon": "minecraft:sculk",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "39D5E7728B4CAF53",
+          "type": "advancement",
+          "advancement": "sculkhorde:craft_infestation_purifier"
+        }
+      ],
+      "dependencies": [
+        "203C21D46E605DCE"
+      ]
+    },
+    {
+      "id": "7055B4DC932D505F",
+      "title": "Стабилизация",
+      "description": [
+        "Подготовь резервную защиту команды, не путай её с защитой чанков."
+      ],
+      "icon": "kubejs:ward_charm",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "531CE4E6B2A30258",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1211359B2EE85CCA"
+      ]
+    },
+    {
+      "id": "674231FD4603F99B",
+      "title": "Полевой ритуал",
+      "description": [
+        "Встань на ванильный скалк и используй /trigger ashes_cleanse для получения образца. Ритуал не меняет блоки; территорию очищает штатный мод."
+      ],
+      "icon": "kubejs:cleansing_charge",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "24EB0A97F45E4066",
+          "type": "item",
+          "item": "kubejs:cleansing_charge",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7055B4DC932D505F"
+      ]
+    },
+    {
+      "id": "4BC3AEEB0C6F2432",
+      "title": "Рубеж восстановлен",
+      "description": [
+        "Образец выдаётся только при фактическом удалении ванильного скалка ритуалом."
+      ],
+      "icon": "kubejs:purified_sample",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "323EBE1A09AF87FD",
+          "type": "item",
+          "item": "kubejs:purified_sample",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "674231FD4603F99B"
+      ]
+    },
+    {
+      "id": "0100000281B229B7",
+      "title": "Защита поселения",
+      "description": [
+        "Изготовь штатный защитный блок Sculk Horde. Установи его и проверь границу отдельно."
+      ],
+      "icon": "minecraft:sculk",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "0AF3452D2043FE10",
+          "type": "advancement",
+          "advancement": "sculkhorde:craft_infestation_ward_block"
+        }
+      ],
+      "dependencies": [
+        "4BC3AEEB0C6F2432"
+      ]
+    },
+    {
+      "id": "79A7DE1CBDBCC5FF",
+      "title": "Общее наступление",
+      "description": [
+        "Согласуй момент атаки; сохрани резервную копию мира."
+      ],
+      "icon": "minecraft:sculk",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "3A6DFBFBADADB851",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0100000281B229B7"
+      ]
+    },
+    {
+      "id": "2EE909B7EEF8AC0D",
+      "title": "Поражение орды",
+      "description": [
+        "Заверши штатное условие победы Sculk Horde, проверь отсутствие активных очагов."
+      ],
+      "icon": "minecraft:sculk",
+      "x": 2.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "204B722316504252",
+          "type": "advancement",
+          "advancement": "sculkhorde:sculk_horde_defeat"
+        }
+      ],
+      "dependencies": [
+        "79A7DE1CBDBCC5FF"
+      ]
+    },
+    {
+      "id": "7BFF99070E63F77D",
+      "title": "Контур возрождения",
+      "description": [
+        "Соедини трофеи очищения, промышленный регулятор и природное сердце."
+      ],
+      "icon": "kubejs:renewal_circuit",
+      "x": 4.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "565DB830103F38D8",
+          "type": "item",
+          "item": "kubejs:renewal_circuit",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2EE909B7EEF8AC0D"
+      ],
+      "rewards": [
+        {
+          "id": "139EF36A64F103E6",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "30_occultist",
+  "group": "",
+  "icon": "minecraft:fermented_spider_eye",
+  "id": "4A0BD0B5DDF9E0B3",
+  "order_index": 29,
+  "quest_links": [],
+  "title": "Путь оккультиста",
+  "quests": [
+    {
+      "id": "050093831B5E0F6B",
+      "title": "Обет запретного",
+      "description": [
+        "Выбери Оккультиста: /trigger ashes_class set 6."
+      ],
+      "icon": "minecraft:fermented_spider_eye",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "54874FBC5BC996DC",
+          "type": "item",
+          "item": "minecraft:fermented_spider_eye",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1FF7A3BEF4184303"
+      ]
+    },
+    {
+      "id": "4931AAFB7EF81767",
+      "title": "Книга тьмы",
+      "description": [
+        "Запиши ограничения своих экспериментов."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "468F58B978B1BED0",
+          "type": "item",
+          "item": "minecraft:writable_book",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "050093831B5E0F6B"
+      ]
+    },
+    {
+      "id": "1EED5278930A31B7",
+      "title": "Кости",
+      "description": [
+        "Храни материалы ритуалов вдали от жилья."
+      ],
+      "icon": "minecraft:bone",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "52586A7B39A07182",
+          "type": "item",
+          "item": "minecraft:bone",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "4931AAFB7EF81767"
+      ],
+      "rewards": [
+        {
+          "id": "1D937547A8855372",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0E70630A3E978CBD",
+      "title": "Глаза паука",
+      "description": [
+        "Собери алхимические ингредиенты."
+      ],
+      "icon": "minecraft:spider_eye",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "6EFAFBECCD6EF44A",
+          "type": "item",
+          "item": "minecraft:spider_eye",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "1EED5278930A31B7"
+      ]
+    },
+    {
+      "id": "12426722078ADFD9",
+      "title": "Пламя души",
+      "description": [
+        "Оформи отдельную ритуальную зону."
+      ],
+      "icon": "minecraft:soul_lantern",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6465EA89B7AAF1A7",
+          "type": "item",
+          "item": "minecraft:soul_lantern",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "0E70630A3E978CBD"
+      ]
+    },
+    {
+      "id": "4D00BF4855C08F92",
+      "title": "Тёмная сила",
+      "description": [
+        "На втором ранге испытай /trigger ashes_ability вдали от поселения."
+      ],
+      "icon": "minecraft:fermented_spider_eye",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "4D621D5367483E27",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "12426722078ADFD9"
+      ]
+    },
+    {
+      "id": "742AA8EDF23B13A6",
+      "title": "Талант контроля",
+      "description": [
+        "Открой первый талант /trigger ashes_talent set 1."
+      ],
+      "icon": "minecraft:fermented_spider_eye",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "249A53CAE2B06A8A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4D00BF4855C08F92"
+      ]
+    },
+    {
+      "id": "413D852E9F94F4CA",
+      "title": "Талант выживания",
+      "description": [
+        "На третьем ранге выбери второй талант."
+      ],
+      "icon": "minecraft:fermented_spider_eye",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "4C76AB56B178D5F7",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "742AA8EDF23B13A6"
+      ]
+    },
+    {
+      "id": "4DF430F8800EC10A",
+      "title": "Оберег",
+      "description": [
+        "Подготовь средство защиты от последствий тьмы."
+      ],
+      "icon": "kubejs:ward_charm",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "3D5AF0E18FE60760",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "413D852E9F94F4CA"
+      ]
+    },
+    {
+      "id": "3BFD47DD81D76CA3",
+      "title": "Печать бездны",
+      "description": [
+        "Объедини исследования тьмы с общими знаниями союза."
+      ],
+      "icon": "kubejs:abyssal_seal",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "06B3B5F903560BA7",
+          "type": "item",
+          "item": "kubejs:abyssal_seal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "4DF430F8800EC10A"
+      ],
+      "rewards": [
+        {
+          "id": "58E04F60CFC1C08B",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

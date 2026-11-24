@@ -1,0 +1,274 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "31_forge",
+  "group": "",
+  "icon": "minecraft:anvil",
+  "id": "7875A2DFA3762D8D",
+  "order_index": 30,
+  "quest_links": [],
+  "title": "Реликвии и арсенал",
+  "quests": [
+    {
+      "id": "3D5B2E253E1F1672",
+      "title": "Наковальня",
+      "description": [
+        "Ремонтируй оружие, прежде чем менять его на новое."
+      ],
+      "icon": "minecraft:anvil",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "750CB28A0D552466",
+          "type": "item",
+          "item": "minecraft:anvil",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5536D27758BD6EFC"
+      ]
+    },
+    {
+      "id": "5AFD6990C6E8F831",
+      "title": "Чары",
+      "description": [
+        "Подготовь лазурит для зачарования экипировки."
+      ],
+      "icon": "minecraft:lapis_lazuli",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "44944DF191DB8F62",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "3D5B2E253E1F1672"
+      ]
+    },
+    {
+      "id": "09F19F0141583E5A",
+      "title": "Книжный запас",
+      "description": [
+        "Сохраняй полезные зачарованные книги отдельно."
+      ],
+      "icon": "minecraft:book",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7D0D5A07E83DEF55",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "5AFD6990C6E8F831"
+      ],
+      "rewards": [
+        {
+          "id": "29A5BBA6F4D02617",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4640E8DFC58CD2F0",
+      "title": "Редкость",
+      "description": [
+        "Изучи подсказки Apotheosis: редкость, гнёзда и аффиксы."
+      ],
+      "icon": "minecraft:anvil",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7B939855851CE539",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "09F19F0141583E5A"
+      ]
+    },
+    {
+      "id": "27915FE20A08CA40",
+      "title": "Самоцветы",
+      "description": [
+        "Изучи установку самоцветов и возможность их извлечения."
+      ],
+      "icon": "minecraft:anvil",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "2C488B526A27272A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4640E8DFC58CD2F0"
+      ]
+    },
+    {
+      "id": "75986114284227EE",
+      "title": "Перековка",
+      "description": [
+        "Используй подходящую станцию Apotheosis и оцени цену улучшения."
+      ],
+      "icon": "minecraft:anvil",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "2A876CEAEB067C0A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "27915FE20A08CA40"
+      ]
+    },
+    {
+      "id": "236DADF96EEF23D5",
+      "title": "Артефакты",
+      "description": [
+        "Найди Artifacts в добыче, изучи слот Curios и эффект предмета."
+      ],
+      "icon": "minecraft:anvil",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6A2AE4485AA47D15",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "75986114284227EE"
+      ]
+    },
+    {
+      "id": "2DACD15CDB206685",
+      "title": "Реликвии",
+      "description": [
+        "Подбери реликвии с дополняющими друг друга эффектами, не полагайся на один предмет."
+      ],
+      "icon": "minecraft:anvil",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "4D6264D01C458686",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "236DADF96EEF23D5"
+      ]
+    },
+    {
+      "id": "06444214DC494FE4",
+      "title": "Двуручное оружие",
+      "description": [
+        "Испытай два типа Simply Swords и выбери удобный радиус атаки."
+      ],
+      "icon": "minecraft:anvil",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "3BCF583A059A6393",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2DACD15CDB206685"
+      ]
+    },
+    {
+      "id": "22551C127E6185E2",
+      "title": "Дальний бой",
+      "description": [
+        "Сравни зачарования лука и арбалета под экспедиции."
+      ],
+      "icon": "minecraft:anvil",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "6B1001B4AF0EE549",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "06444214DC494FE4"
+      ]
+    },
+    {
+      "id": "26E7D4D25FCD9613",
+      "title": "Мастер кузницы",
+      "description": [
+        "Создай медаль после испытания экипировки."
+      ],
+      "icon": "kubejs:hunter_medal",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "68EB236284D864E4",
+          "type": "item",
+          "item": "kubejs:hunter_medal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "22551C127E6185E2"
+      ]
+    },
+    {
+      "id": "22DBDC8B57B09E51",
+      "title": "Печать защиты",
+      "description": [
+        "Подготовь резервный оберег, а не замену доспехам."
+      ],
+      "icon": "kubejs:ward_charm",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "786558AC95D17A55",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "26E7D4D25FCD9613"
+      ],
+      "rewards": [
+        {
+          "id": "21558FAEFBC302FA",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

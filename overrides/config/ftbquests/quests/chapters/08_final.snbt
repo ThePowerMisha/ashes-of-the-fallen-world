@@ -63,8 +63,8 @@
       "tasks": [
         {
           "id": "5EC9E6B75FA0F1B6",
-          "type": "checkmark",
-          "title": "Подтвердить выполненное действие вручную"
+          "type": "advancement",
+          "advancement": "sculkhorde:sculk_horde_defeat"
         }
       ],
       "dependencies": [

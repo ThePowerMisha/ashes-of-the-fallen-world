@@ -1,0 +1,415 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "22_bosses",
+  "group": "",
+  "icon": "minecraft:netherite_sword",
+  "id": "447934F2AE660513",
+  "order_index": 21,
+  "quest_links": [],
+  "title": "Бестиарий и охота",
+  "quests": [
+    {
+      "id": "5536D27758BD6EFC",
+      "title": "Щит дозора",
+      "description": [
+        "Проверь блокирование обычных ударов и восстановление щита."
+      ],
+      "icon": "minecraft:shield",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "187AC0934D450CB8",
+          "type": "item",
+          "item": "minecraft:shield",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "639F04B923139E25"
+      ]
+    },
+    {
+      "id": "0883769F2FD7D7AF",
+      "title": "Снаряжение лучника",
+      "description": [
+        "Испытай дистанционный бой и подбери безопасные позиции."
+      ],
+      "icon": "minecraft:bow",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "41B0D6934A9355B0",
+          "type": "item",
+          "item": "minecraft:bow",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5536D27758BD6EFC"
+      ]
+    },
+    {
+      "id": "4878DCC2115F849B",
+      "title": "Перевязочный запас",
+      "description": [
+        "Держи лечение для отступления из подземелья."
+      ],
+      "icon": "minecraft:golden_apple",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "354EBF10FD865547",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "0883769F2FD7D7AF"
+      ],
+      "rewards": [
+        {
+          "id": "31C606BC71BEAE6E",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0425098E2DA7488A",
+      "title": "Пугающая нежить",
+      "description": [
+        "Победи опасного противника Born in Chaos в открытой местности."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "3A540205687905C3",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4878DCC2115F849B"
+      ]
+    },
+    {
+      "id": "2C23AF4D3E05AE03",
+      "title": "Склепы",
+      "description": [
+        "Встреться с противником The Graveyard и изучи его атаки."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "356CD16F96F992D1",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0425098E2DA7488A"
+      ]
+    },
+    {
+      "id": "2AB8EF1828982046",
+      "title": "Кровавая луна",
+      "description": [
+        "Переживи событие Enhanced Celestials в подготовленном убежище."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "771BF3EAD58F6CD1",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2C23AF4D3E05AE03"
+      ]
+    },
+    {
+      "id": "0CDD0318273B5754",
+      "title": "Цветок-охотник",
+      "description": [
+        "Найди Foliaath из Mowzie’s Mobs и победи его, учитывая дистанцию."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "3249A80F14EE3982",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2AB8EF1828982046"
+      ]
+    },
+    {
+      "id": "44DB31E93CD9C296",
+      "title": "Кованый страж",
+      "description": [
+        "Победи Ferrous Wroughtnaut, атакуй в уязвимые моменты."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "200FD613D896BD81",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0CDD0318273B5754"
+      ]
+    },
+    {
+      "id": "10B2269FB2888FAF",
+      "title": "Ледяная пещера",
+      "description": [
+        "Найди Frostmaw; подготовь отход и лечение."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "2610760BB9309285",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "44DB31E93CD9C296"
+      ]
+    },
+    {
+      "id": "2F1D9F460CEA5708",
+      "title": "Солнечное испытание",
+      "description": [
+        "Исследуй линию Umvuthi из Mowzie’s Mobs, подготовь соответствующее снаряжение."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "2371A70B334C5C3D",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "10B2269FB2888FAF"
+      ]
+    },
+    {
+      "id": "2F9ADEB4E6F50A98",
+      "title": "Страж подземья",
+      "description": [
+        "Победи Ender Golem или другого доступного стража Cataclysm."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "459CD7C4FE9BAF1F",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2F1D9F460CEA5708"
+      ]
+    },
+    {
+      "id": "3BBB2D79C054FF7E",
+      "title": "Забытый кузнец",
+      "description": [
+        "Сразись с Netherite Monstrosity; не строй арену у базы."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "25FD3D1FF6ABBDDB",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2F9ADEB4E6F50A98"
+      ]
+    },
+    {
+      "id": "5C3D2FB5CFD51F5C",
+      "title": "Пламя преисподней",
+      "description": [
+        "Победи Ignis по механике Cataclysm."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "3216E2A25426A062",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "3BBB2D79C054FF7E"
+      ]
+    },
+    {
+      "id": "7EFEEB52E9EBE246",
+      "title": "Глубинное чудовище",
+      "description": [
+        "Подготовь дыхание под водой и сразись с Leviathan."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 2.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "4833C5D33BBDBF6C",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "5C3D2FB5CFD51F5C"
+      ]
+    },
+    {
+      "id": "0FD5D467A328021E",
+      "title": "Пустынный страж",
+      "description": [
+        "Найди Ancient Remnant и изучи его фазы."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 4.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "59D7B9D9DCDB02F6",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7EFEEB52E9EBE246"
+      ]
+    },
+    {
+      "id": "6BA68BC061389FC3",
+      "title": "Пустотный хранитель",
+      "description": [
+        "Подготовь команду и сразись с Ender Guardian."
+      ],
+      "icon": "minecraft:netherite_sword",
+      "x": 6.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "0F0D45A1DC2F8677",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0FD5D467A328021E"
+      ]
+    },
+    {
+      "id": "608A3D2F3E352D81",
+      "title": "Победа над иссушителем",
+      "description": [
+        "Получение звезды подтверждает прогресс экипировки; убийство можно разделить с командой."
+      ],
+      "icon": "minecraft:nether_star",
+      "x": 0.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "06DBABEA948897CE",
+          "type": "item",
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6BA68BC061389FC3"
+      ]
+    },
+    {
+      "id": "16194AFFC9BEEB70",
+      "title": "Дыхание дракона",
+      "description": [
+        "Собери дыхание во время битвы с драконом."
+      ],
+      "icon": "minecraft:dragon_breath",
+      "x": 2.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "51B98D171FBC7511",
+          "type": "item",
+          "item": "minecraft:dragon_breath",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "608A3D2F3E352D81"
+      ]
+    },
+    {
+      "id": "585F7E148E95FFE0",
+      "title": "Трофей охотника",
+      "description": [
+        "Создай медаль из добычи и печати экспедиции."
+      ],
+      "icon": "kubejs:hunter_medal",
+      "x": 4.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "7CC75E5025253515",
+          "type": "item",
+          "item": "kubejs:hunter_medal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "16194AFFC9BEEB70"
+      ],
+      "rewards": [
+        {
+          "id": "27F3D5C8FDE0250F",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

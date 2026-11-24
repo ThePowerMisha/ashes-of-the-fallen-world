@@ -1,0 +1,465 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "23_city",
+  "group": "",
+  "icon": "minecraft:stone_bricks",
+  "id": "5B6E88E0BEEE2097",
+  "order_index": 22,
+  "quest_links": [],
+  "title": "Города на пепелищах",
+  "quests": [
+    {
+      "id": "062F3CFF1FBB87BF",
+      "title": "Разметка города",
+      "description": [
+        "Выбери долину с доступом к воде, строй вдали от активной Скверны."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "1B051D3425CDDF89",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "5A38822BEA58C471"
+      ]
+    },
+    {
+      "id": "25A9F9D318ACD8FC",
+      "title": "Палатка снабжения",
+      "description": [
+        "Используй Supply Camp или Supply Ship MineColonies по инструкции."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "1692C5B3807B67DE",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "062F3CFF1FBB87BF"
+      ]
+    },
+    {
+      "id": "67BB36F959714D51",
+      "title": "Ратуша",
+      "description": [
+        "Основи колонию, назначь офицеров и права доступа друзей."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "311FE5D0AFE4F0D5",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "25A9F9D318ACD8FC"
+      ]
+    },
+    {
+      "id": "12E8465CF93DB390",
+      "title": "Строитель",
+      "description": [
+        "Построй Builder’s Hut и передай необходимые ресурсы."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "73A852FA70DDF43B",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "67BB36F959714D51"
+      ]
+    },
+    {
+      "id": "35A3EF88A0FEA3B7",
+      "title": "Первый дом",
+      "description": [
+        "Возведи жильё для новых жителей, следи за свободными местами."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "2C0340393B079B82",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "12E8465CF93DB390"
+      ]
+    },
+    {
+      "id": "15E781748B6EBB1D",
+      "title": "Лесник",
+      "description": [
+        "Обеспечь колонию древесиной и саженцами через лесника."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "5ECC6B55D9F66480",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "35A3EF88A0FEA3B7"
+      ]
+    },
+    {
+      "id": "006DFF636467BAE6",
+      "title": "Шахтёр",
+      "description": [
+        "Подготовь шахтёрское здание и безопасный доступ к нему."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "75A97B07EF21434F",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "15E781748B6EBB1D"
+      ]
+    },
+    {
+      "id": "461D0D55AB9FBEB9",
+      "title": "Каменщик",
+      "description": [
+        "Настрой цепочку строительных материалов и запас камня."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "1AA5C04D27029168",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "006DFF636467BAE6"
+      ]
+    },
+    {
+      "id": "439C3BDFC79B9115",
+      "title": "Фермер",
+      "description": [
+        "Размести поля, учитывай сезоны и доступность воды."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "461384712F20720C",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "461D0D55AB9FBEB9"
+      ]
+    },
+    {
+      "id": "2EB604E537516439",
+      "title": "Рыбак",
+      "description": [
+        "Обеспечь жителям альтернативную пищу из рыбы."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "22C1D7D359CAF5BC",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "439C3BDFC79B9115"
+      ]
+    },
+    {
+      "id": "62EBF7E6532FA1DC",
+      "title": "Повар",
+      "description": [
+        "Организуй ресторан с запасом ингредиентов."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "5A40EED24FC1ED8D",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2EB604E537516439"
+      ]
+    },
+    {
+      "id": "02274ABFA629F3C5",
+      "title": "Склад",
+      "description": [
+        "Построй Warehouse и создай место для курьеров."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "61581E554DD16629",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "62EBF7E6532FA1DC"
+      ]
+    },
+    {
+      "id": "1A63D91BF54B8763",
+      "title": "Курьер",
+      "description": [
+        "Свяжи курьеров с рабочими зданиями, проверяй запросы материалов."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "783EDC268E9ABA87",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "02274ABFA629F3C5"
+      ]
+    },
+    {
+      "id": "1958723BCAF65DF6",
+      "title": "Университет",
+      "description": [
+        "Изучи исследования MineColonies и выбери первое улучшение."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 2.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "44A00D523CB94418",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1A63D91BF54B8763"
+      ]
+    },
+    {
+      "id": "477D64C95857A5BD",
+      "title": "Казарма",
+      "description": [
+        "Подготовь охрану поселения и экипировку жителей."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 4.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "51805EC1C3E9A7C2",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1958723BCAF65DF6"
+      ]
+    },
+    {
+      "id": "2E7B2ED0615E6E60",
+      "title": "Лечение",
+      "description": [
+        "Построй больницу и поддерживай запас лечебных материалов."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 6.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "5570F86ECF54DE23",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "477D64C95857A5BD"
+      ]
+    },
+    {
+      "id": "552A47CA9765260D",
+      "title": "Квартал ремесленников",
+      "description": [
+        "Создай безопасный район производства с дорогами."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 0.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "27EDA08BA7F50889",
+          "type": "item",
+          "item": "minecraft:stone_bricks",
+          "count": 64
+        }
+      ],
+      "dependencies": [
+        "2E7B2ED0615E6E60"
+      ]
+    },
+    {
+      "id": "7B37491A0DA4D70E",
+      "title": "Общественный свет",
+      "description": [
+        "Освети проходы, фермы и входы; не перегружай декоративными сущностями."
+      ],
+      "icon": "minecraft:lantern",
+      "x": 2.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "1F598DEFED18664D",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "552A47CA9765260D"
+      ]
+    },
+    {
+      "id": "1DF662DD3C32C95C",
+      "title": "Крыши и мосты",
+      "description": [
+        "Используй Macaw’s для архитектуры, проверяй проходимость NPC."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 4.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "49255A19990EAFA9",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7B37491A0DA4D70E"
+      ]
+    },
+    {
+      "id": "1CF9A84DD04FFFD1",
+      "title": "Интерьер",
+      "description": [
+        "Оформи жилой дом с Handcrafted, Chipped и Supplementaries."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 6.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "5AE00E8ED18CBBC3",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1DF662DD3C32C95C"
+      ]
+    },
+    {
+      "id": "2D18EDC390DA94BD",
+      "title": "Городской договор",
+      "description": [
+        "Согласуй доступы и правила снабжения для всех игроков."
+      ],
+      "icon": "kubejs:settlement_charter",
+      "x": 0.0,
+      "y": 10.0,
+      "tasks": [
+        {
+          "id": "0DEC72F52A1F7B53",
+          "type": "item",
+          "item": "kubejs:settlement_charter",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1CF9A84DD04FFFD1"
+      ]
+    },
+    {
+      "id": "0D933E554BD2FAC7",
+      "title": "Камень основания",
+      "description": [
+        "Создай камень восстановления, завершив городской проект."
+      ],
+      "icon": "kubejs:foundation_stone",
+      "x": 2.0,
+      "y": 10.0,
+      "tasks": [
+        {
+          "id": "3C0D72112B6F78F9",
+          "type": "item",
+          "item": "kubejs:foundation_stone",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2D18EDC390DA94BD"
+      ],
+      "rewards": [
+        {
+          "id": "1AF2580EA7A0EE39",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

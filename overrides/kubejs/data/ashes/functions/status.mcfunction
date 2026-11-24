@@ -1,2 +1,3 @@
 tellraw @s {"text": "1 Паладин | 2 Архимаг | 3 Инженер | 4 Следопыт | 5 Архитектор | 6 Оккультист", "color": "gold"}
 tellraw @s [{"text": "Класс: "}, {"score": {"name": "@s", "objective": "aclass"}}, {"text": " | Ранг: "}, {"score": {"name": "@s", "objective": "arank"}}, {"text": " | Прогресс: "}, {"score": {"name": "@s", "objective": "apoints"}}, {"text": " | Смена через (сек): "}, {"score": {"name": "@s", "objective": "acool"}}]
+tellraw @s [{"text": "Талант: "}, {"score": {"name": "@s", "objective": "atalent"}}, {"text": " | Перезарядка: "}, {"score": {"name": "@s", "objective": "aability_cd"}}]

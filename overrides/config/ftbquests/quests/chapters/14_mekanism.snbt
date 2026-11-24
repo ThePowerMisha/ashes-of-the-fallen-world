@@ -1,0 +1,499 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "14_mekanism",
+  "group": "",
+  "icon": "mekanism:metallurgic_infuser",
+  "id": "49686D1C8AC016C7",
+  "order_index": 13,
+  "quest_links": [],
+  "title": "Промышленная сеть: Mekanism",
+  "quests": [
+    {
+      "id": "28318EF40188761A",
+      "title": "Осмий",
+      "description": [
+        "Добывай осмий вместе с железом. Храни металл отдельно от руды."
+      ],
+      "icon": "mekanism:ingot_osmium",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2ABEDE6AB57A0FC2",
+          "type": "item",
+          "item": "mekanism:ingot_osmium",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "3E032F770950CD2C"
+      ]
+    },
+    {
+      "id": "333116496E1CFA39",
+      "title": "Инфузор",
+      "description": [
+        "Подай энергию и красный камень; подготовь обогащённое железо."
+      ],
+      "icon": "mekanism:metallurgic_infuser",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4A894F279AE4A250",
+          "type": "item",
+          "item": "mekanism:metallurgic_infuser",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "28318EF40188761A"
+      ]
+    },
+    {
+      "id": "790D3B8FCACCD3ED",
+      "title": "Управление",
+      "description": [
+        "Сделай партию схем; они нужны десяткам машин."
+      ],
+      "icon": "mekanism:basic_control_circuit",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "59276D0A873D611F",
+          "type": "item",
+          "item": "mekanism:basic_control_circuit",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "333116496E1CFA39"
+      ],
+      "rewards": [
+        {
+          "id": "6293148DB96E7791",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4F1262BD36A0EEE5",
+      "title": "Сталь",
+      "description": [
+        "Дважды обогащай железо углеродом и переплавляй пыль."
+      ],
+      "icon": "mekanism:ingot_steel",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "3430D1FAC17E71EB",
+          "type": "item",
+          "item": "mekanism:ingot_steel",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "790D3B8FCACCD3ED"
+      ]
+    },
+    {
+      "id": "646D95C9203B374D",
+      "title": "Корпус",
+      "description": [
+        "Собери прочный корпус для новых аппаратов."
+      ],
+      "icon": "mekanism:steel_casing",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "436ECB244813C79B",
+          "type": "item",
+          "item": "mekanism:steel_casing",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "4F1262BD36A0EEE5"
+      ]
+    },
+    {
+      "id": "43491CF9707B4E89",
+      "title": "Электросеть",
+      "description": [
+        "Разделяй генерацию и потребителей; проверь передачу FE."
+      ],
+      "icon": "mekanism:basic_universal_cable",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "11A432963A8A6364",
+          "type": "item",
+          "item": "mekanism:basic_universal_cable",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "646D95C9203B374D"
+      ],
+      "rewards": [
+        {
+          "id": "63C759F68D3CCD6F",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7B2CAEDD9EDD8981",
+      "title": "Тепловая энергия",
+      "description": [
+        "Запусти автономный источник на лаве, обеспечь безопасный доступ."
+      ],
+      "icon": "mekanismgenerators:heat_generator",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "4E8C419B1AF62E35",
+          "type": "item",
+          "item": "mekanismgenerators:heat_generator",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "43491CF9707B4E89"
+      ]
+    },
+    {
+      "id": "645C46AD04BC642F",
+      "title": "Ветропарк",
+      "description": [
+        "Размести генераторы высоко, проверь накопление энергии."
+      ],
+      "icon": "mekanismgenerators:wind_generator",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "2936ABBC18C8F341",
+          "type": "item",
+          "item": "mekanismgenerators:wind_generator",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "7B2CAEDD9EDD8981"
+      ]
+    },
+    {
+      "id": "4637DBB340DFFE13",
+      "title": "Накопитель",
+      "description": [
+        "Поставь буфер, чтобы отключение генерации не остановило весь завод."
+      ],
+      "icon": "mekanism:basic_energy_cube",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "7260352514AFA397",
+          "type": "item",
+          "item": "mekanism:basic_energy_cube",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "645C46AD04BC642F"
+      ]
+    },
+    {
+      "id": "6B452FEAE6C697B7",
+      "title": "Двойная переработка",
+      "description": [
+        "Обогатительная камера даёт пыль. Проверь действующие выходы в JEI."
+      ],
+      "icon": "mekanism:enrichment_chamber",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "12439985681B559A",
+          "type": "item",
+          "item": "mekanism:enrichment_chamber",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "4637DBB340DFFE13"
+      ]
+    },
+    {
+      "id": "51E049EBE3808EA0",
+      "title": "Электроплавка",
+      "description": [
+        "Переплавляй пыль без угля."
+      ],
+      "icon": "mekanism:energized_smelter",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "75BCC36319442448",
+          "type": "item",
+          "item": "mekanism:energized_smelter",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6B452FEAE6C697B7"
+      ]
+    },
+    {
+      "id": "07030D1273858555",
+      "title": "Дробилка",
+      "description": [
+        "Используй дробилку для промежуточных продуктов."
+      ],
+      "icon": "mekanism:crusher",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "610B9673ED5DCD34",
+          "type": "item",
+          "item": "mekanism:crusher",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "51E049EBE3808EA0"
+      ]
+    },
+    {
+      "id": "64F3975F03D00C47",
+      "title": "Фабрика",
+      "description": [
+        "Параллельные слоты повышают пропускную способность."
+      ],
+      "icon": "mekanism:basic_enriching_factory",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "6CD639E8263FC0F0",
+          "type": "item",
+          "item": "mekanism:basic_enriching_factory",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "07030D1273858555"
+      ]
+    },
+    {
+      "id": "573C0BF53951DCA1",
+      "title": "Тройная переработка",
+      "description": [
+        "Подай кислород из электролизёра и проверь цепочку от руды до пыли."
+      ],
+      "icon": "mekanism:purification_chamber",
+      "x": 2.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "6E07F022E1E3664B",
+          "type": "item",
+          "item": "mekanism:purification_chamber",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "64F3975F03D00C47"
+      ]
+    },
+    {
+      "id": "60C13286B9110E6D",
+      "title": "Электролиз",
+      "description": [
+        "Разделяй воду на водород и кислород; настрой сброс избытка."
+      ],
+      "icon": "mekanism:electrolytic_separator",
+      "x": 4.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "1E784366DF9E4B1E",
+          "type": "item",
+          "item": "mekanism:electrolytic_separator",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "573C0BF53951DCA1"
+      ]
+    },
+    {
+      "id": "3E17CC4017B2AEBA",
+      "title": "Жидкостный контур",
+      "description": [
+        "Подавай воду и жидкости выделенными трубами."
+      ],
+      "icon": "mekanism:basic_mechanical_pipe",
+      "x": 6.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "3C4950E5B3E3718F",
+          "type": "item",
+          "item": "mekanism:basic_mechanical_pipe",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "60C13286B9110E6D"
+      ]
+    },
+    {
+      "id": "4BE133D7FC2BDDAF",
+      "title": "Газовый контур",
+      "description": [
+        "Не путай газовую сеть с жидкостной."
+      ],
+      "icon": "mekanism:basic_pressurized_tube",
+      "x": 0.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "07785E20EFDDD0D8",
+          "type": "item",
+          "item": "mekanism:basic_pressurized_tube",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "3E17CC4017B2AEBA"
+      ]
+    },
+    {
+      "id": "1AB32FDE3CFA9BDF",
+      "title": "Автоматический карьер",
+      "description": [
+        "Ограничь фильтры рудами и радиусом. Не добывай блоки поселений."
+      ],
+      "icon": "mekanism:digital_miner",
+      "x": 2.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "5CE7C8EC15681562",
+          "type": "item",
+          "item": "mekanism:digital_miner",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "4BE133D7FC2BDDAF"
+      ]
+    },
+    {
+      "id": "5B0166D08CB76C78",
+      "title": "Энергия будущего",
+      "description": [
+        "Усовершенствованные схемы открывают более производительные машины."
+      ],
+      "icon": "mekanism:advanced_control_circuit",
+      "x": 4.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "2B3FF61E787816B8",
+          "type": "item",
+          "item": "mekanism:advanced_control_circuit",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "1AB32FDE3CFA9BDF"
+      ]
+    },
+    {
+      "id": "3E6B6897AA949D8B",
+      "title": "Элитная электроника",
+      "description": [
+        "Автоматизируй выпуск схем вместо ручных серий."
+      ],
+      "icon": "mekanism:elite_control_circuit",
+      "x": 6.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "074886B5D1EE8517",
+          "type": "item",
+          "item": "mekanism:elite_control_circuit",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "5B0166D08CB76C78"
+      ]
+    },
+    {
+      "id": "22AB5FB425D8095F",
+      "title": "Высшая электроника",
+      "description": [
+        "Подготовь поздние системы автоматизации и ремонтный запас."
+      ],
+      "icon": "mekanism:ultimate_control_circuit",
+      "x": 0.0,
+      "y": 10.0,
+      "tasks": [
+        {
+          "id": "01CF3DBEE117CEDA",
+          "type": "item",
+          "item": "mekanism:ultimate_control_circuit",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "3E6B6897AA949D8B"
+      ]
+    },
+    {
+      "id": "25EA8EE395CF438D",
+      "title": "Промышленная печать",
+      "description": [
+        "Создай регулятор энергии для будущего контура возрождения."
+      ],
+      "icon": "kubejs:power_regulator",
+      "x": 2.0,
+      "y": 10.0,
+      "tasks": [
+        {
+          "id": "0CA29C368D1A76A2",
+          "type": "item",
+          "item": "kubejs:power_regulator",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "22AB5FB425D8095F"
+      ],
+      "rewards": [
+        {
+          "id": "064FE0A7CCF34EE9",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

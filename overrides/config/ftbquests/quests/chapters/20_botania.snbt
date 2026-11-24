@@ -1,0 +1,370 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "20_botania",
+  "group": "",
+  "icon": "minecraft:flower_pot",
+  "id": "0C79F890736DF586",
+  "order_index": 19,
+  "quest_links": [],
+  "title": "Хранители: природная магия",
+  "quests": [
+    {
+      "id": "3FCE3E07BEBF0DDB",
+      "title": "Цветочный кодекс",
+      "description": [
+        "Изучи Lexica Botania и сбор мистических лепестков."
+      ],
+      "icon": "minecraft:flower_pot",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5B529D362080A4DF",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1D129E2C407448C4"
+      ]
+    },
+    {
+      "id": "1E2A5183DE9F6BEA",
+      "title": "Чаша лепестков",
+      "description": [
+        "Создай Petal Apothecary, заполни водой и сделай первый цветок."
+      ],
+      "icon": "botania:apothecary_default",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0E81619D25078232",
+          "type": "item",
+          "item": "botania:apothecary_default",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "3FCE3E07BEBF0DDB"
+      ]
+    },
+    {
+      "id": "04120274A5CC2B50",
+      "title": "Чистая маргаритка",
+      "description": [
+        "Преобразуй дерево и камень рядом с цветком."
+      ],
+      "icon": "botania:pure_daisy",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7B8B7E454E588750",
+          "type": "item",
+          "item": "botania:pure_daisy",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1E2A5183DE9F6BEA"
+      ],
+      "rewards": [
+        {
+          "id": "673866D5494C5713",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1070B943F69781B4",
+      "title": "Живой камень",
+      "description": [
+        "Используй его в магических устройствах."
+      ],
+      "icon": "botania:livingrock",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7276BCA86C0ED069",
+          "type": "item",
+          "item": "botania:livingrock",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "04120274A5CC2B50"
+      ]
+    },
+    {
+      "id": "035E24B5CAA92CA4",
+      "title": "Живая древесина",
+      "description": [
+        "Подготовь материал для первых распространителей маны."
+      ],
+      "icon": "botania:livingwood",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6F9F7A33BCC2386F",
+          "type": "item",
+          "item": "botania:livingwood",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "1070B943F69781B4"
+      ]
+    },
+    {
+      "id": "4ED85BDE7C686E6C",
+      "title": "Бассейн",
+      "description": [
+        "Создай хранилище маны рядом с генерацией."
+      ],
+      "icon": "botania:mana_pool",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6FBAC181254BDB55",
+          "type": "item",
+          "item": "botania:mana_pool",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "035E24B5CAA92CA4"
+      ],
+      "rewards": [
+        {
+          "id": "18663169EE66821B",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "357D38A2BD2098DF",
+      "title": "Распространитель",
+      "description": [
+        "Направь луч в бассейн жезлом леса."
+      ],
+      "icon": "botania:mana_spreader",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "00A68475D5D4FEB1",
+          "type": "item",
+          "item": "botania:mana_spreader",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "4ED85BDE7C686E6C"
+      ]
+    },
+    {
+      "id": "3127EDA8B48343FB",
+      "title": "Огонь маны",
+      "description": [
+        "Подавай горючее небольшими партиями и собирай ману."
+      ],
+      "icon": "botania:endoflame",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "41789FDA936E5A32",
+          "type": "item",
+          "item": "botania:endoflame",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "357D38A2BD2098DF"
+      ]
+    },
+    {
+      "id": "652DA6293D72C443",
+      "title": "Манасталь",
+      "description": [
+        "Погрузи железо в наполненный бассейн."
+      ],
+      "icon": "botania:manasteel_ingot",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "68D3309CE4511077",
+          "type": "item",
+          "item": "botania:manasteel_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "3127EDA8B48343FB"
+      ]
+    },
+    {
+      "id": "1809AB27E47B09BA",
+      "title": "Мана-алмаз",
+      "description": [
+        "Сохрани для высокоуровневых артефактов."
+      ],
+      "icon": "botania:mana_diamond",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "02FFD5CFB1289D89",
+          "type": "item",
+          "item": "botania:mana_diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "652DA6293D72C443"
+      ]
+    },
+    {
+      "id": "533A923BFE8E373A",
+      "title": "Рунный алтарь",
+      "description": [
+        "Создай алтарь и первую руну согласно Lexica."
+      ],
+      "icon": "botania:runic_altar",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "1D5DA0DE0EC85A45",
+          "type": "item",
+          "item": "botania:runic_altar",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1809AB27E47B09BA"
+      ]
+    },
+    {
+      "id": "5CE2296F68D224E4",
+      "title": "Перенос маны",
+      "description": [
+        "Используй переносное хранилище в походе."
+      ],
+      "icon": "botania:mana_tablet",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "23EA42444B0B7E65",
+          "type": "item",
+          "item": "botania:mana_tablet",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "533A923BFE8E373A"
+      ]
+    },
+    {
+      "id": "677C1FDE3B7BA4EA",
+      "title": "Террасталь",
+      "description": [
+        "Собери агломерационную плиту, обеспечь достаточно маны."
+      ],
+      "icon": "botania:terrasteel_ingot",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "0D00331F4098DD05",
+          "type": "item",
+          "item": "botania:terrasteel_ingot",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5CE2296F68D224E4"
+      ]
+    },
+    {
+      "id": "16330E6F4AAC873F",
+      "title": "Эльфийское знание",
+      "description": [
+        "Создай портал Альфхейма и обменяйся знаниями, контролируя питание."
+      ],
+      "icon": "minecraft:flower_pot",
+      "x": 2.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "4B4BE2B2A5D7ECB4",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "677C1FDE3B7BA4EA"
+      ]
+    },
+    {
+      "id": "4C079DE530FE1229",
+      "title": "Испытание Гайи",
+      "description": [
+        "Подготовь открытую арену и сразись с хранителем по правилам Lexica."
+      ],
+      "icon": "minecraft:flower_pot",
+      "x": 4.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "56DB9EC28637805B",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "16330E6F4AAC873F"
+      ]
+    },
+    {
+      "id": "51D168BA5C77BFFE",
+      "title": "Живая печать",
+      "description": [
+        "Соедини природную магию и артефакты восстановления."
+      ],
+      "icon": "kubejs:living_heart",
+      "x": 6.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "17636379203EC9CE",
+          "type": "item",
+          "item": "kubejs:living_heart",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "4C079DE530FE1229"
+      ],
+      "rewards": [
+        {
+          "id": "55D88595360238F0",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

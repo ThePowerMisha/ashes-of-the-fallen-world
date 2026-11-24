@@ -1,0 +1,322 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "17_power",
+  "group": "",
+  "icon": "minecraft:redstone_block",
+  "id": "669FEE58F43000B2",
+  "order_index": 16,
+  "quest_links": [],
+  "title": "Энергетика и безопасность",
+  "quests": [
+    {
+      "id": "4C304581395E83C9",
+      "title": "Первый конденсатор",
+      "description": [
+        "Собери стартовый накопитель Powah и проверь вход и выход FE."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "066B69A620CBBC52",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "28318EF40188761A"
+      ]
+    },
+    {
+      "id": "7940EF591DC4A1C0",
+      "title": "Диэлектрик",
+      "description": [
+        "Наладь выпуск диэлектрических компонентов по JEI."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7E3256380787031A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4C304581395E83C9"
+      ]
+    },
+    {
+      "id": "58BB26BCF2BF4277",
+      "title": "Энергизатор",
+      "description": [
+        "Освой Energizing Orb и Energizing Rods, подавай предметы дозированно."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5E4D74C47DCA3CED",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7940EF591DC4A1C0"
+      ]
+    },
+    {
+      "id": "64E9876EA5AFF0C0",
+      "title": "Низкотемпературный генератор",
+      "description": [
+        "Проверь термогенератор с охлаждением и источником тепла."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "03950C9C7B9AFE5C",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "58BB26BCF2BF4277"
+      ]
+    },
+    {
+      "id": "3C02C31DA8288E0B",
+      "title": "Солнечная станция",
+      "description": [
+        "Собери солнечные панели и буфер на случай ночи."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "4A7A51448195AB35",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "64E9876EA5AFF0C0"
+      ]
+    },
+    {
+      "id": "18D68420CE00FB87",
+      "title": "Модернизация",
+      "description": [
+        "Повышай уровень генератора под реальное потребление."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "73631E05CFF5A4A7",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "3C02C31DA8288E0B"
+      ]
+    },
+    {
+      "id": "575475A37A6943FB",
+      "title": "Сеть Flux",
+      "description": [
+        "Создай Flux Plug, Flux Point и приватную сеть команды."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "5451A691F7BB14C3",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "18D68420CE00FB87"
+      ]
+    },
+    {
+      "id": "443945A20D2D98A9",
+      "title": "Разделение нагрузки",
+      "description": [
+        "Выдели независимый контур для склада и аварийного освещения."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "55BDAD70884B07CA",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "575475A37A6943FB"
+      ]
+    },
+    {
+      "id": "6A856F922042CD50",
+      "title": "Резервный источник",
+      "description": [
+        "Убедись, что склад доступен при отключении основного генератора."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "66ECEA8D71F76F03",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "443945A20D2D98A9"
+      ]
+    },
+    {
+      "id": "6814902E9FD8BBA7",
+      "title": "Турбина",
+      "description": [
+        "Собери турбину Mekanism по руководству, проверь пар и выход FE."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "64577F3F980F0341",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "6A856F922042CD50"
+      ]
+    },
+    {
+      "id": "4D7BDE8BCB53DEE9",
+      "title": "Безопасный реактор",
+      "description": [
+        "Изучи охлаждение, выход отходов, аварийную остановку. Не запускай реактор до готовности всех контуров."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "0D35A6A21CBDA984",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "6814902E9FD8BBA7"
+      ]
+    },
+    {
+      "id": "760A41FF680E0FC4",
+      "title": "Радиационная защита",
+      "description": [
+        "Подготовь защитный костюм и выделенную зону хранения отходов."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "09853E3C90AF7DC3",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4D7BDE8BCB53DEE9"
+      ]
+    },
+    {
+      "id": "12EBB228F8989F6D",
+      "title": "Тепловой контур",
+      "description": [
+        "Проверь расход охладителя под небольшой нагрузкой и запас воды."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "0EE899B4DB66D575",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "760A41FF680E0FC4"
+      ]
+    },
+    {
+      "id": "0B03C6FD5F688640",
+      "title": "Термоядерный горизонт",
+      "description": [
+        "Изучи позднюю генерацию, не обязательную для основной кампании."
+      ],
+      "icon": "minecraft:redstone_block",
+      "x": 2.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "3B50A666DB96D19F",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "12EBB228F8989F6D"
+      ]
+    },
+    {
+      "id": "057A9BA7014F70DE",
+      "title": "Стабилизатор",
+      "description": [
+        "Запасной регулятор символизирует независимую аварийную сеть."
+      ],
+      "icon": "kubejs:power_regulator",
+      "x": 4.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "2338598DA87D046F",
+          "type": "item",
+          "item": "kubejs:power_regulator",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0B03C6FD5F688640"
+      ],
+      "rewards": [
+        {
+          "id": "67E60F1063532ACD",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

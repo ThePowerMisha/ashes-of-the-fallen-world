@@ -1,0 +1,236 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "27_engineer",
+  "group": "",
+  "icon": "minecraft:iron_pickaxe",
+  "id": "183A68B7765825B5",
+  "order_index": 26,
+  "quest_links": [],
+  "title": "Путь инженера",
+  "quests": [
+    {
+      "id": "043E695E38925082",
+      "title": "Обет механика",
+      "description": [
+        "Выбери Инженера: /trigger ashes_class set 3."
+      ],
+      "icon": "minecraft:iron_pickaxe",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0CCC9789A799143B",
+          "type": "item",
+          "item": "minecraft:iron_pickaxe",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1FF7A3BEF4184303"
+      ]
+    },
+    {
+      "id": "5E4499DD7CD864C4",
+      "title": "Ручная работа",
+      "description": [
+        "Добывай камень для личного опыта, затем автоматизируй производство."
+      ],
+      "icon": "minecraft:cobblestone",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "522309C08586B9A7",
+          "type": "item",
+          "item": "minecraft:cobblestone",
+          "count": 32
+        }
+      ],
+      "dependencies": [
+        "043E695E38925082"
+      ]
+    },
+    {
+      "id": "3C0010D64F261A48",
+      "title": "Передача",
+      "description": [
+        "Сделай запас валов для команды."
+      ],
+      "icon": "create:shaft",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "1E205AEE74478D94",
+          "type": "item",
+          "item": "create:shaft",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "5E4499DD7CD864C4"
+      ],
+      "rewards": [
+        {
+          "id": "278D6436288BBFD9",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0A8ADF8672FF6FA5",
+      "title": "Промежуточный запас",
+      "description": [
+        "Поддерживай склад компонентов для ремонта."
+      ],
+      "icon": "minecraft:redstone",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "79FA8356146EDC37",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "3C0010D64F261A48"
+      ]
+    },
+    {
+      "id": "29CDCDDE0C87963F",
+      "title": "Набор мастера",
+      "description": [
+        "Собери комплект для обмена на детали."
+      ],
+      "icon": "kubejs:repair_kit",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "787AA6FBEC0A1F99",
+          "type": "item",
+          "item": "kubejs:repair_kit",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0A8ADF8672FF6FA5"
+      ]
+    },
+    {
+      "id": "0BA3C87879EF8D4E",
+      "title": "Ускорение",
+      "description": [
+        "Достигни второго ранга и испытай /trigger ashes_ability при добыче."
+      ],
+      "icon": "minecraft:iron_pickaxe",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "5FE5E2D363B11D5F",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "29CDCDDE0C87963F"
+      ]
+    },
+    {
+      "id": "1772A46EB596DFEB",
+      "title": "Талант труда",
+      "description": [
+        "Разблокируй первый талант через /trigger ashes_talent set 1."
+      ],
+      "icon": "minecraft:iron_pickaxe",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "0A216496ED8BAC06",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0BA3C87879EF8D4E"
+      ]
+    },
+    {
+      "id": "2D3E06E7F953299F",
+      "title": "Талант выносливости",
+      "description": [
+        "На третьем ранге разблокируй второй талант."
+      ],
+      "icon": "minecraft:iron_pickaxe",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "756FA8741932C4DD",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1772A46EB596DFEB"
+      ]
+    },
+    {
+      "id": "7D0948F2BAD275AE",
+      "title": "Модуль привода",
+      "description": [
+        "Сделай компонент для магико-промышленного контура."
+      ],
+      "icon": "kubejs:drive_module",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "3229F58766FD3A03",
+          "type": "item",
+          "item": "kubejs:drive_module",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2D3E06E7F953299F"
+      ]
+    },
+    {
+      "id": "3DC0BC8904B2EDA0",
+      "title": "Клятва механика",
+      "description": [
+        "Передай союзу печать и запасные детали."
+      ],
+      "icon": "kubejs:mechanic_seal",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "50A687C69C16BF69",
+          "type": "item",
+          "item": "kubejs:mechanic_seal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7D0948F2BAD275AE"
+      ],
+      "rewards": [
+        {
+          "id": "16CD00CF32967C2B",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

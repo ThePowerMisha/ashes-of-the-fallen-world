@@ -3,3 +3,4 @@ scoreboard players set @s aclass 3
 scoreboard players set @s aapplied 0
 scoreboard players set @s acool 600
 tellraw @s {"text": "Выбран класс: Инженер", "color": "gold"}
+scoreboard players set @s atalent 0

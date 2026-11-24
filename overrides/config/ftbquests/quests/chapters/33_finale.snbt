@@ -1,0 +1,227 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "33_finale",
+  "group": "",
+  "icon": "minecraft:beacon",
+  "id": "0CF0EDE5CA37A70F",
+  "order_index": 32,
+  "quest_links": [],
+  "title": "Три колокола: эпилог",
+  "quests": [
+    {
+      "id": "118F88C2E7B31206",
+      "title": "Последний приказ",
+      "description": [
+        "Варден просит уничтожить Предел, а не пытаться снова подчинить его энергию."
+      ],
+      "icon": "kubejs:mechanic_dossier",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "6C3FB4E5F565DDE5",
+          "type": "item",
+          "item": "kubejs:mechanic_dossier",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6AE94DF87AB11A87"
+      ]
+    },
+    {
+      "id": "5116C11FE5B107B1",
+      "title": "Письмо эвакуации",
+      "description": [
+        "Ильма напоминает: победа измеряется спасёнными людьми, а не разрушенными крепостями."
+      ],
+      "icon": "kubejs:nature_dossier",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "1EF547B7B956F6FD",
+          "type": "item",
+          "item": "kubejs:nature_dossier",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "118F88C2E7B31206"
+      ]
+    },
+    {
+      "id": "5ACC6AC3C523141F",
+      "title": "Три печати",
+      "description": [
+        "Селена оставила ключ: ни одна школа не должна получить единоличную власть над Пределом."
+      ],
+      "icon": "kubejs:mage_dossier",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "430ACD98DA444178",
+          "type": "item",
+          "item": "kubejs:mage_dossier",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5116C11FE5B107B1"
+      ],
+      "rewards": [
+        {
+          "id": "0CF6B5250A353C9B",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "139FF74675D791FC",
+      "title": "Совет выживших",
+      "description": [
+        "Объедини знания орденов, передай союзникам копии архивов."
+      ],
+      "icon": "kubejs:concord_core",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "6A092A486386EA9F",
+          "type": "item",
+          "item": "kubejs:concord_core",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5ACC6AC3C523141F"
+      ]
+    },
+    {
+      "id": "5F2D00CC6DE3E25F",
+      "title": "Последняя экспедиция",
+      "description": [
+        "Собери контур после освобождения рубежа."
+      ],
+      "icon": "kubejs:renewal_circuit",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "53F0457ECFEDAEA2",
+          "type": "item",
+          "item": "kubejs:renewal_circuit",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "139FF74675D791FC",
+        "7BFF99070E63F77D"
+      ]
+    },
+    {
+      "id": "6B8353250B12F760",
+      "title": "Сердце нового мира",
+      "description": [
+        "Создай финальный артефакт, не расходуй его на побочные рецепты."
+      ],
+      "icon": "kubejs:renewal_heart",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "31E9008BE70BE186",
+          "type": "item",
+          "item": "kubejs:renewal_heart",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5F2D00CC6DE3E25F"
+      ],
+      "rewards": [
+        {
+          "id": "74510579F0CE63A4",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5B933812F3D43357",
+      "title": "Третий колокол",
+      "description": [
+        "Создай завещание и прочитай финальную запись. Включи маяк на общей площади."
+      ],
+      "icon": "kubejs:final_testament",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "4A35B0B2BF4FB14E",
+          "type": "item",
+          "item": "kubejs:final_testament",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6B8353250B12F760"
+      ]
+    },
+    {
+      "id": "1242CD4879093B88",
+      "title": "Память выживших",
+      "description": [
+        "Запиши имена участников, их открытия и судьбу восстановленного города."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "15D3EDC1390D2D94",
+          "type": "item",
+          "item": "minecraft:writable_book",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5B933812F3D43357"
+      ]
+    },
+    {
+      "id": "19AE819AED680558",
+      "title": "Наследие",
+      "description": [
+        "Оставь маяк и открытый архив для будущих жителей."
+      ],
+      "icon": "minecraft:beacon",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "6F07A67F75874396",
+          "type": "item",
+          "item": "minecraft:beacon",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1242CD4879093B88"
+      ],
+      "rewards": [
+        {
+          "id": "7B00BF6DB631D658",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

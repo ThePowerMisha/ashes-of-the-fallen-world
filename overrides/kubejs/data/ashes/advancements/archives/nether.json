@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "witness": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/root": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ashes:archive/nether"
+  }
+}

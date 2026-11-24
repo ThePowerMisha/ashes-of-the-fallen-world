@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Ashes of the Fallen World",
-  "version": "0.3.0-alpha",
+  "version": "0.9.0-rc1",
   "author": "Ashes Project",
   "files": [
     {
@@ -301,7 +301,7 @@
     },
     {
       "projectID": 245755,
-      "fileID": 7682270,
+      "fileID": 8849482,
       "required": true
     },
     {
@@ -577,6 +577,86 @@
     {
       "projectID": 991341,
       "fileID": 7551331,
+      "required": true
+    },
+    {
+      "projectID": 852533,
+      "fileID": 4603882,
+      "required": true
+    },
+    {
+      "projectID": 340583,
+      "fileID": 8806070,
+      "required": true
+    },
+    {
+      "projectID": 362528,
+      "fileID": 5058421,
+      "required": true
+    },
+    {
+      "projectID": 704465,
+      "fileID": 5623698,
+      "required": true
+    },
+    {
+      "projectID": 864599,
+      "fileID": 5468182,
+      "required": true
+    },
+    {
+      "projectID": 445274,
+      "fileID": 7708970,
+      "required": true
+    },
+    {
+      "projectID": 916747,
+      "fileID": 9588804,
+      "required": true
+    },
+    {
+      "projectID": 563928,
+      "fileID": 6289546,
+      "required": true
+    },
+    {
+      "projectID": 605375,
+      "fileID": 7787515,
+      "required": true
+    },
+    {
+      "projectID": 817709,
+      "fileID": 9151117,
+      "required": true
+    },
+    {
+      "projectID": 243121,
+      "fileID": 6427817,
+      "required": true
+    },
+    {
+      "projectID": 968868,
+      "fileID": 7335229,
+      "required": true
+    },
+    {
+      "projectID": 686911,
+      "fileID": 4754539,
+      "required": true
+    },
+    {
+      "projectID": 385587,
+      "fileID": 7090228,
+      "required": true
+    },
+    {
+      "projectID": 1735261,
+      "fileID": 9209591,
+      "required": true
+    },
+    {
+      "projectID": 570630,
+      "fileID": 7551186,
       "required": true
     }
   ],

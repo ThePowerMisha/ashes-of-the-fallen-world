@@ -1,0 +1,517 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "16_storage",
+  "group": "",
+  "icon": "ae2:drive",
+  "id": "0021D94CABEB35C8",
+  "order_index": 15,
+  "quest_links": [],
+  "title": "Цифровые склады и логистика",
+  "quests": [
+    {
+      "id": "44D76969ACF3EA94",
+      "title": "Первые ящики",
+      "description": [
+        "Создай Functional Storage: ящики для массовых материалов, фильтры для железа и камня."
+      ],
+      "icon": "ae2:drive",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "521AA3C4829C51A1",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "59B3BE45BFA33BD1"
+      ]
+    },
+    {
+      "id": "1FE8444A81C28F44",
+      "title": "Ящик под контролем",
+      "description": [
+        "Свяжи ящики контроллером и установи точку подключения общего склада."
+      ],
+      "icon": "ae2:drive",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "08659B92DBEA6E51",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "44D76969ACF3EA94"
+      ]
+    },
+    {
+      "id": "2766C9EBD515555E",
+      "title": "Умный рюкзак",
+      "description": [
+        "Настрой фильтры добычи и сортировку; не носи все ресурсы команды в одном рюкзаке."
+      ],
+      "icon": "sophisticatedbackpacks:backpack",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "6F4E5FC9194F74CE",
+          "type": "item",
+          "item": "sophisticatedbackpacks:backpack",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1FE8444A81C28F44"
+      ],
+      "rewards": [
+        {
+          "id": "2403C937009CF2D9",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "14D50B416AD42159",
+      "title": "Склад инструментов",
+      "description": [
+        "Раздели запасные инструменты и руду; настрой обновления Sophisticated Storage."
+      ],
+      "icon": "ae2:drive",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "07FA8E7147D65503",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2766C9EBD515555E"
+      ]
+    },
+    {
+      "id": "48362597DDBB31F5",
+      "title": "Предметные трубы",
+      "description": [
+        "Подключи извлечение с фильтром, не создавай круговой маршрут."
+      ],
+      "icon": "pipez:item_pipe",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "146D3C974F53C9F9",
+          "type": "item",
+          "item": "pipez:item_pipe",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "14D50B416AD42159"
+      ]
+    },
+    {
+      "id": "244062727ED0166F",
+      "title": "Жидкостные трубы",
+      "description": [
+        "Доставляй жидкости в машины; разделяй несовместимые контуры."
+      ],
+      "icon": "pipez:fluid_pipe",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "61EFA5390A3C3294",
+          "type": "item",
+          "item": "pipez:fluid_pipe",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "48362597DDBB31F5"
+      ],
+      "rewards": [
+        {
+          "id": "5C8F2E7170B97439",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "769C41B670988EE6",
+      "title": "Энергетические трубы",
+      "description": [
+        "Соедини генераторы и аккумуляторы, не превышай пропускную способность."
+      ],
+      "icon": "pipez:energy_pipe",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "10B08ED5A268F564",
+          "type": "item",
+          "item": "pipez:energy_pipe",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "244062727ED0166F"
+      ]
+    },
+    {
+      "id": "2AF8015257B05D95",
+      "title": "Кварцевый век",
+      "description": [
+        "Получай кварц из растущих кластеров, сохраняй источник возобновления."
+      ],
+      "icon": "ae2:certus_quartz_crystal",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "3F9DFBFA6DACD012",
+          "type": "item",
+          "item": "ae2:certus_quartz_crystal",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "769C41B670988EE6"
+      ]
+    },
+    {
+      "id": "73CBD1184A28F140",
+      "title": "Пыль звёзд",
+      "description": [
+        "Получай флюикс через предусмотренный рецепт; проверь JEI."
+      ],
+      "icon": "ae2:fluix_crystal",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "316329732C3C5349",
+          "type": "item",
+          "item": "ae2:fluix_crystal",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "2AF8015257B05D95"
+      ]
+    },
+    {
+      "id": "6C4F789B78C7E385",
+      "title": "Инскрайбер",
+      "description": [
+        "Освой изготовление процессоров, собери комплект прессов."
+      ],
+      "icon": "ae2:inscriber",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "10540306F7D59D34",
+          "type": "item",
+          "item": "ae2:inscriber",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "73CBD1184A28F140"
+      ]
+    },
+    {
+      "id": "7A3BB9EE22CCA944",
+      "title": "Логика",
+      "description": [
+        "Подготовь логические процессоры для ячеек."
+      ],
+      "icon": "ae2:logic_processor",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "1BCE91ADCDED08E4",
+          "type": "item",
+          "item": "ae2:logic_processor",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "6C4F789B78C7E385"
+      ]
+    },
+    {
+      "id": "7C606738152D8D38",
+      "title": "Расчёт",
+      "description": [
+        "Подготовь вычислительные процессоры для сети."
+      ],
+      "icon": "ae2:calculation_processor",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "1D87D3EE583817F1",
+          "type": "item",
+          "item": "ae2:calculation_processor",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "7A3BB9EE22CCA944"
+      ]
+    },
+    {
+      "id": "347E163AD4F1DD16",
+      "title": "Инженерия",
+      "description": [
+        "Получай процессоры из алмазов и обеспечь запас."
+      ],
+      "icon": "ae2:engineering_processor",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "4E1B40DD5925923A",
+          "type": "item",
+          "item": "ae2:engineering_processor",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "7C606738152D8D38"
+      ]
+    },
+    {
+      "id": "5CD5FEE01BEB06D8",
+      "title": "Энергетический ввод",
+      "description": [
+        "Подай FE через Energy Acceptor."
+      ],
+      "icon": "ae2:energy_acceptor",
+      "x": 2.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "53270D1A9AF11DB7",
+          "type": "item",
+          "item": "ae2:energy_acceptor",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "347E163AD4F1DD16"
+      ]
+    },
+    {
+      "id": "1518BDA7BD6E814F",
+      "title": "Контроллер",
+      "description": [
+        "Контроллер организует каналы крупной сети; не превышай их предел."
+      ],
+      "icon": "ae2:controller",
+      "x": 4.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "250D9140BFAF554E",
+          "type": "item",
+          "item": "ae2:controller",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5CD5FEE01BEB06D8"
+      ]
+    },
+    {
+      "id": "5B11120FF83CE743",
+      "title": "Ячейка",
+      "description": [
+        "Начни с компактной ячейки и следи за лимитом типов."
+      ],
+      "icon": "ae2:item_storage_cell_1k",
+      "x": 6.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "2BC62BF4735AF4A1",
+          "type": "item",
+          "item": "ae2:item_storage_cell_1k",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1518BDA7BD6E814F"
+      ]
+    },
+    {
+      "id": "2C8963642072C036",
+      "title": "Терминал",
+      "description": [
+        "Создай общий терминал для крафта без поиска сундуков."
+      ],
+      "icon": "ae2:crafting_terminal",
+      "x": 0.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "73EE72187C769D79",
+          "type": "item",
+          "item": "ae2:crafting_terminal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5B11120FF83CE743"
+      ]
+    },
+    {
+      "id": "22B50E4F76097D00",
+      "title": "Шина импорта",
+      "description": [
+        "Забирай выход машин на склад; используй фильтр."
+      ],
+      "icon": "ae2:import_bus",
+      "x": 2.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "75F9069620CA3D3A",
+          "type": "item",
+          "item": "ae2:import_bus",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2C8963642072C036"
+      ]
+    },
+    {
+      "id": "366E5AEB6B5C03FD",
+      "title": "Шина экспорта",
+      "description": [
+        "Подавай ингредиенты в нужную машину без переполнения."
+      ],
+      "icon": "ae2:export_bus",
+      "x": 4.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "2E6CE2ED9D0448C8",
+          "type": "item",
+          "item": "ae2:export_bus",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "22B50E4F76097D00"
+      ]
+    },
+    {
+      "id": "625180778E98F542",
+      "title": "Шина хранения",
+      "description": [
+        "Подключи массовые ящики к цифровой сети, задай приоритет."
+      ],
+      "icon": "ae2:storage_bus",
+      "x": 6.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "31378C75593CECEB",
+          "type": "item",
+          "item": "ae2:storage_bus",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "366E5AEB6B5C03FD"
+      ]
+    },
+    {
+      "id": "0791BCD58BFB178B",
+      "title": "Автокрафт",
+      "description": [
+        "Закодируй шаблон и установи поставщик шаблонов у машины."
+      ],
+      "icon": "ae2:pattern_provider",
+      "x": 0.0,
+      "y": 10.0,
+      "tasks": [
+        {
+          "id": "0B02AC31701672C2",
+          "type": "item",
+          "item": "ae2:pattern_provider",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "625180778E98F542"
+      ]
+    },
+    {
+      "id": "570A91D79923DAEB",
+      "title": "Сборочный узел",
+      "description": [
+        "Организуй автоматический крафт базовых компонентов."
+      ],
+      "icon": "ae2:molecular_assembler",
+      "x": 2.0,
+      "y": 10.0,
+      "tasks": [
+        {
+          "id": "180D067123C145FB",
+          "type": "item",
+          "item": "ae2:molecular_assembler",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0791BCD58BFB178B"
+      ]
+    },
+    {
+      "id": "484B6ECF8FB36553",
+      "title": "Общий запас",
+      "description": [
+        "Создай знак логиста из схемы, процессора и хартии."
+      ],
+      "icon": "kubejs:logistics_badge",
+      "x": 4.0,
+      "y": 10.0,
+      "tasks": [
+        {
+          "id": "20F05B414CBCFABC",
+          "type": "item",
+          "item": "kubejs:logistics_badge",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "570A91D79923DAEB"
+      ],
+      "rewards": [
+        {
+          "id": "77AEF4B9AFF9C064",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

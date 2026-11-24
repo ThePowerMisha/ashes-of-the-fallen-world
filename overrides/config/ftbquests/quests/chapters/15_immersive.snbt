@@ -1,0 +1,404 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "15_immersive",
+  "group": "",
+  "icon": "minecraft:iron_block",
+  "id": "3B6DC44A72AC3B7F",
+  "order_index": 14,
+  "quest_links": [],
+  "title": "Тяжёлая промышленность и добыча",
+  "quests": [
+    {
+      "id": "4ED039172C7EDDFE",
+      "title": "Инженерный справочник",
+      "description": [
+        "Открой Engineer’s Manual и изучи многоблочные машины. Подтверди после чтения."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "60C896737580816F",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "3E032F770950CD2C"
+      ]
+    },
+    {
+      "id": "7E9EDD7C7585D32C",
+      "title": "Креозот",
+      "description": [
+        "Построй коксовую печь и организуй отвод креозота, не смешивая его с водой."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "1BD5419EF647AC05",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4ED039172C7EDDFE"
+      ]
+    },
+    {
+      "id": "45D7A75E17044C3C",
+      "title": "Обработанная древесина",
+      "description": [
+        "Используй креозот для изготовления конструкционных деталей и опор."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "195D4F2C37AC4414",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7E9EDD7C7585D32C"
+      ]
+    },
+    {
+      "id": "60AD0790CB02E5C8",
+      "title": "Доменная печь",
+      "description": [
+        "Получай сталь через доменную печь, затем переходи к электропроизводству."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "608C4DFD7F46A591",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "45D7A75E17044C3C"
+      ]
+    },
+    {
+      "id": "4ED26D2994096579",
+      "title": "Медный провод",
+      "description": [
+        "Подготовь медь для низковольтной сети."
+      ],
+      "icon": "minecraft:copper_ingot",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "4A69E7137635819E",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "60AD0790CB02E5C8"
+      ]
+    },
+    {
+      "id": "0A5AA6950682A39B",
+      "title": "Провода и реле",
+      "description": [
+        "Собери LV-сеть, соблюдай направление соединителей и избегай пересечения проводов."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "55B0CCDB42AF97BA",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4ED26D2994096579"
+      ]
+    },
+    {
+      "id": "5F22A35B17F2494C",
+      "title": "Водяное колесо",
+      "description": [
+        "Построй генератор Immersive Engineering; проверь выдачу энергии."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "4BFD312D7AE40D26",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0A5AA6950682A39B"
+      ]
+    },
+    {
+      "id": "47FB2B7095CDC286",
+      "title": "Дробильный цех",
+      "description": [
+        "Собери Crusher по руководству и подведи достаточную мощность."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "3F75B9B56CDF3AC2",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "5F22A35B17F2494C"
+      ]
+    },
+    {
+      "id": "725A042E8A511686",
+      "title": "Металлопресс",
+      "description": [
+        "Сделай формы и автоматизируй выпуск пластин, стержней и проволоки."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "3C89DB1F0DF397F7",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "47FB2B7095CDC286"
+      ]
+    },
+    {
+      "id": "54802656C801BD6F",
+      "title": "Конвейеры",
+      "description": [
+        "Организуй безопасный поток предметов и ограждение оборудования."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "68C0E976C224AE67",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "725A042E8A511686"
+      ]
+    },
+    {
+      "id": "20B754F36BD104A9",
+      "title": "Бурение образцов",
+      "description": [
+        "Исследуй минеральную жилу с помощью Core Sample Drill."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "54485592B58FFCBC",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "54802656C801BD6F"
+      ]
+    },
+    {
+      "id": "7D5B5F6732789359",
+      "title": "Экскаватор",
+      "description": [
+        "Построй Excavator на найденной жиле. Подготовь запас энергии и выходной склад."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "32881E29E3B9D062",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "20B754F36BD104A9"
+      ]
+    },
+    {
+      "id": "2A27EFFBF06768D2",
+      "title": "Жидкостная логистика",
+      "description": [
+        "Освой насосы и резервуары, не разливай жидкости у жилых помещений."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "5AEBB7F450532998",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7D5B5F6732789359"
+      ]
+    },
+    {
+      "id": "1E84ADF423B47205",
+      "title": "Пластик",
+      "description": [
+        "Начни Industrial Foregoing с получения латекса и его переработки."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 2.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "52C5F014CC90DF36",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2A27EFFBF06768D2"
+      ]
+    },
+    {
+      "id": "2FFB4F9E627DAE88",
+      "title": "Рабочая рама",
+      "description": [
+        "Собери первый Machine Frame в Dissolution Chamber, проверь JEI."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 4.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "5C5446A3FB2F6BB8",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1E84ADF423B47205"
+      ]
+    },
+    {
+      "id": "1AA9D94730B2AA8D",
+      "title": "Автоферма",
+      "description": [
+        "Настрой Plant Sower и Plant Gatherer с ограниченной зоной, чтобы не ломать соседние поля."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 6.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "3B1D747EEED9519C",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2FFB4F9E627DAE88"
+      ]
+    },
+    {
+      "id": "2EFB56AB51F2C3A5",
+      "title": "Лазерная добыча",
+      "description": [
+        "Настрой Laser Drill и Ore Laser Base в отдельном помещении, проверь линзы."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 0.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "70515EB99969128C",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1AA9D94730B2AA8D"
+      ]
+    },
+    {
+      "id": "0EBB4461DE2A95E3",
+      "title": "Запас безопасности",
+      "description": [
+        "Держи строительные материалы для ремонта, не растрачивая всё на оборудование."
+      ],
+      "icon": "minecraft:iron_block",
+      "x": 2.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "7C1E7B4A1EE25BFA",
+          "type": "item",
+          "item": "minecraft:iron_block",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "2EFB56AB51F2C3A5"
+      ]
+    },
+    {
+      "id": "0069B3AB9D27231C",
+      "title": "Ремонтная мастерская",
+      "description": [
+        "Собери авторский ремонтный комплект для аварийного производства."
+      ],
+      "icon": "kubejs:repair_kit",
+      "x": 4.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "65C94A603A216271",
+          "type": "item",
+          "item": "kubejs:repair_kit",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0EBB4461DE2A95E3"
+      ],
+      "rewards": [
+        {
+          "id": "573D3981C1803A90",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

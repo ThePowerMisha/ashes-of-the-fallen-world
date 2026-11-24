@@ -1,0 +1,397 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "21_expeditions",
+  "group": "",
+  "icon": "minecraft:filled_map",
+  "id": "4C5B07647387E929",
+  "order_index": 20,
+  "quest_links": [],
+  "title": "Атлас погибшего мира",
+  "quests": [
+    {
+      "id": "70162E3EEE582478",
+      "title": "Лесной приют",
+      "description": [
+        "Поставь безопасный лагерь на границе большого леса."
+      ],
+      "icon": "minecraft:campfire",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2C9EBB69160B7396",
+          "type": "item",
+          "item": "minecraft:campfire",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "639F04B923139E25"
+      ]
+    },
+    {
+      "id": "7F65AB9CCD0625FD",
+      "title": "Высокий перевал",
+      "description": [
+        "Подготовь кожаные ботинки и изучи снежные склоны; не рискуй ради предмета без нужды."
+      ],
+      "icon": "minecraft:powder_snow_bucket",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "3205AC85C35DE45C",
+          "type": "item",
+          "item": "minecraft:powder_snow_bucket",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "70162E3EEE582478"
+      ]
+    },
+    {
+      "id": "1B0E3F001AEDDB5B",
+      "title": "Долина рек",
+      "description": [
+        "Нанеси водный маршрут между двумя районами."
+      ],
+      "icon": "minecraft:oak_boat",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2794CB3A449CD6F4",
+          "type": "item",
+          "item": "minecraft:oak_boat",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7F65AB9CCD0625FD"
+      ],
+      "rewards": [
+        {
+          "id": "44564C25EEC79CAA",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3D3EAF0E202B05DD",
+      "title": "Старые дороги",
+      "description": [
+        "Найди остатки дорог или небольшие руины, запиши координаты."
+      ],
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5F56DE9EF566534D",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1B0E3F001AEDDB5B"
+      ]
+    },
+    {
+      "id": "49521727BFFDCBE5",
+      "title": "Пустая деревня",
+      "description": [
+        "Исследуй заброшенную деревню; не уничтожай здания и полезные блоки."
+      ],
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "569F61CB07401F51",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "3D3EAF0E202B05DD"
+      ]
+    },
+    {
+      "id": "11492658362D6EDF",
+      "title": "Крепостная стена",
+      "description": [
+        "Найди замок When Dungeons Arise, осмотри безопасный вход."
+      ],
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "63041E9DC680E427",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "49521727BFFDCBE5"
+      ]
+    },
+    {
+      "id": "4CE6E410A061A2BF",
+      "title": "Павшие башни",
+      "description": [
+        "Исследуй сторожевую башню и отметь её на карте."
+      ],
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6660FEE476475963",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "11492658362D6EDF"
+      ]
+    },
+    {
+      "id": "45E36DA2F6B26F88",
+      "title": "Крипта",
+      "description": [
+        "Исследуй сооружение The Graveyard, забери добычу и покинь его."
+      ],
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "79CB1530C580B7CB",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4CE6E410A061A2BF"
+      ]
+    },
+    {
+      "id": "39DA3FC2A9030ECA",
+      "title": "Шахта",
+      "description": [
+        "Найди шахту YUNG’s, подготовь лестницы и запас света."
+      ],
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "73EC93E3F9F07925",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "45E36DA2F6B26F88"
+      ]
+    },
+    {
+      "id": "31539A566448FE6C",
+      "title": "Подземный лабиринт",
+      "description": [
+        "Исследуй подземелье YUNG’s, проверь личные сундуки Lootr."
+      ],
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "3B9C06A0F25E3C21",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "39DA3FC2A9030ECA"
+      ]
+    },
+    {
+      "id": "3DFB041B9E3A26C8",
+      "title": "Древний город",
+      "description": [
+        "Найди древний город, используй шерсть и тихое перемещение."
+      ],
+      "icon": "minecraft:echo_shard",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "4161EFEE547B3C80",
+          "type": "item",
+          "item": "minecraft:echo_shard",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "31539A566448FE6C"
+      ]
+    },
+    {
+      "id": "1627C65994A6A4E2",
+      "title": "Следы катастрофы",
+      "description": [
+        "Собери обломки архива; читай их сюжетные задания."
+      ],
+      "icon": "kubejs:archive_fragment",
+      "x": 6.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "1B96FFEAA6D951D8",
+          "type": "item",
+          "item": "kubejs:archive_fragment",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "3DFB041B9E3A26C8"
+      ]
+    },
+    {
+      "id": "0AFA200743E91115",
+      "title": "Забытый склад",
+      "description": [
+        "Найди склад или лагерь среди руин и отметь место для будущего восстановления."
+      ],
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "20A31F464C6170E0",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1627C65994A6A4E2"
+      ]
+    },
+    {
+      "id": "3CAD3983287A5AFE",
+      "title": "Зимний лес",
+      "description": [
+        "Подготовь провизию и запиши сезонные условия."
+      ],
+      "icon": "minecraft:snowball",
+      "x": 2.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "00544AF0A7B2A37C",
+          "type": "item",
+          "item": "minecraft:snowball",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "0AFA200743E91115"
+      ]
+    },
+    {
+      "id": "4D171E57BA3CA057",
+      "title": "Океанский путь",
+      "description": [
+        "Создай проводник для исследовательской базы под водой."
+      ],
+      "icon": "minecraft:conduit",
+      "x": 4.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "763E507E8F18F47E",
+          "type": "item",
+          "item": "minecraft:conduit",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "3CAD3983287A5AFE"
+      ]
+    },
+    {
+      "id": "1DBC9ADB5C6053AD",
+      "title": "Путевой знак",
+      "description": [
+        "Установи Waystone в безопасном месте и проверь стоимость перемещения."
+      ],
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 6.0,
+      "tasks": [
+        {
+          "id": "380FE47A323DDC07",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4D171E57BA3CA057"
+      ]
+    },
+    {
+      "id": "2D3E2BE8D272DDCC",
+      "title": "Второй аванпост",
+      "description": [
+        "Создай лагерь в другом биоме, свяжи его с картой и складом."
+      ],
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "2FB3B073D4D18600",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1DBC9ADB5C6053AD"
+      ]
+    },
+    {
+      "id": "66496E7C346F7113",
+      "title": "Карта союза",
+      "description": [
+        "Закончи атлас маршрутов и подготовь группу к дальним экспедициям."
+      ],
+      "icon": "kubejs:expedition_seal",
+      "x": 2.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "7B50780BD719CAFD",
+          "type": "item",
+          "item": "kubejs:expedition_seal",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2D3E2BE8D272DDCC"
+      ],
+      "rewards": [
+        {
+          "id": "77E9DCFA76B81409",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

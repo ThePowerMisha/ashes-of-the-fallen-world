@@ -1,0 +1,244 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "25_paladin",
+  "group": "",
+  "icon": "minecraft:shield",
+  "id": "4E98427858CA4F91",
+  "order_index": 24,
+  "quest_links": [],
+  "title": "Путь паладина",
+  "quests": [
+    {
+      "id": "7F2DC7F1375EBCF2",
+      "title": "Клятва защиты",
+      "description": [
+        "Выбери Паладина через /trigger ashes_class set 1. Задача общая, класс личный."
+      ],
+      "icon": "minecraft:shield",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "797BC3AECEEA5682",
+          "type": "item",
+          "item": "minecraft:shield",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1FF7A3BEF4184303"
+      ]
+    },
+    {
+      "id": "384AB1C6EC81BAE7",
+      "title": "Страж ворот",
+      "description": [
+        "Подготовь броню и проверь защиту в бою."
+      ],
+      "icon": "minecraft:iron_chestplate",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "068F4FF749532C25",
+          "type": "item",
+          "item": "minecraft:iron_chestplate",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7F2DC7F1375EBCF2"
+      ]
+    },
+    {
+      "id": "326162431F3012AB",
+      "title": "Дозорный меч",
+      "description": [
+        "Освой тайминг Better Combat."
+      ],
+      "icon": "minecraft:iron_sword",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "1358A27151756C1F",
+          "type": "item",
+          "item": "minecraft:iron_sword",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "384AB1C6EC81BAE7"
+      ],
+      "rewards": [
+        {
+          "id": "270039D3D963BE90",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "65D64E5A2F0C455D",
+      "title": "Запас лечения",
+      "description": [
+        "Сохрани лечение на случай спасения товарища."
+      ],
+      "icon": "minecraft:golden_apple",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4B0D1AAC56C75461",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "326162431F3012AB"
+      ]
+    },
+    {
+      "id": "1E9FA3D5C71C7575",
+      "title": "Знамя дозора",
+      "description": [
+        "Отметь место сбора для защитников."
+      ],
+      "icon": "minecraft:white_banner",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "40B6E8D34F2A7F4F",
+          "type": "item",
+          "item": "minecraft:white_banner",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "65D64E5A2F0C455D"
+      ]
+    },
+    {
+      "id": "66D3541EFE053630",
+      "title": "Оборона",
+      "description": [
+        "Используй дальнюю атаку с безопасной дистанции."
+      ],
+      "icon": "minecraft:crossbow",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "75803EA9CCCC97AF",
+          "type": "item",
+          "item": "minecraft:crossbow",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1E9FA3D5C71C7575"
+      ],
+      "rewards": [
+        {
+          "id": "142524C547134A9D",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "482A8B31E1DC4177",
+      "title": "Клятва стойкости",
+      "description": [
+        "Достигни второго ранга и попробуй /trigger ashes_ability. Проверка ранга индивидуальная."
+      ],
+      "icon": "minecraft:shield",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "62B2DEC55ED6F72F",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "66D3541EFE053630"
+      ]
+    },
+    {
+      "id": "0F3B88A0DD93EBB5",
+      "title": "Клятва щита",
+      "description": [
+        "Разблокируй талант защиты через /trigger ashes_talent set 1 на втором ранге."
+      ],
+      "icon": "minecraft:shield",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7268DB218BCAD604",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "482A8B31E1DC4177"
+      ]
+    },
+    {
+      "id": "032CA93C5190D178",
+      "title": "Клятва поддержки",
+      "description": [
+        "Проверь третий ранг и талант поддержки через /trigger ashes_talent set 2."
+      ],
+      "icon": "minecraft:shield",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "1E489B14D6C8FDAE",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0F3B88A0DD93EBB5"
+      ]
+    },
+    {
+      "id": "061B8AC837FEDC58",
+      "title": "Знак паладина",
+      "description": [
+        "Подготовь оберег для экспедиций в Скверну."
+      ],
+      "icon": "kubejs:ward_charm",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "2663BE96620ECB07",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "032CA93C5190D178"
+      ],
+      "rewards": [
+        {
+          "id": "7D046E0B2035C521",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
