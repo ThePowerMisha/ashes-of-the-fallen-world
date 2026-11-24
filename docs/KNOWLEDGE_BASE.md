@@ -29,3 +29,5 @@ RC5: игровые тесты клиента/сервера, фактическ
 
 ## MCA / живые поселения
 #mca #villagers #npcquests #reputation — MCA.md (справка, источники, ограничения), mod-plan.json (группа living_villages), LORE.md. Сводка devtools snapshot читает lock автоматически. Валидация и упаковщик обновлены под 169 проектов. Нужны реальные реестры и приёмка, в частности типы жителей и обелиски.
+
+- #minecolonies #mixin #launch Сигнатура `FoodUtilsMixin` при создании мира, связь Tweaks с Compatibility, зафиксированная версия и процедура проверки описаны в [MOD_AUDIT.md](MOD_AUDIT.md).

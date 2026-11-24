@@ -78,3 +78,5 @@
 - #companions #skins #touhou #succubus docs/COMPANIONS.md, overrides/ashes_docs/COMPANIONS.md — справка и тесты; docs/LORE.md — экспериментальный канон; manifest и mods-lock — 163 проекта в этой ветке. Квесты и игровые ID не изменены.
 
 - #mca #villagers #reputation #family #npcquests docs/MCA.md, overrides/ashes_docs/MCA.md — справка, версии, лор, зависимости, сценарии тестов; 169 проектов / 163 Horizons. MCA-квесты не входят в число авторских FTB Quests.
+
+- #minecolonies #launch #crash `docs/MOD_AUDIT.md`, `docs/mod-plan.json` — краш `FoodUtilsMixin` и обязательная версия Tweaks.

@@ -216,6 +216,10 @@
       "curios"
     ],
     "minecolonies-compatibility": [
+      "minecolonies",
+      "minecolonies-tweaks"
+    ],
+    "minecolonies-tweaks": [
       "minecolonies"
     ],
     "just-enough-mekanism-multiblocks": [

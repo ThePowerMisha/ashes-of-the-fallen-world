@@ -20,3 +20,11 @@ Forge сообщил об отсутствующих обязательных mo
 
 ## MCA
 Шесть Forge 1.20.1 проектов; сохранены прежние 163 пары. Architectury уже в lock; добавлены связи зависимости от MCA. Источники, ограничения метаданных и отсутствующие проверки в MCA.md. Colony Integration исключён (1.21.1 NeoForge).
+
+## Сбой при создании мира в MineColonies
+
+Строка `minecolonies.FoodUtilsMixin ... hasBestOptionInInv2 ... (0/1) succeeded` указывает на сбой в MineColonies Tweaks 2.104 при работе с MineColonies 1.1.1318. MineColonies Compatibility 2.128 требует Tweaks через `META-INF/mods.toml`. В сборке закреплён [Tweaks 2.107 для Forge 1.20.1](https://www.curseforge.com/minecraft/mc-mods/minecolonies-tweaks/files/8600075). В этом JAR отсутствует проблемный миксин, что также подтверждено в [обсуждении ошибки у автора](https://github.com/gisellevonbingen-Minecraft/MineColonies_Tweaks/issues/96).
+
+Для существующего экземпляра закройте игру и замените `MineColonies_Tweaks-1.20.1-2.104-all.jar` в папке `mods` на `MineColonies_Tweaks-1.20.1-2.107-all.jar`. В папке должен остаться один JAR Tweaks. Для первого запуска после обновления используйте новый тестовый мир.
+
+Проверены метаданные и содержимое точных JAR-файлов зависимостей. Полный запуск Forge с обновлённым профилем требует игрового теста.
