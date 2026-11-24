@@ -40,3 +40,10 @@ Botania 1.20.1-450 требует Patchouli 1.20.1-83 или новее и Curio
 Если в конце стека указано `supermartijn642corelib.mixins.json:GameDataMixin` и `postRegisterEvents ... (0/1) succeeded`, проверь версию SuperMartijn642’s Core Lib. В 1.1.17a миксин ищет вызов `applyObjectHolders(Predicate)`. Forge 47.4.28 вызывает `applyObjectHolders(ResourceLocation)`. В 1.1.26b миксин поддерживает обе сигнатуры. Обязательный диапазон Core Lib у Rechiseled 1.1.6 — от 1.1.0 включительно до 1.2.0 исключительно.
 
 В обоих профилях закреплён `supermartijn642corelib-1.1.26b-forge-mc1.20.1.jar`. В установленном экземпляре закрой игру и замени старую версию Core Lib в папке `mods`. Config Lib — отдельная зависимость Rechiseled. [Файл для Forge 1.20.1](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/9689182)
+
+## Два сбоя запуска с TerraBlender и Vinery
+
+- TerraBlender 3.0.1.8 с Cristel Lib 1.1.6. В запуске серверного набора с прежним манифестом Forge сообщил `cristellib-common.mixins.json:MixinTerrablenderConfig ... (0/1) succeeded`. В манифесте закреплён [TerraBlender 3.0.1.10 для Forge 1.20.1](https://www.curseforge.com/minecraft/mc-mods/terrablender/files/6290448).
+- После установки TerraBlender 3.0.1.10 загрузка дошла до регистрации рецептов. MineColonies Compatibility 2.128 обращается к `net.satisfy.vinery.core.registry.RecipeTypesRegistry`. В Vinery 1.4.28 класс находится в другом пакете. В манифесте закреплён [Vinery 1.4.41 для Forge 1.20.1](https://www.curseforge.com/minecraft/mc-mods/lets-do-vinery/files/6965751). Точный путь класса проверен в JAR.
+
+Если правишь уже установленный профиль CurseForge, закрой Minecraft и замени оба старых JAR в его папке `mods`. При установленном TerraBlender 3.0.1.10 достаточно заменить Vinery. Первый запуск после обновления проверь на новом тестовом мире.

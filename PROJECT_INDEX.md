@@ -86,3 +86,5 @@
 - #corelib #forge #crash [Диагностика GameDataMixin](docs/MOD_AUDIT.md#сбой-core-lib-при-запуске-forge-47428) и `tools/devtools.py crash` — поиск фатальной ошибки среди предупреждений Mixin.
 
 - #corelib #testing [Результаты запуска с Rechiseled](docs/TESTING.md#проверка-запуска-с-rechiseled-на-forge-47428).
+
+- #terrablender #vinery #launch [Конфликт с Cristel Lib и отсутствующий класс рецептов Vinery](docs/MOD_AUDIT.md#два-сбоя-запуска-с-terrablender-и-vinery).

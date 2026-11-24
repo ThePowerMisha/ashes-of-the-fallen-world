@@ -37,3 +37,5 @@ RC5: игровые тесты клиента/сервера, фактическ
 - #forge #mixin #rechiseled Если запуск останавливается на `GameDataMixin.postRegisterEvents`, см. [проверенную пару Forge и Core Lib](MOD_AUDIT.md#сбой-core-lib-при-запуске-forge-47428). В отчёте `devtools.py crash` поле `line_numbers.critical_injections` указывает строки с фатальным сбоем внедрения.
 
 - #corelib [Парная проверка старой и новой версии на выделенном сервере](TESTING.md#проверка-запуска-с-rechiseled-на-forge-47428).
+
+- #terrablender #vinery #launch [Два сбоя запуска](MOD_AUDIT.md#два-сбоя-запуска-с-terrablender-и-vinery), точные версии и сигнатуры ошибок.

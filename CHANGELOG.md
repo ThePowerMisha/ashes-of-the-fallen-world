@@ -105,3 +105,8 @@
 - SuperMartijn642’s Core Lib обновлён с 1.1.17a до 1.1.26b в стандартном профиле и Horizons. Это исправляет ошибку `GameDataMixin.postRegisterEvents` при загрузке реестров Forge.
 
 - В отдельном тесте Forge 47.4.28 воспроизведён сбой с Core Lib 1.1.17a. Сервер с 1.1.26b создал и сохранил тестовый мир.
+
+### Исправления TerraBlender и Vinery
+
+- TerraBlender 3.0.1.10 устраняет подтверждённый конфликт с Cristel Lib 1.1.6 при загрузке конфигурации.
+- Vinery 1.4.41 содержит класс рецептов, который использует интеграция MineColonies Compatibility 2.128.
