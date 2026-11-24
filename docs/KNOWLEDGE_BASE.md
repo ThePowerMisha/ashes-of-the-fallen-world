@@ -21,3 +21,6 @@ python tools/devtools.py snapshot -o .local/knowledge.json — актуальн�
 
 ## Открытые проверки
 RC5: игровые тесты клиента/сервера, фактические реестры, генерация на нескольких сидах, Lootr, взаимодействие модовых структур, производительность. См. TESTING.md. Изменение инструментов не означает прохождение этих проверок.
+
+## Эксперимент companions
+#companions #skins #touhou #succubus — COMPANIONS.md и его копия в overrides/ashes_docs/COMPANIONS.md, LORE.md, mod-plan.json. Данные версий подтверждены публичными страницами файлов; реестры, механики и совместимость в игре не проверены. snapshot автоматически читает актуальный lock.

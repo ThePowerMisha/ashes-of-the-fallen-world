@@ -132,6 +132,12 @@
       "guideme",
       "villagerstradingplus",
       "fusion-connected-textures"
+    ],
+    "companions": [
+      "custom-player-models",
+      "touhou-little-maid",
+      "monster-girl",
+      "maid-action-expansion"
     ]
   },
   "reviewed_dependencies": {
@@ -227,6 +233,9 @@
     "rechiseled": [
       "supermartijn642s-core-lib",
       "fusion-connected-textures"
+    ],
+    "maid-action-expansion": [
+      "touhou-little-maid"
     ]
   },
   "excluded": {
