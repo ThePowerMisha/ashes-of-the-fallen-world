@@ -10,7 +10,7 @@ def msg(s): return 'tellraw @s '+json.dumps({'text':s,'color':'gold'},ensure_asc
 items={
  'archive_fragment':('Обломок архива','paper'), 'mechanic_seal':('Печать механиков','iron_ingot'), 'nature_seal':('Печать хранителей','emerald'), 'mage_seal':('Печать архимагов','amethyst_shard'), 'concord_core':('Ядро согласия','echo_shard'), 'purity_sigil':('Знак очищения','prismarine_crystals'), 'renewal_heart':('Сердце возрождения','nether_star'), 'mechanic_dossier':('Досье: Последний пуск','book'), 'nature_dossier':('Досье: Корни тишины','book'), 'mage_dossier':('Досье: Голос под камнем','book'), 'expedition_seal':('Печать экспедиции','compass'), 'purifier_matrix':('Матрица очищения','prismarine_shard'), 'settlement_charter':('Хартия поселения','paper'), 'memory_lens':('Линза памяти','spyglass')}
 items.update(EXTRA_ITEMS)
-put(K/'startup_scripts'/'ashes_items.js', 'StartupEvents.registry(\'item\', event => {\n'+''.join(f"  event.create('{i}').displayName('{n}').texture('minecraft:item/{t}')\n" for i,(n,t) in items.items())+'})\n')
+put(K/'startup_scripts'/'ashes_items.js', 'StartupEvents.registry(\'item\', event => {\n'+''.join(f"  event.create('{i}').displayName('{n}').texture('kubejs:item/{i}')\n" for i,(n,t) in items.items())+'})\n')
 recipes={
  'archive_fragment': ['minecraft:paper','minecraft:ink_sac','minecraft:charcoal'],
  'mechanic_seal':['kubejs:archive_fragment','create:precision_mechanism','mekanism:basic_control_circuit'],

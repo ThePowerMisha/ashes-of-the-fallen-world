@@ -70,3 +70,24 @@ assert sculk['General Variables']['isHordeActiveWithNoPlayers'] is False
 assert sculk['Trigger Automatically Variables']['trigger_ancient_node_automatically'] is False
 assert not (root/'overrides/defaultconfigs/sculkhorde-server.toml').exists()
 print('PASS: mastery nodes, ward advancement and Sculk configuration path.')
+
+# Authored textures: inspect PNG header and animation metadata with stdlib only.
+import struct
+textures=base/'assets/kubejs/textures/item'
+assert {p.stem for p in textures.glob('*.png')}==items
+registry=(base/'startup_scripts/ashes_items.js').read_text(encoding='utf-8')
+assert set(re.findall(r"texture\('kubejs:item/([a-z_]+)'\)",registry))==items
+assert len({p.read_bytes() for p in textures.glob('*.png')})==len(items)
+for p in textures.glob('*.png'):
+    data=p.read_bytes()
+    assert data[:8]==b'\x89PNG\r\n\x1a\n' and data[12:16]==b'IHDR',p
+    w,h=struct.unpack('>II',data[16:24])
+    assert w in (32,64) and h%w==0,p
+    meta=p.with_suffix('.png.mcmeta')
+    if meta.exists():
+        a=json.loads(meta.read_text(encoding='utf-8'))['animation']
+        assert h>w and a['frametime']>0,p
+        assert all(0<=f<h//w for f in a.get('frames',range(h//w))),p
+    else: assert h==w,p
+assert all(p.with_suffix('').exists() for p in textures.glob('*.png.mcmeta'))
+print('PASS: custom item textures and animation dimensions.')

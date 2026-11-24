@@ -40,3 +40,5 @@
 - `tools/wards.py` / `docs/WARDS.md`: регистрация обелисков, защита жителей, тревоги, тег бойцов орды и достижение установки.
 - `docs/MOD_CONFIGS.md` / `overrides/config/sculkhorde_config.toml` / `overrides/defaultconfigs/ftb*`: проверенные имена параметров орды, приватов и добычи.
 - `tools/package.py --profile horizons` — отдельный CurseForge ZIP с Distant Horizons вместо Oculus и Complementary. `docs/RELEASE_STATUS.md` — точное состояние финального кандидата.
+
+- #assets #textures `docs/ASSETS.md`, `overrides/kubejs/assets/kubejs/textures/item/` — исходные PNG, привязка в `tools/build.py` и проверка в `tools/validate.py`.
