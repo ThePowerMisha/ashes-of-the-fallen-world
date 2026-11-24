@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "registered": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -59,3 +59,7 @@ scoreboard players set @s ashes_menu 0
 scoreboard players add @s amastery_retry 0
 execute if score @s amastery_retry matches 1.. run scoreboard players remove @s amastery_retry 1
 execute if score @s aclass matches 1..6 if score @s arank > @s amastery if score @s amastery_retry matches 0 run function ashes:skills/grant
+scoreboard players enable @s ashes_ward
+execute if score @s ashes_ward matches 1 run function ashes:ward/request
+execute if score @s ashes_ward matches 2 run function ashes:ward/status
+scoreboard players set @s ashes_ward 0

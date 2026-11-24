@@ -4229,5 +4229,85 @@
     "dependencies": [
       "1242CD4879093B88"
     ]
+  },
+  {
+    "chapter": "Обереги нового мира",
+    "quest": "Хартия рубежа",
+    "task": "kubejs:settlement_charter",
+    "count": 1,
+    "id": "67D139FB8623D999",
+    "dependencies": [
+      "5A38822BEA58C471"
+    ]
+  },
+  {
+    "chapter": "Обереги нового мира",
+    "quest": "Оберег рубежа",
+    "task": "kubejs:ward_charm",
+    "count": 1,
+    "id": "3F35688D1CA7D0D4",
+    "dependencies": [
+      "67D139FB8623D999"
+    ]
+  },
+  {
+    "chapter": "Обереги нового мира",
+    "quest": "Камень рубежа",
+    "task": "minecraft:lodestone",
+    "count": 1,
+    "id": "401FE32C382AEFBA",
+    "dependencies": [
+      "3F35688D1CA7D0D4"
+    ]
+  },
+  {
+    "chapter": "Обереги нового мира",
+    "quest": "Сигнал дозора",
+    "task": "advancement:ashes:ward/registered",
+    "count": 1,
+    "id": "33FDD1A28CA6DF64",
+    "dependencies": [
+      "401FE32C382AEFBA"
+    ]
+  },
+  {
+    "chapter": "Обереги нового мира",
+    "quest": "Стена против Скверны",
+    "task": "advancement:sculkhorde:craft_infestation_ward_block",
+    "count": 1,
+    "id": "4C819E3C4DDF6A6D",
+    "dependencies": [
+      "33FDD1A28CA6DF64"
+    ]
+  },
+  {
+    "chapter": "Обереги нового мира",
+    "quest": "Граница поселения",
+    "task": "manual",
+    "count": 1,
+    "id": "0807FB68A7F4634C",
+    "dependencies": [
+      "4C819E3C4DDF6A6D"
+    ]
+  },
+  {
+    "chapter": "Обереги нового мира",
+    "quest": "Дозорная тревога",
+    "task": "manual",
+    "count": 1,
+    "id": "4AF5954FE8881889",
+    "dependencies": [
+      "0807FB68A7F4634C"
+    ]
+  },
+  {
+    "chapter": "Обереги нового мира",
+    "quest": "Свет нового мира",
+    "task": "minecraft:bell",
+    "count": 1,
+    "id": "2FF64656C9B52590",
+    "dependencies": [
+      "4AF5954FE8881889"
+    ]
   }
 ]

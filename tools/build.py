@@ -117,6 +117,7 @@ for order,(slug,title,icon,rows) in enumerate(chapters):
   auto={('06_horde',4):'sculkhorde:sculk_horde_start',('08_final',2):'sculkhorde:sculk_horde_defeat'}
   extra_auto={'Разведка узла':'sculkhorde:sculk_tomb_visit','Очищение блока':'sculkhorde:craft_infestation_purifier','Защита поселения':'sculkhorde:craft_infestation_ward_block','Поражение орды':'sculkhorde:sculk_horde_defeat'}
   adv=auto.get((slug,i)) or (extra_auto.get(name) if slug=='32_abyss' else None)
+  if slug=='34_wards': adv={3:'ashes:ward/registered',4:'sculkhorde:craft_infestation_ward_block'}.get(i)
   if adv:
    task={'id':task['id'],'type':'advancement','advancement':adv}
    if name=='Очищение блока': name='Штатный очиститель'; desc='Изготовь очиститель Sculk Horde. После установки проверь восстановление земли.'
@@ -140,3 +141,5 @@ from gameplay import generate_gameplay
 generate_gameplay(ROOT, K, F, DATA, fn, js, msg)
 from skills import generate_skills
 generate_skills(DATA, F, fn, js, msg)
+from wards import generate_wards
+generate_wards(DATA,F,fn,js,msg)

@@ -30,3 +30,7 @@ scoreboard objectives add ashes_skills trigger
 scoreboard objectives add amastery dummy
 scoreboard objectives add amastery_ok dummy
 scoreboard objectives add amastery_retry dummy
+scoreboard objectives add ashes_ward trigger
+scoreboard objectives add award_have dummy
+scoreboard objectives add award_cd dummy
+scoreboard objectives add award_count dummy

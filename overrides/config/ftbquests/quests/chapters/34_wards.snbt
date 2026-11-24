@@ -1,0 +1,193 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "34_wards",
+  "group": "",
+  "icon": "minecraft:lodestone",
+  "id": "6B29A3E135185B15",
+  "order_index": 33,
+  "quest_links": [],
+  "title": "Обереги нового мира",
+  "quests": [
+    {
+      "id": "67D139FB8623D999",
+      "title": "Хартия рубежа",
+      "description": [
+        "Согласуй место общего рубежа с командой и отметь границы поселения."
+      ],
+      "icon": "kubejs:settlement_charter",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5344489411315DA3",
+          "type": "item",
+          "item": "kubejs:settlement_charter",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5A38822BEA58C471"
+      ]
+    },
+    {
+      "id": "3F35688D1CA7D0D4",
+      "title": "Оберег рубежа",
+      "description": [
+        "Изготовь оберег. Он будет израсходован при активации магнетита."
+      ],
+      "icon": "kubejs:ward_charm",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5D3B23F8B5D72A5E",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "67D139FB8623D999"
+      ]
+    },
+    {
+      "id": "401FE32C382AEFBA",
+      "title": "Камень рубежа",
+      "description": [
+        "Установи магнетит в центре защищаемого района. Для больших поселений нужны отдельные рубежи."
+      ],
+      "icon": "minecraft:lodestone",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "35B5D932C1ACD8C3",
+          "type": "item",
+          "item": "minecraft:lodestone",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "3F35688D1CA7D0D4"
+      ],
+      "rewards": [
+        {
+          "id": "07179392600F8B7D",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "33FDD1A28CA6DF64",
+      "title": "Сигнал дозора",
+      "description": [
+        "Встань на магнетит и используй /trigger ashes_ward set 1. Достижение фиксирует реальную активацию."
+      ],
+      "icon": "minecraft:lodestone",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4038D95ED5FC2CEF",
+          "type": "advancement",
+          "advancement": "ashes:ward/registered"
+        }
+      ],
+      "dependencies": [
+        "401FE32C382AEFBA"
+      ]
+    },
+    {
+      "id": "4C819E3C4DDF6A6D",
+      "title": "Стена против Скверны",
+      "description": [
+        "Изготовь штатный защитный блок Sculk Horde. Обелиск помогает в бою, а штатный блок препятствует распространению инфекции."
+      ],
+      "icon": "minecraft:lodestone",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "0537B3CA19E7739A",
+          "type": "advancement",
+          "advancement": "sculkhorde:craft_infestation_ward_block"
+        }
+      ],
+      "dependencies": [
+        "33FDD1A28CA6DF64"
+      ]
+    },
+    {
+      "id": "0807FB68A7F4634C",
+      "title": "Граница поселения",
+      "description": [
+        "Возведи замкнутую физическую защиту от заражения и отметь входы. Проверь землю под стенами и за ними."
+      ],
+      "icon": "minecraft:lodestone",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "30FE204EADC43387",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "4C819E3C4DDF6A6D"
+      ]
+    },
+    {
+      "id": "4AF5954FE8881889",
+      "title": "Дозорная тревога",
+      "description": [
+        "Проверь предупреждение и эффекты при приближении орды на тестовом участке. Не рискуй жилыми кварталами."
+      ],
+      "icon": "minecraft:lodestone",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "5A775076ED6A65DE",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0807FB68A7F4634C"
+      ]
+    },
+    {
+      "id": "2FF64656C9B52590",
+      "title": "Свет нового мира",
+      "description": [
+        "Установи колокол и организуй дозоры. Объедини обелиски, стены, очистители и приваты FTB Chunks."
+      ],
+      "icon": "minecraft:bell",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "66183D4DC97D3E8D",
+          "type": "item",
+          "item": "minecraft:bell",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "4AF5954FE8881889"
+      ],
+      "rewards": [
+        {
+          "id": "7D16FA1870E50643",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
