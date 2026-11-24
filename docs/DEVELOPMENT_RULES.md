@@ -1,0 +1,39 @@
+# Инструменты разработки и регламент
+Требования: Python 3.11+, Java 17 и Forge 47.4.28 для запуска игры. Скрипты работают без сторонних Python-пакетов, без сети и не изменяют игровой мир.
+
+## Быстрый цикл из корня репозитория
+```sh
+python tools/build.py
+python tools/validate.py
+python tools/audit_mods.py
+python tools/devtools.py snapshot -o .local/knowledge.json
+python tools/package.py dist/Ashes-CurseForge.zip
+python tools/package.py --profile horizons dist/Ashes-Horizons.zip
+```
+Существующий CI запускает validate.py (теперь включает новые проверки и тесты). Не подменять игровой тест статическим.
+
+| Задача | Команда / источник |
+|---|---|
+| Создать структуры, лут, достижения | tools/structures.py, затем build.py; меняем исходник, не NBT вручную |
+| Добавить квесты | tools/campaign.txt, tools/build.py; строки добавлять в конец главы, сохранять ID |
+| Проверить геометрию NBT, палитры, сундуки | python tools/devtools.py structures |
+| Получить карту требуемых игровых ID | python tools/devtools.py refs |
+| Проверить реальные ID | python tools/devtools.py registry-check .local/registries.json |
+| Поиск тематических ресурсов в JAR | python tools/devtools.py scan-jars "/path/to/instance/mods" -o .local/jar-candidates.json |
+| Проверить зависимости JAR | python tools/audit_mods.py --instance "/path/to/instance" |
+| Сводка квестов, зависимостей и рецептов | python tools/devtools.py balance |
+| Генерация: настройки и команды /locate | python tools/devtools.py worldgen |
+| Анализ лога (номера строк) | python tools/devtools.py crash "/path/to/latest.log" |
+| Сформировать предварительный лут | python tools/devtools.py loot-preview .local/loot-spec.json -o .local/loot-preview.json |
+| Дополнительные тесты отдельно | python tools/test_devtools.py |
+
+Пример loot-spec.json: {"pools":[{"rolls":2,"entries":[{"item":"minecraft:bread","weight":5,"min":1,"max":3}]}]}. Предварительный JSON переносить в генератор, не перезаписывать генерируемые таблицы. Проверять баланс и ID. Поддерживаются простые предметные пулы, без условий/сложных функций.
+
+registry-check принимает полный reports/registries.json в формате {"minecraft:item":{"entries":{"minecraft:stone":{}}}, "minecraft:block":{"entries":{"minecraft:stone":{}}}} или нормализованный {"item":["minecraft:stone"],"block":["minecraft:stone"],"entity_type":[]}. Пример сокращён; нужны полные реестры из фактически запущенной сборки с KubeJS. Не выдавать список ресурсов JAR за реестр: модели могут быть вспомогательными, а зарегистрированные ID — без отдельных файлов. Сканер верхнеуровневых JAR не заменяет audit_mods.py, который умеет читать вложенные зависимости. Сбор реестров в игре пока не автоматизирован. Проверка ссылок охватывает предметные задачи/награды, авторские shapeless-рецепты, item-записи loot tables и палитры/сущности NBT, но не произвольный JS, теги, свойства blockstate или все рецепты модов. NBT-проверка рассчитана на одиночную palette текущих шаблонов 1.20.1 и размеры до 128 по оси.
+
+## Правила постоянного сопровождения
+1. Перед изменением читать PROJECT_INDEX.md, PROJECT_CONTEXT.md, AGENTS.md и целевой раздел базы.
+2. После изменения обновить соответствующий источник, документацию, CHANGELOG.md, индекс и контекст, если поменялись факты; проверить инструменты и расширить покрытие при новых форматах. Не добавлять дубли.
+3. Генерируемую сводку snapshot обновлять при необходимости локально: она строится из исходников и не коммитится, чтобы не создавать устаревшие копии. Новые проверенные игровые ID хранить с указанием версии/источника; локальные дампы, JAR и логи не коммитить.
+4. Запускать статические проверки, фиксировать результаты и пробелы. Для новых структур обязательно проверить новый мир и несколько сидов; для прогрессии — сохранение прежних ID. CI не запускает Forge.
+5. Сохранять инструменты и базу знаний в том же изменении, где меняется их область ответственности; отдельно коммитить независимые механики. Не менять версию релиза только ради внутренней документации.

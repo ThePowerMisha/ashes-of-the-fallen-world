@@ -140,3 +140,9 @@ print('PASS: six lore structures, 12 gzip NBT templates, loot and discovery refe
 
 assert {t['advancement'] for q in quests for t in q['tasks'] if t.get('advancement','').startswith('ashes:lore/')}=={'ashes:lore/'+e['structure'].split(':')[1] for e in site_set['structures']}
 print('PASS: lore discovery quest coverage.')
+
+# Development tooling: geometry and source references, plus isolated utility tests.
+from devtools import check as check_devtools
+check_devtools(root)
+import sys
+subprocess.run([sys.executable, str(root/'tools/test_devtools.py')], check=True)
