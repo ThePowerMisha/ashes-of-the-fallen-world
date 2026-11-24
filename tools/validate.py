@@ -24,8 +24,8 @@ for p in sorted((root/'overrides/config/ftbquests/quests/chapters').glob('*.snbt
         for r in q.get('rewards',[]):
             assert r['id'] not in reward_ids; reward_ids.add(r['id'])
 byid={q['id']:q for q in quests}
-assert len(byid)==len(quests)==431
-assert len(chapter_ids)==34
+assert len(byid)==len(quests)==483
+assert len(chapter_ids)==39
 assert len(chapter_ids|set(byid)|task_ids|reward_ids)==len(chapter_ids)+len(byid)+len(task_ids)+len(reward_ids)
 seen=set(); visiting=set()
 def visit(qid):

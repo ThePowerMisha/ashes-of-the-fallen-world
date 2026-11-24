@@ -1,0 +1,205 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "35_parkour",
+  "group": "",
+  "icon": "minecraft:leather_boots",
+  "id": "38E424435241489A",
+  "order_index": 34,
+  "quest_links": [],
+  "title": "Тропы следопытов",
+  "quests": [
+    {
+      "id": "175CB9D5290AABE1",
+      "title": "Устав дозорного",
+      "description": [
+        "Старые дозорные уходили по крышам, когда дороги становились опасны. Проверь раскладку ParCool в настройках управления."
+      ],
+      "icon": "kubejs:scout_report",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4FA3AED32D08C422",
+          "type": "item",
+          "item": "kubejs:scout_report",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2BD8F0EBC1A09919"
+      ]
+    },
+    {
+      "id": "0F5BBD8CFB8525EE",
+      "title": "Лёгкая экипировка",
+      "description": [
+        "Подготовь лёгкую обувь для тренировок."
+      ],
+      "icon": "minecraft:leather_boots",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "44A379B7F2780B64",
+          "type": "item",
+          "item": "minecraft:leather_boots",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "175CB9D5290AABE1"
+      ]
+    },
+    {
+      "id": "52D44E39BB13DEEB",
+      "title": "Первый барьер",
+      "description": [
+        "Потренируй перелезание через ограждения и прыжки на тренировочной площадке."
+      ],
+      "icon": "minecraft:leather_boots",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "461B335A79E1E0D0",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0F5BBD8CFB8525EE"
+      ]
+    },
+    {
+      "id": "04344DB13E590CA6",
+      "title": "Безопасное падение",
+      "description": [
+        "Освой кувырок на небольшой высоте, проверь расход выносливости."
+      ],
+      "icon": "minecraft:leather_boots",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "1EE8614FD25B1828",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "52D44E39BB13DEEB"
+      ]
+    },
+    {
+      "id": "3834A13EB74310A4",
+      "title": "Тесные проходы",
+      "description": [
+        "Испытай ползание и скольжение в безопасном коридоре."
+      ],
+      "icon": "minecraft:leather_boots",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7534B823346833BD",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "04344DB13E590CA6"
+      ]
+    },
+    {
+      "id": "3B657869164D73F6",
+      "title": "Вертикальная разведка",
+      "description": [
+        "Освой прыжки от стены и подъём на уступ. Не тренируйся над пропастью."
+      ],
+      "icon": "minecraft:leather_boots",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "49DA8E56187F4D5A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "3834A13EB74310A4"
+      ]
+    },
+    {
+      "id": "7267C93E3BF9838C",
+      "title": "Запас выносливости",
+      "description": [
+        "Возьми еду и проверь восстановление выносливости."
+      ],
+      "icon": "minecraft:bread",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6676D1F2B2310FCC",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "3B657869164D73F6"
+      ]
+    },
+    {
+      "id": "49CBE8A61636881C",
+      "title": "Маршрут дозора",
+      "description": [
+        "Пройди собственный маршрут по стене поселения без падений."
+      ],
+      "icon": "minecraft:leather_boots",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "0987E9538D02EE1D",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7267C93E3BF9838C"
+      ]
+    },
+    {
+      "id": "5C34717D3196253E",
+      "title": "Полевой комплект",
+      "description": [
+        "Перед выходом в руины подготовь комплект и согласуй маршрут."
+      ],
+      "icon": "kubejs:field_kit",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "64B6E487AE9E97AE",
+          "type": "item",
+          "item": "kubejs:field_kit",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "49CBE8A61636881C"
+      ],
+      "rewards": [
+        {
+          "id": "3A0CBCD0EB216DAF",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

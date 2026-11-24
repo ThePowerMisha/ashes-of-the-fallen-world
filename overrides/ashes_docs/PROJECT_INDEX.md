@@ -52,3 +52,5 @@
 - #lod #client `config/DistantHorizons.toml`, `sodiumdynamiclights-client.toml`, `sodiumextras-client.toml`, `parcool-client.toml` — клиентский профиль (в overrides/config).
 
 - #worldgen #ores `docs/WORLDGEN.md`, `overrides/config/tectonic.json`, `overrides/config/Mekanism/world.toml`, `overrides/kubejs/data/minecraft/worldgen/configured_feature/` — генерация и параметры жил.
+
+- #expeditions #twilight #aircraft #parkour `tools/campaign.txt` (главы 35–39) — новые побочные линии.

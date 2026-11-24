@@ -4309,5 +4309,525 @@
     "dependencies": [
       "4AF5954FE8881889"
     ]
+  },
+  {
+    "chapter": "Тропы следопытов",
+    "quest": "Устав дозорного",
+    "task": "kubejs:scout_report",
+    "count": 1,
+    "id": "175CB9D5290AABE1",
+    "dependencies": [
+      "2BD8F0EBC1A09919"
+    ]
+  },
+  {
+    "chapter": "Тропы следопытов",
+    "quest": "Лёгкая экипировка",
+    "task": "minecraft:leather_boots",
+    "count": 1,
+    "id": "0F5BBD8CFB8525EE",
+    "dependencies": [
+      "175CB9D5290AABE1"
+    ]
+  },
+  {
+    "chapter": "Тропы следопытов",
+    "quest": "Первый барьер",
+    "task": "manual",
+    "count": 1,
+    "id": "52D44E39BB13DEEB",
+    "dependencies": [
+      "0F5BBD8CFB8525EE"
+    ]
+  },
+  {
+    "chapter": "Тропы следопытов",
+    "quest": "Безопасное падение",
+    "task": "manual",
+    "count": 1,
+    "id": "04344DB13E590CA6",
+    "dependencies": [
+      "52D44E39BB13DEEB"
+    ]
+  },
+  {
+    "chapter": "Тропы следопытов",
+    "quest": "Тесные проходы",
+    "task": "manual",
+    "count": 1,
+    "id": "3834A13EB74310A4",
+    "dependencies": [
+      "04344DB13E590CA6"
+    ]
+  },
+  {
+    "chapter": "Тропы следопытов",
+    "quest": "Вертикальная разведка",
+    "task": "manual",
+    "count": 1,
+    "id": "3B657869164D73F6",
+    "dependencies": [
+      "3834A13EB74310A4"
+    ]
+  },
+  {
+    "chapter": "Тропы следопытов",
+    "quest": "Запас выносливости",
+    "task": "minecraft:bread",
+    "count": 8,
+    "id": "7267C93E3BF9838C",
+    "dependencies": [
+      "3B657869164D73F6"
+    ]
+  },
+  {
+    "chapter": "Тропы следопытов",
+    "quest": "Маршрут дозора",
+    "task": "manual",
+    "count": 1,
+    "id": "49CBE8A61636881C",
+    "dependencies": [
+      "7267C93E3BF9838C"
+    ]
+  },
+  {
+    "chapter": "Тропы следопытов",
+    "quest": "Полевой комплект",
+    "task": "kubejs:field_kit",
+    "count": 1,
+    "id": "5C34717D3196253E",
+    "dependencies": [
+      "49CBE8A61636881C"
+    ]
+  },
+  {
+    "chapter": "Города на руинах",
+    "quest": "Наследие мастеров",
+    "task": "kubejs:settlement_charter",
+    "count": 1,
+    "id": "3AB0292EB8CEF53D",
+    "dependencies": [
+      "5A38822BEA58C471"
+    ]
+  },
+  {
+    "chapter": "Города на руинах",
+    "quest": "План города",
+    "task": "manual",
+    "count": 1,
+    "id": "142CD0C0964339D4",
+    "dependencies": [
+      "3AB0292EB8CEF53D"
+    ]
+  },
+  {
+    "chapter": "Города на руинах",
+    "quest": "Малый форпост",
+    "task": "manual",
+    "count": 1,
+    "id": "13CEACA5DDE31229",
+    "dependencies": [
+      "142CD0C0964339D4"
+    ]
+  },
+  {
+    "chapter": "Города на руинах",
+    "quest": "Каменоломня",
+    "task": "minecraft:stone",
+    "count": 64,
+    "id": "0BAEFA2DCA58C05F",
+    "dependencies": [
+      "13CEACA5DDE31229"
+    ]
+  },
+  {
+    "chapter": "Города на руинах",
+    "quest": "Снабжение",
+    "task": "minecraft:chest",
+    "count": 4,
+    "id": "65BAE4596FD0AF18",
+    "dependencies": [
+      "0BAEFA2DCA58C05F"
+    ]
+  },
+  {
+    "chapter": "Города на руинах",
+    "quest": "Дорога ремесленников",
+    "task": "minecraft:stone_bricks",
+    "count": 32,
+    "id": "1447E89C01A15C7F",
+    "dependencies": [
+      "65BAE4596FD0AF18"
+    ]
+  },
+  {
+    "chapter": "Города на руинах",
+    "quest": "Совместимость профессий",
+    "task": "manual",
+    "count": 1,
+    "id": "78AE5EE31BECC614",
+    "dependencies": [
+      "1447E89C01A15C7F"
+    ]
+  },
+  {
+    "chapter": "Города на руинах",
+    "quest": "Снаряжение дозора",
+    "task": "manual",
+    "count": 1,
+    "id": "1F7306886D5583C6",
+    "dependencies": [
+      "78AE5EE31BECC614"
+    ]
+  },
+  {
+    "chapter": "Города на руинах",
+    "quest": "Цифровые запасы",
+    "task": "ae2:controller",
+    "count": 1,
+    "id": "75F0778319EB5469",
+    "dependencies": [
+      "1F7306886D5583C6"
+    ]
+  },
+  {
+    "chapter": "Города на руинах",
+    "quest": "Рубеж города",
+    "task": "kubejs:ward_charm",
+    "count": 1,
+    "id": "25826EAE5D372B5F",
+    "dependencies": [
+      "75F0778319EB5469"
+    ]
+  },
+  {
+    "chapter": "Города на руинах",
+    "quest": "Хроника города",
+    "task": "minecraft:writable_book",
+    "count": 1,
+    "id": "37141FC35D5EED37",
+    "dependencies": [
+      "25826EAE5D372B5F"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Исчезнувший тракт",
+    "task": "kubejs:archive_fragment",
+    "count": 1,
+    "id": "6F51D03EA8CA851A",
+    "dependencies": [
+      "639F04B923139E25"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Ключ к иному миру",
+    "task": "minecraft:diamond",
+    "count": 1,
+    "id": "70ED259C6AD4BEBC",
+    "dependencies": [
+      "6F51D03EA8CA851A"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Порог сумерек",
+    "task": "manual",
+    "count": 1,
+    "id": "5ECCA723A01FD22F",
+    "dependencies": [
+      "70ED259C6AD4BEBC"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Чешуя стража",
+    "task": "twilightforest:naga_scale",
+    "count": 1,
+    "id": "2B97142A13377632",
+    "dependencies": [
+      "5ECCA723A01FD22F"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Змеевик",
+    "task": "twilightforest:naga_trophy",
+    "count": 1,
+    "id": "6C7156D63F5BE082",
+    "dependencies": [
+      "2B97142A13377632"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Башня лича",
+    "task": "twilightforest:lich_trophy",
+    "count": 1,
+    "id": "4C9E191D81ADB509",
+    "dependencies": [
+      "6C7156D63F5BE082"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Подземный лабиринт",
+    "task": "twilightforest:minoshroom_trophy",
+    "count": 1,
+    "id": "439A283210C3EC34",
+    "dependencies": [
+      "4C9E191D81ADB509"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Огненное болото",
+    "task": "twilightforest:hydra_trophy",
+    "count": 1,
+    "id": "0FB1DC56FD664906",
+    "dependencies": [
+      "439A283210C3EC34"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Крепость рыцарей",
+    "task": "twilightforest:knight_phantom_trophy",
+    "count": 1,
+    "id": "670A04946A055206",
+    "dependencies": [
+      "0FB1DC56FD664906"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Тёмная башня",
+    "task": "twilightforest:ur_ghast_trophy",
+    "count": 1,
+    "id": "1C897FF818785265",
+    "dependencies": [
+      "670A04946A055206"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Ледяная пещера",
+    "task": "twilightforest:alpha_yeti_trophy",
+    "count": 1,
+    "id": "59C244A5A6768F16",
+    "dependencies": [
+      "1C897FF818785265"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Ледяной дворец",
+    "task": "twilightforest:snow_queen_trophy",
+    "count": 1,
+    "id": "67285B0062F0C9AE",
+    "dependencies": [
+      "59C244A5A6768F16"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Архив за горами",
+    "task": "manual",
+    "count": 1,
+    "id": "4BB2EF65F5B76DB4",
+    "dependencies": [
+      "67285B0062F0C9AE"
+    ]
+  },
+  {
+    "chapter": "Сумеречный архив",
+    "quest": "Письмо из сумерек",
+    "task": "kubejs:final_testament",
+    "count": 1,
+    "id": "7B3E4C45AEC27CEE",
+    "dependencies": [
+      "4BB2EF65F5B76DB4"
+    ]
+  },
+  {
+    "chapter": "Небесные караваны",
+    "quest": "Карты древних путей",
+    "task": "kubejs:scout_report",
+    "count": 1,
+    "id": "6EF36B1C61409211",
+    "dependencies": [
+      "3E032F770950CD2C"
+    ]
+  },
+  {
+    "chapter": "Небесные караваны",
+    "quest": "Корпус",
+    "task": "immersive_aircraft:hull",
+    "count": 1,
+    "id": "2346A53433AD8A8A",
+    "dependencies": [
+      "6EF36B1C61409211"
+    ]
+  },
+  {
+    "chapter": "Небесные караваны",
+    "quest": "Котёл",
+    "task": "immersive_aircraft:boiler",
+    "count": 1,
+    "id": "2A0A631C54025161",
+    "dependencies": [
+      "2346A53433AD8A8A"
+    ]
+  },
+  {
+    "chapter": "Небесные караваны",
+    "quest": "Двигатель",
+    "task": "immersive_aircraft:engine",
+    "count": 1,
+    "id": "1B81E531E038DC1B",
+    "dependencies": [
+      "2A0A631C54025161"
+    ]
+  },
+  {
+    "chapter": "Небесные караваны",
+    "quest": "Пропеллер",
+    "task": "immersive_aircraft:propeller",
+    "count": 1,
+    "id": "66F52110472425FD",
+    "dependencies": [
+      "1B81E531E038DC1B"
+    ]
+  },
+  {
+    "chapter": "Небесные караваны",
+    "quest": "Парус",
+    "task": "immersive_aircraft:sail",
+    "count": 1,
+    "id": "0A86C544C966A568",
+    "dependencies": [
+      "66F52110472425FD"
+    ]
+  },
+  {
+    "chapter": "Небесные караваны",
+    "quest": "Первый дирижабль",
+    "task": "immersive_aircraft:airship",
+    "count": 1,
+    "id": "7C2BB0165B80FC08",
+    "dependencies": [
+      "0A86C544C966A568"
+    ]
+  },
+  {
+    "chapter": "Небесные караваны",
+    "quest": "Первый вылет",
+    "task": "manual",
+    "count": 1,
+    "id": "0F61E942A8AAE7B9",
+    "dependencies": [
+      "7C2BB0165B80FC08"
+    ]
+  },
+  {
+    "chapter": "Небесные караваны",
+    "quest": "Биплан",
+    "task": "immersive_aircraft:biplane",
+    "count": 1,
+    "id": "1478A82F11E2DEB5",
+    "dependencies": [
+      "0F61E942A8AAE7B9"
+    ]
+  },
+  {
+    "chapter": "Небесные караваны",
+    "quest": "Взлётная площадка",
+    "task": "minecraft:lantern",
+    "count": 8,
+    "id": "6A90A30B9D417E86",
+    "dependencies": [
+      "1478A82F11E2DEB5"
+    ]
+  },
+  {
+    "chapter": "Небесные караваны",
+    "quest": "Грузовой маршрут",
+    "task": "manual",
+    "count": 1,
+    "id": "3CCCB6CC7B50AA4F",
+    "dependencies": [
+      "6A90A30B9D417E86"
+    ]
+  },
+  {
+    "chapter": "Небесные караваны",
+    "quest": "Союз караванов",
+    "task": "kubejs:logistics_badge",
+    "count": 1,
+    "id": "44AFEBB2758A8BCA",
+    "dependencies": [
+      "3CCCB6CC7B50AA4F"
+    ]
+  },
+  {
+    "chapter": "Полевой справочник",
+    "quest": "Справочник рецептов",
+    "task": "manual",
+    "count": 1,
+    "id": "226256B371A5E712",
+    "dependencies": [
+      "2BD8F0EBC1A09919"
+    ]
+  },
+  {
+    "chapter": "Полевой справочник",
+    "quest": "Породы и руды",
+    "task": "minecraft:raw_iron",
+    "count": 8,
+    "id": "412120BF10682AF1",
+    "dependencies": [
+      "226256B371A5E712"
+    ]
+  },
+  {
+    "chapter": "Полевой справочник",
+    "quest": "Мастерские жителей",
+    "task": "manual",
+    "count": 1,
+    "id": "3DCB029535E51940",
+    "dependencies": [
+      "412120BF10682AF1"
+    ]
+  },
+  {
+    "chapter": "Полевой справочник",
+    "quest": "Машинные схемы",
+    "task": "manual",
+    "count": 1,
+    "id": "0AC85DA3B4EBF47C",
+    "dependencies": [
+      "3DCB029535E51940"
+    ]
+  },
+  {
+    "chapter": "Полевой справочник",
+    "quest": "Подсказки",
+    "task": "manual",
+    "count": 1,
+    "id": "5922EEAE48FBED5C",
+    "dependencies": [
+      "0AC85DA3B4EBF47C"
+    ]
+  },
+  {
+    "chapter": "Полевой справочник",
+    "quest": "Геологический отчёт",
+    "task": "kubejs:scout_report",
+    "count": 1,
+    "id": "17C5D696DD5CF3DB",
+    "dependencies": [
+      "5922EEAE48FBED5C"
+    ]
   }
 ]

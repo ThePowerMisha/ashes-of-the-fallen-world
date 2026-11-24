@@ -1,0 +1,143 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "39_field_manual",
+  "group": "",
+  "icon": "minecraft:book",
+  "id": "6CB6DB0E00B9E89E",
+  "order_index": 38,
+  "quest_links": [],
+  "title": "Полевой справочник",
+  "quests": [
+    {
+      "id": "226256B371A5E712",
+      "title": "Справочник рецептов",
+      "description": [
+        "В JEI проверь клавиши просмотра рецепта и применения предмета. Изучи управление поиском по модам."
+      ],
+      "icon": "minecraft:book",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "336662C17FBDE369",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "2BD8F0EBC1A09919"
+      ]
+    },
+    {
+      "id": "412120BF10682AF1",
+      "title": "Породы и руды",
+      "description": [
+        "Используй JER для изучения доступных данных о добыче. Графики мода могут не отражать авторские изменения генерации."
+      ],
+      "icon": "minecraft:raw_iron",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "3D37BE507D04821D",
+          "type": "item",
+          "item": "minecraft:raw_iron",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "226256B371A5E712"
+      ]
+    },
+    {
+      "id": "3DCB029535E51940",
+      "title": "Мастерские жителей",
+      "description": [
+        "Открой категории Just Enough Professions, найди рабочие блоки нужных профессий."
+      ],
+      "icon": "minecraft:book",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "722C9D3BDF244A46",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "412120BF10682AF1"
+      ]
+    },
+    {
+      "id": "0AC85DA3B4EBF47C",
+      "title": "Машинные схемы",
+      "description": [
+        "Открой Just Enough Mekanism Multiblocks в JEI и проверь размер установки до строительства."
+      ],
+      "icon": "minecraft:book",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "18BF76652C5B4126",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "3DCB029535E51940"
+      ]
+    },
+    {
+      "id": "5922EEAE48FBED5C",
+      "title": "Подсказки",
+      "description": [
+        "Удерживай Shift над предметом и изучи данные JEI Integration. Используй AppleSkin для оценки пищи."
+      ],
+      "icon": "minecraft:book",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "3452EAA264E91EB4",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0AC85DA3B4EBF47C"
+      ]
+    },
+    {
+      "id": "17C5D696DD5CF3DB",
+      "title": "Геологический отчёт",
+      "description": [
+        "Проверь несколько жил и запиши результат, прежде чем проектировать автоматизированную шахту."
+      ],
+      "icon": "kubejs:scout_report",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "271DF509D6BC6822",
+          "type": "item",
+          "item": "kubejs:scout_report",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5922EEAE48FBED5C"
+      ],
+      "rewards": [
+        {
+          "id": "1D620C72D685EDD9",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

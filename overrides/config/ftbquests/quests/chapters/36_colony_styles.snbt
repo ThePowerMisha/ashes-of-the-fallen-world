@@ -1,0 +1,256 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "36_colony_styles",
+  "group": "",
+  "icon": "minecraft:bell",
+  "id": "3AA7EE6CBB9F57BF",
+  "order_index": 35,
+  "quest_links": [],
+  "title": "Города на руинах",
+  "quests": [
+    {
+      "id": "3AB0292EB8CEF53D",
+      "title": "Наследие мастеров",
+      "description": [
+        "Восстанови традицию древних архитекторов. Открой инструмент строительства MineColonies и сравни доступные стили."
+      ],
+      "icon": "kubejs:settlement_charter",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5AA25AB72C3F89FD",
+          "type": "item",
+          "item": "kubejs:settlement_charter",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5A38822BEA58C471"
+      ]
+    },
+    {
+      "id": "142CD0C0964339D4",
+      "title": "План города",
+      "description": [
+        "Просмотри Stylecolonies, выбери стиль, подходящий к рельефу и запасам команды."
+      ],
+      "icon": "minecraft:bell",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "6E04071E554EEB37",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "3AB0292EB8CEF53D"
+      ]
+    },
+    {
+      "id": "13CEACA5DDE31229",
+      "title": "Малый форпост",
+      "description": [
+        "Посмотри SmallColonies и SmallColonies ME. Выбери компактный проект без изменения стиля уже построенных зданий."
+      ],
+      "icon": "minecraft:bell",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "671AD3A95BE70C34",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "142CD0C0964339D4"
+      ]
+    },
+    {
+      "id": "0BAEFA2DCA58C05F",
+      "title": "Каменоломня",
+      "description": [
+        "Подготовь материалы для первых зданий, используй Ultimine с подходящим инструментом."
+      ],
+      "icon": "minecraft:stone",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "182429E6CCF0F4F5",
+          "type": "item",
+          "item": "minecraft:stone",
+          "count": 64
+        }
+      ],
+      "dependencies": [
+        "13CEACA5DDE31229"
+      ]
+    },
+    {
+      "id": "65BAE4596FD0AF18",
+      "title": "Снабжение",
+      "description": [
+        "Построй склад и обеспечь доставку ресурсов строителям."
+      ],
+      "icon": "minecraft:chest",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "76D036369E67192F",
+          "type": "item",
+          "item": "minecraft:chest",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "0BAEFA2DCA58C05F"
+      ]
+    },
+    {
+      "id": "1447E89C01A15C7F",
+      "title": "Дорога ремесленников",
+      "description": [
+        "Соедини склад, жильё и мастерские безопасным маршрутом."
+      ],
+      "icon": "minecraft:stone_bricks",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6C0DE9FDF020CA71",
+          "type": "item",
+          "item": "minecraft:stone_bricks",
+          "count": 32
+        }
+      ],
+      "dependencies": [
+        "65BAE4596FD0AF18"
+      ],
+      "rewards": [
+        {
+          "id": "7200DFF5BDBD5445",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "78AE5EE31BECC614",
+      "title": "Совместимость профессий",
+      "description": [
+        "Изучи доступные рецепты и профессии MineColonies Compatibility; проверяй их в интерфейсе рабочих."
+      ],
+      "icon": "minecraft:bell",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "384B2AF73AEDB2D0",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1447E89C01A15C7F"
+      ]
+    },
+    {
+      "id": "1F7306886D5583C6",
+      "title": "Снаряжение дозора",
+      "description": [
+        "Проверь экипировку жителя через Colony Curios, если интерфейс позволяет соответствующий слот."
+      ],
+      "icon": "minecraft:bell",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "0219482E58BFCA8B",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "78AE5EE31BECC614"
+      ]
+    },
+    {
+      "id": "75F0778319EB5469",
+      "title": "Цифровые запасы",
+      "description": [
+        "Организуй общий склад AE2; выдачу материалов колонии настрой через обычные сундуки и транспорт ресурсов."
+      ],
+      "icon": "ae2:controller",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "758C91451DD1794C",
+          "type": "item",
+          "item": "ae2:controller",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1F7306886D5583C6"
+      ]
+    },
+    {
+      "id": "25826EAE5D372B5F",
+      "title": "Рубеж города",
+      "description": [
+        "Подготовь обелиск, штатную защиту от заражения и освещение улиц."
+      ],
+      "icon": "kubejs:ward_charm",
+      "x": 2.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "28211AF209BE86B3",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "75F0778319EB5469"
+      ]
+    },
+    {
+      "id": "37141FC35D5EED37",
+      "title": "Хроника города",
+      "description": [
+        "Запиши название, архитектурный стиль и назначение первого города."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 4.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "7D7AD44D32028630",
+          "type": "item",
+          "item": "minecraft:writable_book",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "25826EAE5D372B5F"
+      ],
+      "rewards": [
+        {
+          "id": "08ADFEFD6CE6BE47",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
