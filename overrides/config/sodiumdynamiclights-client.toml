@@ -1,0 +1,8 @@
+[sodiumdynamiclights]
+mode = "FAST"
+entities = true
+self = true
+block_entities = false
+water_sensitive_check = true
+tnt = "SIMPLE"
+creeper = "OFF"

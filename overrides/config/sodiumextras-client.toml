@@ -1,0 +1,21 @@
+[embeddiumextras.general]
+fullscreen = "WINDOWED"
+fpsDisplay = "SIMPLE"
+
+[embeddiumextras.quality]
+fog = true
+cloudsHeight = 192
+chunkFadeSpeed = "SLOW"
+
+[embeddiumextras.performance]
+hideJREI = false
+fontShadows = true
+
+[embeddiumextras.performance.distanceCulling.tileEntities]
+enable = false
+
+[embeddiumextras.performance.distanceCulling.entities]
+enable = false
+
+[embeddiumextras.others]
+fastLanguageReload = false

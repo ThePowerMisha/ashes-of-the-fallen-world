@@ -48,3 +48,5 @@
 - #release 1.0.0-rc2 — визуальное обновление; список модов и игровые ID не изменены.
 
 - #once #mod-import `docs/ONCE_IMPORT.md` — аудит второй сборки.
+
+- #lod #client `config/DistantHorizons.toml`, `sodiumdynamiclights-client.toml`, `sodiumextras-client.toml`, `parcool-client.toml` — клиентский профиль (в overrides/config).

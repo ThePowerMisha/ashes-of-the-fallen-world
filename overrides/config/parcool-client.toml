@@ -1,0 +1,24 @@
+[Animations]
+enable_fpv_animation = true
+enable_camera_rotation_dodge = false
+enable_camera_rotation_roll = false
+enable_camera_rotation_flipping = false
+enable_camera_animation_vault = false
+enable_camera_animation_h-wall-run = false
+enable_camera_animation_hang-down = false
+
+[Control]
+fast-run_control = "PressKey"
+crawl_control = "PressKey"
+h-wall-run_control = "PressKey"
+wall-jump_control = "PressKey"
+enable_double_tapping_for_dodge = false
+enable_wall_jump_cooldown = true
+vault_needs_key_pressed = true
+substitute_sprint = false
+
+[Modifier]
+fast-run_modifier = 1.5
+fast-swim_modifier = 1.5
+wall-run_continuable_tick = 25
+sliding_continuable_tick = 15

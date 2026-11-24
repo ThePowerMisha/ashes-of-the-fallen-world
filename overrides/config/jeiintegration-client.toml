@@ -1,0 +1,10 @@
+[tooltip_options]
+burnTimeTooltipMode = "onShift"
+durabilityTooltipMode = "onShift"
+enchantabilityTooltipMode = "onShift"
+foodTooltipMode = "onShift"
+maxStackSizeTooltipMode = "disabled"
+nbtTooltipMode = "disabled"
+registryNameTooltipMode = "onDebug"
+tagsTooltipMode = "onDebug"
+translationKeyTooltipMode = "disabled"
