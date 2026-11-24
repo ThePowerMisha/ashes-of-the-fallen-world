@@ -44,3 +44,5 @@
 - #assets #textures `docs/ASSETS.md`, `overrides/kubejs/assets/kubejs/textures/item/` — исходные PNG, привязка в `tools/build.py` и проверка в `tools/validate.py`.
 
 - #animation `*.png.mcmeta` рядом с текстурами — 8 анимированных артефактов; список в `docs/ASSETS.md`.
+
+- #release 1.0.0-rc2 — визуальное обновление; список модов и игровые ID не изменены.
