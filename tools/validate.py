@@ -91,3 +91,8 @@ for p in textures.glob('*.png'):
     else: assert h==w,p
 assert all(p.with_suffix('').exists() for p in textures.glob('*.png.mcmeta'))
 print('PASS: custom item textures and animation dimensions.')
+
+assert {p.name.removesuffix('.png.mcmeta') for p in textures.glob('*.png.mcmeta')}=={"abyssal_seal","cleansing_charge","concord_core","final_testament","nature_seal","purifier_matrix","renewal_heart","ward_charm"}
+for meta in textures.glob('*.png.mcmeta'):
+    assert struct.unpack('>II',meta.with_suffix('').read_bytes()[16:24])==(64,512)
+print('PASS: eight animated artifacts, eight frames each.')

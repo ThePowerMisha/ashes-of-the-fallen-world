@@ -42,3 +42,5 @@
 - `tools/package.py --profile horizons` — отдельный CurseForge ZIP с Distant Horizons вместо Oculus и Complementary. `docs/RELEASE_STATUS.md` — точное состояние финального кандидата.
 
 - #assets #textures `docs/ASSETS.md`, `overrides/kubejs/assets/kubejs/textures/item/` — исходные PNG, привязка в `tools/build.py` и проверка в `tools/validate.py`.
+
+- #animation `*.png.mcmeta` рядом с текстурами — 8 анимированных артефактов; список в `docs/ASSETS.md`.
