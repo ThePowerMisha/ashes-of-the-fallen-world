@@ -1,1 +1,1 @@
-tellraw @s[tag=!ashes_news_muted] {"text": "[Хроники] Найдено место памяти: Деревня последнего колокола. Отыщи свидетельство прежней эпохи.", "color": "dark_aqua"}
+tellraw @s[tag=!ashes_news_muted] {"text": "[Хроники] Открыто место: Деревня последнего колокола.", "color": "dark_aqua"}

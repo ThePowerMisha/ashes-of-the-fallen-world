@@ -71,3 +71,6 @@
 - #devtools #knowledge docs/KNOWLEDGE_BASE.md, docs/DEVELOPMENT_RULES.md — карта знаний, регламент, команды и ограничения.
 - #registry #nbt #balance #worldgen #logs tools/devtools.py — snapshot, refs, scan-jars, registry-check, structures, balance, worldgen, crash, loot-preview; JSON-отчёты в .local/.
 - #tests tools/test_devtools.py — тесты парсера, JAR-кандидатов, логов и лута; вызываются из tools/validate.py (существующий CI).
+
+## Расширение мест памяти
+- #lore #structures #worldgen `tools/structures.py`, `tools/structure_sites.py`, `docs/STRUCTURES.md` — архитектура 18 локаций, 36 шаблонов, тематические находки и события обнаружения.

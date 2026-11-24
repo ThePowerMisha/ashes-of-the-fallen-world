@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "ashes:fallen_capital",
+      "weight": 2
+    },
+    {
+      "structure": "ashes:mechanists_keep",
+      "weight": 4
+    },
+    {
+      "structure": "ashes:keepers_keep",
+      "weight": 4
+    },
+    {
+      "structure": "ashes:archmages_keep",
+      "weight": 4
+    },
+    {
+      "structure": "ashes:limit_lab",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 70,
+    "separation": 31,
+    "salt": 185628322
+  }
+}

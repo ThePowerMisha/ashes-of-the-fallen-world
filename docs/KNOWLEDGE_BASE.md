@@ -5,7 +5,7 @@
 |---|---|
 | #mods #versions #compatibility | manifest.json, overrides/ashes_docs/mods-lock.tsv, MOD_AUDIT.md, MOD_CONFIGS.md, mod-plan.json |
 | #lore #canon | LORE.md, WORLD_NEWS.md, tools/news.py |
-| #structures #loot #worldgen | STRUCTURES.md, WORLDGEN.md, lore-structures.json, tools/structures.py |
+| #structures #loot #worldgen | STRUCTURES.md, WORLDGEN.md, lore-structures.json, tools/structures.py, tools/structure_sites.py |
 | #quests #progression | tools/build.py, tools/campaign.txt, quests.json, сгенерированные главы FTB Quests |
 | #items #recipes #balance | tools/build.py, tools/extension.py, BALANCE.md, ASSETS.md |
 | #classes #skills #wards | CLASSES.md, SKILLS.md, WARDS.md, tools/gameplay.py, tools/skills.py, tools/wards.py |
@@ -21,3 +21,5 @@ python tools/devtools.py snapshot -o .local/knowledge.json — актуальн�
 
 ## Открытые проверки
 RC5: игровые тесты клиента/сервера, фактические реестры, генерация на нескольких сидах, Lootr, взаимодействие модовых структур, производительность. См. TESTING.md. Изменение инструментов не означает прохождение этих проверок.
+
+Для мест памяти `devtools.py structures` проверяет палитры, количество блоков, координаты шаблонных жителей и ссылки на добычу. `devtools.py worldgen` показывает сетки размещения и команды поиска. Результаты отдельного запуска Minecraft 1.20.1 и ограничения проверки приведены в TESTING.md.

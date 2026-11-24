@@ -16,6 +16,9 @@
 
 Визуальные ассеты: 30 PNG, из них 8 анимированных; `docs/ASSETS.md`.
 
-- RC3: 40 глав, 52 новых задания; 15 ванильных configured features и 10 типов жил Mekanism увеличены, шумы Tectonic настроены. Хроники мира: tools/news.py. См. docs/ONCE_IMPORT.md, WORLDGEN.md, WORLD_NEWS.md.
+- RC3: 39 глав, 52 новых задания; 15 ванильных configured features и 10 типов жил Mekanism увеличены, шумы Tectonic настроены. Хроники мира: tools/news.py. См. docs/ONCE_IMPORT.md, WORLDGEN.md, WORLD_NEWS.md.
 
-- RC5: шесть лорных мест, 12 NBT-шаблонов, 12 квестов, отдельная генерация Jigsaw. `docs/STRUCTURES.md` и `tools/structures.py`.
+- RC5: 18 лорных мест, 36 шаблонов, 12 квестов первой серии, генерация Jigsaw. `docs/STRUCTURES.md` и `tools/structures.py`.
+
+## Сопровождение
+Инструменты и база знаний обновляются при каждой затрагивающей их доработке; см. docs/DEVELOPMENT_RULES.md и docs/KNOWLEDGE_BASE.md. Реестры установленных модов и игровой тест пока не подтверждены; локальная сводка генерируется из исходников.

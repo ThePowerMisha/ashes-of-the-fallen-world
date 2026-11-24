@@ -1,1 +1,1 @@
-tellraw @s[tag=!ashes_news_muted] {"text": "[Хроники] Найдено место памяти: Запечатанный архив механиков. Отыщи свидетельство прежней эпохи.", "color": "dark_aqua"}
+tellraw @s[tag=!ashes_news_muted] {"text": "[Хроники] Открыто место: Запечатанный архив механиков.", "color": "dark_aqua"}

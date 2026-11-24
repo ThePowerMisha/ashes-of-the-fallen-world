@@ -1,1 +1,1 @@
-tellraw @s[tag=!ashes_news_muted] {"text": "[Хроники] Найдено место памяти: Кладбище безымянных. Отыщи свидетельство прежней эпохи.", "color": "dark_aqua"}
+tellraw @s[tag=!ashes_news_muted] {"text": "[Хроники] Открыто место: Кладбище безымянных.", "color": "dark_aqua"}

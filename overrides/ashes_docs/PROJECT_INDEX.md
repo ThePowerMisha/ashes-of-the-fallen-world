@@ -4,7 +4,7 @@
 | #context #lore | PROJECT_CONTEXT.md | Цели, история, ограничения |
 | #release #mods #lock | manifest.json, modlist.html, overrides/ashes_docs/mods-lock.tsv | Фиксированные версии и ссылки |
 | #builder #source | tools/build.py | Генератор квестов, предметов, рецептов, классов и функций |
-| #quests #progression | docs/quests.json, overrides/config/ftbquests/quests/chapters/ | 39 глав, зависимости и задания |
+| #quests #progression | docs/quests.json, overrides/config/ftbquests/quests/chapters/ | 40 глав, зависимости и задания |
 | #items #kubejs | overrides/kubejs/startup_scripts/ashes_items.js | 30 предметов |
 | #recipes #balance | overrides/kubejs/server_scripts/ashes_recipes.js | 32 рецепта, существующие рецепты модов не заменяются |
 | #classes #multiplayer | overrides/kubejs/data/ashes/functions/ | Выбор классов, атрибуты, 3 ранга, очищение игрока |
@@ -66,3 +66,11 @@
 - #lore-quests Глава 40 `40_lore_sites.snbt`, источники `tools/campaign.txt` и `tools/build.py`; шесть параллельных ветвей и реальные достижения.
 
 - #rc5 Места памяти; 495 квестов / 40 глав; 159 проектов, состав не изменён.
+
+## Инструменты и база знаний
+- #devtools #knowledge docs/KNOWLEDGE_BASE.md, docs/DEVELOPMENT_RULES.md — карта знаний, регламент, команды и ограничения.
+- #registry #nbt #balance #worldgen #logs tools/devtools.py — snapshot, refs, scan-jars, registry-check, structures, balance, worldgen, crash, loot-preview; JSON-отчёты в .local/.
+- #tests tools/test_devtools.py — тесты парсера, JAR-кандидатов, логов и лута; вызываются из tools/validate.py (существующий CI).
+
+## Расширение мест памяти
+- #lore #structures #worldgen `tools/structures.py`, `tools/structure_sites.py`, `docs/STRUCTURES.md` — архитектура 18 локаций, 36 шаблонов, тематические находки и события обнаружения.

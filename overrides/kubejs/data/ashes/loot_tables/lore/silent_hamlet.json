@@ -7,10 +7,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:written_book",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{title:'Деревня последнего колокола',author:'Архивисты',pages:['{\"text\":\"Ильма велела оставить колокол у дороги. Мы ушли до рассвета. Если кто-то вернётся, пусть не разжигает печи, пока не проверит подвал.\"}'],resolved:1b}"
+              "tag": "{title:'Деревня последнего колокола',author:'Староста Рада',pages:['{\"text\": \"Ильма велела оставить колокол у дороги. Мы ушли до рассвета. Ключ от амбара я оставила возле разделочной доски.\"}','{\"text\": \"За нами не посылайте. Караван забрал всех, кто успел к первому удару. Если кто вернётся, на грядках ещё можно найти семена.\"}'],resolved:1b}"
             }
           ]
         }
@@ -27,15 +28,11 @@
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2,
-        "max": 4
-      },
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread",
+          "name": "farmersdelight:cabbage_seeds",
           "weight": 5,
           "functions": [
             {
@@ -50,38 +47,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_nugget",
+          "name": "farmersdelight:onion",
           "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bone",
-          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -95,33 +62,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:coal",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "farmersdelight:apple_cider",
+          "weight": 2
         }
       ]
     }

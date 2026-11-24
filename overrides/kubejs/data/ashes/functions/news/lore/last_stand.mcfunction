@@ -1,1 +1,1 @@
-tellraw @s[tag=!ashes_news_muted] {"text": "[Хроники] Найдено место памяти: Поле последнего рубежа. Отыщи свидетельство прежней эпохи.", "color": "dark_aqua"}
+tellraw @s[tag=!ashes_news_muted] {"text": "[Хроники] Открыто место: Поле последнего рубежа.", "color": "dark_aqua"}
