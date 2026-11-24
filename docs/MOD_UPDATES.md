@@ -72,3 +72,11 @@
 | titanium | `titanium-1.20.1-3.8.32.jar` | [`titanium-1.20.1-3.8.37.jar`](https://www.curseforge.com/minecraft/mc-mods/titanium/files/9441193) | релиз |
 | villagerstradingplus | `villagertradingplus-forge-mc1.20.1-1.1.0.jar` | [`villagertradingplus-forge-mc1.20.1-1.1.1.jar`](https://www.curseforge.com/minecraft/mc-mods/villagerstradingplus/files/9346742) | релиз |
 | when-dungeons-arise | `DungeonsArise-1.20.1-2.1.57-release.jar` | [`DungeonsArise-1.20.x-2.1.58-release.jar`](https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise/files/4983862) | релиз |
+
+## Тестовая ветка rc5-mod-updates.1
+
+Обновлены 36 релизов из каталога. Состав и номера файлов этой ветки перечислены в `overrides/ashes_docs/mods-lock.tsv`. В списке выше колонка «Закреплённый файл» относится к `main` на момент сверки. Для новой версии создайте отдельный профиль и тестовый мир.
+
+Ветка включает обновления следующих проектов.
+
+`apotheosis`, `applied-energistics-2`, `artifacts`, `botania`, `chipped`, `corgilib`, `create-steam-n-rails`, `creativecore`, `decorative-blocks`, `entityculling`, `farmers-delight`, `ftb-chunks-forge`, `ftb-ultimine-forge`, `geckolib`, `goety`, `immersive-aircraft`, `integrated-api`, `irons-lib`, `irons-spells-n-spellbooks`, `jade`, `just-enough-mekanism-multiblocks`, `lithostitched`, `macaws-bridges`, `macaws-roofs`, `modernfix`, `puffish-attributes`, `rechiseled`, `selene`, `sophisticated-backpacks`, `sophisticated-core`, `sophisticated-storage`, `stylecolonies`, `supplementaries`, `titanium`, `villagerstradingplus`, `when-dungeons-arise`.

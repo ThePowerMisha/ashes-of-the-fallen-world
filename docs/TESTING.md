@@ -47,3 +47,7 @@
 ## Запуск серверного состава Horizons после исправлений TerraBlender и Vinery
 
 На Java 17 и Forge 47.4.28 проверен серверный состав Horizons с настройками, KubeJS и новым тестовым миром. Первый запуск воспроизвёл сбой `MixinTerrablenderConfig` из Cristel Lib 1.1.6 на TerraBlender 3.0.1.8. Повторный запуск с TerraBlender 3.0.1.10 и Vinery 1.4.41 прошёл регистрацию и дошёл до `Done`. Клиентские моды из серверного списка и Distant Horizons в этот серверный запуск не входили.
+
+## Серверный запуск rc5-mod-updates.1
+
+На выделенном сервере Minecraft 1.20.1 с Forge 47.4.28 и Java 17 в тест вошли 34 обновлённых мода. Сервер загрузил реестры и создал тестовый мир до сообщения `Done`. Entity Culling и Just Enough Mekanism Multiblocks проверяются на клиенте. В логах по-прежнему есть ошибки сторонних таблиц добычи IDAS и MineColonies Compatibility, видимые также до обновления.

@@ -37,7 +37,7 @@ def static(rows):
     assert not {'optifine','rubidium','sodium','epic-fight-mod'}&names.keys()
     mekanism=[names[s]['filename'].split('10.4.')[-1] for s in ['mekanism','mekanism-tools','mekanism-generators']]
     assert len(set(mekanism))==1
-    assert '6.0.' in names['create']['filename'] and '1.7.2' in names['create-steam-n-rails']['filename']
+    assert '6.0.' in names['create']['filename'] and names['create-steam-n-rails']['filename'].startswith('Steam_Rails-1.7.3+forge-')
     print(f'Static lock: {len(rows)} unique projects; all {sum(map(len,plan["required"].values()))} planned main-profile entries present.')
 
 def cf_audit(rows,key):

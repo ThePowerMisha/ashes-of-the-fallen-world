@@ -90,3 +90,5 @@
 - #terrablender #vinery #launch [Конфликт с Cristel Lib и отсутствующий класс рецептов Vinery](docs/MOD_AUDIT.md#два-сбоя-запуска-с-terrablender-и-vinery).
 
 - #mods #updates `tools/audit_updates.py` и [сводка по обновлениям](docs/MOD_UPDATES.md).
+
+- #mods #update [Первый набор из 36 обновлений](docs/MOD_UPDATES.md#тестовая-ветка-rc5-mod-updates1).
