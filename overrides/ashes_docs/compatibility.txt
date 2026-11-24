@@ -4,12 +4,12 @@
 - Mekanism, Generators и Tools одной версии 10.4.16.80.
 - MineColonies с Structurize, BlockUI, Multi-Piston, Domum Ornamentum, TownTalk.
 - Tectonic + Terralith; другие глобальные генераторы рельефа не включены.
-- Embeddium + Oculus; Distant Horizons не включён в основной профиль, пока не проверена связка с шейдерами.
+- Embeddium и Oculus в стандартном профиле. Chunky для предгенерации чанков в обоих профилях.
 - Almost Unified и Polymorph: базовая поддержка унификации материалов и выбора совпадающих рецептов;
   специально написанных правил рецептов пока нет.
 - Один мод хранения вещей после смерти (Corpse), одна основная система боевой анимации (Better Combat).
 - Один звуковой движок акустики (Sound Physics Remastered); AmbientSounds добавляет фон.
-- Добавлены Bons Voyage, Integrated Dungeons, From The Fog, Relics, Vinery, Quark и декор. Distant Horizons не входит в основной профиль; Sound Filters исключён как дублирование акустики.
+- Добавлены Bons Voyage, Integrated Dungeons, From The Fog, Relics, Vinery, Quark и декор. Sound Filters исключён как дублирование акустики.
 - Alex's Mobs и Naturalist, Sculk Horde и Born in Chaos, моды структур могут потребовать настройки
   частоты появления, баланса, производительности и генерации. Проверять на новом мире.
 - Файлы выбраны по опубликованным данным CurseForge и метаданным Packwiz открытых сборок.

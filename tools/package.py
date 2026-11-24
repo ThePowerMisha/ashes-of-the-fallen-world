@@ -1,4 +1,4 @@
-"""Produce reproducible CurseForge manifests. Horizon profile replaces shaders with LODs."""
+"""Produce reproducible CurseForge manifests. The Horizons profile omits Oculus and shaderpacks."""
 from pathlib import Path
 from audit_mods import PLANNED, check_profile_dependencies
 import argparse,csv,html,io,json,zipfile
@@ -33,7 +33,7 @@ with zipfile.ZipFile(output,'w',zipfile.ZIP_DEFLATED) as z:
         if profile=='horizons' and name=='overrides/ashes_docs/CLIENT_ONLY.txt':
             z.writestr(name,'\n'.join(l for l in p.read_text(encoding='utf-8').splitlines() if not any(l.startswith(s+':') for s in drop))+'\n');continue
         if profile=='horizons' and name=='overrides/ASHES_README_RU.txt':
-            s=p.read_text(encoding='utf-8').replace(f'{len(rows)+len(removed)} проектов',f'{len(rows)} проектов').replace('Первый запуск без шейдера; затем выбери Complementary Unbound в меню Oculus.','Профиль Horizons: Distant Horizons 3.1.2-b, без Oculus и шейдера. Начни с 64 чанков LOD, не добавляй шейдеры без отдельного теста.');z.writestr(name,s);continue
+            s=p.read_text(encoding='utf-8').replace(f'{len(rows)+len(removed)} проектов',f'{len(rows)} проектов').replace('Первый запуск без шейдера; затем выбери Complementary Unbound в меню Oculus.','Профиль Horizons работает без Oculus и шейдеров. Предгенерация чанков доступна через Chunky.');z.writestr(name,s);continue
         z.write(p,name)
 with zipfile.ZipFile(output) as z:
     assert z.testzip() is None and len(z.namelist())==len(set(z.namelist()))
