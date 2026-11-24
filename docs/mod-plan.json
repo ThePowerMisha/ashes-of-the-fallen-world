@@ -138,6 +138,14 @@
       "touhou-little-maid",
       "monster-girl",
       "maid-action-expansion"
+    ],
+    "living_villages": [
+      "minecraft-comes-alive-reborn",
+      "mca-quests",
+      "mca-conversations",
+      "mca-reputation",
+      "mca-mob-compat",
+      "mca-family-life"
     ]
   },
   "reviewed_dependencies": {
@@ -236,6 +244,25 @@
     ],
     "maid-action-expansion": [
       "touhou-little-maid"
+    ],
+    "minecraft-comes-alive-reborn": [
+      "architectury-api"
+    ],
+    "mca-quests": [
+      "minecraft-comes-alive-reborn",
+      "architectury-api"
+    ],
+    "mca-conversations": [
+      "minecraft-comes-alive-reborn"
+    ],
+    "mca-reputation": [
+      "minecraft-comes-alive-reborn"
+    ],
+    "mca-mob-compat": [
+      "minecraft-comes-alive-reborn"
+    ],
+    "mca-family-life": [
+      "minecraft-comes-alive-reborn"
     ]
   },
   "excluded": {
@@ -243,6 +270,7 @@
     "mekalus-oculus-fork-with-fixed-mekanism-mekasuit": "Conflicts with Oculus",
     "ore-excavation": "Ultimine already installed",
     "journeymap": "Xaero already installed",
-    "biomes-o-plenty": "Avoid additional biome generator"
+    "biomes-o-plenty": "Avoid additional biome generator",
+    "mca-colony-integration": "Only Minecraft 1.21.1 NeoForge files found; pack is 1.20.1 Forge."
   }
 }

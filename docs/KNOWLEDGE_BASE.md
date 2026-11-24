@@ -24,3 +24,6 @@ RC5: игровые тесты клиента/сервера, фактическ
 
 ## Эксперимент companions
 #companions #skins #touhou #succubus — COMPANIONS.md и его копия в overrides/ashes_docs/COMPANIONS.md, LORE.md, mod-plan.json. Данные версий подтверждены публичными страницами файлов; реестры, механики и совместимость в игре не проверены. snapshot автоматически читает актуальный lock.
+
+## MCA / живые поселения
+#mca #villagers #npcquests #reputation — MCA.md (справка, источники, ограничения), mod-plan.json (группа living_villages), LORE.md. Сводка devtools snapshot читает lock автоматически. Валидация и упаковщик обновлены под 169 проектов. Нужны реальные реестры и приёмка, в частности типы жителей и обелиски.

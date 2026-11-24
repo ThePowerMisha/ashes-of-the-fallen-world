@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Ashes of the Fallen World",
-  "version": "1.0.0-rc5-companions.1",
+  "version": "1.0.0-rc5-companions.2",
   "author": "Ashes Project",
   "files": [
     {
@@ -827,6 +827,36 @@
     {
       "projectID": 1742121,
       "fileID": 9202532,
+      "required": true
+    },
+    {
+      "projectID": 535291,
+      "fileID": 8315977,
+      "required": true
+    },
+    {
+      "projectID": 1579993,
+      "fileID": 9650417,
+      "required": true
+    },
+    {
+      "projectID": 1601191,
+      "fileID": 9400137,
+      "required": true
+    },
+    {
+      "projectID": 1656551,
+      "fileID": 9400164,
+      "required": true
+    },
+    {
+      "projectID": 1691620,
+      "fileID": 9406119,
+      "required": true
+    },
+    {
+      "projectID": 1751458,
+      "fileID": 9495177,
       "required": true
     }
   ],
