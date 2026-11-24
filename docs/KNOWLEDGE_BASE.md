@@ -43,3 +43,5 @@ RC5: игровые тесты клиента/сервера, фактическ
 - #mods #updates `python tools/audit_updates.py --include-beta` ищет более новые файлы по меткам Minecraft 1.20.1 и Forge. [Снимок и приоритеты](MOD_UPDATES.md).
 
 - #mods #update [Профиль тестовой ветки обновлений](MOD_UPDATES.md#тестовая-ветка-rc5-mod-updates1), список версий и требования совместимости.
+
+- #chunky #pregen В стандартном профиле и Horizons предгенерация выполняется через Chunky. [Команды и настройка](SERVER.md#предгенерация-чанков).

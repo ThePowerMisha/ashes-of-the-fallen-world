@@ -11,7 +11,7 @@
 
 - Для MineColonies тестировать вместе Compatibility, Tweaks, Structurize, BlockUI, Multi-Piston и Domum Ornamentum. У ряда компонентов новейший файл — snapshot. Проверить создание нового мира, запуск встроенного сервера и рецепты колонии.
 - Для MCA Reborn сверять все пять аддонов. В таблице MCA 7.7 — beta, а текущий Family Life предназначен для 7.6.
-- Для обновления Distant Horizons повторить тест и в Horizons, и в профиле с Oculus. Проверить загрузку карты и формирование LOD.
+- Distant Horizons исключён из актуальной сборки. Строка в таблице относится к снимку каталога на момент сверки.
 - Simply Swords 1.70.2 добавляет обязательные Fzzy Config и Simply Tooltips. Enhanced Celestials 5.0.3.3 требует Data Anchor. Puzzles Lib из списка требует Puzzles Access API. Эти зависимости видны в Forge-метаданных скачанных кандидатов.
 - Проверять парами или группами Iron’s Spells и Iron’s Lib, Supplementaries и Moonlight, а также Sophisticated Core, Backpacks и Storage.
 

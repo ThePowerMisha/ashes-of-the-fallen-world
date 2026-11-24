@@ -39,7 +39,7 @@
 - #skills #visual `tools/skills.py`, `docs/SKILLS.md`, `overrides/kubejs/data/ashes/puffish_skills/` — дерево мастерства, очки и меню классов.
 - `tools/wards.py` / `docs/WARDS.md`: регистрация обелисков, защита жителей, тревоги, тег бойцов орды и достижение установки.
 - `docs/MOD_CONFIGS.md` / `overrides/config/sculkhorde_config.toml` / `overrides/defaultconfigs/ftb*`: проверенные имена параметров орды, приватов и добычи.
-- `tools/package.py --profile horizons` — отдельный CurseForge ZIP с Distant Horizons вместо Oculus и Complementary. `docs/RELEASE_STATUS.md` — точное состояние финального кандидата.
+- `tools/package.py --profile horizons` — отдельный CurseForge ZIP без Oculus и шейдеров. `docs/RELEASE_STATUS.md` — точное состояние финального кандидата.
 
 - #assets #textures `docs/ASSETS.md`, `overrides/kubejs/assets/kubejs/textures/item/` — исходные PNG, привязка в `tools/build.py` и проверка в `tools/validate.py`.
 
@@ -49,7 +49,7 @@
 
 - #once #mod-import `docs/ONCE_IMPORT.md` — аудит второй сборки.
 
-- #lod #client `config/DistantHorizons.toml`, `sodiumdynamiclights-client.toml`, `sodiumextras-client.toml`, `parcool-client.toml` — клиентский профиль (в overrides/config).
+- #client `sodiumdynamiclights-client.toml`, `sodiumextras-client.toml`, `parcool-client.toml` — клиентский профиль (в overrides/config).
 
 - #worldgen #ores `docs/WORLDGEN.md`, `overrides/config/tectonic.json`, `overrides/config/Mekanism/world.toml`, `overrides/kubejs/data/minecraft/worldgen/configured_feature/` — генерация и параметры жил.
 
@@ -80,3 +80,5 @@
 - #mca #villagers #reputation #family #npcquests docs/MCA.md, overrides/ashes_docs/MCA.md — справка, версии, лор, зависимости, сценарии тестов; 169 проектов / 163 Horizons. MCA-квесты не входят в число авторских FTB Quests.
 
 - #minecolonies #launch #crash `docs/MOD_AUDIT.md`, `docs/mod-plan.json` — краш `FoodUtilsMixin` и обязательная версия Tweaks.
+
+- #chunky #pregen [Предгенерация чанков](SERVER.md#предгенерация-чанков).

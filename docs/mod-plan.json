@@ -100,7 +100,6 @@
       "polymorph"
     ],
     "once_import": [
-      "distant-horizons",
       "dynamiclights-reforged",
       "magnesium-extras",
       "sodium-options-api",
@@ -278,6 +277,7 @@
     ]
   },
   "excluded": {
+    "distant-horizons": "Chunky is the pregenerator selected for both profiles.",
     "sound-filters": "Redundant with Sound Physics Remastered.",
     "mekalus-oculus-fork-with-fixed-mekanism-mekasuit": "Conflicts with Oculus",
     "ore-excavation": "Ultimine already installed",

@@ -118,3 +118,7 @@
 ### 1.0.0-rc5-mod-updates.1
 
 - В тестовой ветке обновлены 36 релизов, в том числе семейства Iron’s Spells / Iron’s Lib, Moonlight / Supplementaries и Sophisticated. Показанные варианты сверены по Forge-метаданным и перечислены в [отчёте](docs/MOD_UPDATES.md).
+
+### Предгенерация чанков
+
+- По запросу убран Distant Horizons из стандартного профиля и Horizons. Chunky 1.3.146 используется в обоих профилях.

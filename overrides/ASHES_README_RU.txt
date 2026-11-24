@@ -1,6 +1,6 @@
 ПЕПЕЛ УШЕДШЕГО МИРА — 1.0.0-rc5-companions.2
 Minecraft 1.20.1 / Forge 47.4.28 / Java 17
-170 проектов; 495 квестов; 40 глав; 30 предметов; 32 рецепта.
+169 проектов; 495 квестов; 40 глав; 30 предметов; 32 рецепта.
 Открой FTB Quests. /trigger ashes_class set 1–6 — класс; /trigger ashes_status — ранг; /trigger ashes_talent set 1 или 2; /trigger ashes_ability — талант; /trigger ashes_purify — личное очищение; /trigger ashes_cleanse — образец.
 Первый запуск без шейдера; затем выбери Complementary Unbound в меню Oculus.
 Документация: ashes_docs/RELEASE_STATUS.md, SERVER.md, GRAPHICS.md, BALANCE.md.
@@ -19,3 +19,5 @@ RC4: GuideME, VillagersTradingPlus, Fusion добавлены для устра�
 Эксперимент: спутники и образы. Справка ashes_docs/COMPANIONS.md. Использовать отдельный мир, не удалять Monster Girl из сохранения. Игровые проверки не проведены.
 
 MCA: живые поселения, отношения, задания и репутация. Справка ashes_docs/MCA.md. Использовать отдельный новый мир; игровые тесты не выполнены.
+
+Предгенерация чанков выполняется через Chunky. См. ashes_docs/SERVER.md.
