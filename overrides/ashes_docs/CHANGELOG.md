@@ -95,3 +95,7 @@
 ### Исправление запуска с MineColonies
 
 - Закреплён MineColonies Tweaks 2.107, обязательная зависимость MineColonies Compatibility. В 2.107 удалён миксин, вызвавший сбой при создании мира с Tweaks 2.104.
+
+### Шейдеры в профиле Horizons
+
+- Oculus и пять шейдерпаков добавлены в архив Horizons. В настройках Oculus по умолчанию выбран Complementary Unbound.

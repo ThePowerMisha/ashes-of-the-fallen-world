@@ -1,5 +1,5 @@
 # Графические настройки RC3
 
-Стандартный профиль включает Oculus 1.8.0, Embeddium 0.3.31, Dynamic Lights, Extras и Options API. В Horizons шейдеры отключены. Предгенерация чанков в обоих профилях выполняется через Chunky. Обычная дистанция 12, симуляция 6 и динамический свет FAST. В стандартном профиле доступны Complementary Unbound, Reimagined, Bliss, Solas и BSL.
+Оба архива CurseForge включают Oculus 1.8.0, Embeddium 0.3.31, Dynamic Lights, Extras и Options API. Первый запуск проходит с выключенными шейдерами. Включите их в «Настройки → Настройки графики → Шейдеры». По умолчанию выбран Complementary Unbound. Также доступны Complementary Reimagined, Bliss, Solas и BSL. Предгенерацию выполняет Chunky.
 
 ParCool: клиентский профиль с умеренными скоростями и отключением резких поворотов камеры. Это клиентские настройки, а не серверный запрет действий. JEI Integration показывает характеристики по Shift. 

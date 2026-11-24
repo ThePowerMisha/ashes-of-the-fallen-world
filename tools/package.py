@@ -1,4 +1,4 @@
-"""Produce reproducible CurseForge manifests. The Horizons profile omits Oculus and shaderpacks."""
+"""Produce reproducible CurseForge manifests. Both archive names use the same locked projects."""
 from pathlib import Path
 from audit_mods import PLANNED, check_profile_dependencies
 import argparse,csv,html,io,json,zipfile
@@ -9,12 +9,8 @@ lockpath='overrides/ashes_docs/mods-lock.tsv'
 rows=list(csv.DictReader((root/lockpath).open(encoding='utf-8'),delimiter='\t'))
 profile=args.profile
 if profile=='horizons':
-    drop={'oculus','complementary-unbound','complementary-reimagined','bliss-shader','solas-shader','bsl-shaders'}
-    removed={int(r['projectID']) for r in rows if r['slug'] in drop}
-    assert len(removed)==len(drop)
-    rows=[r for r in rows if r['slug'] not in drop]
-    m['files']=[f for f in m['files'] if f['projectID'] not in removed]
-    m['name']+=' — Horizons';m['version']+='-horizons'
+    m['name']+=' — Horizons'
+    m['version']+='-horizons'
 assert len(rows)==len(m['files'])==len({x['projectID'] for x in m['files']})
 assert {(int(r['projectID']),int(r['fileID'])) for r in rows}=={(f['projectID'],f['fileID']) for f in m['files']}
 dependencies = json.loads(PLANNED.read_text(encoding='utf-8'))['reviewed_dependencies']
@@ -29,11 +25,6 @@ with zipfile.ZipFile(output,'w',zipfile.ZIP_DEFLATED) as z:
         if not p.is_file():continue
         name=p.relative_to(root).as_posix()
         if name==lockpath:continue
-        if profile=='horizons' and name in ('overrides/config/oculus.properties','overrides/ashes_docs/graphics/oculus-atmospheric.properties'):continue
-        if profile=='horizons' and name=='overrides/ashes_docs/CLIENT_ONLY.txt':
-            z.writestr(name,'\n'.join(l for l in p.read_text(encoding='utf-8').splitlines() if not any(l.startswith(s+':') for s in drop))+'\n');continue
-        if profile=='horizons' and name=='overrides/ASHES_README_RU.txt':
-            s=p.read_text(encoding='utf-8').replace(f'{len(rows)+len(removed)} проектов',f'{len(rows)} проектов').replace('Первый запуск без шейдера; затем выбери Complementary Unbound в меню Oculus.','Профиль Horizons работает без Oculus и шейдеров. Предгенерация чанков доступна через Chunky.');z.writestr(name,s);continue
         z.write(p,name)
 with zipfile.ZipFile(output) as z:
     assert z.testzip() is None and len(z.namelist())==len(set(z.namelist()))
