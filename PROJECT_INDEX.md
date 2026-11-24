@@ -84,3 +84,5 @@
 - #botania #patchouli [Диагностика установки](docs/MOD_AUDIT.md#forge-сообщает-об-отсутствии-patchouli). Связи Botania с Patchouli и Curios заданы в `docs/mod-plan.json` и проверяются упаковщиком каждого профиля.
 
 - #corelib #forge #crash [Диагностика GameDataMixin](docs/MOD_AUDIT.md#сбой-core-lib-при-запуске-forge-47428) и `tools/devtools.py crash` — поиск фатальной ошибки среди предупреждений Mixin.
+
+- #corelib #testing [Результаты запуска с Rechiseled](docs/TESTING.md#проверка-запуска-с-rechiseled-на-forge-47428).

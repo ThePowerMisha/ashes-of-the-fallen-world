@@ -35,3 +35,5 @@ RC5: игровые тесты клиента/сервера, фактическ
 - #botania #patchouli Для сообщения `Currently, patchouli is not installed` см. [проверку папки профиля и версию JAR](MOD_AUDIT.md#forge-сообщает-об-отсутствии-patchouli).
 
 - #forge #mixin #rechiseled Если запуск останавливается на `GameDataMixin.postRegisterEvents`, см. [проверенную пару Forge и Core Lib](MOD_AUDIT.md#сбой-core-lib-при-запуске-forge-47428). В отчёте `devtools.py crash` поле `line_numbers.critical_injections` указывает строки с фатальным сбоем внедрения.
+
+- #corelib [Парная проверка старой и новой версии на выделенном сервере](TESTING.md#проверка-запуска-с-rechiseled-на-forge-47428).
