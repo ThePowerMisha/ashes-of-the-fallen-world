@@ -38,3 +38,4 @@
 
 - #skills #visual `tools/skills.py`, `docs/SKILLS.md`, `overrides/kubejs/data/ashes/puffish_skills/` — дерево мастерства, очки и меню классов.
 - `tools/wards.py` / `docs/WARDS.md`: регистрация обелисков, защита жителей, тревоги, тег бойцов орды и достижение установки.
+- `docs/MOD_CONFIGS.md` / `overrides/config/sculkhorde_config.toml` / `overrides/defaultconfigs/ftb*`: проверенные имена параметров орды, приватов и добычи.

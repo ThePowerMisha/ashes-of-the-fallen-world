@@ -1,0 +1,8 @@
+{
+    max_blocks: 48
+    exhaustion_per_block: 20.0d
+    prevent_tool_break: 1
+    cancel_on_block_break_fail: true
+    require_tool: true
+    ultimine_cooldown: 10L
+}

@@ -1,0 +1,28 @@
+["Performance Settings"]
+    disable_auto_performance_system = false
+    max_unit_population = 160
+    max_nodes_active = 1
+["General Variables"]
+    difficulty_mode = "NORMAL"
+    block_infestation_enabled = true
+    chunk_loading_enabled = true
+    disable_defeating_sculk_horde = false
+    isHordeActiveWithNoPlayers = false
+    enable_gpu_compatibility_mode = true
+["Trigger Automatically Variables"]
+    trigger_ancient_node_automatically = false
+["Infestation / Purification Variables"]
+    infection_speed_multiplier = 0.5
+    purification_speed_multiplier = 1.5
+    purifier_range = 48
+    max_infestation_cursor_population = 120
+["Sculk Node Variables"]
+    sculk_node_chunkload_radius = 6
+    sculk_node_spawn_cooldown_minutes = 120
+["Sculk Raid Variables"]
+    sculk_raid_enabled = true
+    sculk_raid_global_cooldown_between_raids_minutes = 360
+    sculk_raid_no_raid_zone_duration_minutes = 720
+["Experimental Features"]
+    experimental_features_enabled = false
+    experimental_brood_hatcher_enabled = false

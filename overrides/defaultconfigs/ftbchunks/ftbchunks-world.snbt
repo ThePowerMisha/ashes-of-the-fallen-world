@@ -1,0 +1,18 @@
+{
+    max_claimed_chunks: 256
+    max_force_loaded_chunks: 8
+    force_load_mode: "never"
+    disable_protection: false
+    pvp_mode: "never"
+    protect_unknown_explosions: true
+    hard_team_claim_limit: 512
+    hard_team_force_limit: 16
+    max_idle_days_before_unclaim: 0.0d
+    piston_protection: true
+    team_prop_defaults: {
+        def_fake_players: false
+        def_allow_explosions: false
+        def_mob_griefing: false
+        def_pvp: false
+    }
+}
