@@ -50,3 +50,5 @@
 - #once #mod-import `docs/ONCE_IMPORT.md` — аудит второй сборки.
 
 - #lod #client `config/DistantHorizons.toml`, `sodiumdynamiclights-client.toml`, `sodiumextras-client.toml`, `parcool-client.toml` — клиентский профиль (в overrides/config).
+
+- #worldgen #ores `docs/WORLDGEN.md`, `overrides/config/tectonic.json`, `overrides/config/Mekanism/world.toml`, `overrides/kubejs/data/minecraft/worldgen/configured_feature/` — генерация и параметры жил.

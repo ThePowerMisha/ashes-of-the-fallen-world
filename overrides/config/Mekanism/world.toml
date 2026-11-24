@@ -1,0 +1,33 @@
+[world_generation]
+enableRegeneration = false
+userWorldGenVersion = 0
+
+[world_generation.tin.small]
+maxVeinSize = 6
+
+[world_generation.tin.large]
+maxVeinSize = 14
+
+[world_generation.osmium.upper]
+maxVeinSize = 10
+
+[world_generation.osmium.middle]
+maxVeinSize = 14
+
+[world_generation.osmium.small]
+maxVeinSize = 6
+
+[world_generation.uranium.small]
+maxVeinSize = 5
+
+[world_generation.uranium.buried]
+maxVeinSize = 12
+
+[world_generation.fluorite.normal]
+maxVeinSize = 7
+
+[world_generation.fluorite.buried]
+maxVeinSize = 18
+
+[world_generation.lead.normal]
+maxVeinSize = 14

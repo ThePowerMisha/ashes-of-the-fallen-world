@@ -1,0 +1,37 @@
+{
+  "minor_version": 1,
+  "general": {
+    "mod_enabled": true,
+    "snow_start_offset": 128
+  },
+  "global_terrain": {
+    "vertical_scale": 1.18,
+    "elevation_boost": 0.1,
+    "max_y": 320,
+    "min_y": -64,
+    "ultrasmooth": false,
+    "lava_tunnels": true
+  },
+  "continents": {
+    "continents_scale": 0.1,
+    "erosion_scale": 0.17,
+    "ridge_scale": 0.19,
+    "flat_terrain_skew": 0.18,
+    "ocean_offset": -0.8,
+    "rolling_hills": true,
+    "underground_rivers": true,
+    "jungle_pillars": true,
+    "river_lanterns": true
+  },
+  "biomes": {
+    "temperature_multiplier": 1,
+    "temperature_offset": 0,
+    "temperature_scale": 0.17,
+    "vegetation_multiplier": 1,
+    "vegetation_offset": 0,
+    "vegetation_scale": 0.16
+  },
+  "oceans": {
+    "monument_offset": 0
+  }
+}
