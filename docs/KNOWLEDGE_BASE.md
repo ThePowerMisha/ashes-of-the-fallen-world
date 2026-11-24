@@ -39,3 +39,5 @@ RC5: игровые тесты клиента/сервера, фактическ
 - #corelib [Парная проверка старой и новой версии на выделенном сервере](TESTING.md#проверка-запуска-с-rechiseled-на-forge-47428).
 
 - #terrablender #vinery #launch [Два сбоя запуска](MOD_AUDIT.md#два-сбоя-запуска-с-terrablender-и-vinery), точные версии и сигнатуры ошибок.
+
+- #mods #updates `python tools/audit_updates.py --include-beta` ищет более новые файлы по меткам Minecraft 1.20.1 и Forge. [Снимок и приоритеты](MOD_UPDATES.md).

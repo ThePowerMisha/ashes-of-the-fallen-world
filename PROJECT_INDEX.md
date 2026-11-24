@@ -88,3 +88,5 @@
 - #corelib #testing [Результаты запуска с Rechiseled](docs/TESTING.md#проверка-запуска-с-rechiseled-на-forge-47428).
 
 - #terrablender #vinery #launch [Конфликт с Cristel Lib и отсутствующий класс рецептов Vinery](docs/MOD_AUDIT.md#два-сбоя-запуска-с-terrablender-и-vinery).
+
+- #mods #updates `tools/audit_updates.py` и [сводка по обновлениям](docs/MOD_UPDATES.md).
