@@ -11,12 +11,60 @@
         "paladin_3"
       ],
       [
+        "paladin_1",
+        "paladin_4"
+      ],
+      [
+        "paladin_4",
+        "paladin_5"
+      ],
+      [
+        "paladin_5",
+        "paladin_6"
+      ],
+      [
+        "paladin_1",
+        "paladin_7"
+      ],
+      [
+        "paladin_7",
+        "paladin_8"
+      ],
+      [
+        "paladin_8",
+        "paladin_9"
+      ],
+      [
         "mage_1",
         "mage_2"
       ],
       [
         "mage_2",
         "mage_3"
+      ],
+      [
+        "mage_1",
+        "mage_4"
+      ],
+      [
+        "mage_4",
+        "mage_5"
+      ],
+      [
+        "mage_5",
+        "mage_6"
+      ],
+      [
+        "mage_1",
+        "mage_7"
+      ],
+      [
+        "mage_7",
+        "mage_8"
+      ],
+      [
+        "mage_8",
+        "mage_9"
       ],
       [
         "engineer_1",
@@ -27,12 +75,60 @@
         "engineer_3"
       ],
       [
+        "engineer_1",
+        "engineer_4"
+      ],
+      [
+        "engineer_4",
+        "engineer_5"
+      ],
+      [
+        "engineer_5",
+        "engineer_6"
+      ],
+      [
+        "engineer_1",
+        "engineer_7"
+      ],
+      [
+        "engineer_7",
+        "engineer_8"
+      ],
+      [
+        "engineer_8",
+        "engineer_9"
+      ],
+      [
         "ranger_1",
         "ranger_2"
       ],
       [
         "ranger_2",
         "ranger_3"
+      ],
+      [
+        "ranger_1",
+        "ranger_4"
+      ],
+      [
+        "ranger_4",
+        "ranger_5"
+      ],
+      [
+        "ranger_5",
+        "ranger_6"
+      ],
+      [
+        "ranger_1",
+        "ranger_7"
+      ],
+      [
+        "ranger_7",
+        "ranger_8"
+      ],
+      [
+        "ranger_8",
+        "ranger_9"
       ],
       [
         "builder_1",
@@ -43,12 +139,60 @@
         "builder_3"
       ],
       [
+        "builder_1",
+        "builder_4"
+      ],
+      [
+        "builder_4",
+        "builder_5"
+      ],
+      [
+        "builder_5",
+        "builder_6"
+      ],
+      [
+        "builder_1",
+        "builder_7"
+      ],
+      [
+        "builder_7",
+        "builder_8"
+      ],
+      [
+        "builder_8",
+        "builder_9"
+      ],
+      [
         "occultist_1",
         "occultist_2"
       ],
       [
         "occultist_2",
         "occultist_3"
+      ],
+      [
+        "occultist_1",
+        "occultist_4"
+      ],
+      [
+        "occultist_4",
+        "occultist_5"
+      ],
+      [
+        "occultist_5",
+        "occultist_6"
+      ],
+      [
+        "occultist_1",
+        "occultist_7"
+      ],
+      [
+        "occultist_7",
+        "occultist_8"
+      ],
+      [
+        "occultist_8",
+        "occultist_9"
       ]
     ]
   },

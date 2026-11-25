@@ -13,7 +13,11 @@
       "id": "576FCAA78E484DD0",
       "title": "Обет дороги",
       "description": [
-        "Выбери Следопыта: /trigger ashes_class set 4."
+        "Выбери Следопыта: /trigger ashes_class set 4.",
+        "",
+        "Из записей экспедиции. Следопыты делали зарубки с обратной стороны дерева, чтобы метку было видно на возвращении.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:compass",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "1FF7A3BEF4184303"
+      ],
+      "rewards": [
+        {
+          "id": "1B1FA26CBF79E09D",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 2
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "576FCAA78E484DD0"
+      ],
+      "rewards": [
+        {
+          "id": "4597E2D25B16C8C0",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "669F3536E9579779",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:oak_boat",
+          "count": 1
         }
       ]
     },
@@ -99,6 +119,14 @@
       ],
       "dependencies": [
         "4600598F7290BEE0"
+      ],
+      "rewards": [
+        {
+          "id": "46A494B093797E07",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 4
+        }
       ]
     },
     {
@@ -120,13 +148,22 @@
       ],
       "dependencies": [
         "7EC2B1F6E8BE0E39"
+      ],
+      "rewards": [
+        {
+          "id": "045282B89DCE6AA3",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
       "id": "60F081E45A8BDEAC",
       "title": "Быстрый шаг",
       "description": [
-        "На втором ранге испытай умение /trigger ashes_ability."
+        "На втором ранге испытай умение /trigger ashes_ability.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:compass",
       "x": 2.0,
@@ -140,13 +177,22 @@
       ],
       "dependencies": [
         "40FF13777B441084"
+      ],
+      "rewards": [
+        {
+          "id": "79D37182F33A5D56",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 4
+        }
       ]
     },
     {
       "id": "60D810055300BFFC",
       "title": "Талант мобильности",
       "description": [
-        "Открой первый талант через /trigger ashes_talent set 1."
+        "Открой первый талант через /trigger ashes_talent set 1.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:compass",
       "x": 4.0,
@@ -160,13 +206,22 @@
       ],
       "dependencies": [
         "60F081E45A8BDEAC"
+      ],
+      "rewards": [
+        {
+          "id": "21A176771A361BF5",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 2
+        }
       ]
     },
     {
       "id": "0894CE1CE22DCE25",
       "title": "Талант разведчика",
       "description": [
-        "На третьем ранге открой второй талант."
+        "На третьем ранге открой второй талант.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:compass",
       "x": 6.0,
@@ -180,6 +235,14 @@
       ],
       "dependencies": [
         "60D810055300BFFC"
+      ],
+      "rewards": [
+        {
+          "id": "4015EC215685F0EE",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 2
+        }
       ]
     },
     {
@@ -201,6 +264,14 @@
       ],
       "dependencies": [
         "0894CE1CE22DCE25"
+      ],
+      "rewards": [
+        {
+          "id": "2D23C445039F74A4",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 1
+        }
       ]
     },
     {
@@ -227,8 +298,19 @@
         {
           "id": "0B298923FC04DD1F",
           "type": "item",
-          "item": "minecraft:gold_ingot",
+          "item": "minecraft:cooked_beef",
           "count": 2
+        },
+        {
+          "id": "251C980FCB81282E",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "2B5B04529EDF422B",
+          "type": "item",
+          "item": "kubejs:source_capacitor",
+          "count": 1
         }
       ]
     }

@@ -1,6 +1,8 @@
 from pathlib import Path
 import json, hashlib, zipfile, csv
 from extension import EXTRA_ITEMS, EXTRA_RECIPES
+from quest_content import decorate_quest
+from artifacts import ARTIFACT_RECIPES, generate_artifacts, usage_tooltips
 ROOT=Path(__file__).resolve().parents[1]; O=ROOT/'overrides'; K=O/'kubejs'; DATA=K/'data'; F=DATA/'ashes'/'functions'; Q=O/'config'/'ftbquests'/'quests'/'chapters'
 def put(p,s):
  p.parent.mkdir(parents=True,exist_ok=True); p.write_text(s,encoding='utf-8')
@@ -30,7 +32,9 @@ recipes.update({
  'settlement_charter':['minecraft:paper','minecraft:ink_sac','minecraft:emerald','kubejs:archive_fragment'],
  'memory_lens':['minecraft:spyglass','minecraft:echo_shard','minecraft:amethyst_shard']})
 recipes.update(EXTRA_RECIPES)
-put(K/'server_scripts'/'ashes_recipes.js',"ServerEvents.recipes(event => {\n"+''.join(f"  event.shapeless('{ '4x ' if i=='purity_sigil' else ''}kubejs:{i}', {json.dumps(v)}).id('ashes:{i}')\n" for i,v in recipes.items())+"""
+artifact_recipes = ''.join(f"  event.shapeless('{out}', {json.dumps(ingredients)}).id('ashes:{key}')\n"
+                           for key,(out,ingredients) in ARTIFACT_RECIPES.items())
+put(K/'server_scripts'/'ashes_recipes.js',"ServerEvents.recipes(event => {\n"+''.join(f"  event.shapeless('{ '4x ' if i=='purity_sigil' else ''}kubejs:{i}', {json.dumps(v)}).id('ashes:{i}')\n" for i,v in recipes.items())+artifact_recipes+"""
   event.shapeless('4x minecraft:golden_carrot', ['minecraft:gold_ingot','minecraft:carrot','minecraft:carrot','minecraft:carrot','minecraft:carrot']).id('ashes:field_rations')
   event.shapeless('2x minecraft:lantern', ['minecraft:iron_ingot','minecraft:torch','minecraft:torch']).id('ashes:recovery_lanterns')
   event.shapeless('2x kubejs:purity_sigil', ['kubejs:purifier_matrix','minecraft:glowstone_dust']).id('ashes:matrix_recovery')
@@ -38,6 +42,8 @@ put(K/'server_scripts'/'ashes_recipes.js',"ServerEvents.recipes(event => {\n"+''
 """)
 # Localized lore tooltips: purely visual, no game state or server privileges.
 flavor = {'mechanic_dossier': 'Последний пуск. Главный инженер Варден признал, что сигнал пришёл снизу раньше включения машин.', 'nature_dossier': 'Корни тишины. Хранительница Ильма велела эвакуировать деревни, но совет запретил поднимать тревогу.', 'mage_dossier': 'Голос под камнем. Архимаг Селена услышала собственный голос из глубин; источник подражал живым.', 'expedition_seal': 'Памятный знак экспедиции. Не открывает сооружения и не телепортирует.', 'purifier_matrix': 'Компонент повторной переработки знаков. Не очищает блоки самостоятельно.', 'settlement_charter': 'Символ союза выживших. Ратуша MineColonies строится отдельно.', 'memory_lens': 'Реликвия архивистов. Не заменяет подзорную трубу.', 'renewal_heart': 'Память о трёх орденах. Символ победы, а не автоматический триггер поражения орды.'}
+for item, usage in usage_tooltips().items():
+ flavor[item] = (flavor[item]+' ' if item in flavor else '') + usage
 put(K/'client_scripts'/'ashes_lore.js', "ItemEvents.tooltip(event => {\n"+''.join(f"  event.add('kubejs:{i}', {json.dumps(v,ensure_ascii=False)})\n" for i,v in flavor.items())+"})\n")
 # Individual classes, using Minecraft scoreboards and modifiers. No client scripts or mod-specific attribute guesses.
 classes=[('Паладин','akills','minecraft:generic.armor',1.0),('Архимаг','aenchant','minecraft:generic.max_health',2.0),('Инженер','amine','minecraft:generic.attack_speed',.10),('Следопыт','awalk','minecraft:generic.movement_speed',.008),('Архитектор','abuild','minecraft:generic.knockback_resistance',.04),('Оккультист','akills','minecraft:generic.attack_damage',.5)]
@@ -130,14 +136,13 @@ for order,(slug,title,icon,rows) in enumerate(chapters):
   if slug=='40_lore_sites': q.update(x=float(i%2*3),y=float(i//2*2))
   if slug=='33_finale' and i==4: deps.append(ends['32_abyss'])
   if deps:q['dependencies']=deps
-  if i in (2,5) and item:q['rewards']=[{'id':uid(f'{slug}/{i}/reward'),'type':'item','item':'minecraft:bread','count':4}]
-  if slug in extra_parents and i==len(rows)-1: q['rewards']=[{'id':uid(f'{slug}/{i}/reward'),'type':'item','item':'minecraft:gold_ingot','count':2}]
+  decorate_quest(q,slug,order,i,rows,uid)
   quests.append(q); prev=qid; total+=1; refs+=deps; allids.add(qid); index.append({'chapter':title,'quest':name,'task':('advancement:'+adv) if adv else item or 'manual','count':count,'id':qid,'dependencies':deps})
  ends[slug]=prev
  js(Q/(slug+'.snbt'),{'default_hide_dependency_lines':False,'default_quest_shape':'','filename':slug,'group':'','icon':icon,'id':uid(slug),'order_index':order,'quest_links':[],'title':title,'quests':quests})
 assert set(refs)<=allids and len(allids)==total
 js(ROOT/'docs'/'quests.json',index)
-manifest=json.loads((ROOT/'manifest.json').read_text());manifest['version']='1.0.0-rc5-companions.2';js(ROOT/'manifest.json',manifest)
+manifest=json.loads((ROOT/'manifest.json').read_text());manifest['version']='1.0.0-rc5-author-content.1';js(ROOT/'manifest.json',manifest)
 assert len({x['projectID'] for x in manifest['files']})==len(manifest['files'])
 print(f'{total} quests, {sum(x["task"]=="manual" for x in index)} manual; {len(manifest["files"])} locked projects; {len(items)} items')
 
@@ -145,6 +150,7 @@ from gameplay import generate_gameplay
 generate_gameplay(ROOT, K, F, DATA, fn, js, msg)
 from skills import generate_skills
 generate_skills(DATA, F, fn, js, msg)
+generate_artifacts(K, F, put, fn, msg)
 from wards import generate_wards
 generate_wards(DATA,F,fn,js,msg)
 

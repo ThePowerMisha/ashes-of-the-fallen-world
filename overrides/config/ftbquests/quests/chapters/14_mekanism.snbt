@@ -13,7 +13,11 @@
       "id": "28318EF40188761A",
       "title": "Осмий",
       "description": [
-        "Добывай осмий вместе с железом. Храни металл отдельно от руды."
+        "Добывай осмий вместе с железом. Храни металл отдельно от руды.",
+        "",
+        "Из записей экспедиции. Варден обвёл красным линии, на которых загорались провода. В новом цехе эти линии можно проложить заново.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
       ],
       "icon": "mekanism:ingot_osmium",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "3E032F770950CD2C"
+      ],
+      "rewards": [
+        {
+          "id": "31A3531DFD8F38AE",
+          "type": "item",
+          "item": "minecraft:honeycomb",
+          "count": 2
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "28318EF40188761A"
+      ],
+      "rewards": [
+        {
+          "id": "1A822A2341239371",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "6293148DB96E7791",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:redstone",
+          "count": 5
         }
       ]
     },
@@ -99,6 +119,14 @@
       ],
       "dependencies": [
         "790D3B8FCACCD3ED"
+      ],
+      "rewards": [
+        {
+          "id": "79BCCDB904B95340",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -120,6 +148,14 @@
       ],
       "dependencies": [
         "4F1262BD36A0EEE5"
+      ],
+      "rewards": [
+        {
+          "id": "7576A276AAB38FE1",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
+        }
       ]
     },
     {
@@ -146,7 +182,7 @@
         {
           "id": "63C759F68D3CCD6F",
           "type": "item",
-          "item": "minecraft:bread",
+          "item": "minecraft:quartz",
           "count": 4
         }
       ]
@@ -170,6 +206,14 @@
       ],
       "dependencies": [
         "43491CF9707B4E89"
+      ],
+      "rewards": [
+        {
+          "id": "47826FC3B0BE81D1",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 3
+        }
       ]
     },
     {
@@ -191,6 +235,14 @@
       ],
       "dependencies": [
         "7B2CAEDD9EDD8981"
+      ],
+      "rewards": [
+        {
+          "id": "3ADA9B9C0F8ED45B",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        }
       ]
     },
     {
@@ -212,6 +264,14 @@
       ],
       "dependencies": [
         "645C46AD04BC642F"
+      ],
+      "rewards": [
+        {
+          "id": "662B8819152AE34A",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
@@ -233,6 +293,14 @@
       ],
       "dependencies": [
         "4637DBB340DFFE13"
+      ],
+      "rewards": [
+        {
+          "id": "43CFADEA42540850",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -254,6 +322,14 @@
       ],
       "dependencies": [
         "6B452FEAE6C697B7"
+      ],
+      "rewards": [
+        {
+          "id": "1FA1852C63210276",
+          "type": "item",
+          "item": "minecraft:honeycomb",
+          "count": 2
+        }
       ]
     },
     {
@@ -275,6 +351,14 @@
       ],
       "dependencies": [
         "51E049EBE3808EA0"
+      ],
+      "rewards": [
+        {
+          "id": "4F1D436F2441B5F9",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
@@ -296,6 +380,14 @@
       ],
       "dependencies": [
         "07030D1273858555"
+      ],
+      "rewards": [
+        {
+          "id": "7FF30FDBE581BB80",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 5
+        }
       ]
     },
     {
@@ -317,6 +409,14 @@
       ],
       "dependencies": [
         "64F3975F03D00C47"
+      ],
+      "rewards": [
+        {
+          "id": "338F4D3EAF429E66",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -338,6 +438,14 @@
       ],
       "dependencies": [
         "573C0BF53951DCA1"
+      ],
+      "rewards": [
+        {
+          "id": "10BD8AA60F187A32",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
+        }
       ]
     },
     {
@@ -359,6 +467,14 @@
       ],
       "dependencies": [
         "60C13286B9110E6D"
+      ],
+      "rewards": [
+        {
+          "id": "6B2A6FDE79D5AECC",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 4
+        }
       ]
     },
     {
@@ -380,6 +496,14 @@
       ],
       "dependencies": [
         "3E17CC4017B2AEBA"
+      ],
+      "rewards": [
+        {
+          "id": "1A3DBEEBE10E2F62",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 3
+        }
       ]
     },
     {
@@ -401,6 +525,14 @@
       ],
       "dependencies": [
         "4BE133D7FC2BDDAF"
+      ],
+      "rewards": [
+        {
+          "id": "769B564FE328F797",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        }
       ]
     },
     {
@@ -422,6 +554,14 @@
       ],
       "dependencies": [
         "1AB32FDE3CFA9BDF"
+      ],
+      "rewards": [
+        {
+          "id": "4B24E2888025637C",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
@@ -443,6 +583,14 @@
       ],
       "dependencies": [
         "5B0166D08CB76C78"
+      ],
+      "rewards": [
+        {
+          "id": "17EC457CD6DCD163",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -464,6 +612,14 @@
       ],
       "dependencies": [
         "3E6B6897AA949D8B"
+      ],
+      "rewards": [
+        {
+          "id": "0678BBCDAAF2E559",
+          "type": "item",
+          "item": "minecraft:honeycomb",
+          "count": 2
+        }
       ]
     },
     {
@@ -490,8 +646,19 @@
         {
           "id": "064FE0A7CCF34EE9",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        },
+        {
+          "id": "61AACE080E9219B3",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "2CCE85EB684711AB",
+          "type": "item",
+          "item": "kubejs:source_capacitor",
+          "count": 1
         }
       ]
     }

@@ -13,7 +13,11 @@
       "id": "4AFF2B8CB51C1B79",
       "title": "Совет орденов",
       "description": [
-        "Соедини три печати и осколок эха. Согласуй с друзьями экспедицию к источнику скверны."
+        "Соедини три печати и осколок эха. Согласуй с друзьями экспедицию к источнику скверны.",
+        "",
+        "Из записей экспедиции. Под дозорной вышкой нашли колокол, обёрнутый в шерсть. На скале за ним кто-то процарапал отметки глубины.",
+        "",
+        "{image:kubejs:textures/quest/abyss.png width:150 height:84 align:1}"
       ],
       "icon": "kubejs:concord_core",
       "x": 0.0,
@@ -30,6 +34,14 @@
         "21CAB2CA77C87AA6",
         "0A33175450E0EB37",
         "6F94CDE3636A9AC0"
+      ],
+      "rewards": [
+        {
+          "id": "3E224B7922A5691E",
+          "type": "item",
+          "item": "minecraft:spectral_arrow",
+          "count": 5
+        }
       ]
     },
     {
@@ -51,6 +63,14 @@
       ],
       "dependencies": [
         "4AFF2B8CB51C1B79"
+      ],
+      "rewards": [
+        {
+          "id": "6612FD5BC6D9830E",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 2
+        }
       ]
     },
     {
@@ -77,8 +97,8 @@
         {
           "id": "48DCC52E3B5C9BC8",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:prismarine_shard",
+          "count": 3
         }
       ]
     },
@@ -86,7 +106,8 @@
       "id": "2BAAE2E7923B660A",
       "title": "План обороны",
       "description": [
-        "Сделай резервную копию мира и подготовь убежища. Администратор проверяет настройки Sculk Horde."
+        "Сделай резервную копию мира и подготовь убежища. Администратор проверяет настройки Sculk Horde.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:echo_shard",
       "x": 6.0,
@@ -100,13 +121,22 @@
       ],
       "dependencies": [
         "544D7A40C64555B1"
+      ],
+      "rewards": [
+        {
+          "id": "7F9943CC8DDA9737",
+          "type": "item",
+          "item": "minecraft:obsidian",
+          "count": 2
+        }
       ]
     },
     {
       "id": "529ED4693C398388",
       "title": "Пробуждение",
       "description": [
-        "Вместе активируйте орду штатной механикой Sculk Horde. Не подтверждай до фактической активации."
+        "Вместе активируйте орду штатной механикой Sculk Horde. Не подтверждай до фактической активации.",
+        "Квест засчитается автоматически при получении достижения."
       ],
       "icon": "minecraft:echo_shard",
       "x": 0.0,
@@ -120,13 +150,22 @@
       ],
       "dependencies": [
         "2BAAE2E7923B660A"
+      ],
+      "rewards": [
+        {
+          "id": "51A37996BE5E95B2",
+          "type": "item",
+          "item": "minecraft:snowball",
+          "count": 8
+        }
       ]
     },
     {
       "id": "1654A3EEE4F5E0B9",
       "title": "Противоядие",
       "description": [
-        "Освой штатные средства очищения Sculk Horde по внутриигровым рецептам JEI."
+        "Освой штатные средства очищения Sculk Horde по внутриигровым рецептам JEI.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:echo_shard",
       "x": 2.0,
@@ -140,13 +179,22 @@
       ],
       "dependencies": [
         "529ED4693C398388"
+      ],
+      "rewards": [
+        {
+          "id": "35531035679D638C",
+          "type": "item",
+          "item": "minecraft:glow_berries",
+          "count": 4
+        }
       ]
     },
     {
       "id": "49C76BA065BA149E",
       "title": "Первая очищенная зона",
       "description": [
-        "Уничтожь очаг и очисти заражённые блоки штатным очистителем. Подтверди после осмотра зоны."
+        "Уничтожь очаг и очисти заражённые блоки штатным очистителем. Подтверди после осмотра зоны.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:echo_shard",
       "x": 4.0,
@@ -160,13 +208,22 @@
       ],
       "dependencies": [
         "1654A3EEE4F5E0B9"
+      ],
+      "rewards": [
+        {
+          "id": "70AF8F2DE2680B7A",
+          "type": "item",
+          "item": "minecraft:soul_torch",
+          "count": 8
+        }
       ]
     },
     {
       "id": "73BEC75D831FF408",
       "title": "Второй рубеж",
       "description": [
-        "Освободи ещё один очаг, поставь точку на карте."
+        "Освободи ещё один очаг, поставь точку на карте.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:echo_shard",
       "x": 6.0,
@@ -180,6 +237,14 @@
       ],
       "dependencies": [
         "49C76BA065BA149E"
+      ],
+      "rewards": [
+        {
+          "id": "6E86F08E3805F416",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 10
+        }
       ]
     },
     {
@@ -201,6 +266,19 @@
       ],
       "dependencies": [
         "73BEC75D831FF408"
+      ],
+      "rewards": [
+        {
+          "id": "528E1E94B8CD7BF9",
+          "type": "item",
+          "item": "minecraft:cooked_porkchop",
+          "count": 3
+        },
+        {
+          "id": "5783E3FC3E205508",
+          "type": "xp",
+          "xp": 12
+        }
       ]
     }
   ]

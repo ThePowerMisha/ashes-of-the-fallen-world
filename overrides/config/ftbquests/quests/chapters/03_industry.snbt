@@ -13,7 +13,11 @@
       "id": "3E032F770950CD2C",
       "title": "Колесо",
       "description": [
-        "Поставь водяное колесо и передай вращение валом."
+        "Поставь водяное колесо и передай вращение валом.",
+        "",
+        "Из записей экспедиции. Варден велел держать на стене обрезок каждого сплава. По цвету металла мастер мог понять, какая машина остановилась.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
       ],
       "icon": "create:water_wheel",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "229FC7D04C879E11"
+      ],
+      "rewards": [
+        {
+          "id": "64B283226AB51D1E",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "3E032F770950CD2C"
+      ],
+      "rewards": [
+        {
+          "id": "34988085267B7871",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "210DEB22AABCB20F",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:gold_nugget",
+          "count": 9
         }
       ]
     },
@@ -99,6 +119,14 @@
       ],
       "dependencies": [
         "222A5E474AE9240A"
+      ],
+      "rewards": [
+        {
+          "id": "77C95B1AEAA607C3",
+          "type": "item",
+          "item": "minecraft:honeycomb",
+          "count": 2
+        }
       ]
     },
     {
@@ -120,6 +148,14 @@
       ],
       "dependencies": [
         "6EE71188322E8D0A"
+      ],
+      "rewards": [
+        {
+          "id": "7FCBB98B8BAA76B1",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
@@ -146,8 +182,8 @@
         {
           "id": "3FD3CE4E47265B6E",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:redstone",
+          "count": 5
         }
       ]
     },
@@ -155,7 +191,8 @@
       "id": "7F63FA02814D0D33",
       "title": "Первые провода",
       "description": [
-        "Создай генератор и сеть Immersive Engineering. Подтверди после проверки."
+        "Создай генератор и сеть Immersive Engineering. Подтверди после проверки.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "create:precision_mechanism",
       "x": 4.0,
@@ -169,6 +206,14 @@
       ],
       "dependencies": [
         "1512734044FD513C"
+      ],
+      "rewards": [
+        {
+          "id": "56E31C1EEC57A477",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -190,6 +235,14 @@
       ],
       "dependencies": [
         "7F63FA02814D0D33"
+      ],
+      "rewards": [
+        {
+          "id": "459B242FB2F139FD",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
+        }
       ]
     },
     {
@@ -211,6 +264,14 @@
       ],
       "dependencies": [
         "10B17F9E5D205ECB"
+      ],
+      "rewards": [
+        {
+          "id": "32D785D62477BCCC",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 4
+        }
       ]
     },
     {
@@ -232,6 +293,14 @@
       ],
       "dependencies": [
         "7E10E03C915EBC7E"
+      ],
+      "rewards": [
+        {
+          "id": "236DD6A467E7CBAF",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 3
+        }
       ]
     },
     {
@@ -253,6 +322,14 @@
       ],
       "dependencies": [
         "0EE99D158C572BC9"
+      ],
+      "rewards": [
+        {
+          "id": "52B25B0D55450B33",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        }
       ]
     },
     {
@@ -274,6 +351,19 @@
       ],
       "dependencies": [
         "03EF95D41D81DC83"
+      ],
+      "rewards": [
+        {
+          "id": "5C2EA57FA446B7DC",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        },
+        {
+          "id": "1A9BA4ACD6D4FD6B",
+          "type": "xp",
+          "xp": 12
+        }
       ]
     }
   ]

@@ -1,110 +1,326 @@
 {
   "paladin_1": {
     "definition": "paladin_1",
-    "x": -112,
-    "y": -120,
+    "x": -200,
+    "y": -155,
     "root": true
   },
   "paladin_2": {
     "definition": "paladin_2",
-    "x": -112,
-    "y": -72,
+    "x": -200,
+    "y": -109,
     "root": false
   },
   "paladin_3": {
     "definition": "paladin_3",
-    "x": -112,
-    "y": -24,
+    "x": -200,
+    "y": -63,
+    "root": false
+  },
+  "paladin_4": {
+    "definition": "paladin_4",
+    "x": -260,
+    "y": -109,
+    "root": false
+  },
+  "paladin_5": {
+    "definition": "paladin_5",
+    "x": -260,
+    "y": -63,
+    "root": false
+  },
+  "paladin_6": {
+    "definition": "paladin_6",
+    "x": -260,
+    "y": -17,
+    "root": false
+  },
+  "paladin_7": {
+    "definition": "paladin_7",
+    "x": -140,
+    "y": -109,
+    "root": false
+  },
+  "paladin_8": {
+    "definition": "paladin_8",
+    "x": -140,
+    "y": -63,
+    "root": false
+  },
+  "paladin_9": {
+    "definition": "paladin_9",
+    "x": -140,
+    "y": -17,
     "root": false
   },
   "mage_1": {
     "definition": "mage_1",
     "x": 0,
-    "y": -120,
+    "y": -155,
     "root": true
   },
   "mage_2": {
     "definition": "mage_2",
     "x": 0,
-    "y": -72,
+    "y": -109,
     "root": false
   },
   "mage_3": {
     "definition": "mage_3",
     "x": 0,
-    "y": -24,
+    "y": -63,
+    "root": false
+  },
+  "mage_4": {
+    "definition": "mage_4",
+    "x": -60,
+    "y": -109,
+    "root": false
+  },
+  "mage_5": {
+    "definition": "mage_5",
+    "x": -60,
+    "y": -63,
+    "root": false
+  },
+  "mage_6": {
+    "definition": "mage_6",
+    "x": -60,
+    "y": -17,
+    "root": false
+  },
+  "mage_7": {
+    "definition": "mage_7",
+    "x": 60,
+    "y": -109,
+    "root": false
+  },
+  "mage_8": {
+    "definition": "mage_8",
+    "x": 60,
+    "y": -63,
+    "root": false
+  },
+  "mage_9": {
+    "definition": "mage_9",
+    "x": 60,
+    "y": -17,
     "root": false
   },
   "engineer_1": {
     "definition": "engineer_1",
-    "x": 112,
-    "y": -120,
+    "x": 200,
+    "y": -155,
     "root": true
   },
   "engineer_2": {
     "definition": "engineer_2",
-    "x": 112,
-    "y": -72,
+    "x": 200,
+    "y": -109,
     "root": false
   },
   "engineer_3": {
     "definition": "engineer_3",
-    "x": 112,
-    "y": -24,
+    "x": 200,
+    "y": -63,
+    "root": false
+  },
+  "engineer_4": {
+    "definition": "engineer_4",
+    "x": 140,
+    "y": -109,
+    "root": false
+  },
+  "engineer_5": {
+    "definition": "engineer_5",
+    "x": 140,
+    "y": -63,
+    "root": false
+  },
+  "engineer_6": {
+    "definition": "engineer_6",
+    "x": 140,
+    "y": -17,
+    "root": false
+  },
+  "engineer_7": {
+    "definition": "engineer_7",
+    "x": 260,
+    "y": -109,
+    "root": false
+  },
+  "engineer_8": {
+    "definition": "engineer_8",
+    "x": 260,
+    "y": -63,
+    "root": false
+  },
+  "engineer_9": {
+    "definition": "engineer_9",
+    "x": 260,
+    "y": -17,
     "root": false
   },
   "ranger_1": {
     "definition": "ranger_1",
-    "x": -112,
-    "y": 40,
+    "x": -200,
+    "y": 70,
     "root": true
   },
   "ranger_2": {
     "definition": "ranger_2",
-    "x": -112,
-    "y": 88,
+    "x": -200,
+    "y": 116,
     "root": false
   },
   "ranger_3": {
     "definition": "ranger_3",
-    "x": -112,
-    "y": 136,
+    "x": -200,
+    "y": 162,
+    "root": false
+  },
+  "ranger_4": {
+    "definition": "ranger_4",
+    "x": -260,
+    "y": 116,
+    "root": false
+  },
+  "ranger_5": {
+    "definition": "ranger_5",
+    "x": -260,
+    "y": 162,
+    "root": false
+  },
+  "ranger_6": {
+    "definition": "ranger_6",
+    "x": -260,
+    "y": 208,
+    "root": false
+  },
+  "ranger_7": {
+    "definition": "ranger_7",
+    "x": -140,
+    "y": 116,
+    "root": false
+  },
+  "ranger_8": {
+    "definition": "ranger_8",
+    "x": -140,
+    "y": 162,
+    "root": false
+  },
+  "ranger_9": {
+    "definition": "ranger_9",
+    "x": -140,
+    "y": 208,
     "root": false
   },
   "builder_1": {
     "definition": "builder_1",
     "x": 0,
-    "y": 40,
+    "y": 70,
     "root": true
   },
   "builder_2": {
     "definition": "builder_2",
     "x": 0,
-    "y": 88,
+    "y": 116,
     "root": false
   },
   "builder_3": {
     "definition": "builder_3",
     "x": 0,
-    "y": 136,
+    "y": 162,
+    "root": false
+  },
+  "builder_4": {
+    "definition": "builder_4",
+    "x": -60,
+    "y": 116,
+    "root": false
+  },
+  "builder_5": {
+    "definition": "builder_5",
+    "x": -60,
+    "y": 162,
+    "root": false
+  },
+  "builder_6": {
+    "definition": "builder_6",
+    "x": -60,
+    "y": 208,
+    "root": false
+  },
+  "builder_7": {
+    "definition": "builder_7",
+    "x": 60,
+    "y": 116,
+    "root": false
+  },
+  "builder_8": {
+    "definition": "builder_8",
+    "x": 60,
+    "y": 162,
+    "root": false
+  },
+  "builder_9": {
+    "definition": "builder_9",
+    "x": 60,
+    "y": 208,
     "root": false
   },
   "occultist_1": {
     "definition": "occultist_1",
-    "x": 112,
-    "y": 40,
+    "x": 200,
+    "y": 70,
     "root": true
   },
   "occultist_2": {
     "definition": "occultist_2",
-    "x": 112,
-    "y": 88,
+    "x": 200,
+    "y": 116,
     "root": false
   },
   "occultist_3": {
     "definition": "occultist_3",
-    "x": 112,
-    "y": 136,
+    "x": 200,
+    "y": 162,
+    "root": false
+  },
+  "occultist_4": {
+    "definition": "occultist_4",
+    "x": 140,
+    "y": 116,
+    "root": false
+  },
+  "occultist_5": {
+    "definition": "occultist_5",
+    "x": 140,
+    "y": 162,
+    "root": false
+  },
+  "occultist_6": {
+    "definition": "occultist_6",
+    "x": 140,
+    "y": 208,
+    "root": false
+  },
+  "occultist_7": {
+    "definition": "occultist_7",
+    "x": 260,
+    "y": 116,
+    "root": false
+  },
+  "occultist_8": {
+    "definition": "occultist_8",
+    "x": 260,
+    "y": 162,
+    "root": false
+  },
+  "occultist_9": {
+    "definition": "occultist_9",
+    "x": 260,
+    "y": 208,
     "root": false
   }
 }

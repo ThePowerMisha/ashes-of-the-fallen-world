@@ -13,7 +13,11 @@
       "id": "66AA0C6099961B5E",
       "title": "Обет архивиста",
       "description": [
-        "Я, Варден, оставляю этот протокол тому, кто найдёт его. Если сигнальный колокол прозвучит трижды, не запускайте установку."
+        "Я, Варден, оставляю этот протокол тому, кто найдёт его. Если сигнальный колокол прозвучит трижды, не запускайте установку.",
+        "",
+        "Из записей экспедиции. В архиве три стола и одна общая лампа. На столе Вардена пыль прибита металлической стружкой.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
       ],
       "icon": "kubejs:archive_fragment",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "229FC7D04C879E11"
+      ],
+      "rewards": [
+        {
+          "id": "006FE646415BB662",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 4
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "66AA0C6099961B5E"
+      ],
+      "rewards": [
+        {
+          "id": "62767299165707EE",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 3
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "602B9629C7FE5086",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:glass_bottle",
+          "count": 3
         }
       ]
     },
@@ -99,6 +119,14 @@
       ],
       "dependencies": [
         "29497AB94C510A94"
+      ],
+      "rewards": [
+        {
+          "id": "662799603C88021D",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
@@ -120,6 +148,14 @@
       ],
       "dependencies": [
         "7CD88FDDB243044A"
+      ],
+      "rewards": [
+        {
+          "id": "38A11CBEEC21E8C7",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -146,8 +182,8 @@
         {
           "id": "36A8771FB107625F",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:honeycomb",
+          "count": 2
         }
       ]
     },
@@ -155,7 +191,8 @@
       "id": "5F4DB5BD647D4C7B",
       "title": "Правда Совета",
       "description": [
-        "Обсудите с командой три свидетельства. Никто из орденов не был невиновен, но каждый пытался спасти свой народ."
+        "Обсудите с командой три свидетельства. Никто из орденов не был невиновен, но каждый пытался спасти свой народ.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:writable_book",
       "x": 4.0,
@@ -169,6 +206,14 @@
       ],
       "dependencies": [
         "396237BF7C17222D"
+      ],
+      "rewards": [
+        {
+          "id": "25E29F1F66528DA6",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
@@ -190,6 +235,25 @@
       ],
       "dependencies": [
         "5F4DB5BD647D4C7B"
+      ],
+      "rewards": [
+        {
+          "id": "261F0B065DA647EB",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 5
+        },
+        {
+          "id": "747C19FC61DF1E1D",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "26975E7F9316B9C7",
+          "type": "item",
+          "item": "kubejs:field_kit",
+          "count": 1
+        }
       ]
     }
   ]

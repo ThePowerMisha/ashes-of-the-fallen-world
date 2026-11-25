@@ -40,9 +40,7 @@ scoreboard players enable @s ashes_ability
 scoreboard players enable @s ashes_cleanse
 execute if score @s aability_cd matches 1.. run scoreboard players remove @s aability_cd 1
 execute if score @s aritus_cd matches 1.. run scoreboard players remove @s aritus_cd 1
-execute if score @s ashes_talent matches 1 if score @s arank matches 2.. run scoreboard players set @s atalent 1
-execute if score @s ashes_talent matches 2 if score @s arank matches 3.. run scoreboard players set @s atalent 2
-execute if score @s ashes_talent matches 1..2 run tellraw @s {"text": "Выбор таланта зависит от ранга. /trigger ashes_status — текущий талант.", "color": "gold"}
+execute if score @s ashes_talent matches 1..4 run function ashes:talents/select
 scoreboard players set @s ashes_talent 0
 execute if score @s ashes_ability matches 1.. run function ashes:ability
 scoreboard players set @s ashes_ability 0
@@ -58,7 +56,18 @@ execute if score @s ashes_menu matches 1.. run function ashes:skills/menu
 scoreboard players set @s ashes_menu 0
 scoreboard players add @s amastery_retry 0
 execute if score @s amastery_retry matches 1.. run scoreboard players remove @s amastery_retry 1
-execute if score @s aclass matches 1..6 if score @s arank > @s amastery if score @s amastery_retry matches 0 run function ashes:skills/grant
+execute if score @s aclass matches 1..6 if score @s amastery_retry matches 0 unless score @s amastery_v2 matches 1 run function ashes:skills/grant
+execute if score @s aclass matches 1..6 if score @s amastery_retry matches 0 if score @s arank > @s amastery run function ashes:skills/grant
+scoreboard players enable @s ashes_role
+execute if score @s ashes_role matches 1 run function ashes:skills/role_1
+execute if score @s ashes_role matches 2 run function ashes:skills/role_2
+execute if score @s ashes_role matches 3 run function ashes:skills/role_3
+execute if score @s ashes_role matches 4 run function ashes:skills/role_4
+execute if score @s ashes_role matches 5 run function ashes:skills/role_5
+execute if score @s ashes_role matches 6 run function ashes:skills/role_6
+scoreboard players set @s ashes_role 0
+scoreboard players add @s akit_cd 0
+execute if score @s akit_cd matches 1.. run scoreboard players remove @s akit_cd 1
 scoreboard players enable @s ashes_ward
 execute if score @s ashes_ward matches 1 run function ashes:ward/request
 execute if score @s ashes_ward matches 2 run function ashes:ward/status

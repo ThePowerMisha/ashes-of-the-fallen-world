@@ -13,7 +13,11 @@
       "id": "3AB0292EB8CEF53D",
       "title": "Наследие мастеров",
       "description": [
-        "Восстанови традицию древних архитекторов. Открой инструмент строительства MineColonies и сравни доступные стили."
+        "Восстанови традицию древних архитекторов. Открой инструмент строительства MineColonies и сравни доступные стили.",
+        "",
+        "Из записей экспедиции. Городские стили различались по крышам. Новый квартал мог взять за образец один из уцелевших дворов.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
       ],
       "icon": "kubejs:settlement_charter",
       "x": 0.0,
@@ -28,13 +32,22 @@
       ],
       "dependencies": [
         "5A38822BEA58C471"
+      ],
+      "rewards": [
+        {
+          "id": "6388924A28EE96FA",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 4
+        }
       ]
     },
     {
       "id": "142CD0C0964339D4",
       "title": "План города",
       "description": [
-        "Просмотри Stylecolonies, выбери стиль, подходящий к рельефу и запасам команды."
+        "Просмотри Stylecolonies, выбери стиль, подходящий к рельефу и запасам команды.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:bell",
       "x": 2.0,
@@ -48,13 +61,22 @@
       ],
       "dependencies": [
         "3AB0292EB8CEF53D"
+      ],
+      "rewards": [
+        {
+          "id": "425B57D92CC31DBA",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 2
+        }
       ]
     },
     {
       "id": "13CEACA5DDE31229",
       "title": "Малый форпост",
       "description": [
-        "Посмотри SmallColonies и SmallColonies ME. Выбери компактный проект без изменения стиля уже построенных зданий."
+        "Посмотри SmallColonies и SmallColonies ME. Выбери компактный проект без изменения стиля уже построенных зданий.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:bell",
       "x": 4.0,
@@ -68,6 +90,14 @@
       ],
       "dependencies": [
         "142CD0C0964339D4"
+      ],
+      "rewards": [
+        {
+          "id": "3E056A0BD748934A",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 2
+        }
       ]
     },
     {
@@ -89,6 +119,14 @@
       ],
       "dependencies": [
         "13CEACA5DDE31229"
+      ],
+      "rewards": [
+        {
+          "id": "69768547E6C917F8",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 1
+        }
       ]
     },
     {
@@ -110,6 +148,14 @@
       ],
       "dependencies": [
         "0BAEFA2DCA58C05F"
+      ],
+      "rewards": [
+        {
+          "id": "2A3FA4756E56E04A",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 8
+        }
       ]
     },
     {
@@ -136,8 +182,8 @@
         {
           "id": "7200DFF5BDBD5445",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:cooked_beef",
+          "count": 2
         }
       ]
     },
@@ -145,7 +191,8 @@
       "id": "78AE5EE31BECC614",
       "title": "Совместимость профессий",
       "description": [
-        "Изучи доступные рецепты и профессии MineColonies Compatibility; проверяй их в интерфейсе рабочих."
+        "Изучи доступные рецепты и профессии MineColonies Compatibility; проверяй их в интерфейсе рабочих.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:bell",
       "x": 4.0,
@@ -159,13 +206,22 @@
       ],
       "dependencies": [
         "1447E89C01A15C7F"
+      ],
+      "rewards": [
+        {
+          "id": "159F2142562645DF",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        }
       ]
     },
     {
       "id": "1F7306886D5583C6",
       "title": "Снаряжение дозора",
       "description": [
-        "Проверь экипировку жителя через Colony Curios, если интерфейс позволяет соответствующий слот."
+        "Проверь экипировку жителя через Colony Curios, если интерфейс позволяет соответствующий слот.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:bell",
       "x": 6.0,
@@ -179,6 +235,14 @@
       ],
       "dependencies": [
         "78AE5EE31BECC614"
+      ],
+      "rewards": [
+        {
+          "id": "3ACC1B6240D65C2E",
+          "type": "item",
+          "item": "minecraft:oak_boat",
+          "count": 1
+        }
       ]
     },
     {
@@ -200,6 +264,14 @@
       ],
       "dependencies": [
         "1F7306886D5583C6"
+      ],
+      "rewards": [
+        {
+          "id": "05E4AC01F3BF2E75",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 4
+        }
       ]
     },
     {
@@ -221,6 +293,14 @@
       ],
       "dependencies": [
         "75F0778319EB5469"
+      ],
+      "rewards": [
+        {
+          "id": "78EE5796700BC805",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
@@ -247,8 +327,19 @@
         {
           "id": "08ADFEFD6CE6BE47",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:paper",
+          "count": 4
+        },
+        {
+          "id": "2DBF739A546E2AE9",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "65435182DB8E8344",
+          "type": "item",
+          "item": "kubejs:field_kit",
+          "count": 1
         }
       ]
     }

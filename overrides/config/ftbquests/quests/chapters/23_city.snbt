@@ -13,7 +13,12 @@
       "id": "062F3CFF1FBB87BF",
       "title": "Разметка города",
       "description": [
-        "Выбери долину с доступом к воде, строй вдали от активной Скверны."
+        "Выбери долину с доступом к воде, строй вдали от активной Скверны.",
+        "",
+        "Из записей экспедиции. На обломке ворот начерчена ширина первого переулка. У его конца сохранилось место под колодец.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 0.0,
@@ -27,13 +32,22 @@
       ],
       "dependencies": [
         "5A38822BEA58C471"
+      ],
+      "rewards": [
+        {
+          "id": "701EB2325CA445BC",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 4
+        }
       ]
     },
     {
       "id": "25A9F9D318ACD8FC",
       "title": "Палатка снабжения",
       "description": [
-        "Используй Supply Camp или Supply Ship MineColonies по инструкции."
+        "Используй Supply Camp или Supply Ship MineColonies по инструкции.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 2.0,
@@ -47,13 +61,22 @@
       ],
       "dependencies": [
         "062F3CFF1FBB87BF"
+      ],
+      "rewards": [
+        {
+          "id": "3CDCE94D1505CB8B",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
       "id": "67BB36F959714D51",
       "title": "Ратуша",
       "description": [
-        "Основи колонию, назначь офицеров и права доступа друзей."
+        "Основи колонию, назначь офицеров и права доступа друзей.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 4.0,
@@ -67,13 +90,22 @@
       ],
       "dependencies": [
         "25A9F9D318ACD8FC"
+      ],
+      "rewards": [
+        {
+          "id": "1B8B24551E8A773D",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 4
+        }
       ]
     },
     {
       "id": "12E8465CF93DB390",
       "title": "Строитель",
       "description": [
-        "Построй Builder’s Hut и передай необходимые ресурсы."
+        "Построй Builder’s Hut и передай необходимые ресурсы.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 6.0,
@@ -87,13 +119,22 @@
       ],
       "dependencies": [
         "67BB36F959714D51"
+      ],
+      "rewards": [
+        {
+          "id": "152142ED6B8F0ED1",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 2
+        }
       ]
     },
     {
       "id": "35A3EF88A0FEA3B7",
       "title": "Первый дом",
       "description": [
-        "Возведи жильё для новых жителей, следи за свободными местами."
+        "Возведи жильё для новых жителей, следи за свободными местами.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 0.0,
@@ -107,13 +148,22 @@
       ],
       "dependencies": [
         "12E8465CF93DB390"
+      ],
+      "rewards": [
+        {
+          "id": "6B66D8BC3C0FC526",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 1
+        }
       ]
     },
     {
       "id": "15E781748B6EBB1D",
       "title": "Лесник",
       "description": [
-        "Обеспечь колонию древесиной и саженцами через лесника."
+        "Обеспечь колонию древесиной и саженцами через лесника.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 2.0,
@@ -127,13 +177,22 @@
       ],
       "dependencies": [
         "35A3EF88A0FEA3B7"
+      ],
+      "rewards": [
+        {
+          "id": "37B97CC446A371AE",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 8
+        }
       ]
     },
     {
       "id": "006DFF636467BAE6",
       "title": "Шахтёр",
       "description": [
-        "Подготовь шахтёрское здание и безопасный доступ к нему."
+        "Подготовь шахтёрское здание и безопасный доступ к нему.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 4.0,
@@ -147,13 +206,22 @@
       ],
       "dependencies": [
         "15E781748B6EBB1D"
+      ],
+      "rewards": [
+        {
+          "id": "69C15989EDD00037",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 2
+        }
       ]
     },
     {
       "id": "461D0D55AB9FBEB9",
       "title": "Каменщик",
       "description": [
-        "Настрой цепочку строительных материалов и запас камня."
+        "Настрой цепочку строительных материалов и запас камня.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 6.0,
@@ -167,13 +235,22 @@
       ],
       "dependencies": [
         "006DFF636467BAE6"
+      ],
+      "rewards": [
+        {
+          "id": "5A52BC319C1C42A5",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        }
       ]
     },
     {
       "id": "439C3BDFC79B9115",
       "title": "Фермер",
       "description": [
-        "Размести поля, учитывай сезоны и доступность воды."
+        "Размести поля, учитывай сезоны и доступность воды.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 0.0,
@@ -187,13 +264,22 @@
       ],
       "dependencies": [
         "461D0D55AB9FBEB9"
+      ],
+      "rewards": [
+        {
+          "id": "3B5B9DB8E88ADACB",
+          "type": "item",
+          "item": "minecraft:oak_boat",
+          "count": 1
+        }
       ]
     },
     {
       "id": "2EB604E537516439",
       "title": "Рыбак",
       "description": [
-        "Обеспечь жителям альтернативную пищу из рыбы."
+        "Обеспечь жителям альтернативную пищу из рыбы.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 2.0,
@@ -207,13 +293,22 @@
       ],
       "dependencies": [
         "439C3BDFC79B9115"
+      ],
+      "rewards": [
+        {
+          "id": "72E31D26D7076980",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 4
+        }
       ]
     },
     {
       "id": "62EBF7E6532FA1DC",
       "title": "Повар",
       "description": [
-        "Организуй ресторан с запасом ингредиентов."
+        "Организуй ресторан с запасом ингредиентов.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 4.0,
@@ -227,13 +322,22 @@
       ],
       "dependencies": [
         "2EB604E537516439"
+      ],
+      "rewards": [
+        {
+          "id": "3832594DE4BC5BAB",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
       "id": "02274ABFA629F3C5",
       "title": "Склад",
       "description": [
-        "Построй Warehouse и создай место для курьеров."
+        "Построй Warehouse и создай место для курьеров.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 6.0,
@@ -247,13 +351,22 @@
       ],
       "dependencies": [
         "62EBF7E6532FA1DC"
+      ],
+      "rewards": [
+        {
+          "id": "62CA377D5EB9C9F1",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 4
+        }
       ]
     },
     {
       "id": "1A63D91BF54B8763",
       "title": "Курьер",
       "description": [
-        "Свяжи курьеров с рабочими зданиями, проверяй запросы материалов."
+        "Свяжи курьеров с рабочими зданиями, проверяй запросы материалов.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 0.0,
@@ -267,13 +380,22 @@
       ],
       "dependencies": [
         "02274ABFA629F3C5"
+      ],
+      "rewards": [
+        {
+          "id": "39F02228E2918345",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 2
+        }
       ]
     },
     {
       "id": "1958723BCAF65DF6",
       "title": "Университет",
       "description": [
-        "Изучи исследования MineColonies и выбери первое улучшение."
+        "Изучи исследования MineColonies и выбери первое улучшение.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 2.0,
@@ -287,13 +409,22 @@
       ],
       "dependencies": [
         "1A63D91BF54B8763"
+      ],
+      "rewards": [
+        {
+          "id": "636CCFF7FE1097A5",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 1
+        }
       ]
     },
     {
       "id": "477D64C95857A5BD",
       "title": "Казарма",
       "description": [
-        "Подготовь охрану поселения и экипировку жителей."
+        "Подготовь охрану поселения и экипировку жителей.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 4.0,
@@ -307,13 +438,22 @@
       ],
       "dependencies": [
         "1958723BCAF65DF6"
+      ],
+      "rewards": [
+        {
+          "id": "653472C8129FB384",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 8
+        }
       ]
     },
     {
       "id": "2E7B2ED0615E6E60",
       "title": "Лечение",
       "description": [
-        "Построй больницу и поддерживай запас лечебных материалов."
+        "Построй больницу и поддерживай запас лечебных материалов.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 6.0,
@@ -327,6 +467,14 @@
       ],
       "dependencies": [
         "477D64C95857A5BD"
+      ],
+      "rewards": [
+        {
+          "id": "142072E08EC426ED",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 2
+        }
       ]
     },
     {
@@ -348,6 +496,14 @@
       ],
       "dependencies": [
         "2E7B2ED0615E6E60"
+      ],
+      "rewards": [
+        {
+          "id": "5B9207781E1A9D6B",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        }
       ]
     },
     {
@@ -369,13 +525,22 @@
       ],
       "dependencies": [
         "552A47CA9765260D"
+      ],
+      "rewards": [
+        {
+          "id": "585DC945A832B5A2",
+          "type": "item",
+          "item": "minecraft:oak_boat",
+          "count": 1
+        }
       ]
     },
     {
       "id": "1DF662DD3C32C95C",
       "title": "Крыши и мосты",
       "description": [
-        "Используй Macaw’s для архитектуры, проверяй проходимость NPC."
+        "Используй Macaw’s для архитектуры, проверяй проходимость NPC.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 4.0,
@@ -389,13 +554,22 @@
       ],
       "dependencies": [
         "7B37491A0DA4D70E"
+      ],
+      "rewards": [
+        {
+          "id": "26E087418DDD2990",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 4
+        }
       ]
     },
     {
       "id": "1CF9A84DD04FFFD1",
       "title": "Интерьер",
       "description": [
-        "Оформи жилой дом с Handcrafted, Chipped и Supplementaries."
+        "Оформи жилой дом с Handcrafted, Chipped и Supplementaries.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 6.0,
@@ -409,6 +583,14 @@
       ],
       "dependencies": [
         "1DF662DD3C32C95C"
+      ],
+      "rewards": [
+        {
+          "id": "58601ADD90ED6EBB",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
@@ -430,6 +612,14 @@
       ],
       "dependencies": [
         "1CF9A84DD04FFFD1"
+      ],
+      "rewards": [
+        {
+          "id": "5EBD2AD2E3DDAC80",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 4
+        }
       ]
     },
     {
@@ -456,8 +646,19 @@
         {
           "id": "1AF2580EA7A0EE39",
           "type": "item",
-          "item": "minecraft:gold_ingot",
+          "item": "minecraft:golden_carrot",
           "count": 2
+        },
+        {
+          "id": "08CFDF63D04023B1",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "64419B94D5078055",
+          "type": "item",
+          "item": "kubejs:scout_report",
+          "count": 1
         }
       ]
     }

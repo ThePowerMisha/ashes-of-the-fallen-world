@@ -13,7 +13,11 @@
       "id": "043E695E38925082",
       "title": "Обет механика",
       "description": [
-        "Выбери Инженера: /trigger ashes_class set 3."
+        "Выбери Инженера: /trigger ashes_class set 3.",
+        "",
+        "Из записей экспедиции. Инженер носил запасную рукоять от пресса на поясе. В поле он возвращал привод в строй быстрее, чем успевали разжечь костёр.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:iron_pickaxe",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "1FF7A3BEF4184303"
+      ],
+      "rewards": [
+        {
+          "id": "68BBC7FED4505337",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "043E695E38925082"
+      ],
+      "rewards": [
+        {
+          "id": "525B39BA994F8E9A",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "278D6436288BBFD9",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:honeycomb",
+          "count": 2
         }
       ]
     },
@@ -99,6 +119,14 @@
       ],
       "dependencies": [
         "3C0010D64F261A48"
+      ],
+      "rewards": [
+        {
+          "id": "2169465DF782A4A8",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
@@ -120,13 +148,22 @@
       ],
       "dependencies": [
         "0A8ADF8672FF6FA5"
+      ],
+      "rewards": [
+        {
+          "id": "10650029E7870ACD",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
       "id": "0BA3C87879EF8D4E",
       "title": "Ускорение",
       "description": [
-        "Достигни второго ранга и испытай /trigger ashes_ability при добыче."
+        "Достигни второго ранга и испытай /trigger ashes_ability при добыче.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_pickaxe",
       "x": 2.0,
@@ -140,13 +177,22 @@
       ],
       "dependencies": [
         "29CDCDDE0C87963F"
+      ],
+      "rewards": [
+        {
+          "id": "525AF4C0ED678F3F",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
+        }
       ]
     },
     {
       "id": "1772A46EB596DFEB",
       "title": "Талант труда",
       "description": [
-        "Разблокируй первый талант через /trigger ashes_talent set 1."
+        "Разблокируй первый талант через /trigger ashes_talent set 1.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_pickaxe",
       "x": 4.0,
@@ -160,13 +206,22 @@
       ],
       "dependencies": [
         "0BA3C87879EF8D4E"
+      ],
+      "rewards": [
+        {
+          "id": "2F2852D9DBB8F733",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 4
+        }
       ]
     },
     {
       "id": "2D3E06E7F953299F",
       "title": "Талант выносливости",
       "description": [
-        "На третьем ранге разблокируй второй талант."
+        "На третьем ранге разблокируй второй талант.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_pickaxe",
       "x": 6.0,
@@ -180,6 +235,14 @@
       ],
       "dependencies": [
         "1772A46EB596DFEB"
+      ],
+      "rewards": [
+        {
+          "id": "57729344D3AE7E93",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 3
+        }
       ]
     },
     {
@@ -201,6 +264,14 @@
       ],
       "dependencies": [
         "2D3E06E7F953299F"
+      ],
+      "rewards": [
+        {
+          "id": "1CA5F1B0511880A0",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        }
       ]
     },
     {
@@ -227,8 +298,19 @@
         {
           "id": "16CD00CF32967C2B",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:book",
+          "count": 1
+        },
+        {
+          "id": "14BD532A93113E95",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "542460ACA8D5E20C",
+          "type": "item",
+          "item": "kubejs:power_regulator",
+          "count": 1
         }
       ]
     }

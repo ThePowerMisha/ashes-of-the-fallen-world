@@ -248,6 +248,12 @@ def ancient_mine(b):
         b.put(x, 3, z, ore)
     light(b, 11, 3, 6)
     light(b, 15, 3, 16)
+    b.put(7, 3, 6, 'stonecutter', {'facing': 'south'})
+    b.put(18, 3, 10, 'andesite_wall', {'up': 'true', 'waterlogged': 'false'})
+    light(b, 18, 4, 10)
+    b.put(6, 3, 11, 'spruce_trapdoor', {
+        'facing': 'west', 'half': 'bottom', 'open': 'false', 'waterlogged': 'false', 'powered': 'false'
+    })
     b.chest(5, 3, 9, 'ancient_mine', facing='east')
     b.chest(21, 3, 8, 'ancient_mine', supplies=True)
     buried_entrance(b, 12, 14, 2, 18, 8, stone)

@@ -1,6 +1,6 @@
 {
   "title": "Наследие трёх орденов",
-  "description": "Три очка мастерства за ранги I–III. Шесть путей; можно сочетать небольшие бонусы, не меняя основной класс.",
+  "description": "Шесть путей мастерства. Каждый ранг даёт три очка. Навыки можно сочетать; активные таланты закреплены за классом.",
   "icon": {
     "type": "item",
     "data": {
@@ -10,6 +10,6 @@
   "background": "minecraft:textures/block/deepslate.png",
   "unlocked_by_default": true,
   "starting_points": 0,
-  "spent_points_limit": 3,
+  "spent_points_limit": 9,
   "exclusive_root": false
 }

@@ -13,7 +13,11 @@
       "id": "59B3BE45BFA33BD1",
       "title": "Склад припасов",
       "description": [
-        "Раздели продовольствие, инструменты и добычу. Склад общего пользования важнее личных сундуков."
+        "Раздели продовольствие, инструменты и добычу. Склад общего пользования важнее личных сундуков.",
+        "",
+        "Из записей экспедиции. Караваны грузили воду ближе к дверям, а запчасти ставили так, чтобы их можно было достать даже с перевёрнутой телеги.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:barrel",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "3975AD60CA7C4E0E"
+      ],
+      "rewards": [
+        {
+          "id": "07BC10A5E7A4E24D",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 4
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "59B3BE45BFA33BD1"
+      ],
+      "rewards": [
+        {
+          "id": "7FED8445A1B4A578",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
@@ -75,7 +95,7 @@
         {
           "id": "3739D8E2F98EF470",
           "type": "item",
-          "item": "minecraft:bread",
+          "item": "minecraft:paper",
           "count": 4
         }
       ]
@@ -99,6 +119,14 @@
       ],
       "dependencies": [
         "2735B34AD6437D19"
+      ],
+      "rewards": [
+        {
+          "id": "21866858365C5A84",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 1
+        }
       ]
     },
     {
@@ -120,6 +148,14 @@
       ],
       "dependencies": [
         "6A690C9B9A35F096"
+      ],
+      "rewards": [
+        {
+          "id": "591E98371A859FB8",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 8
+        }
       ]
     },
     {
@@ -146,8 +182,8 @@
         {
           "id": "319086B623DDC1D0",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:cooked_beef",
+          "count": 2
         }
       ]
     },
@@ -155,7 +191,8 @@
       "id": "2F4BD0D1790C3B68",
       "title": "Караван",
       "description": [
-        "Организуйте перевозку из удалённой шахты в поселение: поезд Create или другой безопасный путь."
+        "Организуйте перевозку из удалённой шахты в поселение: поезд Create или другой безопасный путь.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:chest",
       "x": 4.0,
@@ -169,6 +206,14 @@
       ],
       "dependencies": [
         "66E1FA7B1F64D94B"
+      ],
+      "rewards": [
+        {
+          "id": "2BCC1470C2F0EDE7",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        }
       ]
     },
     {
@@ -190,6 +235,25 @@
       ],
       "dependencies": [
         "2F4BD0D1790C3B68"
+      ],
+      "rewards": [
+        {
+          "id": "3F9CD4A19E103177",
+          "type": "item",
+          "item": "minecraft:oak_boat",
+          "count": 1
+        },
+        {
+          "id": "3D383483326CB2ED",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "06E2BF824A1CC3FC",
+          "type": "item",
+          "item": "kubejs:scout_report",
+          "count": 1
+        }
       ]
     }
   ]

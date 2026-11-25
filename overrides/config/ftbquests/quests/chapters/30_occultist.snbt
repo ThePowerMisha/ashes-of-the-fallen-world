@@ -13,7 +13,11 @@
       "id": "050093831B5E0F6B",
       "title": "Обет запретного",
       "description": [
-        "Выбери Оккультиста: /trigger ashes_class set 6."
+        "Выбери Оккультиста: /trigger ashes_class set 6.",
+        "",
+        "Из записей экспедиции. Собиратели эха записывали услышанное сразу. Утром одни и те же места могли заговорить совсем иначе.",
+        "",
+        "{image:kubejs:textures/quest/abyss.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:fermented_spider_eye",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "1FF7A3BEF4184303"
+      ],
+      "rewards": [
+        {
+          "id": "628E3EA7B3078471",
+          "type": "item",
+          "item": "minecraft:prismarine_shard",
+          "count": 3
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "050093831B5E0F6B"
+      ],
+      "rewards": [
+        {
+          "id": "3920AD8FF4DB8B04",
+          "type": "item",
+          "item": "minecraft:obsidian",
+          "count": 2
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "1D937547A8855372",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:snowball",
+          "count": 8
         }
       ]
     },
@@ -99,6 +119,14 @@
       ],
       "dependencies": [
         "1EED5278930A31B7"
+      ],
+      "rewards": [
+        {
+          "id": "426409E7D2222318",
+          "type": "item",
+          "item": "minecraft:glow_berries",
+          "count": 4
+        }
       ]
     },
     {
@@ -120,13 +148,22 @@
       ],
       "dependencies": [
         "0E70630A3E978CBD"
+      ],
+      "rewards": [
+        {
+          "id": "5993BA04D2D80EC6",
+          "type": "item",
+          "item": "minecraft:soul_torch",
+          "count": 8
+        }
       ]
     },
     {
       "id": "4D00BF4855C08F92",
       "title": "Тёмная сила",
       "description": [
-        "На втором ранге испытай /trigger ashes_ability вдали от поселения."
+        "На втором ранге испытай /trigger ashes_ability вдали от поселения.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:fermented_spider_eye",
       "x": 2.0,
@@ -140,13 +177,22 @@
       ],
       "dependencies": [
         "12426722078ADFD9"
+      ],
+      "rewards": [
+        {
+          "id": "560A3DF25D7B4B77",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 10
+        }
       ]
     },
     {
       "id": "742AA8EDF23B13A6",
       "title": "Талант контроля",
       "description": [
-        "Открой первый талант /trigger ashes_talent set 1."
+        "Открой первый талант /trigger ashes_talent set 1.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:fermented_spider_eye",
       "x": 4.0,
@@ -160,13 +206,22 @@
       ],
       "dependencies": [
         "4D00BF4855C08F92"
+      ],
+      "rewards": [
+        {
+          "id": "4D3C25ADC385660D",
+          "type": "item",
+          "item": "minecraft:cooked_porkchop",
+          "count": 3
+        }
       ]
     },
     {
       "id": "413D852E9F94F4CA",
       "title": "Талант выживания",
       "description": [
-        "На третьем ранге выбери второй талант."
+        "На третьем ранге выбери второй талант.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:fermented_spider_eye",
       "x": 6.0,
@@ -180,6 +235,14 @@
       ],
       "dependencies": [
         "742AA8EDF23B13A6"
+      ],
+      "rewards": [
+        {
+          "id": "2BC7CAFD52E25CB9",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 3
+        }
       ]
     },
     {
@@ -201,6 +264,14 @@
       ],
       "dependencies": [
         "413D852E9F94F4CA"
+      ],
+      "rewards": [
+        {
+          "id": "2D73EC6F828C82F6",
+          "type": "item",
+          "item": "minecraft:spectral_arrow",
+          "count": 5
+        }
       ]
     },
     {
@@ -227,8 +298,19 @@
         {
           "id": "58E04F60CFC1C08B",
           "type": "item",
-          "item": "minecraft:gold_ingot",
+          "item": "minecraft:golden_carrot",
           "count": 2
+        },
+        {
+          "id": "7195FABC80D19EFB",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "0ABCDBE59201E28E",
+          "type": "item",
+          "item": "kubejs:scout_report",
+          "count": 1
         }
       ]
     }

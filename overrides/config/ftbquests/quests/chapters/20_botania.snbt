@@ -13,7 +13,12 @@
       "id": "3FCE3E07BEBF0DDB",
       "title": "Цветочный кодекс",
       "description": [
-        "Изучи Lexica Botania и сбор мистических лепестков."
+        "Изучи Lexica Botania и сбор мистических лепестков.",
+        "",
+        "Из записей экспедиции. Сад Ильмы питался от ручья. Каменные чаши ставили выше грядок, чтобы в них попадали первые солнечные лучи.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:flower_pot",
       "x": 0.0,
@@ -27,6 +32,14 @@
       ],
       "dependencies": [
         "1D129E2C407448C4"
+      ],
+      "rewards": [
+        {
+          "id": "4714CADE079340BA",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
@@ -48,6 +61,14 @@
       ],
       "dependencies": [
         "3FCE3E07BEBF0DDB"
+      ],
+      "rewards": [
+        {
+          "id": "0DACCD215F095590",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -74,8 +95,8 @@
         {
           "id": "673866D5494C5713",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:honeycomb",
+          "count": 2
         }
       ]
     },
@@ -98,6 +119,14 @@
       ],
       "dependencies": [
         "04120274A5CC2B50"
+      ],
+      "rewards": [
+        {
+          "id": "10C4112BB4E3AD15",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
@@ -119,6 +148,14 @@
       ],
       "dependencies": [
         "1070B943F69781B4"
+      ],
+      "rewards": [
+        {
+          "id": "3C39BA29DD860C6C",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 5
+        }
       ]
     },
     {
@@ -145,8 +182,8 @@
         {
           "id": "18663169EE66821B",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:iron_nugget",
+          "count": 9
         }
       ]
     },
@@ -169,6 +206,14 @@
       ],
       "dependencies": [
         "4ED85BDE7C686E6C"
+      ],
+      "rewards": [
+        {
+          "id": "5C12839D0AB3BCC6",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
+        }
       ]
     },
     {
@@ -190,6 +235,14 @@
       ],
       "dependencies": [
         "357D38A2BD2098DF"
+      ],
+      "rewards": [
+        {
+          "id": "6412B324A5D6DE93",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 4
+        }
       ]
     },
     {
@@ -211,6 +264,14 @@
       ],
       "dependencies": [
         "3127EDA8B48343FB"
+      ],
+      "rewards": [
+        {
+          "id": "2541D814A461ED98",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 3
+        }
       ]
     },
     {
@@ -232,6 +293,14 @@
       ],
       "dependencies": [
         "652DA6293D72C443"
+      ],
+      "rewards": [
+        {
+          "id": "3B545FE3E56451C4",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        }
       ]
     },
     {
@@ -253,6 +322,14 @@
       ],
       "dependencies": [
         "1809AB27E47B09BA"
+      ],
+      "rewards": [
+        {
+          "id": "05D7FBF0D667BD25",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
@@ -274,6 +351,14 @@
       ],
       "dependencies": [
         "533A923BFE8E373A"
+      ],
+      "rewards": [
+        {
+          "id": "10B45D5F033D2B3A",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -295,13 +380,22 @@
       ],
       "dependencies": [
         "5CE2296F68D224E4"
+      ],
+      "rewards": [
+        {
+          "id": "42435C4802134826",
+          "type": "item",
+          "item": "minecraft:honeycomb",
+          "count": 2
+        }
       ]
     },
     {
       "id": "16330E6F4AAC873F",
       "title": "Эльфийское знание",
       "description": [
-        "Создай портал Альфхейма и обменяйся знаниями, контролируя питание."
+        "Создай портал Альфхейма и обменяйся знаниями, контролируя питание.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:flower_pot",
       "x": 2.0,
@@ -315,13 +409,22 @@
       ],
       "dependencies": [
         "677C1FDE3B7BA4EA"
+      ],
+      "rewards": [
+        {
+          "id": "7D1E856DDCEAF38F",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
       "id": "4C079DE530FE1229",
       "title": "Испытание Гайи",
       "description": [
-        "Подготовь открытую арену и сразись с хранителем по правилам Lexica."
+        "Подготовь открытую арену и сразись с хранителем по правилам Lexica.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:flower_pot",
       "x": 4.0,
@@ -335,6 +438,14 @@
       ],
       "dependencies": [
         "16330E6F4AAC873F"
+      ],
+      "rewards": [
+        {
+          "id": "6EF7BB1BACEDDB88",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 5
+        }
       ]
     },
     {
@@ -361,8 +472,19 @@
         {
           "id": "55D88595360238F0",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        },
+        {
+          "id": "095F941D9520DBB6",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "1E484FA7F7BB7DA5",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
         }
       ]
     }

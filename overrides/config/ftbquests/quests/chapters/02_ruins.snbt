@@ -13,7 +13,11 @@
       "id": "639F04B923139E25",
       "title": "На север от пепла",
       "description": [
-        "Возьми подзорную трубу. Ищи руины в долинах."
+        "Возьми подзорную трубу. Ищи руины в долинах.",
+        "",
+        "Из записей экспедиции. Дозорные метили целые дома белым камнем, а обрушившиеся — углём. Следы живут дольше тех, кто их оставил.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:spyglass",
       "x": 0.0,
@@ -28,13 +32,22 @@
       ],
       "dependencies": [
         "3975AD60CA7C4E0E"
+      ],
+      "rewards": [
+        {
+          "id": "31D20D14EB1E0B2F",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 4
+        }
       ]
     },
     {
       "id": "143236E99B6B5F81",
       "title": "Заброшенный замок",
       "description": [
-        "Исследуй крупную крепость When Dungeons Arise. Установи точку на карте и сообщи друзьям."
+        "Исследуй крупную крепость When Dungeons Arise. Установи точку на карте и сообщи друзьям.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:spyglass",
       "x": 2.0,
@@ -48,13 +61,22 @@
       ],
       "dependencies": [
         "639F04B923139E25"
+      ],
+      "rewards": [
+        {
+          "id": "641DFC9293274D65",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
       "id": "34F6A332C65D628C",
       "title": "Голоса под землёй",
       "description": [
-        "Исследуй заброшенную шахту YUNG’s и найди следы нежити."
+        "Исследуй заброшенную шахту YUNG’s и найди следы нежити.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:spyglass",
       "x": 4.0,
@@ -68,6 +90,14 @@
       ],
       "dependencies": [
         "143236E99B6B5F81"
+      ],
+      "rewards": [
+        {
+          "id": "23B4D3C75A84A125",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 4
+        }
       ]
     },
     {
@@ -89,13 +119,22 @@
       ],
       "dependencies": [
         "34F6A332C65D628C"
+      ],
+      "rewards": [
+        {
+          "id": "46FDB3DFEBD411ED",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 2
+        }
       ]
     },
     {
       "id": "3D1B0CEECE3886EE",
       "title": "Крипта",
       "description": [
-        "Посети кладбище или склеп The Graveyard. Подтверди возвращение живым."
+        "Посети кладбище или склеп The Graveyard. Подтверди возвращение живым.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:spyglass",
       "x": 0.0,
@@ -109,6 +148,14 @@
       ],
       "dependencies": [
         "1FDA02C6559DB142"
+      ],
+      "rewards": [
+        {
+          "id": "2E90466CC1295B6A",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 2
+        }
       ]
     },
     {
@@ -135,8 +182,8 @@
         {
           "id": "0B98F4AAC03C4EE7",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:lead",
+          "count": 1
         }
       ]
     },
@@ -159,6 +206,14 @@
       ],
       "dependencies": [
         "5315D5636D729C28"
+      ],
+      "rewards": [
+        {
+          "id": "53D535D0D44B5C64",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 8
+        }
       ]
     },
     {
@@ -180,6 +235,14 @@
       ],
       "dependencies": [
         "46E61D4D7DEB9AA1"
+      ],
+      "rewards": [
+        {
+          "id": "58CFC9088DCDE4B7",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 2
+        }
       ]
     },
     {
@@ -201,6 +264,19 @@
       ],
       "dependencies": [
         "25A79AE367225ACF"
+      ],
+      "rewards": [
+        {
+          "id": "1E94F10482493814",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        },
+        {
+          "id": "4903520A74D1E85E",
+          "type": "xp",
+          "xp": 12
+        }
       ]
     }
   ]

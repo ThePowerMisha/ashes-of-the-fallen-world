@@ -13,7 +13,11 @@
       "id": "1FF7A3BEF4184303",
       "title": "Воин дозора",
       "description": [
-        "Паладин: защити союзника в настоящем бою. Это общий пробный квест, не ограничивающий выбор класса."
+        "Паладин: защити союзника в настоящем бою. Это общий пробный квест, не ограничивающий выбор класса.",
+        "",
+        "Из записей экспедиции. Шесть путей записаны на одном полевом знамени. Перед походом командир каждый раз выбирал, какие двое пойдут впереди.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:shield",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "3975AD60CA7C4E0E"
+      ],
+      "rewards": [
+        {
+          "id": "7081C842AC069D7E",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "1FF7A3BEF4184303"
+      ],
+      "rewards": [
+        {
+          "id": "654A71F83AE453DE",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 5
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "4B146852BF994233",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:iron_nugget",
+          "count": 9
         }
       ]
     },
@@ -99,6 +119,14 @@
       ],
       "dependencies": [
         "7540BCEBA55E0758"
+      ],
+      "rewards": [
+        {
+          "id": "46C6B302CD9E8A9F",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
+        }
       ]
     },
     {
@@ -120,6 +148,14 @@
       ],
       "dependencies": [
         "08F6B301D5BC1D01"
+      ],
+      "rewards": [
+        {
+          "id": "39D7A01E3DCDA142",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 4
+        }
       ]
     },
     {
@@ -146,8 +182,8 @@
         {
           "id": "0E471DCA99BC87C5",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:amethyst_shard",
+          "count": 3
         }
       ]
     },
@@ -155,7 +191,8 @@
       "id": "60DE67182F4E10BC",
       "title": "Испытание союза",
       "description": [
-        "Каждый выбирает удобную роль. Объедините усилия в экспедиции. Ранги проверяются отдельно командой /trigger ashes_status."
+        "Каждый выбирает удобную роль. Объедините усилия в экспедиции. Ранги проверяются отдельно командой /trigger ashes_status.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_sword",
       "x": 4.0,
@@ -169,6 +206,25 @@
       ],
       "dependencies": [
         "5231601DC7DB2842"
+      ],
+      "rewards": [
+        {
+          "id": "6E5D25C503C9FA0E",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        },
+        {
+          "id": "6A3CDFBCCC44C5F1",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "28A802C2DDAE71C7",
+          "type": "item",
+          "item": "kubejs:repair_kit",
+          "count": 1
+        }
       ]
     }
   ]

@@ -13,7 +13,11 @@
       "id": "7F2DC7F1375EBCF2",
       "title": "Клятва защиты",
       "description": [
-        "Выбери Паладина через /trigger ashes_class set 1. Задача общая, класс личный."
+        "Выбери Паладина через /trigger ashes_class set 1. Задача общая, класс личный.",
+        "",
+        "Из записей экспедиции. Паладинов учили считать людей за своей спиной. После каждого привала они проверяли, все ли могут идти дальше.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:shield",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "1FF7A3BEF4184303"
+      ],
+      "rewards": [
+        {
+          "id": "08B7C22602531D59",
+          "type": "item",
+          "item": "minecraft:oak_boat",
+          "count": 1
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "7F2DC7F1375EBCF2"
+      ],
+      "rewards": [
+        {
+          "id": "2F2C91705DBF0E80",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 4
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "270039D3D963BE90",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:leather",
+          "count": 2
         }
       ]
     },
@@ -99,6 +119,14 @@
       ],
       "dependencies": [
         "326162431F3012AB"
+      ],
+      "rewards": [
+        {
+          "id": "6DA66C1DC2936147",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 4
+        }
       ]
     },
     {
@@ -120,6 +148,14 @@
       ],
       "dependencies": [
         "65D64E5A2F0C455D"
+      ],
+      "rewards": [
+        {
+          "id": "5D64C5DBA6719F1B",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 2
+        }
       ]
     },
     {
@@ -146,8 +182,8 @@
         {
           "id": "142524C547134A9D",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:golden_carrot",
+          "count": 2
         }
       ]
     },
@@ -155,7 +191,8 @@
       "id": "482A8B31E1DC4177",
       "title": "Клятва стойкости",
       "description": [
-        "Достигни второго ранга и попробуй /trigger ashes_ability. Проверка ранга индивидуальная."
+        "Достигни второго ранга и попробуй /trigger ashes_ability. Проверка ранга индивидуальная.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:shield",
       "x": 4.0,
@@ -169,13 +206,22 @@
       ],
       "dependencies": [
         "66D3541EFE053630"
+      ],
+      "rewards": [
+        {
+          "id": "38441C0F5CDFFD30",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 1
+        }
       ]
     },
     {
       "id": "0F3B88A0DD93EBB5",
       "title": "Клятва щита",
       "description": [
-        "Разблокируй талант защиты через /trigger ashes_talent set 1 на втором ранге."
+        "Разблокируй талант защиты через /trigger ashes_talent set 1 на втором ранге.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:shield",
       "x": 6.0,
@@ -189,13 +235,22 @@
       ],
       "dependencies": [
         "482A8B31E1DC4177"
+      ],
+      "rewards": [
+        {
+          "id": "68708F80B83A7533",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 8
+        }
       ]
     },
     {
       "id": "032CA93C5190D178",
       "title": "Клятва поддержки",
       "description": [
-        "Проверь третий ранг и талант поддержки через /trigger ashes_talent set 2."
+        "Проверь третий ранг и талант поддержки через /trigger ashes_talent set 2.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:shield",
       "x": 0.0,
@@ -209,6 +264,14 @@
       ],
       "dependencies": [
         "0F3B88A0DD93EBB5"
+      ],
+      "rewards": [
+        {
+          "id": "32C9131E5CFB66D4",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 2
+        }
       ]
     },
     {
@@ -235,8 +298,19 @@
         {
           "id": "7D046E0B2035C521",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:torch",
+          "count": 8
+        },
+        {
+          "id": "4A5258732411B328",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "2DF8ACEF15A263D0",
+          "type": "item",
+          "item": "kubejs:cleansing_charge",
+          "count": 1
         }
       ]
     }

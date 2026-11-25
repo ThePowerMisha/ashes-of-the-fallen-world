@@ -13,7 +13,12 @@
       "id": "2BD8F0EBC1A09919",
       "title": "Пробуждение",
       "description": [
-        "Ты очнулся среди руин. Мир помнит Великий Раскол. Открой карту и договорись с друзьями о месте встречи."
+        "Ты очнулся среди руин. Мир помнит Великий Раскол. Открой карту и договорись с друзьями о месте встречи.",
+        "",
+        "Из записей экспедиции. На полях первой карты отмечены колодец и костёр. Между ними всего сто шагов. В ночь Раскола эта дорога спасла целую деревню.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:campfire",
       "x": 0.0,
@@ -23,6 +28,14 @@
           "id": "5AC160912AD302B9",
           "type": "checkmark",
           "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02F200B21208ACB0",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 2
         }
       ]
     },
@@ -45,6 +58,14 @@
       ],
       "dependencies": [
         "2BD8F0EBC1A09919"
+      ],
+      "rewards": [
+        {
+          "id": "47A085C020BE8C31",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        }
       ]
     },
     {
@@ -71,8 +92,8 @@
         {
           "id": "267F613CEFF0A60F",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:oak_boat",
+          "count": 1
         }
       ]
     },
@@ -95,6 +116,14 @@
       ],
       "dependencies": [
         "1743AC68D363D7A5"
+      ],
+      "rewards": [
+        {
+          "id": "2C6E131F58772900",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 4
+        }
       ]
     },
     {
@@ -116,6 +145,14 @@
       ],
       "dependencies": [
         "32A0C94B9D047B54"
+      ],
+      "rewards": [
+        {
+          "id": "42B55B084982EFD7",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
@@ -142,7 +179,7 @@
         {
           "id": "14B8971662D03A93",
           "type": "item",
-          "item": "minecraft:bread",
+          "item": "minecraft:paper",
           "count": 4
         }
       ]
@@ -151,7 +188,8 @@
       "id": "1DC2561A626A6D17",
       "title": "Выбрать путь",
       "description": [
-        "Выбери класс командой /trigger ashes_class set 1–6. Используй /trigger ashes_status для проверки. Подтверди после выбора."
+        "Выбери класс командой /trigger ashes_class set 1–6. Используй /trigger ashes_status для проверки. Подтверди после выбора.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:campfire",
       "x": 4.0,
@@ -165,6 +203,14 @@
       ],
       "dependencies": [
         "101FA07CABA6B876"
+      ],
+      "rewards": [
+        {
+          "id": "71B5470E32F4D41F",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 2
+        }
       ]
     },
     {
@@ -186,6 +232,19 @@
       ],
       "dependencies": [
         "1DC2561A626A6D17"
+      ],
+      "rewards": [
+        {
+          "id": "50F6107A93D8AADA",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 2
+        },
+        {
+          "id": "7C25620FEAE5C8F0",
+          "type": "xp",
+          "xp": 12
+        }
       ]
     }
   ]

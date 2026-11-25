@@ -4,6 +4,7 @@ Sparse templates deliberately omit the sky, and clear only small interior spaces
 from dataclasses import dataclass
 from pathlib import Path
 import gzip, io, json, random, struct
+from site_terrain import enhance_site
 
 def st(name, **props):
     return {'Name': name if ':' in name else 'minecraft:'+name, **({'Properties':props} if props else {})}
@@ -418,9 +419,11 @@ def generate_structures(root):
         table = 'ashes:lore/' + site.slug
         supplies = False
         buried = site.surface != 2
+        terrain_offset = 0
         for style in (0, 1):
             builder = Build(site.dimensions, 20261124 + index * 101 + style, style)
             site.build(builder)
+            terrain_offset = enhance_site(builder, site)
             if buried:
                 x, _, z = site.dimensions
                 # Match the starting biome at ground level instead of sampling the buried room.
@@ -445,7 +448,7 @@ def generate_structures(root):
                 'element_type': 'minecraft:single_pool_element',
                 'location': 'ashes:' + name, 'processors': {'processors': []}, 'projection': 'rigid',
             }})
-            report.append({'template': name, 'size': list(site.dimensions), 'blocks': len(obj['blocks']),
+            report.append({'template': name, 'size': obj['size'], 'blocks': len(obj['blocks']),
                            'chests': len(tables), 'entities': len(obj['entities'])})
         write(f'worldgen/template_pool/lore/{site.slug}.json', {'fallback': 'minecraft:empty', 'elements': templates})
         sea = site.biomes == 'deep_ocean'
@@ -455,7 +458,7 @@ def generate_structures(root):
             'terrain_adaptation': 'none' if (sea or buried) else 'beard_thin',
             'start_pool': table,
             # A depth of zero creates an empty start in Java 1.20.1.
-            'size': 1, 'start_height': {'absolute': -site.surface},
+            'size': 1, 'start_height': {'absolute': -site.surface - terrain_offset},
             'project_start_to_heightmap': 'OCEAN_FLOOR_WG' if sea else 'WORLD_SURFACE_WG',
             'max_distance_from_center': 48, 'use_expansion_hack': False,
         }

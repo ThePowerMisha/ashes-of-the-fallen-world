@@ -13,7 +13,12 @@
       "id": "4C304581395E83C9",
       "title": "Первый конденсатор",
       "description": [
-        "Собери стартовый накопитель Powah и проверь вход и выход FE."
+        "Собери стартовый накопитель Powah и проверь вход и выход FE.",
+        "",
+        "Из записей экспедиции. Щёлкнувший рубильник может оставить без света всю долину. Запасные линии отмечены на чертеже охрой.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 0.0,
@@ -27,13 +32,22 @@
       ],
       "dependencies": [
         "28318EF40188761A"
+      ],
+      "rewards": [
+        {
+          "id": "463BDF570CAE76E9",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 9
+        }
       ]
     },
     {
       "id": "7940EF591DC4A1C0",
       "title": "Диэлектрик",
       "description": [
-        "Наладь выпуск диэлектрических компонентов по JEI."
+        "Наладь выпуск диэлектрических компонентов по JEI.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 2.0,
@@ -47,13 +61,22 @@
       ],
       "dependencies": [
         "4C304581395E83C9"
+      ],
+      "rewards": [
+        {
+          "id": "2A72E6B6DADFBD35",
+          "type": "item",
+          "item": "minecraft:honeycomb",
+          "count": 2
+        }
       ]
     },
     {
       "id": "58BB26BCF2BF4277",
       "title": "Энергизатор",
       "description": [
-        "Освой Energizing Orb и Energizing Rods, подавай предметы дозированно."
+        "Освой Energizing Orb и Energizing Rods, подавай предметы дозированно.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 4.0,
@@ -67,13 +90,22 @@
       ],
       "dependencies": [
         "7940EF591DC4A1C0"
+      ],
+      "rewards": [
+        {
+          "id": "4EAC5A7B8DFF456F",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
       "id": "64E9876EA5AFF0C0",
       "title": "Низкотемпературный генератор",
       "description": [
-        "Проверь термогенератор с охлаждением и источником тепла."
+        "Проверь термогенератор с охлаждением и источником тепла.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 6.0,
@@ -87,13 +119,22 @@
       ],
       "dependencies": [
         "58BB26BCF2BF4277"
+      ],
+      "rewards": [
+        {
+          "id": "3F98BA9E3AEAE025",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 5
+        }
       ]
     },
     {
       "id": "3C02C31DA8288E0B",
       "title": "Солнечная станция",
       "description": [
-        "Собери солнечные панели и буфер на случай ночи."
+        "Собери солнечные панели и буфер на случай ночи.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 0.0,
@@ -107,13 +148,22 @@
       ],
       "dependencies": [
         "64E9876EA5AFF0C0"
+      ],
+      "rewards": [
+        {
+          "id": "220FCAF725CA6796",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
       "id": "18D68420CE00FB87",
       "title": "Модернизация",
       "description": [
-        "Повышай уровень генератора под реальное потребление."
+        "Повышай уровень генератора под реальное потребление.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 2.0,
@@ -127,13 +177,22 @@
       ],
       "dependencies": [
         "3C02C31DA8288E0B"
+      ],
+      "rewards": [
+        {
+          "id": "49C5A2A400460FF9",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
+        }
       ]
     },
     {
       "id": "575475A37A6943FB",
       "title": "Сеть Flux",
       "description": [
-        "Создай Flux Plug, Flux Point и приватную сеть команды."
+        "Создай Flux Plug, Flux Point и приватную сеть команды.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 4.0,
@@ -147,13 +206,22 @@
       ],
       "dependencies": [
         "18D68420CE00FB87"
+      ],
+      "rewards": [
+        {
+          "id": "04A739D62473B9E8",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 4
+        }
       ]
     },
     {
       "id": "443945A20D2D98A9",
       "title": "Разделение нагрузки",
       "description": [
-        "Выдели независимый контур для склада и аварийного освещения."
+        "Выдели независимый контур для склада и аварийного освещения.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 6.0,
@@ -167,13 +235,22 @@
       ],
       "dependencies": [
         "575475A37A6943FB"
+      ],
+      "rewards": [
+        {
+          "id": "2AD1BFA8ED1B56A9",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 3
+        }
       ]
     },
     {
       "id": "6A856F922042CD50",
       "title": "Резервный источник",
       "description": [
-        "Убедись, что склад доступен при отключении основного генератора."
+        "Убедись, что склад доступен при отключении основного генератора.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 0.0,
@@ -187,13 +264,22 @@
       ],
       "dependencies": [
         "443945A20D2D98A9"
+      ],
+      "rewards": [
+        {
+          "id": "6526F4747834C6A9",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        }
       ]
     },
     {
       "id": "6814902E9FD8BBA7",
       "title": "Турбина",
       "description": [
-        "Собери турбину Mekanism по руководству, проверь пар и выход FE."
+        "Собери турбину Mekanism по руководству, проверь пар и выход FE.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 2.0,
@@ -207,13 +293,22 @@
       ],
       "dependencies": [
         "6A856F922042CD50"
+      ],
+      "rewards": [
+        {
+          "id": "70F2ABBD1B8FAE18",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
       "id": "4D7BDE8BCB53DEE9",
       "title": "Безопасный реактор",
       "description": [
-        "Изучи охлаждение, выход отходов, аварийную остановку. Не запускай реактор до готовности всех контуров."
+        "Изучи охлаждение, выход отходов, аварийную остановку. Не запускай реактор до готовности всех контуров.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 4.0,
@@ -227,13 +322,22 @@
       ],
       "dependencies": [
         "6814902E9FD8BBA7"
+      ],
+      "rewards": [
+        {
+          "id": "6567E38DA8EBA0C2",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 9
+        }
       ]
     },
     {
       "id": "760A41FF680E0FC4",
       "title": "Радиационная защита",
       "description": [
-        "Подготовь защитный костюм и выделенную зону хранения отходов."
+        "Подготовь защитный костюм и выделенную зону хранения отходов.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 6.0,
@@ -247,13 +351,22 @@
       ],
       "dependencies": [
         "4D7BDE8BCB53DEE9"
+      ],
+      "rewards": [
+        {
+          "id": "2D0CCEACDC302A43",
+          "type": "item",
+          "item": "minecraft:honeycomb",
+          "count": 2
+        }
       ]
     },
     {
       "id": "12EBB228F8989F6D",
       "title": "Тепловой контур",
       "description": [
-        "Проверь расход охладителя под небольшой нагрузкой и запас воды."
+        "Проверь расход охладителя под небольшой нагрузкой и запас воды.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 0.0,
@@ -267,13 +380,22 @@
       ],
       "dependencies": [
         "760A41FF680E0FC4"
+      ],
+      "rewards": [
+        {
+          "id": "7135AD105BD9F5CB",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
       "id": "0B03C6FD5F688640",
       "title": "Термоядерный горизонт",
       "description": [
-        "Изучи позднюю генерацию, не обязательную для основной кампании."
+        "Изучи позднюю генерацию, не обязательную для основной кампании.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:redstone_block",
       "x": 2.0,
@@ -287,6 +409,14 @@
       ],
       "dependencies": [
         "12EBB228F8989F6D"
+      ],
+      "rewards": [
+        {
+          "id": "27BE73F2724E7020",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 5
+        }
       ]
     },
     {
@@ -313,8 +443,19 @@
         {
           "id": "67E60F1063532ACD",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        },
+        {
+          "id": "09D881D7372C27A3",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "065D78E36E16956B",
+          "type": "item",
+          "item": "kubejs:repair_kit",
+          "count": 1
         }
       ]
     }

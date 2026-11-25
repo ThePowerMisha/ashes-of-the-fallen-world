@@ -1,7 +1,7 @@
 {
   "paladin_1": {
     "title": "Стальной дозор",
-    "description": "Паладин · Броня +0,5. Мастерство не заменяет класс.",
+    "description": "Паладин · Броня +0,5.",
     "icon": {
       "type": "item",
       "data": {
@@ -29,7 +29,7 @@
   },
   "paladin_2": {
     "title": "Щит последней надежды",
-    "description": "Паладин · Сопротивление отбрасыванию +3%. Мастерство не заменяет класс.",
+    "description": "Паладин · Сопротивление отбрасыванию +3%.",
     "icon": {
       "type": "item",
       "data": {
@@ -57,7 +57,7 @@
   },
   "paladin_3": {
     "title": "Несокрушимый",
-    "description": "Паладин · Здоровье +1. Мастерство не заменяет класс.",
+    "description": "Паладин · Здоровье +1.",
     "icon": {
       "type": "item",
       "data": {
@@ -83,9 +83,177 @@
       }
     ]
   },
+  "paladin_4": {
+    "title": "Кольчуга дозора",
+    "description": "Паладин · Броня +1.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "paladin_5": {
+    "title": "Железная выправка",
+    "description": "Паладин · Сопротивление отбрасыванию +4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "paladin_6": {
+    "title": "Закалённый щит",
+    "description": "Паладин · Твёрдость брони +1.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "paladin_7": {
+    "title": "Сердце каравана",
+    "description": "Паладин · Здоровье +2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "paladin_8": {
+    "title": "Ответный удар",
+    "description": "Паладин · Урон +0,5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "paladin_9": {
+    "title": "Передовая",
+    "description": "Паладин · Броня +1,5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
   "mage_1": {
     "title": "Ученик ордена",
-    "description": "Архимаг · Здоровье +1. Мастерство не заменяет класс.",
+    "description": "Архимаг · Здоровье +1.",
     "icon": {
       "type": "item",
       "data": {
@@ -113,7 +281,7 @@
   },
   "mage_2": {
     "title": "Память Селены",
-    "description": "Архимаг · Скорость +0,003. Мастерство не заменяет класс.",
+    "description": "Архимаг · Скорость +0,003.",
     "icon": {
       "type": "item",
       "data": {
@@ -141,7 +309,7 @@
   },
   "mage_3": {
     "title": "Свет над бездной",
-    "description": "Архимаг · Броня +0,5. Мастерство не заменяет класс.",
+    "description": "Архимаг · Броня +0,5.",
     "icon": {
       "type": "item",
       "data": {
@@ -167,9 +335,177 @@
       }
     ]
   },
+  "mage_4": {
+    "title": "Школа Селены",
+    "description": "Архимаг · Магический урон +5 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mage_5": {
+    "title": "Защитные письмена",
+    "description": "Архимаг · Сопротивление магии +3 процентных пункта.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mage_6": {
+    "title": "Печать заклинателя",
+    "description": "Архимаг · Магический урон +7 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.07,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mage_7": {
+    "title": "Спокойное дыхание",
+    "description": "Архимаг · Здоровье +2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mage_8": {
+    "title": "Шаг над углями",
+    "description": "Архимаг · Скорость +0,004.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.004,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mage_9": {
+    "title": "Второй оберег",
+    "description": "Архимаг · Твёрдость брони +1.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
   "engineer_1": {
     "title": "Механик",
-    "description": "Инженер · Скорость атаки +0,05. Мастерство не заменяет класс.",
+    "description": "Инженер · Скорость атаки +0,05.",
     "icon": {
       "type": "item",
       "data": {
@@ -197,7 +533,7 @@
   },
   "engineer_2": {
     "title": "Мастер привода",
-    "description": "Инженер · Сопротивление отбрасыванию +3%. Мастерство не заменяет класс.",
+    "description": "Инженер · Сопротивление отбрасыванию +3%.",
     "icon": {
       "type": "item",
       "data": {
@@ -225,7 +561,7 @@
   },
   "engineer_3": {
     "title": "Сердце машины",
-    "description": "Инженер · Броня +0,5. Мастерство не заменяет класс.",
+    "description": "Инженер · Броня +0,5.",
     "icon": {
       "type": "item",
       "data": {
@@ -251,9 +587,177 @@
       }
     ]
   },
+  "engineer_4": {
+    "title": "Точная кирка",
+    "description": "Инженер · Скорость кирки +8 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:repeater"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:pickaxe_speed",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "engineer_5": {
+    "title": "Свежая оснастка",
+    "description": "Инженер · Скорость добычи +7 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:repeater"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.07,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "engineer_6": {
+    "title": "Натяжение привода",
+    "description": "Инженер · Скорость кирки +10 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:repeater"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:pickaxe_speed",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "engineer_7": {
+    "title": "Стальной фартук",
+    "description": "Инженер · Броня +1.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:repeater"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "engineer_8": {
+    "title": "Отдача механизма",
+    "description": "Инженер · Сопротивление отбрасыванию +4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:repeater"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "engineer_9": {
+    "title": "Холодный пуск",
+    "description": "Инженер · Скорость атаки +0,12.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:repeater"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
   "ranger_1": {
     "title": "Зов дороги",
-    "description": "Следопыт · Скорость +0,003. Мастерство не заменяет класс.",
+    "description": "Следопыт · Скорость +0,003.",
     "icon": {
       "type": "item",
       "data": {
@@ -281,7 +785,7 @@
   },
   "ranger_2": {
     "title": "Тихий шаг",
-    "description": "Следопыт · Скорость атаки +0,05. Мастерство не заменяет класс.",
+    "description": "Следопыт · Скорость атаки +0,05.",
     "icon": {
       "type": "item",
       "data": {
@@ -309,7 +813,7 @@
   },
   "ranger_3": {
     "title": "Глаз горизонта",
-    "description": "Следопыт · Здоровье +1. Мастерство не заменяет класс.",
+    "description": "Следопыт · Здоровье +1.",
     "icon": {
       "type": "item",
       "data": {
@@ -335,9 +839,177 @@
       }
     ]
   },
+  "ranger_4": {
+    "title": "Дальний дозор",
+    "description": "Следопыт · Дальний урон +6 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ranger_5": {
+    "title": "Бег по осыпи",
+    "description": "Следопыт · Скорость +0,005.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ranger_6": {
+    "title": "Глаз сокола",
+    "description": "Следопыт · Скорость стрелы +8 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:bow_projectile_speed",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ranger_7": {
+    "title": "Мягкая посадка",
+    "description": "Следопыт · Снижение урона от падения +6 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ranger_8": {
+    "title": "Лёгкая тропа",
+    "description": "Следопыт · Скорость +0,004.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.004,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ranger_9": {
+    "title": "Дальний привал",
+    "description": "Следопыт · Здоровье +2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
   "builder_1": {
     "title": "Камень основания",
-    "description": "Архитектор · Сопротивление отбрасыванию +3%. Мастерство не заменяет класс.",
+    "description": "Архитектор · Сопротивление отбрасыванию +3%.",
     "icon": {
       "type": "item",
       "data": {
@@ -365,7 +1037,7 @@
   },
   "builder_2": {
     "title": "Хранитель очага",
-    "description": "Архитектор · Здоровье +1. Мастерство не заменяет класс.",
+    "description": "Архитектор · Здоровье +1.",
     "icon": {
       "type": "item",
       "data": {
@@ -393,7 +1065,7 @@
   },
   "builder_3": {
     "title": "Город рассвета",
-    "description": "Архитектор · Броня +0,5. Мастерство не заменяет класс.",
+    "description": "Архитектор · Броня +0,5.",
     "icon": {
       "type": "item",
       "data": {
@@ -419,9 +1091,177 @@
       }
     ]
   },
+  "builder_4": {
+    "title": "Каменная стяжка",
+    "description": "Архитектор · Сопротивление отбрасыванию +4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bricks"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "builder_5": {
+    "title": "Точный шурф",
+    "description": "Архитектор · Скорость лопаты +10 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bricks"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:shovel_speed",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "builder_6": {
+    "title": "Врубка опор",
+    "description": "Архитектор · Скорость топора +10 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bricks"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:axe_speed",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "builder_7": {
+    "title": "Надёжные подмости",
+    "description": "Архитектор · Снижение урона от падения +8 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bricks"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "builder_8": {
+    "title": "Крепкие руки",
+    "description": "Архитектор · Здоровье +2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bricks"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "builder_9": {
+    "title": "Хранитель стен",
+    "description": "Архитектор · Броня +1,25.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bricks"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
   "occultist_1": {
     "title": "Шёпот тени",
-    "description": "Оккультист · Урон +0,15. Мастерство не заменяет класс.",
+    "description": "Оккультист · Урон +0,15.",
     "icon": {
       "type": "item",
       "data": {
@@ -449,7 +1289,7 @@
   },
   "occultist_2": {
     "title": "Печать тьмы",
-    "description": "Оккультист · Здоровье +1. Мастерство не заменяет класс.",
+    "description": "Оккультист · Здоровье +1.",
     "icon": {
       "type": "item",
       "data": {
@@ -477,7 +1317,7 @@
   },
   "occultist_3": {
     "title": "Власть над страхом",
-    "description": "Оккультист · Скорость атаки +0,05. Мастерство не заменяет класс.",
+    "description": "Оккультист · Скорость атаки +0,05.",
     "icon": {
       "type": "item",
       "data": {
@@ -498,6 +1338,174 @@
         "data": {
           "attribute": "minecraft:generic.attack_speed",
           "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "occultist_4": {
+    "title": "Взыскание долга",
+    "description": "Оккультист · Магический урон +5 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "occultist_5": {
+    "title": "Коготь эха",
+    "description": "Оккультист · Урон +0,5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "occultist_6": {
+    "title": "Резонанс бездны",
+    "description": "Оккультист · Магический урон +8 процентных пунктов.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "occultist_7": {
+    "title": "Навстречу шёпоту",
+    "description": "Оккультист · Сопротивление магии +4 процентных пункта.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "occultist_8": {
+    "title": "Шаг за завесу",
+    "description": "Оккультист · Скорость +0,004.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.004,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "occultist_9": {
+    "title": "Теневая выносливость",
+    "description": "Оккультист · Здоровье +2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 1.0,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
           "operation": "addition"
         }
       }

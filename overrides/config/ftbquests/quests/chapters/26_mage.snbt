@@ -13,7 +13,11 @@
       "id": "673AC15C144A137D",
       "title": "Обет знания",
       "description": [
-        "Выбери Архимага: /trigger ashes_class set 2."
+        "Выбери Архимага: /trigger ashes_class set 2.",
+        "",
+        "Из записей экспедиции. В школьном дворе Селены осталась лестница. С каждой ступени ученики учились работать с иной дальностью заклинаний.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:book",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "1FF7A3BEF4184303"
+      ],
+      "rewards": [
+        {
+          "id": "2CC3D4423686C01D",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "673AC15C144A137D"
+      ],
+      "rewards": [
+        {
+          "id": "41D2B076411459BA",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 4
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "39AD7A9B728036D1",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:amethyst_shard",
+          "count": 3
         }
       ]
     },
@@ -99,6 +119,14 @@
       ],
       "dependencies": [
         "45DB42CB2950A1BE"
+      ],
+      "rewards": [
+        {
+          "id": "06EB6D62CCD16E1B",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        }
       ]
     },
     {
@@ -120,13 +148,22 @@
       ],
       "dependencies": [
         "0155992A68F5EEE3"
+      ],
+      "rewards": [
+        {
+          "id": "2C837A57278F3CB8",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 9
+        }
       ]
     },
     {
       "id": "36818D92EDF7F314",
       "title": "Мана",
       "description": [
-        "Испытай классное умение, когда достигнут второй ранг."
+        "Испытай классное умение, когда достигнут второй ранг.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 2.0,
@@ -140,13 +177,22 @@
       ],
       "dependencies": [
         "2F4D4251EC931956"
+      ],
+      "rewards": [
+        {
+          "id": "291F636EF6377B73",
+          "type": "item",
+          "item": "minecraft:honeycomb",
+          "count": 2
+        }
       ]
     },
     {
       "id": "609A948187BD4EC2",
       "title": "Защитный талант",
       "description": [
-        "Открой первый талант командой /trigger ashes_talent set 1."
+        "Открой первый талант командой /trigger ashes_talent set 1.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 4.0,
@@ -160,13 +206,22 @@
       ],
       "dependencies": [
         "36818D92EDF7F314"
+      ],
+      "rewards": [
+        {
+          "id": "7A602EEA6A0E5CE3",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
       "id": "11074EA086C73F10",
       "title": "Талант восстановления",
       "description": [
-        "На третьем ранге выбери второй талант и испытай его."
+        "На третьем ранге выбери второй талант и испытай его.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 6.0,
@@ -180,6 +235,14 @@
       ],
       "dependencies": [
         "609A948187BD4EC2"
+      ],
+      "rewards": [
+        {
+          "id": "2CB365AA70FDE5D0",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 5
+        }
       ]
     },
     {
@@ -201,6 +264,14 @@
       ],
       "dependencies": [
         "11074EA086C73F10"
+      ],
+      "rewards": [
+        {
+          "id": "24792749913C30E0",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -227,8 +298,19 @@
         {
           "id": "3B3EFC9B038EF5E0",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
+        },
+        {
+          "id": "1B1B29D35A56CAD1",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "7BBF0FDAED6095E0",
+          "type": "item",
+          "item": "kubejs:cleansing_charge",
+          "count": 1
         }
       ]
     }

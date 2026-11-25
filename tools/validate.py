@@ -9,13 +9,23 @@ assert len(ids)==169 and len({p for p,f in ids})==169
 with (root/'overrides/ashes_docs/mods-lock.tsv').open(encoding='utf-8') as f:
     locked=list(csv.DictReader(f,delimiter='\t'))
 assert {(int(r['projectID']),int(r['fileID'])) for r in locked}==ids
-quests=[]; chapter_ids=set(); task_ids=set(); reward_ids=set()
+quests=[]; chapter_ids=set(); task_ids=set(); reward_ids=set(); illustrated=0; quest_art=set()
 for p in sorted((root/'overrides/config/ftbquests/quests/chapters').glob('*.snbt')):
     c=json.loads(p.read_text(encoding='utf-8'))
     assert c['filename']==p.stem and c['id'] not in chapter_ids
     chapter_ids.add(c['id'])
     for q in c['quests']:
         quests.append(q)
+        assert q['description'] and q['description'][0].strip()
+        assert q['rewards']
+        for description in q['description']:
+            if description.startswith('{image:'):
+                art=re.fullmatch(r'\{image:kubejs:(textures/quest/[a-z_]+\.png) width:150 height:84 align:1\}',description)
+                assert art,(q['id'],description)
+                texture=root/'overrides/kubejs/assets/kubejs'/art[1]
+                assert texture.read_bytes().startswith(b'\x89PNG\r\n\x1a\n')
+                quest_art.add(texture)
+                illustrated+=1
         for t in q['tasks']:
             assert t['id'] not in task_ids; task_ids.add(t['id'])
             assert t['type'] in ('item','checkmark','advancement')
@@ -36,13 +46,14 @@ def visit(qid):
     visiting.remove(qid);seen.add(qid)
 for qid in byid:visit(qid)
 assert {q['id'] for q in json.loads((root/'docs/quests.json').read_text(encoding='utf-8'))}==set(byid)
+assert illustrated==40 and len(quest_art)==3
 base=root/'overrides/kubejs'
 items=set(re.findall(r"event.create\('([^']+)'\)",(base/'startup_scripts/ashes_items.js').read_text(encoding='utf-8')))
 recipes=(base/'server_scripts/ashes_recipes.js').read_text(encoding='utf-8')
 refs=set(re.findall(r'kubejs:([a-z_]+)',recipes))
-refs|={t['item'].split(':')[1] for q in quests for t in q['tasks'] if t.get('item','').startswith('kubejs:')}
+refs|={t['item'].split(':')[1] for q in quests for t in q['tasks']+q['rewards'] if t.get('item','').startswith('kubejs:')}
 assert refs<=items and len(items)==30
-rids=re.findall(r"\.id\('([^']+)'\)",recipes);assert len(set(rids))==len(rids)==32
+rids=re.findall(r"\.id\('([^']+)'\)",recipes);assert len(set(rids))==len(rids)==38
 functions=base/'data/ashes/functions'
 for p in functions.rglob('*.mcfunction'):
     for name in re.findall(r'\bfunction ashes:([a-z0-9_/]+)',p.read_text(encoding='utf-8')):
@@ -57,10 +68,10 @@ print(f'PASS: {len(ids)} projects, {len(quests)} quests, {len(chapter_ids)} chap
 mastery=base/'data/ashes/puffish_skills/categories/mastery'
 read=lambda name:json.loads((mastery/(name+'.json')).read_text(encoding='utf-8'))
 skills,defs,edges,cat=read('skills'),read('definitions'),read('connections'),read('category')
-assert len(skills)==len(defs)==18 and cat['spent_points_limit']==3
+assert len(skills)==len(defs)==54 and cat['spent_points_limit']==9
 assert sum(x['root'] for x in skills.values())==6
 assert {x['definition'] for x in skills.values()}==set(defs)
-assert len(edges['normal']['unidirectional'])==12
+assert len(edges['normal']['unidirectional'])==48
 for a,b in edges['normal']['unidirectional']:assert a in skills and b in skills and a!=b
 assert all(d['cost']==1 for d in defs.values())
 assert (base/'data/ashes/advancements/ward/registered.json').exists()
@@ -69,7 +80,13 @@ sculk=tomllib.loads((root/'overrides/config/sculkhorde_config.toml').read_text()
 assert sculk['General Variables']['isHordeActiveWithNoPlayers'] is False
 assert sculk['Trigger Automatically Variables']['trigger_ancient_node_automatically'] is False
 assert not (root/'overrides/defaultconfigs/sculkhorde-server.toml').exists()
-print('PASS: mastery nodes, ward advancement and Sculk configuration path.')
+assert len({r['data']['attribute'] for d in defs.values() for r in d['rewards']})>=12
+assert all((functions/'skills'/f'role_{i}.mcfunction').is_file() for i in range(1,7))
+assert 'ashes:mastery 9 ashes:rank' in (functions/'skills/grant.mcfunction').read_text(encoding='utf-8')
+from artifacts import CONSUMABLES, INTERACTIONS
+assert all(name in items for name in (*CONSUMABLES,*INTERACTIONS))
+assert all((functions/'kit'/f'{name}_used.mcfunction').is_file() for name in CONSUMABLES)
+print('PASS: class menus, mastery, artifacts, ward advancement and Sculk configuration.')
 
 # Authored textures: inspect PNG header and animation metadata with stdlib only.
 import struct

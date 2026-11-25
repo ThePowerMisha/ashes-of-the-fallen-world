@@ -13,7 +13,11 @@
       "id": "6EE45C69F5206FB8",
       "title": "Дыхание края",
       "description": [
-        "Отправляйся в Край и собери дыхание дракона."
+        "Отправляйся в Край и собери дыхание дракона.",
+        "",
+        "Из записей экспедиции. Уцелевшие позвали всех с холмов к третьему колоколу. Только там они впервые услышали вести о других долинах.",
+        "",
+        "{image:kubejs:textures/quest/abyss.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:dragon_breath",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "73934C8F1D5DA3DA"
+      ],
+      "rewards": [
+        {
+          "id": "236288C80CBE0D32",
+          "type": "item",
+          "item": "minecraft:soul_torch",
+          "count": 8
+        }
       ]
     },
     {
@@ -49,13 +61,22 @@
       ],
       "dependencies": [
         "6EE45C69F5206FB8"
+      ],
+      "rewards": [
+        {
+          "id": "1AB8D5C064BFF474",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 10
+        }
       ]
     },
     {
       "id": "0EF33DB669F46A18",
       "title": "Сердце тьмы",
       "description": [
-        "Заверши штатную финальную механику Sculk Horde. Подтверди только после фактического поражения орды."
+        "Заверши штатную финальную механику Sculk Horde. Подтверди только после фактического поражения орды.",
+        "Квест засчитается автоматически при получении достижения."
       ],
       "icon": "kubejs:renewal_heart",
       "x": 4.0,
@@ -69,6 +90,14 @@
       ],
       "dependencies": [
         "7A8B3EB8F9F29901"
+      ],
+      "rewards": [
+        {
+          "id": "18A78353E8D97CA4",
+          "type": "item",
+          "item": "minecraft:cooked_porkchop",
+          "count": 3
+        }
       ]
     },
     {
@@ -90,13 +119,22 @@
       ],
       "dependencies": [
         "0EF33DB669F46A18"
+      ],
+      "rewards": [
+        {
+          "id": "253E66FD454746F5",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 3
+        }
       ]
     },
     {
       "id": "222E635081C59D03",
       "title": "Возвращение жизни",
       "description": [
-        "Очисти оставшиеся ключевые территории, восстанови поселение."
+        "Очисти оставшиеся ключевые территории, восстанови поселение.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "kubejs:renewal_heart",
       "x": 0.0,
@@ -110,6 +148,14 @@
       ],
       "dependencies": [
         "3C33689C455BB601"
+      ],
+      "rewards": [
+        {
+          "id": "2F18E7502CCD23CA",
+          "type": "item",
+          "item": "minecraft:spectral_arrow",
+          "count": 5
+        }
       ]
     },
     {
@@ -136,8 +182,13 @@
         {
           "id": "1F9FFEA0874C5039",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:golden_carrot",
+          "count": 2
+        },
+        {
+          "id": "2ABF58D55384C098",
+          "type": "xp",
+          "xp": 12
         }
       ]
     }

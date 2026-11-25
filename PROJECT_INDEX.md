@@ -6,7 +6,7 @@
 | #builder #source | tools/build.py | Генератор квестов, предметов, рецептов, классов и функций |
 | #quests #progression | docs/quests.json, overrides/config/ftbquests/quests/chapters/ | 40 глав, зависимости и задания |
 | #items #kubejs | overrides/kubejs/startup_scripts/ashes_items.js | 30 предметов |
-| #recipes #balance | overrides/kubejs/server_scripts/ashes_recipes.js | 32 рецепта, существующие рецепты модов не заменяются |
+| #recipes #balance | overrides/kubejs/server_scripts/ashes_recipes.js | 38 рецептов, существующие рецепты модов не заменяются |
 | #classes #multiplayer | overrides/kubejs/data/ashes/functions/ | Выбор классов, атрибуты, 3 ранга, очищение игрока |
 | #config #server | overrides/ashes_docs/server.properties.example, docs/SERVER.md | Шаблон и рекомендации по настройке |
 | #testing #compatibility | docs/TESTING.md, overrides/ashes_docs/compatibility.txt | Проверки и ограничения |
@@ -94,3 +94,5 @@
 - #chunky #pregen [Предгенерация чанков](docs/SERVER.md#предгенерация-чанков) и состав обоих профилей в `docs/mod-plan.json`.
 
 - #mca [Файлы MCA Reborn 7.7.1-beta.6 и пяти аддонов](docs/MCA.md#версии-и-источники).
+
+- #author-content #quests #artifacts #classes #terrain [Авторский контент](docs/AUTHOR_CONTENT.md) · генераторы `tools/quest_content.py`, `tools/artifacts.py`, `tools/skills.py` и `tools/site_terrain.py`.

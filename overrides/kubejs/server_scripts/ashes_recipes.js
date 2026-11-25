@@ -28,6 +28,12 @@ ServerEvents.recipes(event => {
   event.shapeless('kubejs:cleansing_charge', ["kubejs:purifier_matrix", "minecraft:glowstone_dust", "minecraft:amethyst_shard"]).id('ashes:cleansing_charge')
   event.shapeless('kubejs:renewal_circuit', ["kubejs:power_regulator", "kubejs:living_heart", "kubejs:source_capacitor", "kubejs:purified_sample"]).id('ashes:renewal_circuit')
   event.shapeless('kubejs:final_testament', ["minecraft:book", "kubejs:renewal_circuit", "kubejs:renewal_heart", "kubejs:mechanic_dossier", "kubejs:nature_dossier", "kubejs:mage_dossier"]).id('ashes:final_testament')
+  event.shapeless('8x minecraft:stone_bricks', ["kubejs:foundation_stone", "minecraft:cobblestone"]).id('ashes:foundation_recovery')
+  event.shapeless('kubejs:scout_report', ["kubejs:archive_fragment", "minecraft:charcoal", "minecraft:paper"]).id('ashes:seal_trace')
+  event.shapeless('2x kubejs:scout_report', ["kubejs:memory_lens", "minecraft:paper"]).id('ashes:memory_chart')
+  event.shapeless('4x kubejs:field_kit', ["kubejs:concord_core", "minecraft:bread", "minecraft:golden_carrot"]).id('ashes:core_rations')
+  event.shapeless('8x kubejs:field_kit', ["kubejs:renewal_heart", "minecraft:bread"]).id('ashes:renewed_rations')
+  event.shapeless('4x kubejs:ward_charm', ["kubejs:renewal_circuit", "minecraft:prismarine_shard"]).id('ashes:renewed_wards')
 
   event.shapeless('4x minecraft:golden_carrot', ['minecraft:gold_ingot','minecraft:carrot','minecraft:carrot','minecraft:carrot','minecraft:carrot']).id('ashes:field_rations')
   event.shapeless('2x minecraft:lantern', ['minecraft:iron_ingot','minecraft:torch','minecraft:torch']).id('ashes:recovery_lanterns')

@@ -13,7 +13,11 @@
       "id": "3D5B2E253E1F1672",
       "title": "Наковальня",
       "description": [
-        "Ремонтируй оружие, прежде чем менять его на новое."
+        "Ремонтируй оружие, прежде чем менять его на новое.",
+        "",
+        "Из записей экспедиции. На кузнечной дверце нацарапана последовательность работ. Последний шаг — осмотреть рукоять после пробного удара.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:anvil",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "5536D27758BD6EFC"
+      ],
+      "rewards": [
+        {
+          "id": "5BA0F6FEC9829AC2",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "3D5B2E253E1F1672"
+      ],
+      "rewards": [
+        {
+          "id": "6DF4A50A32306A47",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 4
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "29A5BBA6F4D02617",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:amethyst_shard",
+          "count": 3
         }
       ]
     },
@@ -84,7 +104,8 @@
       "id": "4640E8DFC58CD2F0",
       "title": "Редкость",
       "description": [
-        "Изучи подсказки Apotheosis: редкость, гнёзда и аффиксы."
+        "Изучи подсказки Apotheosis: редкость, гнёзда и аффиксы.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:anvil",
       "x": 6.0,
@@ -98,13 +119,22 @@
       ],
       "dependencies": [
         "09F19F0141583E5A"
+      ],
+      "rewards": [
+        {
+          "id": "4F505F16A16DB7FF",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        }
       ]
     },
     {
       "id": "27915FE20A08CA40",
       "title": "Самоцветы",
       "description": [
-        "Изучи установку самоцветов и возможность их извлечения."
+        "Изучи установку самоцветов и возможность их извлечения.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:anvil",
       "x": 0.0,
@@ -118,13 +148,22 @@
       ],
       "dependencies": [
         "4640E8DFC58CD2F0"
+      ],
+      "rewards": [
+        {
+          "id": "74AEFBDE484E485B",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 9
+        }
       ]
     },
     {
       "id": "75986114284227EE",
       "title": "Перековка",
       "description": [
-        "Используй подходящую станцию Apotheosis и оцени цену улучшения."
+        "Используй подходящую станцию Apotheosis и оцени цену улучшения.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:anvil",
       "x": 2.0,
@@ -138,13 +177,22 @@
       ],
       "dependencies": [
         "27915FE20A08CA40"
+      ],
+      "rewards": [
+        {
+          "id": "28C8764B44A762A8",
+          "type": "item",
+          "item": "minecraft:honeycomb",
+          "count": 2
+        }
       ]
     },
     {
       "id": "236DADF96EEF23D5",
       "title": "Артефакты",
       "description": [
-        "Найди Artifacts в добыче, изучи слот Curios и эффект предмета."
+        "Найди Artifacts в добыче, изучи слот Curios и эффект предмета.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:anvil",
       "x": 4.0,
@@ -158,13 +206,22 @@
       ],
       "dependencies": [
         "75986114284227EE"
+      ],
+      "rewards": [
+        {
+          "id": "5DCA5AA15C9CF93D",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
       "id": "2DACD15CDB206685",
       "title": "Реликвии",
       "description": [
-        "Подбери реликвии с дополняющими друг друга эффектами, не полагайся на один предмет."
+        "Подбери реликвии с дополняющими друг друга эффектами, не полагайся на один предмет.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:anvil",
       "x": 6.0,
@@ -178,13 +235,22 @@
       ],
       "dependencies": [
         "236DADF96EEF23D5"
+      ],
+      "rewards": [
+        {
+          "id": "2F657308C8B8E225",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 5
+        }
       ]
     },
     {
       "id": "06444214DC494FE4",
       "title": "Двуручное оружие",
       "description": [
-        "Испытай два типа Simply Swords и выбери удобный радиус атаки."
+        "Испытай два типа Simply Swords и выбери удобный радиус атаки.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:anvil",
       "x": 0.0,
@@ -198,13 +264,22 @@
       ],
       "dependencies": [
         "2DACD15CDB206685"
+      ],
+      "rewards": [
+        {
+          "id": "61E69FDEFAFD2001",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
       "id": "22551C127E6185E2",
       "title": "Дальний бой",
       "description": [
-        "Сравни зачарования лука и арбалета под экспедиции."
+        "Сравни зачарования лука и арбалета под экспедиции.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:anvil",
       "x": 2.0,
@@ -218,6 +293,14 @@
       ],
       "dependencies": [
         "06444214DC494FE4"
+      ],
+      "rewards": [
+        {
+          "id": "6DA7B40F99B41A71",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 4
+        }
       ]
     },
     {
@@ -239,6 +322,14 @@
       ],
       "dependencies": [
         "22551C127E6185E2"
+      ],
+      "rewards": [
+        {
+          "id": "2DC9B99A3C029640",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 3
+        }
       ]
     },
     {
@@ -265,8 +356,19 @@
         {
           "id": "21558FAEFBC302FA",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        },
+        {
+          "id": "11DFB186670DA0EF",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "3A14B6B03607C8EE",
+          "type": "item",
+          "item": "kubejs:repair_kit",
+          "count": 1
         }
       ]
     }

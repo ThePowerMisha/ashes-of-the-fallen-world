@@ -13,7 +13,11 @@
       "id": "2C3493A6B7560E84",
       "title": "Граница Скверны",
       "description": [
-        "Найди участок заражения, не активируй орду без согласия команды."
+        "Найди участок заражения, не активируй орду без согласия команды.",
+        "",
+        "Из записей экспедиции. У выхода из тоннеля лежали два мешка извести. Один предназначался для разметки пройденного пути.",
+        "",
+        "{image:kubejs:textures/quest/abyss.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:sculk",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "38741EC4B6B368B9"
+      ],
+      "rewards": [
+        {
+          "id": "11BA99E8892F10F1",
+          "type": "item",
+          "item": "minecraft:cooked_porkchop",
+          "count": 3
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "2C3493A6B7560E84"
+      ],
+      "rewards": [
+        {
+          "id": "227AB42D7755DA5E",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 3
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "18F4C81826A465CC",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:spectral_arrow",
+          "count": 5
         }
       ]
     },
@@ -99,6 +119,14 @@
       ],
       "dependencies": [
         "4B13F97D79DB9787"
+      ],
+      "rewards": [
+        {
+          "id": "1B5B0A06DE3978D0",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 2
+        }
       ]
     },
     {
@@ -120,6 +148,14 @@
       ],
       "dependencies": [
         "518B03342432D7F6"
+      ],
+      "rewards": [
+        {
+          "id": "7303719C9CF57B58",
+          "type": "item",
+          "item": "minecraft:prismarine_shard",
+          "count": 3
+        }
       ]
     },
     {
@@ -146,8 +182,8 @@
         {
           "id": "1F33085C3D9FB85E",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:obsidian",
+          "count": 2
         }
       ]
     },
@@ -155,7 +191,8 @@
       "id": "203C21D46E605DCE",
       "title": "Гробница орды",
       "description": [
-        "Посети штатную гробницу Sculk Horde; достижение фиксирует посещение."
+        "Посети штатную гробницу Sculk Horde; достижение фиксирует посещение.",
+        "Квест засчитается автоматически при получении достижения."
       ],
       "icon": "minecraft:sculk",
       "x": 4.0,
@@ -169,13 +206,22 @@
       ],
       "dependencies": [
         "3BF642ABC162F31A"
+      ],
+      "rewards": [
+        {
+          "id": "4AFC24C2774B7AC4",
+          "type": "item",
+          "item": "minecraft:snowball",
+          "count": 8
+        }
       ]
     },
     {
       "id": "1211359B2EE85CCA",
       "title": "Штатный очиститель",
       "description": [
-        "Изготовь очиститель Sculk Horde. После установки проверь восстановление земли."
+        "Изготовь очиститель Sculk Horde. После установки проверь восстановление земли.",
+        "Квест засчитается автоматически при получении достижения."
       ],
       "icon": "minecraft:sculk",
       "x": 6.0,
@@ -189,6 +235,14 @@
       ],
       "dependencies": [
         "203C21D46E605DCE"
+      ],
+      "rewards": [
+        {
+          "id": "412E633B8470D793",
+          "type": "item",
+          "item": "minecraft:glow_berries",
+          "count": 4
+        }
       ]
     },
     {
@@ -210,6 +264,14 @@
       ],
       "dependencies": [
         "1211359B2EE85CCA"
+      ],
+      "rewards": [
+        {
+          "id": "12D410980ED9CFC7",
+          "type": "item",
+          "item": "minecraft:soul_torch",
+          "count": 8
+        }
       ]
     },
     {
@@ -231,6 +293,14 @@
       ],
       "dependencies": [
         "7055B4DC932D505F"
+      ],
+      "rewards": [
+        {
+          "id": "0CBD1D820225E5B0",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 10
+        }
       ]
     },
     {
@@ -252,13 +322,22 @@
       ],
       "dependencies": [
         "674231FD4603F99B"
+      ],
+      "rewards": [
+        {
+          "id": "439A73DD6D5BF620",
+          "type": "item",
+          "item": "minecraft:cooked_porkchop",
+          "count": 3
+        }
       ]
     },
     {
       "id": "0100000281B229B7",
       "title": "Защита поселения",
       "description": [
-        "Изготовь штатный защитный блок Sculk Horde. Установи его и проверь границу отдельно."
+        "Изготовь штатный защитный блок Sculk Horde. Установи его и проверь границу отдельно.",
+        "Квест засчитается автоматически при получении достижения."
       ],
       "icon": "minecraft:sculk",
       "x": 6.0,
@@ -272,13 +351,22 @@
       ],
       "dependencies": [
         "4BC3AEEB0C6F2432"
+      ],
+      "rewards": [
+        {
+          "id": "36D86326507A5143",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 3
+        }
       ]
     },
     {
       "id": "79A7DE1CBDBCC5FF",
       "title": "Общее наступление",
       "description": [
-        "Согласуй момент атаки; сохрани резервную копию мира."
+        "Согласуй момент атаки; сохрани резервную копию мира.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:sculk",
       "x": 0.0,
@@ -292,13 +380,22 @@
       ],
       "dependencies": [
         "0100000281B229B7"
+      ],
+      "rewards": [
+        {
+          "id": "4C58949A91A55936",
+          "type": "item",
+          "item": "minecraft:spectral_arrow",
+          "count": 5
+        }
       ]
     },
     {
       "id": "2EE909B7EEF8AC0D",
       "title": "Поражение орды",
       "description": [
-        "Заверши штатное условие победы Sculk Horde, проверь отсутствие активных очагов."
+        "Заверши штатное условие победы Sculk Horde, проверь отсутствие активных очагов.",
+        "Квест засчитается автоматически при получении достижения."
       ],
       "icon": "minecraft:sculk",
       "x": 2.0,
@@ -312,6 +409,14 @@
       ],
       "dependencies": [
         "79A7DE1CBDBCC5FF"
+      ],
+      "rewards": [
+        {
+          "id": "2C6A1BD31BFEA3B7",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 2
+        }
       ]
     },
     {
@@ -338,8 +443,19 @@
         {
           "id": "139EF36A64F103E6",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:prismarine_shard",
+          "count": 3
+        },
+        {
+          "id": "630B4ED3AF769679",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "58306048E2CBB3C3",
+          "type": "item",
+          "item": "kubejs:repair_kit",
+          "count": 1
         }
       ]
     }

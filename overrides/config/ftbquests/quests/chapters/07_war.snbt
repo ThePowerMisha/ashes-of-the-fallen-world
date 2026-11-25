@@ -13,7 +13,11 @@
       "id": "7A11800646229BFC",
       "title": "Кузница",
       "description": [
-        "Обнови броню команды."
+        "Обнови броню команды.",
+        "",
+        "Из записей экспедиции. Писарь закрепил карту ремнём прямо на щите. По ней отряды отходили к мосту, когда гасли дорожные огни.",
+        "",
+        "{image:kubejs:textures/quest/abyss.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:diamond_chestplate",
       "x": 0.0,
@@ -28,13 +32,22 @@
       ],
       "dependencies": [
         "38741EC4B6B368B9"
+      ],
+      "rewards": [
+        {
+          "id": "1372ADC94CFA6B3A",
+          "type": "item",
+          "item": "minecraft:obsidian",
+          "count": 2
+        }
       ]
     },
     {
       "id": "062F55E8EBF358DF",
       "title": "Сила реликвий",
       "description": [
-        "Найди артефакт Artifacts и экипируй его."
+        "Найди артефакт Artifacts и экипируй его.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_ingot",
       "x": 2.0,
@@ -48,13 +61,22 @@
       ],
       "dependencies": [
         "7A11800646229BFC"
+      ],
+      "rewards": [
+        {
+          "id": "71EDEDB14689A098",
+          "type": "item",
+          "item": "minecraft:snowball",
+          "count": 8
+        }
       ]
     },
     {
       "id": "2F401BDF179ECC75",
       "title": "Кузнец судьбы",
       "description": [
-        "Улучши экипировку через Apotheosis."
+        "Улучши экипировку через Apotheosis.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_ingot",
       "x": 4.0,
@@ -68,13 +90,22 @@
       ],
       "dependencies": [
         "062F55E8EBF358DF"
+      ],
+      "rewards": [
+        {
+          "id": "52AA37132C437351",
+          "type": "item",
+          "item": "minecraft:glow_berries",
+          "count": 4
+        }
       ]
     },
     {
       "id": "39139ED24DBF80A3",
       "title": "Первый хранитель",
       "description": [
-        "Победи босса Mowzie’s Mobs вместе с командой."
+        "Победи босса Mowzie’s Mobs вместе с командой.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_ingot",
       "x": 6.0,
@@ -88,13 +119,22 @@
       ],
       "dependencies": [
         "2F401BDF179ECC75"
+      ],
+      "rewards": [
+        {
+          "id": "4852DBC5E91DD916",
+          "type": "item",
+          "item": "minecraft:soul_torch",
+          "count": 8
+        }
       ]
     },
     {
       "id": "2FB794E20955968E",
       "title": "Хранитель катакомб",
       "description": [
-        "Победи босса Cataclysm. Не подтверждай до победы."
+        "Победи босса Cataclysm. Не подтверждай до победы.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_ingot",
       "x": 0.0,
@@ -108,6 +148,14 @@
       ],
       "dependencies": [
         "39139ED24DBF80A3"
+      ],
+      "rewards": [
+        {
+          "id": "4F3578E41D285A3C",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 10
+        }
       ]
     },
     {
@@ -134,8 +182,8 @@
         {
           "id": "186470AD67E13B7A",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:cooked_porkchop",
+          "count": 3
         }
       ]
     },
@@ -158,6 +206,14 @@
       ],
       "dependencies": [
         "198341DE6390175C"
+      ],
+      "rewards": [
+        {
+          "id": "3B0C5D0323BF6B4A",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 3
+        }
       ]
     },
     {
@@ -179,6 +235,19 @@
       ],
       "dependencies": [
         "2F935CCC6B25B20C"
+      ],
+      "rewards": [
+        {
+          "id": "38946B93C1DEB41E",
+          "type": "item",
+          "item": "minecraft:spectral_arrow",
+          "count": 5
+        },
+        {
+          "id": "665B8EE9FEB0F849",
+          "type": "xp",
+          "xp": 12
+        }
       ]
     }
   ]

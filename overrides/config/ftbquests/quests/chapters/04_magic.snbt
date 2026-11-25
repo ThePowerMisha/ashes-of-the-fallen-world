@@ -13,7 +13,11 @@
       "id": "1D129E2C407448C4",
       "title": "Искра",
       "description": [
-        "Найди источник магии и добудь Source Gem."
+        "Найди источник магии и добудь Source Gem.",
+        "",
+        "Из записей экспедиции. Селена прятала заметки между страницами рабочих книг. В её школе ученики сначала учились читать следы, оставленные заклинанием.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
       ],
       "icon": "ars_nouveau:source_gem",
       "x": 0.0,
@@ -28,13 +32,22 @@
       ],
       "dependencies": [
         "229FC7D04C879E11"
+      ],
+      "rewards": [
+        {
+          "id": "77F07455B7091B6E",
+          "type": "item",
+          "item": "minecraft:honeycomb",
+          "count": 2
+        }
       ]
     },
     {
       "id": "1DF96CD27A4211A8",
       "title": "Первые чары",
       "description": [
-        "Изготовь книгу Ars Nouveau и испытай простое заклинание."
+        "Изготовь книгу Ars Nouveau и испытай простое заклинание.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:amethyst_shard",
       "x": 2.0,
@@ -48,13 +61,22 @@
       ],
       "dependencies": [
         "1D129E2C407448C4"
+      ],
+      "rewards": [
+        {
+          "id": "2669BEA057CD68F8",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
       "id": "58B63DEC4AF1CB84",
       "title": "Боевая магия",
       "description": [
-        "Изучи Iron’s Spells и примени первое боевое заклинание."
+        "Изучи Iron’s Spells и примени первое боевое заклинание.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:amethyst_shard",
       "x": 4.0,
@@ -68,6 +90,14 @@
       ],
       "dependencies": [
         "1DF96CD27A4211A8"
+      ],
+      "rewards": [
+        {
+          "id": "342E2BCDFB6969C0",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 5
+        }
       ]
     },
     {
@@ -89,6 +119,14 @@
       ],
       "dependencies": [
         "58B63DEC4AF1CB84"
+      ],
+      "rewards": [
+        {
+          "id": "04D29954B5016790",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -110,13 +148,22 @@
       ],
       "dependencies": [
         "1A8BD49C70AE18DB"
+      ],
+      "rewards": [
+        {
+          "id": "63D8CB2A5CFA0A23",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
+        }
       ]
     },
     {
       "id": "4B56E8B8147F0F62",
       "title": "Мана",
       "description": [
-        "Настрой генерацию маны в Botania."
+        "Настрой генерацию маны в Botania.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:amethyst_shard",
       "x": 2.0,
@@ -130,13 +177,22 @@
       ],
       "dependencies": [
         "7DD236145D7AD8D2"
+      ],
+      "rewards": [
+        {
+          "id": "562F8D85B42D4BBC",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 4
+        }
       ]
     },
     {
       "id": "11E799D18454DF19",
       "title": "Тёмные искусства",
       "description": [
-        "Изучи Goety. Вызывай слуг вдали от союзного поселения."
+        "Изучи Goety. Вызывай слуг вдали от союзного поселения.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:amethyst_shard",
       "x": 4.0,
@@ -150,6 +206,14 @@
       ],
       "dependencies": [
         "4B56E8B8147F0F62"
+      ],
+      "rewards": [
+        {
+          "id": "2A0F1FDA3CE5EA4F",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 3
+        }
       ]
     },
     {
@@ -171,6 +235,14 @@
       ],
       "dependencies": [
         "11E799D18454DF19"
+      ],
+      "rewards": [
+        {
+          "id": "70C62CCC930C65F8",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        }
       ]
     },
     {
@@ -192,6 +264,14 @@
       ],
       "dependencies": [
         "2508B4F506213409"
+      ],
+      "rewards": [
+        {
+          "id": "18587D1227625175",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
@@ -213,6 +293,19 @@
       ],
       "dependencies": [
         "389CA07B3D74B71C"
+      ],
+      "rewards": [
+        {
+          "id": "6308D59E0B35C265",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 9
+        },
+        {
+          "id": "4E54C7779A80CE88",
+          "type": "xp",
+          "xp": 12
+        }
       ]
     }
   ]
