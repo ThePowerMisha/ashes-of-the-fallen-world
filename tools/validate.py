@@ -146,6 +146,12 @@ for site_set in site_sets.values():
     site_entries.extend(site_set['structures'])
 assert len(site_entries)==len(SITES)
 assert {entry['structure'] for entry in site_entries}=={'ashes:'+site.slug for site in SITES}
+from itertools import pairwise
+
+from site_levels import TERRACES, VARIANTS
+
+inventory = {row['template']: row for row in json.loads(
+    (root/'docs/lore-structures.json').read_text(encoding='utf-8'))}
 seen_templates=set()
 for entry in site_entries:
     site=entry['structure'].split(':')[1]
@@ -155,7 +161,8 @@ for entry in site_entries:
     pool=conf['start_pool'].split(':')[1]
     assert (lorebase/'tags/worldgen/biome'/(conf['biomes'].split(':')[1]+'.json')).is_file()
     template_pool=json.loads((lorebase/'worldgen/template_pool'/(pool+'.json')).read_text(encoding='utf-8'))
-    assert len(template_pool['elements'])==2
+    assert len(template_pool['elements'])==VARIANTS
+    profiles = set()
     for el in template_pool['elements']:
         name=el['element']['location'].split(':')[1]
         assert name not in seen_templates
@@ -166,6 +173,28 @@ for entry in site_entries:
         assert ('ashes:lore/'+site).encode() in nbt
         template=NBT(nbt).parse()
         assert set(blocks) <= {state['Name'] for state in template['palette']},name
+        row = inventory[name]
+        profile = tuple(row['levels'])
+        assert profile not in profiles and el['weight'] == 1, name
+        profiles.add(profile)
+        assert len(row['routes']) == len(TERRACES.get(site, (None,))), name
+        positions = {tuple(block['pos']): template['palette'][block['state']]
+                     for block in template['blocks']}
+        clear = 'minecraft:water' if site == 'drowned_city' else 'minecraft:air'
+        for route in row['routes']:
+            if site in TERRACES:
+                x,y,z = route[0]
+                assert all(positions[x,y+h,z]['Name'] == clear for h in (1,2)), name
+            assert all(abs(x-a) + abs(z-c) == 1 and abs(y-b) <= 1
+                       for (x,y,z),(a,b,c) in pairwise(route)), name
+            stairs = 0
+            for x,y,z in route[1:-1]:
+                stair = positions[x,y,z]
+                assert stair['Name'].endswith('_stairs'), (name, (x,y,z))
+                assert stair['Properties']['waterlogged'] == str(clear == 'minecraft:water').lower(), name
+                assert all(positions[x,y+h,z]['Name'] == clear for h in (1,2)), name
+                stairs += 1
+            assert stairs >= 2, name
         if 'start_jigsaw_name' in conf:
             assert conf['start_jigsaw_name'].encode() in nbt
     loot=json.loads((lorebase/'loot_tables/lore'/(site+'.json')).read_text(encoding='utf-8'))
@@ -178,7 +207,8 @@ for entry in site_entries:
     adv=json.loads((lorebase/'advancements/lore'/(site+'.json')).read_text(encoding='utf-8'))
     assert adv['criteria']['visit']['conditions']['player'][0]['predicate']['location']['structure']==entry['structure']
     assert (functions/(adv['rewards']['function'].split(':')[1]+'.mcfunction')).is_file()
-assert len(seen_templates)==2*len(SITES)
+assert len(seen_templates)==VARIANTS*len(SITES)
+assert len(inventory)==(2+VARIANTS)*len(SITES)
 print(f'PASS: {len(SITES)} lore structures, {len(seen_templates)} gzip NBT templates, loot and discovery references.')
 
 assert {t['advancement'] for q in quests for t in q['tasks'] if t.get('advancement','').startswith('ashes:lore/')}=={'ashes:lore/'+e['structure'].split(':')[1] for e in site_sets['lore_sites']['structures']}

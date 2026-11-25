@@ -5,7 +5,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/abyss_temple_1",
+        "location": "ashes:lore/abyss_temple_3",
         "processors": {
           "processors": []
         },
@@ -16,7 +16,51 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/abyss_temple_2",
+        "location": "ashes:lore/abyss_temple_4",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ashes:lore/abyss_temple_5",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ashes:lore/abyss_temple_6",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ashes:lore/abyss_temple_7",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ashes:lore/abyss_temple_8",
         "processors": {
           "processors": []
         },

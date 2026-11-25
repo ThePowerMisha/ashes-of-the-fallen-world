@@ -73,7 +73,7 @@
 - #tests tools/test_devtools.py — тесты парсера, JAR-кандидатов, логов и лута; вызываются из tools/validate.py (существующий CI).
 
 ## Расширение мест памяти
-- #lore #structures #worldgen `tools/structures.py`, `tools/structure_sites.py`, `docs/STRUCTURES.md` — архитектура 18 локаций, 36 шаблонов, тематические находки и события обнаружения.
+- #lore #structures #worldgen `tools/structures.py`, `tools/structure_sites.py`, `docs/STRUCTURES.md` — архитектура 18 локаций, 108 активных шаблонов, тематические находки и события обнаружения.
 
 - #companions #skins #touhou #succubus docs/COMPANIONS.md, overrides/ashes_docs/COMPANIONS.md — справка и тесты; docs/LORE.md — экспериментальный канон; manifest и mods-lock — 163 проекта в этой ветке. Квесты и игровые ID не изменены.
 
@@ -81,8 +81,24 @@
 
 - #minecolonies #launch #crash `docs/MOD_AUDIT.md`, `docs/mod-plan.json` — краш `FoodUtilsMixin` и обязательная версия Tweaks.
 
-- #chunky #pregen [Предгенерация чанков](SERVER.md#предгенерация-чанков).
+- #botania #patchouli [Диагностика установки](docs/MOD_AUDIT.md#forge-сообщает-об-отсутствии-patchouli). Связи Botania с Patchouli и Curios заданы в `docs/mod-plan.json` и проверяются упаковщиком каждого профиля.
 
-- #author-content #quests #artifacts #classes #terrain [Авторский контент](AUTHOR_CONTENT.md) · генераторы `tools/quest_content.py`, `tools/artifacts.py`, `tools/skills.py` и `tools/site_terrain.py`.
+- #corelib #forge #crash [Диагностика GameDataMixin](docs/MOD_AUDIT.md#сбой-core-lib-при-запуске-forge-47428) и `tools/devtools.py crash` — поиск фатальной ошибки среди предупреждений Mixin.
 
-- #atmosphere #decor #dwarfs [Поселения и атмосфера](ATMOSPHERE.md).
+- #corelib #testing [Результаты запуска с Rechiseled](docs/TESTING.md#проверка-запуска-с-rechiseled-на-forge-47428).
+
+- #terrablender #vinery #launch [Конфликт с Cristel Lib и отсутствующий класс рецептов Vinery](docs/MOD_AUDIT.md#два-сбоя-запуска-с-terrablender-и-vinery).
+
+- #mods #updates `tools/audit_updates.py` и [сводка по обновлениям](docs/MOD_UPDATES.md).
+
+- #chunky #pregen [Предгенерация чанков](docs/SERVER.md#предгенерация-чанков) и состав обоих профилей в `docs/mod-plan.json`.
+
+- #mca [Файлы MCA Reborn 7.7.1-beta.6 и пяти аддонов](docs/MCA.md#версии-и-источники).
+
+- #author-content #quests #artifacts #classes #terrain [Авторский контент](docs/AUTHOR_CONTENT.md) · генераторы `tools/quest_content.py`, `tools/artifacts.py`, `tools/skills.py` и `tools/site_terrain.py`.
+
+- #oculus #immediatelyfast [Диагностика запуска клиента](docs/MOD_AUDIT.md#immediatelyfast-и-oculus-180).
+
+- #atmosphere #decor #dwarfs [Поселения и атмосфера](docs/ATMOSPHERE.md). Справочник находок задаётся в `tools/site_supplies.py`, параметры хроник — в `tools/news.py`.
+
+- #vertical #worldgen `tools/site_levels.py` задаёт перепады, входы и лестницы. `docs/lore-structures.json` хранит параметры каждого шаблона для проверки.

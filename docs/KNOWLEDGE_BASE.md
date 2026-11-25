@@ -51,3 +51,5 @@ RC5: игровые тесты клиента/сервера, фактическ
 - #oculus #immediatelyfast Старый пакет класса `ImmediateState` завершает запуск клиента с кодом 255. [Проверенные версии](MOD_AUDIT.md#immediatelyfast-и-oculus-180).
 
 - #decor #dwarfs #shaders [Поселения и атмосфера](ATMOSPHERE.md). `tools/validate.py` сверяет по два блока в каждом NBT, дополнительную добычу и наличие шейдерного профиля.
+
+- #vertical #worldgen Профили `tools/site_levels.py` выбирает Jigsaw. `tools/validate.py` сверяет число вариантов, блоки лестниц, просвет и отсутствие разрыва между ступенями. [Структуры](STRUCTURES.md#перепады-высот).

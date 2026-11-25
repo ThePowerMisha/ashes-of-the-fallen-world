@@ -5,7 +5,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/archmages_keep_1",
+        "location": "ashes:lore/archmages_keep_3",
         "processors": {
           "processors": []
         },
@@ -16,7 +16,51 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/archmages_keep_2",
+        "location": "ashes:lore/archmages_keep_4",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ashes:lore/archmages_keep_5",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ashes:lore/archmages_keep_6",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ashes:lore/archmages_keep_7",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ashes:lore/archmages_keep_8",
         "processors": {
           "processors": []
         },

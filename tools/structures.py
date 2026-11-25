@@ -6,6 +6,7 @@ from pathlib import Path
 import gzip, io, json, random, struct
 from site_terrain import enhance_site
 from site_supplies import SITE_FIXTURES
+from site_levels import BURIAL_RESERVE, FLOOR_RESERVE, TERRACES, VARIANTS, level_layouts, terraform_levels
 
 def st(name, **props):
     return {'Name': name if ':' in name else 'minecraft:'+name, **({'Properties':props} if props else {})}
@@ -28,6 +29,8 @@ class Build:
     def __init__(self, size, seed, style):
         self.size=size; self.r=random.Random(seed); self.blocks={}; self.style=style
         self.entities = []
+        self.extra_depth = None
+        self.entrance_steps = []
         self.stone=('stone_bricks','cracked_stone_bricks','mossy_stone_bricks','cobblestone') if style==0 else ('cobbled_deepslate','deepslate_bricks','cracked_deepslate_bricks','tuff')
         self.wood='spruce' if style==0 else 'dark_oak'
     def put(self,x,y,z,block,props=None,tag=None):
@@ -421,15 +424,35 @@ def generate_structures(root):
         table = 'ashes:lore/' + site.slug
         supplies = False
         buried = site.surface != 2
-        terrain_offset = 0
-        for style in (0, 1):
-            builder = Build(site.dimensions, 20261124 + index * 101 + style, style)
+        layouts = level_layouts(site.slug)
+        for number in range(2 + VARIANTS):
+            active = number >= 2
+            style = number % 2
+            seed = 20261124 + index * 101 + (number * 17 if active else style)
+            builder = Build(site.dimensions, seed, style)
+            levels = layouts[number - 2] if active else None
+            if active and buried:
+                x, height, z = site.dimensions
+                builder.size = (x, height + BURIAL_RESERVE, z + BURIAL_RESERVE)
+                builder.extra_depth = levels[0]
             site.build(builder)
-            terrain_offset = enhance_site(builder, site)
+            entrances = set()
+            if active and not buried:
+                entrances = {col for section, rise in zip(TERRACES[site.slug], levels, strict=True)
+                             for col in section.approach(rise)}
+            terrain_offset = enhance_site(builder, site, entrances)
+            routes = []
+            if active:
+                if buried:
+                    terrain_offset = BURIAL_RESERVE
+                    routes = [builder.entrance_steps]
+                else:
+                    routes = terraform_levels(builder, site, levels)
+                    terrain_offset += FLOOR_RESERVE
             if buried:
                 x, _, z = site.dimensions
                 # Match the starting biome at ground level instead of sampling the buried room.
-                builder.put(x // 2, site.surface, z // 2, 'jigsaw', {'orientation': 'up_north'}, {
+                builder.put(x // 2, site.surface + terrain_offset, z // 2, 'jigsaw', {'orientation': 'up_north'}, {
                     'id': 'minecraft:jigsaw', 'name': 'ashes:surface_anchor', 'target': 'minecraft:empty',
                     'pool': 'minecraft:empty', 'final_state': 'minecraft:structure_void', 'joint': 'rollable',
                 })
@@ -437,7 +460,7 @@ def generate_structures(root):
             tables = [block['nbt']['LootTable'] for block in obj['blocks'] if 'LootTable' in block.get('nbt', {})]
             assert tables.count(table) == 1 and set(tables) <= {table, table + '_supplies'}, site.slug
             supplies = supplies or table + '_supplies' in tables
-            name = f'lore/{site.slug}_{style + 1}'
+            name = f'lore/{site.slug}_{number + 1}'
             dest = data / 'structures' / f'{name}.nbt'
             dest.parent.mkdir(parents=True, exist_ok=True)
             raw = nbt(obj)
@@ -446,12 +469,15 @@ def generate_structures(root):
                 with gzip.GzipFile(fileobj=buf, mode='wb', filename='', mtime=0, compresslevel=9) as stream:
                     stream.write(raw)
                 dest.write_bytes(buf.getvalue())
-            templates.append({'weight': 1, 'element': {
-                'element_type': 'minecraft:single_pool_element',
-                'location': 'ashes:' + name, 'processors': {'processors': []}, 'projection': 'rigid',
-            }})
-            report.append({'template': name, 'size': obj['size'], 'blocks': len(obj['blocks']),
-                           'chests': len(tables), 'entities': len(obj['entities'])})
+            row = {'template': name, 'size': obj['size'], 'blocks': len(obj['blocks']),
+                   'chests': len(tables), 'entities': len(obj['entities'])}
+            if active:
+                templates.append({'weight': 1, 'element': {
+                    'element_type': 'minecraft:single_pool_element',
+                    'location': 'ashes:' + name, 'processors': {'processors': []}, 'projection': 'rigid',
+                }})
+                row.update(levels=levels, routes=routes)
+            report.append(row)
         write(f'worldgen/template_pool/lore/{site.slug}.json', {'fallback': 'minecraft:empty', 'elements': templates})
         sea = site.biomes == 'deep_ocean'
         structure = {

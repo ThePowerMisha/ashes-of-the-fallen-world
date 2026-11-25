@@ -73,7 +73,7 @@
 - #tests tools/test_devtools.py — тесты парсера, JAR-кандидатов, логов и лута; вызываются из tools/validate.py (существующий CI).
 
 ## Расширение мест памяти
-- #lore #structures #worldgen `tools/structures.py`, `tools/structure_sites.py`, `docs/STRUCTURES.md` — архитектура 18 локаций, 36 шаблонов, тематические находки и события обнаружения.
+- #lore #structures #worldgen `tools/structures.py`, `tools/structure_sites.py`, `docs/STRUCTURES.md` — архитектура 18 локаций, 108 активных шаблонов, тематические находки и события обнаружения.
 
 - #companions #skins #touhou #succubus docs/COMPANIONS.md, overrides/ashes_docs/COMPANIONS.md — справка и тесты; docs/LORE.md — экспериментальный канон; manifest и mods-lock — 163 проекта в этой ветке. Квесты и игровые ID не изменены.
 
@@ -100,3 +100,5 @@
 - #oculus #immediatelyfast [Диагностика запуска клиента](docs/MOD_AUDIT.md#immediatelyfast-и-oculus-180).
 
 - #atmosphere #decor #dwarfs [Поселения и атмосфера](docs/ATMOSPHERE.md). Справочник находок задаётся в `tools/site_supplies.py`, параметры хроник — в `tools/news.py`.
+
+- #vertical #worldgen `tools/site_levels.py` задаёт перепады, входы и лестницы. `docs/lore-structures.json` хранит параметры каждого шаблона для проверки.

@@ -1,5 +1,7 @@
 """Architecture of the sites added to Ashes after the first six ruins."""
 
+from site_levels import BURIAL_RESERVE, shift_vertically
+
 LANTERN = {'hanging': 'false', 'waterlogged': 'false'}
 RAILING = {'waterlogged': 'false'}
 
@@ -138,6 +140,13 @@ def underground_room(b, x0, z0, x1, z1, floor, wall, height=5):
 
 
 def buried_entrance(b, x0, x1, bottom, first_row, length, stone):
+    if b.extra_depth is not None:
+        raise_room = BURIAL_RESERVE - b.extra_depth
+        shift_vertically(b, raise_room)
+        bottom += raise_room
+        length += b.extra_depth
+        center = (x0 + x1) // 2
+        b.entrance_steps = [(center, bottom + row, first_row + row) for row in range(length + 1)]
     z = first_row + length
     top = bottom + length
     b.fill(x0 - 1, top, z, x1 + 1, top, z + 3, stone)

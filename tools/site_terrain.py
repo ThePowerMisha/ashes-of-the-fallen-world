@@ -22,7 +22,7 @@ DECO_PROPERTIES = {
 }
 
 
-def enhance_site(build, site):
+def enhance_site(build, site, entrances=()):
     """Return the additional vertical offset needed for terrain-aligned placement."""
     sea = site.biomes == 'deep_ocean'
     outdoor = site.surface == 2 and not sea
@@ -31,6 +31,7 @@ def enhance_site(build, site):
                   'fortress' if site.slug in CASTLES else 'ruin')
     protected = {(x,z) for (x,_,z),(_,tag) in build.blocks.items() if tag}
     protected.update((e['blockPos'][0], e['blockPos'][2]) for e in build.entities)
+    protected.update(entrances)
     decorate(build, decor_kind, protected, SITE_FIXTURES[site.slug][0])
     if outdoor:
         add_terrain(build, site.biomes)
