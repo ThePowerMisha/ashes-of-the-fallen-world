@@ -1,6 +1,6 @@
-ПЕПЕЛ УШЕДШЕГО МИРА — 1.0.0-rc5-author-content.4
+ПЕПЕЛ УШЕДШЕГО МИРА — 1.0.0-rc5-author-content.5
 Minecraft 1.20.1 / Forge 47.4.28 / Java 17
-171 проект; 495 квестов; 40 глав; 30 предметов; 38 рецептов.
+174 проекта; 532 квеста; 45 глав; 30 предметов; 38 рецептов.
 Открой FTB Quests. /trigger ashes_class set 1–6 — класс; /trigger ashes_status — ранг; /trigger ashes_talent set 1 или 2; /trigger ashes_ability — талант; /trigger ashes_purify — личное очищение; /trigger ashes_cleanse — образец.
 Complementary Unbound активен при первом запуске. Настройки находятся в меню Oculus.
 Документация: ashes_docs/RELEASE_STATUS.md, SERVER.md, GRAPHICS.md, BALANCE.md.

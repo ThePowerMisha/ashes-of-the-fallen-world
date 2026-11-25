@@ -37,8 +37,8 @@
         {
           "id": "68BBC7FED4505337",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:iron_nugget",
+          "count": 9
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "525B39BA994F8E9A",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "minecraft:andesite",
+          "count": 4
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "278D6436288BBFD9",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -153,8 +153,8 @@
         {
           "id": "10650029E7870ACD",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "minecraft:glass",
+          "count": 4
         }
       ]
     },
@@ -182,7 +182,7 @@
         {
           "id": "525AF4C0ED678F3F",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
+          "item": "minecraft:charcoal",
           "count": 4
         }
       ]
@@ -212,7 +212,7 @@
           "id": "2F2852D9DBB8F733",
           "type": "item",
           "item": "minecraft:quartz",
-          "count": 4
+          "count": 3
         }
       ]
     },
@@ -240,8 +240,8 @@
         {
           "id": "57729344D3AE7E93",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 3
+          "item": "minecraft:iron_nugget",
+          "count": 9
         }
       ]
     },
@@ -269,8 +269,8 @@
         {
           "id": "1CA5F1B0511880A0",
           "type": "item",
-          "item": "minecraft:glass_bottle",
-          "count": 3
+          "item": "minecraft:gold_nugget",
+          "count": 6
         }
       ]
     },
@@ -298,8 +298,8 @@
         {
           "id": "16CD00CF32967C2B",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:iron_ingot",
+          "count": 3
         },
         {
           "id": "14BD532A93113E95",

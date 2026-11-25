@@ -37,8 +37,8 @@
         {
           "id": "7081C842AC069D7E",
           "type": "item",
-          "item": "minecraft:copper_ingot",
-          "count": 4
+          "item": "minecraft:iron_ingot",
+          "count": 2
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "654A71F83AE453DE",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "create:andesite_casing",
+          "count": 1
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "4B146852BF994233",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "minecraft:spectral_arrow",
+          "count": 6
         }
       ]
     },
@@ -124,7 +124,7 @@
         {
           "id": "46C6B302CD9E8A9F",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
+          "item": "minecraft:glass_bottle",
           "count": 4
         }
       ]
@@ -133,7 +133,8 @@
       "id": "488322488FC1D54C",
       "title": "Первый квартал",
       "description": [
-        "Архитектор: помоги строителям подготовить дорогу и площадку."
+        "Архитектор: помоги строителям подготовить дорогу и площадку.",
+        "Подходящие варианты — каменные кирпичи, их мшистые и потрескавшиеся варианты, а также глубинные кирпичи. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 0.0,
@@ -142,7 +143,13 @@
         {
           "id": "5A11DCDD63D1E6BF",
           "type": "item",
-          "item": "minecraft:stone_bricks",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/brickwork)"
+            }
+          },
           "count": 32
         }
       ],
@@ -153,7 +160,7 @@
         {
           "id": "39D7A01E3DCDA142",
           "type": "item",
-          "item": "minecraft:quartz",
+          "item": "minecraft:cooked_beef",
           "count": 4
         }
       ]
@@ -182,8 +189,8 @@
         {
           "id": "0E471DCA99BC87C5",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 3
+          "item": "minecraft:arrow",
+          "count": 12
         }
       ]
     },
@@ -211,7 +218,7 @@
         {
           "id": "6E5D25C503C9FA0E",
           "type": "item",
-          "item": "minecraft:glass_bottle",
+          "item": "minecraft:glowstone_dust",
           "count": 3
         },
         {

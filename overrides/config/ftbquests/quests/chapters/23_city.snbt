@@ -6,7 +6,26 @@
   "icon": "minecraft:stone_bricks",
   "id": "5B6E88E0BEEE2097",
   "order_index": 22,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "5D4746ADD5757911",
+      "linked_quest": "3AB0292EB8CEF53D",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "34118ABDE6B485A2",
+      "linked_quest": "3E7B5156DC212552",
+      "x": 9.0,
+      "y": 2.0
+    },
+    {
+      "id": "7D58C617F3A19ED3",
+      "linked_quest": "0122D2A16739B6CF",
+      "x": 9.0,
+      "y": 4.0
+    }
+  ],
   "title": "Города на пепелищах",
   "quests": [
     {
@@ -37,8 +56,8 @@
         {
           "id": "701EB2325CA445BC",
           "type": "item",
-          "item": "minecraft:coal",
-          "count": 4
+          "item": "minecraft:oak_planks",
+          "count": 6
         }
       ]
     },
@@ -66,7 +85,7 @@
         {
           "id": "3CDCE94D1505CB8B",
           "type": "item",
-          "item": "minecraft:leather",
+          "item": "minecraft:iron_ingot",
           "count": 2
         }
       ]
@@ -95,8 +114,8 @@
         {
           "id": "1B8B24551E8A773D",
           "type": "item",
-          "item": "minecraft:paper",
-          "count": 4
+          "item": "minecraft:oak_log",
+          "count": 6
         }
       ]
     },
@@ -124,8 +143,8 @@
         {
           "id": "152142ED6B8F0ED1",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:iron_nugget",
+          "count": 8
         }
       ]
     },
@@ -153,8 +172,8 @@
         {
           "id": "6B66D8BC3C0FC526",
           "type": "item",
-          "item": "minecraft:lead",
-          "count": 1
+          "item": "minecraft:clay_ball",
+          "count": 6
         }
       ]
     },
@@ -182,8 +201,8 @@
         {
           "id": "37B97CC446A371AE",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 8
+          "item": "minecraft:gravel",
+          "count": 6
         }
       ]
     },
@@ -211,7 +230,7 @@
         {
           "id": "69C15989EDD00037",
           "type": "item",
-          "item": "minecraft:cooked_beef",
+          "item": "minecraft:moss_block",
           "count": 2
         }
       ]
@@ -269,8 +288,8 @@
         {
           "id": "3B5B9DB8E88ADACB",
           "type": "item",
-          "item": "minecraft:oak_boat",
-          "count": 1
+          "item": "minecraft:oak_planks",
+          "count": 6
         }
       ]
     },
@@ -298,8 +317,8 @@
         {
           "id": "72E31D26D7076980",
           "type": "item",
-          "item": "minecraft:coal",
-          "count": 4
+          "item": "minecraft:iron_ingot",
+          "count": 2
         }
       ]
     },
@@ -327,8 +346,8 @@
         {
           "id": "3832594DE4BC5BAB",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:oak_log",
+          "count": 6
         }
       ]
     },
@@ -356,8 +375,8 @@
         {
           "id": "62CA377D5EB9C9F1",
           "type": "item",
-          "item": "minecraft:paper",
-          "count": 4
+          "item": "minecraft:iron_nugget",
+          "count": 8
         }
       ]
     },
@@ -385,8 +404,8 @@
         {
           "id": "39F02228E2918345",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:clay_ball",
+          "count": 6
         }
       ]
     },
@@ -414,8 +433,8 @@
         {
           "id": "636CCFF7FE1097A5",
           "type": "item",
-          "item": "minecraft:lead",
-          "count": 1
+          "item": "minecraft:gravel",
+          "count": 6
         }
       ]
     },
@@ -443,8 +462,8 @@
         {
           "id": "653472C8129FB384",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 8
+          "item": "minecraft:moss_block",
+          "count": 2
         }
       ]
     },
@@ -472,8 +491,8 @@
         {
           "id": "142072E08EC426ED",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 2
+          "item": "minecraft:torch",
+          "count": 8
         }
       ]
     },
@@ -481,7 +500,8 @@
       "id": "552A47CA9765260D",
       "title": "Квартал ремесленников",
       "description": [
-        "Создай безопасный район производства с дорогами."
+        "Создай безопасный район производства с дорогами.",
+        "Подходящие варианты — каменные кирпичи, их мшистые и потрескавшиеся варианты, а также глубинные кирпичи. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 0.0,
@@ -490,7 +510,13 @@
         {
           "id": "27EDA08BA7F50889",
           "type": "item",
-          "item": "minecraft:stone_bricks",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/brickwork)"
+            }
+          },
           "count": 64
         }
       ],
@@ -501,8 +527,8 @@
         {
           "id": "5B9207781E1A9D6B",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 8
+          "item": "minecraft:oak_planks",
+          "count": 6
         }
       ]
     },
@@ -510,7 +536,8 @@
       "id": "7B37491A0DA4D70E",
       "title": "Общественный свет",
       "description": [
-        "Освети проходы, фермы и входы; не перегружай декоративными сущностями."
+        "Освети проходы, фермы и входы; не перегружай декоративными сущностями.",
+        "Подходящие варианты — обычные фонари и фонари душ. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:lantern",
       "x": 2.0,
@@ -519,7 +546,13 @@
         {
           "id": "1F598DEFED18664D",
           "type": "item",
-          "item": "minecraft:lantern",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/lanterns)"
+            }
+          },
           "count": 16
         }
       ],
@@ -530,8 +563,8 @@
         {
           "id": "585DC945A832B5A2",
           "type": "item",
-          "item": "minecraft:oak_boat",
-          "count": 1
+          "item": "minecraft:iron_ingot",
+          "count": 2
         }
       ]
     },
@@ -559,8 +592,8 @@
         {
           "id": "26E087418DDD2990",
           "type": "item",
-          "item": "minecraft:coal",
-          "count": 4
+          "item": "minecraft:oak_log",
+          "count": 6
         }
       ]
     },
@@ -588,8 +621,8 @@
         {
           "id": "58601ADD90ED6EBB",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:iron_nugget",
+          "count": 8
         }
       ]
     },
@@ -617,8 +650,8 @@
         {
           "id": "5EBD2AD2E3DDAC80",
           "type": "item",
-          "item": "minecraft:paper",
-          "count": 4
+          "item": "minecraft:clay_ball",
+          "count": 6
         }
       ]
     },
@@ -646,8 +679,8 @@
         {
           "id": "1AF2580EA7A0EE39",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:gravel",
+          "count": 6
         },
         {
           "id": "08CFDF63D04023B1",

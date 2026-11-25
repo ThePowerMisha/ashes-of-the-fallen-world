@@ -37,8 +37,8 @@
         {
           "id": "062B503A384495A3",
           "type": "item",
-          "item": "minecraft:cooked_porkchop",
-          "count": 3
+          "item": "minecraft:cooked_beef",
+          "count": 4
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "2001E4CB15C430E1",
           "type": "item",
-          "item": "minecraft:glowstone_dust",
-          "count": 3
+          "item": "minecraft:arrow",
+          "count": 12
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "31C606BC71BEAE6E",
           "type": "item",
-          "item": "minecraft:spectral_arrow",
-          "count": 5
+          "item": "minecraft:glowstone_dust",
+          "count": 3
         }
       ]
     },
@@ -124,7 +124,7 @@
         {
           "id": "3DC8E76EA81945B2",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:iron_ingot",
           "count": 2
         }
       ]
@@ -153,7 +153,7 @@
         {
           "id": "36CEC749E1A937C9",
           "type": "item",
-          "item": "minecraft:prismarine_shard",
+          "item": "minecraft:golden_carrot",
           "count": 3
         }
       ]
@@ -182,8 +182,8 @@
         {
           "id": "4D807F6AA7CA5B96",
           "type": "item",
-          "item": "minecraft:obsidian",
-          "count": 2
+          "item": "minecraft:spectral_arrow",
+          "count": 6
         }
       ]
     },
@@ -211,8 +211,8 @@
         {
           "id": "2DD4D67E99619112",
           "type": "item",
-          "item": "minecraft:snowball",
-          "count": 8
+          "item": "minecraft:glass_bottle",
+          "count": 4
         }
       ]
     },
@@ -240,7 +240,7 @@
         {
           "id": "1DB31BE6C787C08E",
           "type": "item",
-          "item": "minecraft:glow_berries",
+          "item": "minecraft:cooked_beef",
           "count": 4
         }
       ]
@@ -269,8 +269,8 @@
         {
           "id": "46897F48DA533CCD",
           "type": "item",
-          "item": "minecraft:soul_torch",
-          "count": 8
+          "item": "minecraft:arrow",
+          "count": 12
         }
       ]
     },
@@ -298,8 +298,8 @@
         {
           "id": "3F57633A5BE94620",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 10
+          "item": "minecraft:glowstone_dust",
+          "count": 3
         }
       ]
     },
@@ -327,8 +327,8 @@
         {
           "id": "5F47417CA737FF38",
           "type": "item",
-          "item": "minecraft:cooked_porkchop",
-          "count": 3
+          "item": "minecraft:iron_ingot",
+          "count": 2
         }
       ]
     },
@@ -356,7 +356,7 @@
         {
           "id": "729B2015C142C6A9",
           "type": "item",
-          "item": "minecraft:glowstone_dust",
+          "item": "minecraft:golden_carrot",
           "count": 3
         }
       ]
@@ -386,7 +386,7 @@
           "id": "4EB6EC3CA5780F41",
           "type": "item",
           "item": "minecraft:spectral_arrow",
-          "count": 5
+          "count": 6
         }
       ]
     },
@@ -414,8 +414,8 @@
         {
           "id": "46CA095C43144565",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:glass_bottle",
+          "count": 4
         }
       ]
     },
@@ -443,8 +443,8 @@
         {
           "id": "273216942EB578D6",
           "type": "item",
-          "item": "minecraft:prismarine_shard",
-          "count": 3
+          "item": "minecraft:cooked_beef",
+          "count": 4
         }
       ]
     },
@@ -472,8 +472,8 @@
         {
           "id": "31B1F829C542A2C9",
           "type": "item",
-          "item": "minecraft:obsidian",
-          "count": 2
+          "item": "minecraft:arrow",
+          "count": 12
         }
       ]
     },
@@ -501,8 +501,8 @@
         {
           "id": "3E480D8B5DBB1A10",
           "type": "item",
-          "item": "minecraft:snowball",
-          "count": 8
+          "item": "minecraft:glowstone_dust",
+          "count": 3
         }
       ]
     },
@@ -530,8 +530,8 @@
         {
           "id": "10A2EEA3AD346626",
           "type": "item",
-          "item": "minecraft:glow_berries",
-          "count": 4
+          "item": "minecraft:iron_ingot",
+          "count": 2
         }
       ]
     },
@@ -559,8 +559,8 @@
         {
           "id": "27F3D5C8FDE0250F",
           "type": "item",
-          "item": "minecraft:soul_torch",
-          "count": 8
+          "item": "minecraft:golden_carrot",
+          "count": 3
         },
         {
           "id": "6AA3C0E02641BA73",

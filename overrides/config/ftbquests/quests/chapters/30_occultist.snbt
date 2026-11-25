@@ -37,7 +37,7 @@
         {
           "id": "628E3EA7B3078471",
           "type": "item",
-          "item": "minecraft:prismarine_shard",
+          "item": "minecraft:redstone",
           "count": 3
         }
       ]
@@ -66,7 +66,7 @@
         {
           "id": "3920AD8FF4DB8B04",
           "type": "item",
-          "item": "minecraft:obsidian",
+          "item": "minecraft:leather",
           "count": 2
         }
       ]
@@ -95,8 +95,8 @@
         {
           "id": "1D937547A8855372",
           "type": "item",
-          "item": "minecraft:snowball",
-          "count": 8
+          "item": "minecraft:glowstone_dust",
+          "count": 2
         }
       ]
     },
@@ -124,8 +124,8 @@
         {
           "id": "426409E7D2222318",
           "type": "item",
-          "item": "minecraft:glow_berries",
-          "count": 4
+          "item": "minecraft:paper",
+          "count": 5
         }
       ]
     },
@@ -153,8 +153,8 @@
         {
           "id": "5993BA04D2D80EC6",
           "type": "item",
-          "item": "minecraft:soul_torch",
-          "count": 8
+          "item": "minecraft:lapis_lazuli",
+          "count": 3
         }
       ]
     },
@@ -182,8 +182,8 @@
         {
           "id": "560A3DF25D7B4B77",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 10
+          "item": "minecraft:amethyst_shard",
+          "count": 2
         }
       ]
     },
@@ -211,8 +211,8 @@
         {
           "id": "4D3C25ADC385660D",
           "type": "item",
-          "item": "minecraft:cooked_porkchop",
-          "count": 3
+          "item": "minecraft:glass_bottle",
+          "count": 4
         }
       ]
     },
@@ -240,8 +240,8 @@
         {
           "id": "2BC7CAFD52E25CB9",
           "type": "item",
-          "item": "minecraft:glowstone_dust",
-          "count": 3
+          "item": "minecraft:book",
+          "count": 1
         }
       ]
     },
@@ -269,8 +269,8 @@
         {
           "id": "2D73EC6F828C82F6",
           "type": "item",
-          "item": "minecraft:spectral_arrow",
-          "count": 5
+          "item": "minecraft:redstone",
+          "count": 3
         }
       ]
     },
@@ -298,7 +298,7 @@
         {
           "id": "58E04F60CFC1C08B",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:leather",
           "count": 2
         },
         {

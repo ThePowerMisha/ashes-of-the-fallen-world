@@ -37,8 +37,8 @@
         {
           "id": "1F60B0211D6B7A73",
           "type": "item",
-          "item": "minecraft:coal",
-          "count": 4
+          "item": "minecraft:brown_mushroom",
+          "count": 3
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "778B9A5A4C14D7AD",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:charcoal",
+          "count": 4
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "027F8CBB33A32DA1",
           "type": "item",
-          "item": "minecraft:paper",
-          "count": 4
+          "item": "minecraft:cake",
+          "count": 1
         }
       ]
     },
@@ -124,8 +124,8 @@
         {
           "id": "35CE94713569A01C",
           "type": "item",
-          "item": "minecraft:lantern",
-          "count": 2
+          "item": "minecraft:shears",
+          "count": 1
         }
       ]
     },
@@ -133,7 +133,8 @@
       "id": "32DDE67B6B13397D",
       "title": "Зелёный рубеж",
       "description": [
-        "Высади деревья на освобождённой территории. Верни жизнь в долину."
+        "Высади деревья на освобождённой территории. Верни жизнь в долину.",
+        "Подходящие варианты — саженцы любых пород. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:oak_sapling",
       "x": 0.0,
@@ -142,7 +143,13 @@
         {
           "id": "415293B5FD3976A2",
           "type": "item",
-          "item": "minecraft:oak_sapling",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/saplings)"
+            }
+          },
           "count": 16
         }
       ],
@@ -153,8 +160,8 @@
         {
           "id": "5EE77CAAA224ABE4",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:string",
+          "count": 4
         }
       ]
     },
@@ -182,8 +189,8 @@
         {
           "id": "16A33AFCD9C629E3",
           "type": "item",
-          "item": "minecraft:lead",
-          "count": 1
+          "item": "minecraft:bone_meal",
+          "count": 5
         },
         {
           "id": "5F6D9C8AE2C528D1",

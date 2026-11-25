@@ -6,7 +6,20 @@
   "icon": "minecraft:filled_map",
   "id": "4C5B07647387E929",
   "order_index": 20,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "3E9E03EC2D52FAD1",
+      "linked_quest": "061A8CB234F5E056",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "42A402465014FA16",
+      "linked_quest": "1D2F64A8F41DAC79",
+      "x": 9.0,
+      "y": 2.0
+    }
+  ],
   "title": "Атлас погибшего мира",
   "quests": [
     {
@@ -17,7 +30,8 @@
         "",
         "Из записей экспедиции. На карте пепелищ новые тропы чертили поверх старых. Ищите переходы, где уцелевшая дорога выходит к воде.",
         "",
-        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}",
+        "Подходящие варианты — обычные костры и костры душ. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:campfire",
       "x": 0.0,
@@ -26,7 +40,13 @@
         {
           "id": "2C9EBB69160B7396",
           "type": "item",
-          "item": "minecraft:campfire",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/campfires)"
+            }
+          },
           "count": 2
         }
       ],
@@ -37,8 +57,8 @@
         {
           "id": "027E70618E565B04",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:arrow",
+          "count": 8
         }
       ]
     },
@@ -75,7 +95,8 @@
       "id": "1B0E3F001AEDDB5B",
       "title": "Долина рек",
       "description": [
-        "Нанеси водный маршрут между двумя районами."
+        "Нанеси водный маршрут между двумя районами.",
+        "Подходящие варианты — обычные лодки и лодки с сундуком. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:oak_boat",
       "x": 4.0,
@@ -84,7 +105,13 @@
         {
           "id": "2794CB3A449CD6F4",
           "type": "item",
-          "item": "minecraft:oak_boat",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/boats)"
+            }
+          },
           "count": 1
         }
       ],
@@ -95,8 +122,8 @@
         {
           "id": "44564C25EEC79CAA",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 8
+          "item": "minecraft:leather",
+          "count": 2
         }
       ]
     },
@@ -124,8 +151,8 @@
         {
           "id": "3023ABF51AF1F0A0",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 2
+          "item": "minecraft:compass",
+          "count": 1
         }
       ]
     },
@@ -182,7 +209,7 @@
         {
           "id": "32A59B86D61906C1",
           "type": "item",
-          "item": "minecraft:coal",
+          "item": "minecraft:cooked_porkchop",
           "count": 4
         }
       ]
@@ -211,8 +238,8 @@
         {
           "id": "6D64E172594C2DD1",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:paper",
+          "count": 6
         }
       ]
     },
@@ -240,8 +267,8 @@
         {
           "id": "4C3D016ED6EAF6BB",
           "type": "item",
-          "item": "minecraft:paper",
-          "count": 4
+          "item": "minecraft:soul_torch",
+          "count": 6
         }
       ]
     },
@@ -269,8 +296,8 @@
         {
           "id": "21769B8CA608C2ED",
           "type": "item",
-          "item": "minecraft:lantern",
-          "count": 2
+          "item": "minecraft:arrow",
+          "count": 8
         }
       ]
     },
@@ -298,8 +325,8 @@
         {
           "id": "1974AAC84FD8B322",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:lead",
+          "count": 1
         }
       ]
     },
@@ -327,8 +354,8 @@
         {
           "id": "5DD6211B66CF6C00",
           "type": "item",
-          "item": "minecraft:lead",
-          "count": 1
+          "item": "minecraft:leather",
+          "count": 2
         }
       ]
     },
@@ -356,8 +383,8 @@
         {
           "id": "422E161BCC7330F9",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 8
+          "item": "minecraft:compass",
+          "count": 1
         }
       ]
     },
@@ -385,8 +412,8 @@
         {
           "id": "5874311387572B71",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 2
+          "item": "minecraft:torch",
+          "count": 8
         }
       ]
     },
@@ -414,8 +441,8 @@
         {
           "id": "20195F0569410F92",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 8
+          "item": "minecraft:cooked_porkchop",
+          "count": 4
         }
       ]
     },
@@ -443,8 +470,8 @@
         {
           "id": "649A11DAD768E582",
           "type": "item",
-          "item": "minecraft:coal",
-          "count": 4
+          "item": "minecraft:paper",
+          "count": 6
         }
       ]
     },
@@ -472,8 +499,8 @@
         {
           "id": "139DE89E6EFB3925",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:soul_torch",
+          "count": 6
         }
       ]
     },
@@ -530,8 +557,8 @@
         {
           "id": "77E9DCFA76B81409",
           "type": "item",
-          "item": "minecraft:lantern",
-          "count": 2
+          "item": "minecraft:lead",
+          "count": 1
         },
         {
           "id": "66093CFC24D07136",

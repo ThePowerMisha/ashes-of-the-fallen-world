@@ -1,4 +1,5 @@
-"""Authored journal entries and quest rewards, keyed by existing chapter identifiers."""
+"""Authored journal entries and quest rewards, keyed by chapter identifiers."""
+from quest_rewards import choose_reward
 
 # A chapter opening gets a short dispatch from the world and an illustration.
 DISPATCHES = (
@@ -42,18 +43,13 @@ DISPATCHES = (
     ('frontier', 'Пилоты рисовали на борту белую метку. С земли она показывала, с какой стороны подойти к каравану.'),
     ('frontier', 'Записки разведчика сложены по направлениям. Быстрый путь к нужному навыку начинается с Печати экспедиции.'),
     ('orders', 'Некоторые места отмечены на карте двумя чернилами. Старые пометки показывают входы, новые — где ещё уцелела дорога.'),
+    ('frontier', 'Первыми соседями выживших стали те, кто согласился разделить тепло общего очага.'),
+    ('orders', 'На записках каменщика остались три образца узоров для ворот и два для мостовых опор.'),
+    ('frontier', 'Дозор отмечал не только башни. На карте берегов уцелели подсказки о путях к далёким руинам.'),
+    ('frontier', 'Сад пережил две зимы. По соседству с прессом восстановили печь, чтобы перерабатывать урожай на месте.'),
+    ('orders', 'Механики записали маршрут припасов от тележки до ячейки. По нему нашли забытый щиток питания.'),
 )
 
-REWARDS = {
-    'frontier': (('cooked_beef', 2), ('torch', 8), ('oak_boat', 1), ('coal', 4), ('leather', 2),
-                 ('paper', 4), ('lantern', 2), ('golden_carrot', 2), ('lead', 1), ('arrow', 8)),
-    'orders': (('copper_ingot', 4), ('redstone', 5), ('iron_nugget', 9), ('lapis_lazuli', 4),
-               ('quartz', 4), ('amethyst_shard', 3), ('glass_bottle', 3), ('book', 1),
-               ('gold_nugget', 9), ('honeycomb', 2)),
-    'abyss': (('glow_berries', 4), ('soul_torch', 8), ('arrow', 10), ('cooked_porkchop', 3),
-              ('glowstone_dust', 3), ('spectral_arrow', 5), ('golden_carrot', 2),
-              ('prismarine_shard', 3), ('obsidian', 2), ('snowball', 8)),
-}
 SUPPLIES = (
     'field_kit', 'scout_report', 'repair_kit', 'ward_charm',
     'cleansing_charge', 'foundation_stone', 'power_regulator', 'source_capacitor',
@@ -74,11 +70,7 @@ def decorate_quest(quest, chapter, order, position, rows, uid):
     # Keep the original reward ID so old completion and claimed reward data still applies.
     base = f'{chapter}/{position}/reward'
     targets = {row[1] for row in rows}
-    options = [(f'minecraft:{item}', count) for item, count in REWARDS[art]
-               if f'minecraft:{item}' not in targets]
-    if not options:
-        options = [('minecraft:coal', 2)]
-    item, count = options[(order * 3 + position) % len(options)]
+    item, count = choose_reward(chapter, order, position, rows)
     rewards = [{'id': uid(base), 'type': 'item', 'item': item, 'count': count}]
     if position == len(rows) - 1:
         rewards.append({'id': uid(base + '/experience'), 'type': 'xp', 'xp': 12 if order < 8 else 20})

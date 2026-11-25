@@ -37,8 +37,8 @@
         {
           "id": "236288C80CBE0D32",
           "type": "item",
-          "item": "minecraft:soul_torch",
-          "count": 8
+          "item": "minecraft:shield",
+          "count": 1
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "1AB8D5C064BFF474",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 10
+          "item": "minecraft:cooked_beef",
+          "count": 4
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "18A78353E8D97CA4",
           "type": "item",
-          "item": "minecraft:cooked_porkchop",
-          "count": 3
+          "item": "minecraft:arrow",
+          "count": 12
         }
       ]
     },
@@ -153,8 +153,8 @@
         {
           "id": "2F18E7502CCD23CA",
           "type": "item",
-          "item": "minecraft:spectral_arrow",
-          "count": 5
+          "item": "minecraft:iron_ingot",
+          "count": 2
         }
       ]
     },
@@ -183,7 +183,7 @@
           "id": "1F9FFEA0874C5039",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 2
+          "count": 3
         },
         {
           "id": "2ABF58D55384C098",

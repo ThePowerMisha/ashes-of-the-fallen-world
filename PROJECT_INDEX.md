@@ -4,7 +4,7 @@
 | #context #lore | PROJECT_CONTEXT.md | Цели, история, ограничения |
 | #release #mods #lock | manifest.json, modlist.html, overrides/ashes_docs/mods-lock.tsv | Фиксированные версии и ссылки |
 | #builder #source | tools/build.py | Генератор квестов, предметов, рецептов, классов и функций |
-| #quests #progression | docs/quests.json, overrides/config/ftbquests/quests/chapters/ | 40 глав, зависимости и задания |
+| #quests #progression | docs/quests.json, overrides/config/ftbquests/quests/chapters/ | 45 глав, зависимости и задания |
 | #items #kubejs | overrides/kubejs/startup_scripts/ashes_items.js | 30 предметов |
 | #recipes #balance | overrides/kubejs/server_scripts/ashes_recipes.js | 38 рецептов, существующие рецепты модов не заменяются |
 | #classes #multiplayer | overrides/kubejs/data/ashes/functions/ | Выбор классов, атрибуты, 3 ранга, очищение игрока |
@@ -104,3 +104,5 @@
 - #vertical #worldgen `tools/site_levels.py` задаёт перепады, входы и лестницы. `docs/lore-structures.json` хранит параметры каждого шаблона для проверки.
 
 - #roads #worldgen `tools/site_supports.py` задаёт подсыпку, опоры и обработку точек в загруженных чанках. Проверки реестров и поведения описаны в `docs/TESTING.md`.
+
+- #quests #filters #rewards [Покрытие проектов](docs/QUEST_COVERAGE.md). `tools/quest_progress.py` задаёт предметные группы и ссылки, `tools/quest_rewards.py` подбирает припасы.

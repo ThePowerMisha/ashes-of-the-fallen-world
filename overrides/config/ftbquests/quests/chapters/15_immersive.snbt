@@ -37,8 +37,8 @@
         {
           "id": "3F9E50A0D3C23E00",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "7EC8FC39FF9F6765",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "minecraft:redstone",
+          "count": 4
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "1145726D7DE1833D",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:glass",
+          "count": 4
         }
       ]
     },
@@ -124,8 +124,8 @@
         {
           "id": "17F426257814D9E5",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "minecraft:charcoal",
+          "count": 4
         }
       ]
     },
@@ -133,7 +133,8 @@
       "id": "4ED26D2994096579",
       "title": "Медный провод",
       "description": [
-        "Подготовь медь для низковольтной сети."
+        "Подготовь медь для низковольтной сети.",
+        "Подходящие варианты — медные слитки из общего тега Forge. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:copper_ingot",
       "x": 0.0,
@@ -142,7 +143,13 @@
         {
           "id": "4A69E7137635819E",
           "type": "item",
-          "item": "minecraft:copper_ingot",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/copper)"
+            }
+          },
           "count": 16
         }
       ],
@@ -153,8 +160,8 @@
         {
           "id": "6EF832DB77044D2C",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "minecraft:quartz",
+          "count": 3
         }
       ]
     },
@@ -182,8 +189,8 @@
         {
           "id": "3D0872367A4D5EE5",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:iron_nugget",
+          "count": 9
         }
       ]
     },
@@ -211,8 +218,8 @@
         {
           "id": "7B1951422AB10454",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 4
+          "item": "minecraft:gold_nugget",
+          "count": 6
         }
       ]
     },
@@ -240,7 +247,7 @@
         {
           "id": "09AEC2BA36B3D2D2",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
+          "item": "minecraft:iron_ingot",
           "count": 3
         }
       ]
@@ -269,8 +276,8 @@
         {
           "id": "17B6516D287B72B6",
           "type": "item",
-          "item": "minecraft:glass_bottle",
-          "count": 3
+          "item": "minecraft:redstone",
+          "count": 4
         }
       ]
     },
@@ -298,8 +305,8 @@
         {
           "id": "7FB23B6159581C26",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:glass",
+          "count": 4
         }
       ]
     },
@@ -327,8 +334,8 @@
         {
           "id": "0DF53530B1358FDB",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "minecraft:charcoal",
+          "count": 4
         }
       ]
     },
@@ -356,8 +363,8 @@
         {
           "id": "0AB960E8E1577A00",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:quartz",
+          "count": 3
         }
       ]
     },
@@ -385,8 +392,8 @@
         {
           "id": "1783A685A9F27BBF",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "minecraft:iron_nugget",
+          "count": 9
         }
       ]
     },
@@ -414,8 +421,8 @@
         {
           "id": "44068D0C3E6C11DC",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "minecraft:gold_nugget",
+          "count": 6
         }
       ]
     },
@@ -443,8 +450,8 @@
         {
           "id": "0AC28DC64C84CB8A",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -472,7 +479,7 @@
         {
           "id": "0B9CF4EF57F39021",
           "type": "item",
-          "item": "minecraft:quartz",
+          "item": "minecraft:redstone",
           "count": 4
         }
       ]
@@ -501,8 +508,8 @@
         {
           "id": "69196D830F885EA3",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 3
+          "item": "minecraft:glass",
+          "count": 4
         }
       ]
     },
@@ -530,8 +537,8 @@
         {
           "id": "7E7B4DE308841B2B",
           "type": "item",
-          "item": "minecraft:glass_bottle",
-          "count": 3
+          "item": "minecraft:charcoal",
+          "count": 4
         }
       ]
     },
@@ -559,8 +566,8 @@
         {
           "id": "573D3981C1803A90",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:quartz",
+          "count": 3
         },
         {
           "id": "700167996D757AC3",

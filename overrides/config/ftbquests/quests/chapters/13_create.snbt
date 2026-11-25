@@ -6,7 +6,20 @@
   "icon": "create:cogwheel",
   "id": "7CA069A611891F2C",
   "order_index": 12,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "2C93F557EBA2453A",
+      "linked_quest": "1614B23DF38B5F78",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "608CD850E402FBD1",
+      "linked_quest": "6EF36B1C61409211",
+      "x": 9.0,
+      "y": 2.0
+    }
+  ],
   "title": "Механики: заводы и железные дороги",
   "quests": [
     {
@@ -37,8 +50,8 @@
         {
           "id": "689E2D133BCBC327",
           "type": "item",
-          "item": "minecraft:glass_bottle",
-          "count": 3
+          "item": "minecraft:andesite",
+          "count": 4
         }
       ]
     },
@@ -66,8 +79,8 @@
         {
           "id": "4BA0D521D261FBAF",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:oak_planks",
+          "count": 2
         }
       ]
     },
@@ -96,7 +109,7 @@
           "id": "6F4F7B3059B49C52",
           "type": "item",
           "item": "minecraft:gold_nugget",
-          "count": 9
+          "count": 6
         }
       ]
     },
@@ -124,8 +137,8 @@
         {
           "id": "75782676D371880E",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:andesite",
+          "count": 4
         }
       ]
     },
@@ -153,8 +166,8 @@
         {
           "id": "00662E4984490780",
           "type": "item",
-          "item": "minecraft:copper_ingot",
-          "count": 4
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -182,8 +195,8 @@
         {
           "id": "65298AA413FCE686",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "minecraft:andesite",
+          "count": 6
         }
       ]
     },
@@ -211,8 +224,8 @@
         {
           "id": "430482C2A29207C9",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "create:andesite_casing",
+          "count": 1
         }
       ]
     },
@@ -240,8 +253,8 @@
         {
           "id": "3684F7942DC4ADA4",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:dried_kelp",
+          "count": 3
         }
       ]
     },
@@ -269,8 +282,8 @@
         {
           "id": "143AEDD55F5D1568",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 4
+          "item": "minecraft:copper_ingot",
+          "count": 3
         }
       ]
     },
@@ -298,8 +311,8 @@
         {
           "id": "452669AE442E2AC8",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 3
+          "item": "minecraft:redstone",
+          "count": 4
         }
       ]
     },
@@ -327,8 +340,8 @@
         {
           "id": "2988E40216E3B2A0",
           "type": "item",
-          "item": "minecraft:glass_bottle",
-          "count": 3
+          "item": "minecraft:gold_nugget",
+          "count": 6
         }
       ]
     },
@@ -356,8 +369,8 @@
         {
           "id": "0C814CE75465B1B4",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:dried_kelp",
+          "count": 2
         }
       ]
     },
@@ -385,8 +398,8 @@
         {
           "id": "12B7927D12C6959B",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -414,8 +427,8 @@
         {
           "id": "7D1349B715815788",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:andesite",
+          "count": 6
         }
       ]
     },
@@ -443,8 +456,8 @@
         {
           "id": "4BCF4A4347ABD423",
           "type": "item",
-          "item": "minecraft:copper_ingot",
-          "count": 4
+          "item": "create:iron_sheet",
+          "count": 2
         }
       ]
     },
@@ -472,8 +485,8 @@
         {
           "id": "3D1062C71BCF4E3F",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "minecraft:dried_kelp",
+          "count": 3
         }
       ]
     },
@@ -501,8 +514,8 @@
         {
           "id": "4A8CAB3686D9F95A",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "minecraft:copper_ingot",
+          "count": 3
         }
       ]
     },
@@ -530,7 +543,7 @@
         {
           "id": "23793EE2E9CA726A",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
+          "item": "minecraft:redstone",
           "count": 4
         }
       ]
@@ -559,8 +572,8 @@
         {
           "id": "52C7CB0D22CD7A87",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 4
+          "item": "create:copper_sheet",
+          "count": 2
         }
       ]
     },
@@ -588,8 +601,8 @@
         {
           "id": "784A34C0A831C074",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 3
+          "item": "minecraft:andesite",
+          "count": 4
         }
       ]
     },
@@ -617,7 +630,7 @@
         {
           "id": "19DFA572382EF712",
           "type": "item",
-          "item": "minecraft:glass_bottle",
+          "item": "minecraft:iron_ingot",
           "count": 3
         }
       ]
@@ -646,8 +659,8 @@
         {
           "id": "4BE25865A0323596",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:andesite",
+          "count": 6
         }
       ]
     },
@@ -675,8 +688,8 @@
         {
           "id": "29798D8D250BA8AA",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "create:iron_sheet",
+          "count": 2
         },
         {
           "id": "7856595E3615D1BC",

@@ -37,8 +37,8 @@
         {
           "id": "51879199CD04DEA5",
           "type": "item",
-          "item": "minecraft:coal",
-          "count": 4
+          "item": "minecraft:quartz",
+          "count": 3
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "652C0B0B43A05E09",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:iron_nugget",
+          "count": 9
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "56A07B2655B650AD",
           "type": "item",
-          "item": "minecraft:paper",
-          "count": 4
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -124,8 +124,8 @@
         {
           "id": "3B65BFB2D4CE8097",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -153,8 +153,8 @@
         {
           "id": "064436C64206B479",
           "type": "item",
-          "item": "minecraft:lead",
-          "count": 1
+          "item": "minecraft:copper_ingot",
+          "count": 4
         }
       ]
     },
@@ -182,8 +182,8 @@
         {
           "id": "7DDC5D7EA3E92654",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 8
+          "item": "minecraft:string",
+          "count": 4
         }
       ]
     },
@@ -211,8 +211,8 @@
         {
           "id": "755D3440481E4121",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 2
+          "item": "minecraft:glass",
+          "count": 4
         }
       ]
     },
@@ -240,8 +240,8 @@
         {
           "id": "7FE426024E45767D",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 8
+          "item": "minecraft:charcoal",
+          "count": 4
         }
       ]
     },
@@ -269,8 +269,8 @@
         {
           "id": "0DBB1207339A022A",
           "type": "item",
-          "item": "minecraft:oak_boat",
-          "count": 1
+          "item": "minecraft:quartz",
+          "count": 3
         }
       ]
     },
@@ -278,7 +278,8 @@
       "id": "6A90A30B9D417E86",
       "title": "Взлётная площадка",
       "description": [
-        "Разметь безопасную площадку рядом с поселением, не над заражением."
+        "Разметь безопасную площадку рядом с поселением, не над заражением.",
+        "Подходящие варианты — обычные фонари и фонари душ. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:lantern",
       "x": 2.0,
@@ -287,7 +288,13 @@
         {
           "id": "50B787F96366BD15",
           "type": "item",
-          "item": "minecraft:lantern",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/lanterns)"
+            }
+          },
           "count": 8
         }
       ],
@@ -298,8 +305,8 @@
         {
           "id": "308859DD53AD8169",
           "type": "item",
-          "item": "minecraft:coal",
-          "count": 4
+          "item": "minecraft:iron_nugget",
+          "count": 9
         }
       ]
     },
@@ -327,8 +334,8 @@
         {
           "id": "4997D81C65D58737",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:gold_nugget",
+          "count": 6
         }
       ]
     },
@@ -356,8 +363,8 @@
         {
           "id": "5ADF23FE4661EC72",
           "type": "item",
-          "item": "minecraft:paper",
-          "count": 4
+          "item": "minecraft:iron_ingot",
+          "count": 3
         },
         {
           "id": "48D3CB2DD3F9BC6B",

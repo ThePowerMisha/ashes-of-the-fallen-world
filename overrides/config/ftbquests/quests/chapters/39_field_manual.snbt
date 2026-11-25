@@ -18,7 +18,8 @@
         "Из записей экспедиции. Записки разведчика сложены по направлениям. Быстрый путь к нужному навыку начинается с Печати экспедиции.",
         "",
         "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}",
-        "После выполнения отметь задание вручную."
+        "После выполнения отметь задание вручную.",
+        "В JEI можно посмотреть ресурсы, профессии и мультиблоки Mekanism. При совпадении рецептов проверь переключатель Polymorph и единые материалы Almost Unified."
       ],
       "icon": "minecraft:book",
       "x": 0.0,
@@ -37,8 +38,8 @@
         {
           "id": "4BCC67A1CD6595C6",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:stick",
+          "count": 8
         }
       ]
     },
@@ -66,8 +67,8 @@
         {
           "id": "6D3F550A72A5CDC4",
           "type": "item",
-          "item": "minecraft:paper",
-          "count": 4
+          "item": "minecraft:charcoal",
+          "count": 3
         }
       ]
     },
@@ -95,8 +96,8 @@
         {
           "id": "237D9AFE450E6ED4",
           "type": "item",
-          "item": "minecraft:lantern",
-          "count": 2
+          "item": "minecraft:torch",
+          "count": 8
         }
       ]
     },
@@ -124,8 +125,8 @@
         {
           "id": "2A67E4B55DC360D2",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:cooked_beef",
+          "count": 3
         }
       ]
     },
@@ -134,7 +135,8 @@
       "title": "Подсказки",
       "description": [
         "Удерживай Shift над предметом и изучи данные JEI Integration. Используй AppleSkin для оценки пищи.",
-        "После выполнения отметь задание вручную."
+        "После выполнения отметь задание вручную.",
+        "Jade показывает блок и его состояние. GuideME открывает справочник AE2. Lootr выдаёт личную добычу, а Corpse оставляет вещи в месте гибели."
       ],
       "icon": "minecraft:book",
       "x": 0.0,
@@ -153,8 +155,8 @@
         {
           "id": "077A11E3B466257E",
           "type": "item",
-          "item": "minecraft:lead",
-          "count": 1
+          "item": "minecraft:coal",
+          "count": 4
         }
       ]
     },
@@ -182,8 +184,8 @@
         {
           "id": "1D620C72D685EDD9",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 8
+          "item": "minecraft:leather",
+          "count": 2
         },
         {
           "id": "21B61C21026467DC",

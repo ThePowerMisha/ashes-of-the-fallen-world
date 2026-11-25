@@ -37,7 +37,7 @@
         {
           "id": "3F69991620E1D75B",
           "type": "item",
-          "item": "minecraft:book",
+          "item": "minecraft:compass",
           "count": 1
         }
       ]
@@ -66,8 +66,8 @@
         {
           "id": "7F0A62A183AFF469",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "minecraft:torch",
+          "count": 8
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "20852A76568C1010",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:cooked_porkchop",
+          "count": 4
         }
       ]
     },
@@ -124,8 +124,8 @@
         {
           "id": "1E43E31A53CCA62F",
           "type": "item",
-          "item": "minecraft:copper_ingot",
-          "count": 4
+          "item": "minecraft:paper",
+          "count": 6
         }
       ]
     },
@@ -153,8 +153,8 @@
         {
           "id": "14489877193553B0",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "minecraft:soul_torch",
+          "count": 6
         }
       ]
     },
@@ -182,8 +182,8 @@
         {
           "id": "24B7DF2F8654DBE2",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "minecraft:arrow",
+          "count": 8
         }
       ]
     },
@@ -211,8 +211,8 @@
         {
           "id": "194B94A41B3F43DA",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:lead",
+          "count": 1
         }
       ]
     },
@@ -240,8 +240,8 @@
         {
           "id": "52645E3597523A07",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 4
+          "item": "minecraft:leather",
+          "count": 2
         }
       ]
     },
@@ -269,8 +269,8 @@
         {
           "id": "489FB114E4FFD879",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 3
+          "item": "minecraft:paper",
+          "count": 4
         }
       ]
     },
@@ -298,8 +298,8 @@
         {
           "id": "47C547F75D9E7D3F",
           "type": "item",
-          "item": "minecraft:glass_bottle",
-          "count": 3
+          "item": "minecraft:torch",
+          "count": 8
         }
       ]
     },
@@ -327,8 +327,8 @@
         {
           "id": "68961DB25CCFC2AC",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:cooked_porkchop",
+          "count": 4
         }
       ]
     },
@@ -356,8 +356,8 @@
         {
           "id": "23FA638D79E068D3",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "minecraft:paper",
+          "count": 6
         },
         {
           "id": "4BC8241D461BDBCB",

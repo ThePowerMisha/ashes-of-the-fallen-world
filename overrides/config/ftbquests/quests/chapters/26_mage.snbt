@@ -37,8 +37,8 @@
         {
           "id": "2CC3D4423686C01D",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:redstone",
+          "count": 3
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "41D2B076411459BA",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 4
+          "item": "minecraft:leather",
+          "count": 2
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "39AD7A9B728036D1",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 3
+          "item": "minecraft:glowstone_dust",
+          "count": 2
         }
       ]
     },
@@ -124,8 +124,8 @@
         {
           "id": "06EB6D62CCD16E1B",
           "type": "item",
-          "item": "minecraft:glass_bottle",
-          "count": 3
+          "item": "minecraft:paper",
+          "count": 5
         }
       ]
     },
@@ -153,8 +153,8 @@
         {
           "id": "2C837A57278F3CB8",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "minecraft:lapis_lazuli",
+          "count": 3
         }
       ]
     },
@@ -182,7 +182,7 @@
         {
           "id": "291F636EF6377B73",
           "type": "item",
-          "item": "minecraft:honeycomb",
+          "item": "minecraft:amethyst_shard",
           "count": 2
         }
       ]
@@ -211,7 +211,7 @@
         {
           "id": "7A602EEA6A0E5CE3",
           "type": "item",
-          "item": "minecraft:copper_ingot",
+          "item": "minecraft:glass_bottle",
           "count": 4
         }
       ]
@@ -241,7 +241,7 @@
           "id": "2CB365AA70FDE5D0",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 5
+          "count": 3
         }
       ]
     },
@@ -269,8 +269,8 @@
         {
           "id": "24792749913C30E0",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "minecraft:leather",
+          "count": 2
         }
       ]
     },
@@ -298,8 +298,8 @@
         {
           "id": "3B3EFC9B038EF5E0",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:glowstone_dust",
+          "count": 2
         },
         {
           "id": "1B1B29D35A56CAD1",

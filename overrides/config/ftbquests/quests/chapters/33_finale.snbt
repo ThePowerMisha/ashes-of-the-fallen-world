@@ -38,7 +38,7 @@
           "id": "3C7E28C97BDED499",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "4B51C86B007AC5B0",
           "type": "item",
-          "item": "minecraft:prismarine_shard",
-          "count": 3
+          "item": "minecraft:soul_torch",
+          "count": 8
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "0CF6B5250A353C9B",
           "type": "item",
-          "item": "minecraft:obsidian",
-          "count": 2
+          "item": "minecraft:arrow",
+          "count": 10
         }
       ]
     },
@@ -124,8 +124,8 @@
         {
           "id": "5773DD266C7A0814",
           "type": "item",
-          "item": "minecraft:snowball",
-          "count": 8
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -154,7 +154,7 @@
         {
           "id": "4122B95D9CEB660A",
           "type": "item",
-          "item": "minecraft:glow_berries",
+          "item": "minecraft:cooked_beef",
           "count": 4
         }
       ]
@@ -183,8 +183,8 @@
         {
           "id": "74510579F0CE63A4",
           "type": "item",
-          "item": "minecraft:soul_torch",
-          "count": 8
+          "item": "minecraft:glowstone_dust",
+          "count": 3
         }
       ]
     },
@@ -212,8 +212,8 @@
         {
           "id": "6022CF1A0931F478",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 10
+          "item": "minecraft:gold_nugget",
+          "count": 6
         }
       ]
     },
@@ -241,8 +241,8 @@
         {
           "id": "1803D3D404AB0422",
           "type": "item",
-          "item": "minecraft:cooked_porkchop",
-          "count": 3
+          "item": "minecraft:spectral_arrow",
+          "count": 6
         }
       ]
     },
@@ -270,7 +270,7 @@
         {
           "id": "7B00BF6DB631D658",
           "type": "item",
-          "item": "minecraft:glowstone_dust",
+          "item": "minecraft:golden_carrot",
           "count": 3
         },
         {

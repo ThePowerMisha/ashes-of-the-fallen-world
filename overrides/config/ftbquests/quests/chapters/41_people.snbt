@@ -1,0 +1,274 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "41_people",
+  "group": "",
+  "icon": "minecraft:bell",
+  "id": "1CE1191E80A32065",
+  "order_index": 40,
+  "quest_links": [
+    {
+      "id": "79FBB5034899776E",
+      "linked_quest": "062F3CFF1FBB87BF",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "6FFA5231F78D8E01",
+      "linked_quest": "76B27439B998FCAE",
+      "x": 9.0,
+      "y": 2.0
+    }
+  ],
+  "title": "Народы и спутники",
+  "quests": [
+    {
+      "id": "3E7B5156DC212552",
+      "title": "Первый разговор",
+      "description": [
+        "Поздоровайся с жителем Minecraft Comes Alive и посмотри сведения о нём.",
+        "",
+        "Из записей экспедиции. Первыми соседями выживших стали те, кто согласился разделить тепло общего очага.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}",
+        "После выполнения отметь задание вручную.",
+        "Совместимость MCA с другими мобами проверяй по реакции жителей, когда рядом появляется опасное существо."
+      ],
+      "icon": "minecraft:bell",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "6FFAFCF4EFB0584C",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "5A38822BEA58C471"
+      ],
+      "rewards": [
+        {
+          "id": "1DF5EB0A3E69DC68",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "62A4AFEFD01F154E",
+      "title": "Поручение соседей",
+      "description": [
+        "Открой предложение задания MCA Quests и выполни одно посильное поручение. Посмотри диалоги MCA Conversations и проверь, отразилось ли поручение в репутации поселения.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:bell",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "76C5E24503248E61",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "3E7B5156DC212552"
+      ],
+      "rewards": [
+        {
+          "id": "39C175D2DD1F83B5",
+          "type": "item",
+          "item": "minecraft:clay_ball",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "527163A96E67D3C9",
+      "title": "Дом для семьи",
+      "description": [
+        "Познакомься с действиями MCA Family Life и подготовь семье место для сна и безопасный выход из дома.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:bell",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4E269FB29F98CEC4",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "62A4AFEFD01F154E"
+      ],
+      "rewards": [
+        {
+          "id": "5A02449743DEB48F",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "6F20E4F6B49754AA",
+      "title": "Соседи из подземелий",
+      "description": [
+        "Исследуй подземную шахту гномов Dwarf’s Tyranny и добудь пустую руну."
+      ],
+      "icon": "dwarfs_tyranny:blank_rune",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "481B8F18FC26AE18",
+          "type": "item",
+          "item": "dwarfs_tyranny:blank_rune",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "527163A96E67D3C9"
+      ],
+      "rewards": [
+        {
+          "id": "203D687106E85D21",
+          "type": "item",
+          "item": "minecraft:brown_mushroom",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "489D11065C8146E3",
+      "title": "Знак помощницы",
+      "description": [
+        "Найди спутницу Touhou Little Maid, изготовь жезл и посмотри доступные режимы помощи."
+      ],
+      "icon": "touhou_little_maid:hakurei_gohei",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "738FF68CBE07CBD0",
+          "type": "item",
+          "item": "touhou_little_maid:hakurei_gohei",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6F20E4F6B49754AA"
+      ],
+      "rewards": [
+        {
+          "id": "6334C3C311ECC8B0",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7B09E072DC7F6FA8",
+      "title": "Помощь в хозяйстве",
+      "description": [
+        "Назначь спутнице безопасное действие у дома и проверь, какие действия добавляет Maid Action Expansion.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:bell",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "2449F8B9C3624E1C",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "489D11065C8146E3"
+      ],
+      "rewards": [
+        {
+          "id": "197E254845FDDF7E",
+          "type": "item",
+          "item": "minecraft:cake",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "304993ECE58FAF73",
+      "title": "Спутник из руин",
+      "description": [
+        "Познакомься с существом Monster Girl. Запиши, как оно реагирует на приближение и взаимодействие.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:bell",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7BBB8F28E7EF0A8E",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "7B09E072DC7F6FA8"
+      ],
+      "rewards": [
+        {
+          "id": "6FA0CE0D6FB04D28",
+          "type": "item",
+          "item": "minecraft:shears",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5F90E5708C28CC8A",
+      "title": "Облик экспедиции",
+      "description": [
+        "Открой меню Custom Player Models и проверь облик персонажа. В кооперативе сравни, как он виден другому игроку.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:bell",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "0CD08A10ACFA42FA",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "304993ECE58FAF73"
+      ],
+      "rewards": [
+        {
+          "id": "2280EA0235DF6685",
+          "type": "item",
+          "item": "minecraft:string",
+          "count": 4
+        },
+        {
+          "id": "30C8BD5ACB310E98",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "492117689ADF34FF",
+          "type": "item",
+          "item": "kubejs:field_kit",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

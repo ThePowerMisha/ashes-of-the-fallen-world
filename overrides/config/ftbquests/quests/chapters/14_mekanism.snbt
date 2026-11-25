@@ -6,7 +6,20 @@
   "icon": "mekanism:metallurgic_infuser",
   "id": "49686D1C8AC016C7",
   "order_index": 13,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "1CA3B36D18288C96",
+      "linked_quest": "4C304581395E83C9",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "7AC2D8F9883BE84D",
+      "linked_quest": "1614B23DF38B5F78",
+      "x": 9.0,
+      "y": 2.0
+    }
+  ],
   "title": "Промышленная сеть: Mekanism",
   "quests": [
     {
@@ -37,8 +50,8 @@
         {
           "id": "31A3531DFD8F38AE",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:redstone",
+          "count": 4
         }
       ]
     },
@@ -66,8 +79,8 @@
         {
           "id": "1A822A2341239371",
           "type": "item",
-          "item": "minecraft:copper_ingot",
-          "count": 4
+          "item": "minecraft:redstone",
+          "count": 3
         }
       ]
     },
@@ -95,8 +108,8 @@
         {
           "id": "6293148DB96E7791",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "minecraft:charcoal",
+          "count": 4
         }
       ]
     },
@@ -104,7 +117,8 @@
       "id": "4F1262BD36A0EEE5",
       "title": "Сталь",
       "description": [
-        "Дважды обогащай железо углеродом и переплавляй пыль."
+        "Дважды обогащай железо углеродом и переплавляй пыль.",
+        "Подходящие варианты — стальные слитки из общего тега Forge. Их можно собрать в любом сочетании."
       ],
       "icon": "mekanism:ingot_steel",
       "x": 6.0,
@@ -113,7 +127,13 @@
         {
           "id": "3430D1FAC17E71EB",
           "type": "item",
-          "item": "mekanism:ingot_steel",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/steel)"
+            }
+          },
           "count": 8
         }
       ],
@@ -124,8 +144,8 @@
         {
           "id": "79BCCDB904B95340",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "mekanism:dust_coal",
+          "count": 3
         }
       ]
     },
@@ -153,8 +173,8 @@
         {
           "id": "7576A276AAB38FE1",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:redstone",
+          "count": 3
         }
       ]
     },
@@ -182,7 +202,7 @@
         {
           "id": "63C759F68D3CCD6F",
           "type": "item",
-          "item": "minecraft:quartz",
+          "item": "minecraft:redstone",
           "count": 4
         }
       ]
@@ -211,8 +231,8 @@
         {
           "id": "47826FC3B0BE81D1",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 3
+          "item": "minecraft:glass",
+          "count": 4
         }
       ]
     },
@@ -240,8 +260,8 @@
         {
           "id": "3ADA9B9C0F8ED45B",
           "type": "item",
-          "item": "minecraft:glass_bottle",
-          "count": 3
+          "item": "minecraft:gold_ingot",
+          "count": 2
         }
       ]
     },
@@ -269,8 +289,8 @@
         {
           "id": "662B8819152AE34A",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:copper_ingot",
+          "count": 3
         }
       ]
     },
@@ -298,8 +318,8 @@
         {
           "id": "43CFADEA42540850",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "minecraft:glass",
+          "count": 4
         }
       ]
     },
@@ -327,8 +347,8 @@
         {
           "id": "1FA1852C63210276",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:charcoal",
+          "count": 4
         }
       ]
     },
@@ -356,8 +376,8 @@
         {
           "id": "4F1D436F2441B5F9",
           "type": "item",
-          "item": "minecraft:copper_ingot",
-          "count": 4
+          "item": "mekanism:dust_coal",
+          "count": 3
         }
       ]
     },
@@ -385,8 +405,8 @@
         {
           "id": "7FF30FDBE581BB80",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -414,8 +434,8 @@
         {
           "id": "338F4D3EAF429E66",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "minecraft:redstone",
+          "count": 4
         }
       ]
     },
@@ -443,7 +463,7 @@
         {
           "id": "10BD8AA60F187A32",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
+          "item": "minecraft:glass",
           "count": 4
         }
       ]
@@ -472,8 +492,8 @@
         {
           "id": "6B2A6FDE79D5AECC",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 4
+          "item": "minecraft:gold_ingot",
+          "count": 2
         }
       ]
     },
@@ -501,7 +521,7 @@
         {
           "id": "1A3DBEEBE10E2F62",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
+          "item": "minecraft:copper_ingot",
           "count": 3
         }
       ]
@@ -530,8 +550,8 @@
         {
           "id": "769B564FE328F797",
           "type": "item",
-          "item": "minecraft:glass_bottle",
-          "count": 3
+          "item": "mekanism:dust_osmium",
+          "count": 2
         }
       ]
     },
@@ -559,8 +579,8 @@
         {
           "id": "4B24E2888025637C",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:charcoal",
+          "count": 4
         }
       ]
     },
@@ -588,8 +608,8 @@
         {
           "id": "17EC457CD6DCD163",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "mekanism:dust_coal",
+          "count": 3
         }
       ]
     },
@@ -617,8 +637,8 @@
         {
           "id": "0678BBCDAAF2E559",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -646,7 +666,7 @@
         {
           "id": "064FE0A7CCF34EE9",
           "type": "item",
-          "item": "minecraft:copper_ingot",
+          "item": "minecraft:redstone",
           "count": 4
         },
         {

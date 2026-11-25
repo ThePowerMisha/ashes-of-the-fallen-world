@@ -17,7 +17,8 @@
         "",
         "Из записей экспедиции. Архитекторы отводили дождь от оснований прежде, чем везли первый воз камня. В развалинах остались целые водостоки.",
         "",
-        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}",
+        "Подходящие варианты — каменные кирпичи, их мшистые и потрескавшиеся варианты, а также глубинные кирпичи. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 0.0,
@@ -26,7 +27,13 @@
         {
           "id": "2BB583FD7AB72948",
           "type": "item",
-          "item": "minecraft:stone_bricks",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/brickwork)"
+            }
+          },
           "count": 16
         }
       ],
@@ -37,7 +44,7 @@
         {
           "id": "423B2CD346B51B82",
           "type": "item",
-          "item": "minecraft:leather",
+          "item": "minecraft:moss_block",
           "count": 2
         }
       ]
@@ -66,8 +73,8 @@
         {
           "id": "3085DBCF8BFBB735",
           "type": "item",
-          "item": "minecraft:paper",
-          "count": 4
+          "item": "minecraft:iron_ingot",
+          "count": 2
         }
       ]
     },
@@ -75,7 +82,8 @@
       "id": "61D36B6E59FC74A5",
       "title": "Лесоматериалы",
       "description": [
-        "Сохраняй запас дерева для ремонта."
+        "Сохраняй запас дерева для ремонта.",
+        "Подходящие варианты — доски любой породы. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:oak_planks",
       "x": 4.0,
@@ -84,7 +92,13 @@
         {
           "id": "72A57C84C1F88B87",
           "type": "item",
-          "item": "minecraft:oak_planks",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/planks)"
+            }
+          },
           "count": 32
         }
       ],
@@ -95,8 +109,8 @@
         {
           "id": "3AD83D5ACAD7CA71",
           "type": "item",
-          "item": "minecraft:lantern",
-          "count": 2
+          "item": "minecraft:oak_log",
+          "count": 6
         }
       ]
     },
@@ -104,7 +118,8 @@
       "id": "3ACE020AA28EC441",
       "title": "Ограждения",
       "description": [
-        "Защити поля и проходы NPC."
+        "Защити поля и проходы NPC.",
+        "Подходящие варианты — заборы любой породы. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:oak_fence",
       "x": 6.0,
@@ -113,7 +128,13 @@
         {
           "id": "4A35FFA2979BCF3F",
           "type": "item",
-          "item": "minecraft:oak_fence",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/fences)"
+            }
+          },
           "count": 16
         }
       ],
@@ -124,8 +145,8 @@
         {
           "id": "3CE45A7EDFDDD26C",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:iron_nugget",
+          "count": 8
         }
       ]
     },
@@ -133,7 +154,8 @@
       "id": "73378BA60CD8932D",
       "title": "Фасады",
       "description": [
-        "Установи окна и проверь освещение."
+        "Установи окна и проверь освещение.",
+        "Подходящие варианты — прозрачное и цветное стекло. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:glass",
       "x": 0.0,
@@ -142,7 +164,13 @@
         {
           "id": "5A838C87B3D8970C",
           "type": "item",
-          "item": "minecraft:glass",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/glass)"
+            }
+          },
           "count": 16
         }
       ],
@@ -153,8 +181,8 @@
         {
           "id": "651D731CE88180D8",
           "type": "item",
-          "item": "minecraft:lead",
-          "count": 1
+          "item": "minecraft:clay_ball",
+          "count": 6
         }
       ]
     },
@@ -182,8 +210,8 @@
         {
           "id": "0B92795125D07FD6",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 8
+          "item": "minecraft:gravel",
+          "count": 6
         }
       ]
     },
@@ -211,7 +239,7 @@
         {
           "id": "1222E782885345E5",
           "type": "item",
-          "item": "minecraft:cooked_beef",
+          "item": "minecraft:moss_block",
           "count": 2
         }
       ]
@@ -240,8 +268,8 @@
         {
           "id": "38FFED77D2921DA6",
           "type": "item",
-          "item": "minecraft:oak_boat",
-          "count": 1
+          "item": "minecraft:iron_ingot",
+          "count": 2
         }
       ]
     },
@@ -269,8 +297,8 @@
         {
           "id": "75CB6389B698F868",
           "type": "item",
-          "item": "minecraft:coal",
-          "count": 4
+          "item": "minecraft:oak_log",
+          "count": 6
         }
       ]
     },
@@ -298,8 +326,8 @@
         {
           "id": "3D569396DA2B88BE",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:iron_nugget",
+          "count": 8
         },
         {
           "id": "34DE587DE1DA763C",

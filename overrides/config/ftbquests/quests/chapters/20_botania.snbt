@@ -37,8 +37,8 @@
         {
           "id": "4714CADE079340BA",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:cobblestone",
+          "count": 4
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "0DACCD215F095590",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "minecraft:charcoal",
+          "count": 4
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "673866D5494C5713",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:cake",
+          "count": 1
         }
       ]
     },
@@ -124,8 +124,8 @@
         {
           "id": "10C4112BB4E3AD15",
           "type": "item",
-          "item": "minecraft:copper_ingot",
-          "count": 4
+          "item": "minecraft:shears",
+          "count": 1
         }
       ]
     },
@@ -153,8 +153,8 @@
         {
           "id": "3C39BA29DD860C6C",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "minecraft:stone",
+          "count": 4
         }
       ]
     },
@@ -182,8 +182,8 @@
         {
           "id": "18663169EE66821B",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "minecraft:bone_meal",
+          "count": 5
         }
       ]
     },
@@ -211,7 +211,7 @@
         {
           "id": "5C12839D0AB3BCC6",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
+          "item": "minecraft:wheat_seeds",
           "count": 4
         }
       ]
@@ -240,8 +240,8 @@
         {
           "id": "6412B324A5D6DE93",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 4
+          "item": "minecraft:glass_bottle",
+          "count": 3
         }
       ]
     },
@@ -269,7 +269,7 @@
         {
           "id": "2541D814A461ED98",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
+          "item": "minecraft:brown_mushroom",
           "count": 3
         }
       ]
@@ -298,8 +298,8 @@
         {
           "id": "3B545FE3E56451C4",
           "type": "item",
-          "item": "minecraft:glass_bottle",
-          "count": 3
+          "item": "minecraft:charcoal",
+          "count": 4
         }
       ]
     },
@@ -327,7 +327,7 @@
         {
           "id": "05D7FBF0D667BD25",
           "type": "item",
-          "item": "minecraft:book",
+          "item": "minecraft:cake",
           "count": 1
         }
       ]
@@ -356,8 +356,8 @@
         {
           "id": "10B45D5F033D2B3A",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "minecraft:shears",
+          "count": 1
         }
       ]
     },
@@ -385,8 +385,8 @@
         {
           "id": "42435C4802134826",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:string",
+          "count": 4
         }
       ]
     },
@@ -414,8 +414,8 @@
         {
           "id": "7D1E856DDCEAF38F",
           "type": "item",
-          "item": "minecraft:copper_ingot",
-          "count": 4
+          "item": "minecraft:bone_meal",
+          "count": 5
         }
       ]
     },
@@ -443,8 +443,8 @@
         {
           "id": "6EF7BB1BACEDDB88",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "minecraft:clay_ball",
+          "count": 4
         }
       ]
     },
@@ -472,8 +472,8 @@
         {
           "id": "55D88595360238F0",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "minecraft:glass_bottle",
+          "count": 3
         },
         {
           "id": "095F941D9520DBB6",

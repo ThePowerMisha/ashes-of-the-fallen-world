@@ -37,8 +37,8 @@
         {
           "id": "08B7C22602531D59",
           "type": "item",
-          "item": "minecraft:oak_boat",
-          "count": 1
+          "item": "minecraft:iron_ingot",
+          "count": 2
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "2F2C91705DBF0E80",
           "type": "item",
-          "item": "minecraft:coal",
-          "count": 4
+          "item": "minecraft:golden_carrot",
+          "count": 3
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "270039D3D963BE90",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:spectral_arrow",
+          "count": 6
         }
       ]
     },
@@ -124,7 +124,7 @@
         {
           "id": "6DA66C1DC2936147",
           "type": "item",
-          "item": "minecraft:paper",
+          "item": "minecraft:glass_bottle",
           "count": 4
         }
       ]
@@ -133,7 +133,8 @@
       "id": "1E9FA3D5C71C7575",
       "title": "Знамя дозора",
       "description": [
-        "Отметь место сбора для защитников."
+        "Отметь место сбора для защитников.",
+        "Подходящие варианты — знамёна любого цвета. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:white_banner",
       "x": 0.0,
@@ -142,7 +143,13 @@
         {
           "id": "40B6E8D34F2A7F4F",
           "type": "item",
-          "item": "minecraft:white_banner",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/banners)"
+            }
+          },
           "count": 1
         }
       ],
@@ -153,8 +160,8 @@
         {
           "id": "5D64C5DBA6719F1B",
           "type": "item",
-          "item": "minecraft:lantern",
-          "count": 2
+          "item": "minecraft:cooked_beef",
+          "count": 4
         }
       ]
     },
@@ -182,8 +189,8 @@
         {
           "id": "142524C547134A9D",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:arrow",
+          "count": 12
         }
       ]
     },
@@ -211,8 +218,8 @@
         {
           "id": "38441C0F5CDFFD30",
           "type": "item",
-          "item": "minecraft:lead",
-          "count": 1
+          "item": "minecraft:glowstone_dust",
+          "count": 3
         }
       ]
     },
@@ -240,8 +247,8 @@
         {
           "id": "68708F80B83A7533",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 8
+          "item": "minecraft:iron_ingot",
+          "count": 2
         }
       ]
     },
@@ -269,8 +276,8 @@
         {
           "id": "32C9131E5CFB66D4",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 2
+          "item": "minecraft:golden_carrot",
+          "count": 3
         }
       ]
     },
@@ -298,8 +305,8 @@
         {
           "id": "7D046E0B2035C521",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 8
+          "item": "minecraft:spectral_arrow",
+          "count": 6
         },
         {
           "id": "4A5258732411B328",

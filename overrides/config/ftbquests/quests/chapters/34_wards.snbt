@@ -37,8 +37,8 @@
         {
           "id": "1A0FEC90F0670E8D",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:soul_torch",
+          "count": 8
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "7D708A756765D710",
           "type": "item",
-          "item": "minecraft:copper_ingot",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 10
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "07179392600F8B7D",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -124,8 +124,8 @@
         {
           "id": "55CB65CF0AADCC51",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "minecraft:cooked_beef",
+          "count": 4
         }
       ]
     },
@@ -153,8 +153,8 @@
         {
           "id": "717053EE3B53083C",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:glowstone_dust",
+          "count": 3
         }
       ]
     },
@@ -182,8 +182,8 @@
         {
           "id": "3F06D7CA74F3B925",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 4
+          "item": "minecraft:gold_nugget",
+          "count": 6
         }
       ]
     },
@@ -211,8 +211,8 @@
         {
           "id": "06D65179002BB167",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 3
+          "item": "minecraft:spectral_arrow",
+          "count": 6
         }
       ]
     },
@@ -240,7 +240,7 @@
         {
           "id": "7D16FA1870E50643",
           "type": "item",
-          "item": "minecraft:glass_bottle",
+          "item": "minecraft:golden_carrot",
           "count": 3
         },
         {

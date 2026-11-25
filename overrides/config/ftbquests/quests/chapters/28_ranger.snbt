@@ -37,8 +37,8 @@
         {
           "id": "1B1FA26CBF79E09D",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 2
+          "item": "minecraft:soul_torch",
+          "count": 6
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "4597E2D25B16C8C0",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 8
+          "item": "minecraft:lead",
+          "count": 1
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "669F3536E9579779",
           "type": "item",
-          "item": "minecraft:oak_boat",
-          "count": 1
+          "item": "minecraft:leather",
+          "count": 2
         }
       ]
     },
@@ -124,8 +124,8 @@
         {
           "id": "46A494B093797E07",
           "type": "item",
-          "item": "minecraft:coal",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 8
         }
       ]
     },
@@ -153,8 +153,8 @@
         {
           "id": "045282B89DCE6AA3",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:cooked_porkchop",
+          "count": 4
         }
       ]
     },
@@ -183,7 +183,7 @@
           "id": "79D37182F33A5D56",
           "type": "item",
           "item": "minecraft:paper",
-          "count": 4
+          "count": 6
         }
       ]
     },
@@ -211,8 +211,8 @@
         {
           "id": "21A176771A361BF5",
           "type": "item",
-          "item": "minecraft:lantern",
-          "count": 2
+          "item": "minecraft:soul_torch",
+          "count": 6
         }
       ]
     },
@@ -240,8 +240,8 @@
         {
           "id": "4015EC215685F0EE",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:paper",
+          "count": 4
         }
       ]
     },
@@ -269,8 +269,8 @@
         {
           "id": "2D23C445039F74A4",
           "type": "item",
-          "item": "minecraft:lead",
-          "count": 1
+          "item": "minecraft:leather",
+          "count": 2
         }
       ]
     },
@@ -298,8 +298,8 @@
         {
           "id": "0B298923FC04DD1F",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 2
+          "item": "minecraft:torch",
+          "count": 8
         },
         {
           "id": "251C980FCB81282E",

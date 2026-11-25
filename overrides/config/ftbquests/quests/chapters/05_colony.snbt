@@ -6,7 +6,38 @@
   "icon": "minecraft:lantern",
   "id": "713F65ABB69A046C",
   "order_index": 4,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "106A844918E01938",
+      "linked_quest": "062F3CFF1FBB87BF",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "25677AC4FDEC2A4C",
+      "linked_quest": "3AB0292EB8CEF53D",
+      "x": 9.0,
+      "y": 2.0
+    },
+    {
+      "id": "4114EA29EF4FE396",
+      "linked_quest": "3E7B5156DC212552",
+      "x": 9.0,
+      "y": 4.0
+    },
+    {
+      "id": "4B42522FAA388D8B",
+      "linked_quest": "0122D2A16739B6CF",
+      "x": 9.0,
+      "y": 6.0
+    },
+    {
+      "id": "5562AB1450C9B83F",
+      "linked_quest": "67D139FB8623D999",
+      "x": 9.0,
+      "y": 8.0
+    }
+  ],
   "title": "III-C. Новая цивилизация",
   "quests": [
     {
@@ -17,7 +48,8 @@
         "",
         "Из записей экспедиции. Старые поселенцы строили общую кухню раньше ратуши. Договориться о правилах проще после горячей еды.",
         "",
-        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}",
+        "Подходящие варианты — обычные фонари и фонари душ. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:lantern",
       "x": 0.0,
@@ -26,7 +58,13 @@
         {
           "id": "6618229611B2BD80",
           "type": "item",
-          "item": "minecraft:lantern",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/lanterns)"
+            }
+          },
           "count": 8
         }
       ],
@@ -37,8 +75,8 @@
         {
           "id": "3E10979626A9828D",
           "type": "item",
-          "item": "minecraft:coal",
-          "count": 4
+          "item": "minecraft:moss_block",
+          "count": 2
         }
       ]
     },
@@ -66,8 +104,8 @@
         {
           "id": "44787D68C436A11E",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:torch",
+          "count": 8
         }
       ]
     },
@@ -95,8 +133,8 @@
         {
           "id": "4977A4187EDAE89F",
           "type": "item",
-          "item": "minecraft:paper",
-          "count": 4
+          "item": "minecraft:oak_planks",
+          "count": 6
         }
       ]
     },
@@ -124,7 +162,7 @@
         {
           "id": "565B1626B03F276E",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:iron_ingot",
           "count": 2
         }
       ]
@@ -153,8 +191,8 @@
         {
           "id": "562B39ACD763A795",
           "type": "item",
-          "item": "minecraft:lead",
-          "count": 1
+          "item": "minecraft:oak_log",
+          "count": 6
         }
       ]
     },
@@ -182,7 +220,7 @@
         {
           "id": "3559C472ADD0FEEF",
           "type": "item",
-          "item": "minecraft:arrow",
+          "item": "minecraft:iron_nugget",
           "count": 8
         }
       ]
@@ -191,7 +229,8 @@
       "id": "2B66A0ADA89ED9E2",
       "title": "Дороги",
       "description": [
-        "Соедини здания дорогами. Архитектор получает прогресс за установку каменных кирпичей."
+        "Соедини здания дорогами. Архитектор получает прогресс за установку каменных кирпичей.",
+        "Подходящие варианты — каменные кирпичи, их мшистые и потрескавшиеся варианты, а также глубинные кирпичи. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:stone_bricks",
       "x": 4.0,
@@ -200,7 +239,13 @@
         {
           "id": "3E63E99B6C74209A",
           "type": "item",
-          "item": "minecraft:stone_bricks",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/brickwork)"
+            }
+          },
           "count": 64
         }
       ],
@@ -211,8 +256,8 @@
         {
           "id": "39F51AA585465221",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 2
+          "item": "minecraft:clay_ball",
+          "count": 6
         }
       ]
     },
@@ -220,7 +265,8 @@
       "id": "4F24FA7DD1C8D04C",
       "title": "Склад",
       "description": [
-        "Организуй общий склад. Используй Sophisticated Storage."
+        "Организуй общий склад. Используй Sophisticated Storage.",
+        "Подходящие варианты — обычные деревянные сундуки. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:chest",
       "x": 6.0,
@@ -229,7 +275,13 @@
         {
           "id": "01A2174B9C543CFF",
           "type": "item",
-          "item": "minecraft:chest",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/wooden_chests)"
+            }
+          },
           "count": 16
         }
       ],
@@ -240,8 +292,8 @@
         {
           "id": "26BDADB26DF66D76",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 8
+          "item": "ae2:sky_stone_block",
+          "count": 2
         }
       ]
     },
@@ -269,8 +321,8 @@
         {
           "id": "6EC0065CE4E0F946",
           "type": "item",
-          "item": "minecraft:oak_boat",
-          "count": 1
+          "item": "minecraft:moss_block",
+          "count": 2
         }
       ]
     },
@@ -298,8 +350,8 @@
         {
           "id": "4CFCFDC9C864E84A",
           "type": "item",
-          "item": "minecraft:coal",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 8
         },
         {
           "id": "74C533982E1C641B",

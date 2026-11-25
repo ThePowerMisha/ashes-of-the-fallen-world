@@ -284,6 +284,16 @@
     ],
     "amendments": [
       "selene"
+    ],
+    "ftb-filter-system": [
+      "architectury-api"
+    ],
+    "ftb-xmod-compat": [
+      "architectury-api",
+      "ftb-library-forge"
+    ],
+    "dreadhollow-quest-count-fix": [
+      "ftb-quests-forge"
     ]
   },
   "excluded": {

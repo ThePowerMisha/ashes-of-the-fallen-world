@@ -6,7 +6,38 @@
   "icon": "create:precision_mechanism",
   "id": "355BF65F226CF29A",
   "order_index": 2,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "0B056CB332D9C365",
+      "linked_quest": "61599793FC06A562",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "2048FBFA9410A4CD",
+      "linked_quest": "28318EF40188761A",
+      "x": 9.0,
+      "y": 2.0
+    },
+    {
+      "id": "383FF0BC44FA1886",
+      "linked_quest": "4ED039172C7EDDFE",
+      "x": 9.0,
+      "y": 4.0
+    },
+    {
+      "id": "0543A19A00A48825",
+      "linked_quest": "4C304581395E83C9",
+      "x": 9.0,
+      "y": 6.0
+    },
+    {
+      "id": "170E0537AE8A856E",
+      "linked_quest": "1614B23DF38B5F78",
+      "x": 9.0,
+      "y": 8.0
+    }
+  ],
   "title": "III-A. Возрождение промышленности",
   "quests": [
     {
@@ -37,8 +68,8 @@
         {
           "id": "64B283226AB51D1E",
           "type": "item",
-          "item": "minecraft:glass_bottle",
-          "count": 3
+          "item": "minecraft:andesite",
+          "count": 4
         }
       ]
     },
@@ -66,7 +97,7 @@
         {
           "id": "34988085267B7871",
           "type": "item",
-          "item": "minecraft:book",
+          "item": "create:andesite_casing",
           "count": 1
         }
       ]
@@ -95,8 +126,8 @@
         {
           "id": "210DEB22AABCB20F",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "minecraft:copper_ingot",
+          "count": 3
         }
       ]
     },
@@ -124,8 +155,8 @@
         {
           "id": "77C95B1AEAA607C3",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:redstone",
+          "count": 4
         }
       ]
     },
@@ -153,8 +184,8 @@
         {
           "id": "7FCBB98B8BAA76B1",
           "type": "item",
-          "item": "minecraft:copper_ingot",
-          "count": 4
+          "item": "minecraft:gold_nugget",
+          "count": 6
         }
       ]
     },
@@ -182,8 +213,8 @@
         {
           "id": "3FD3CE4E47265B6E",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "minecraft:andesite",
+          "count": 4
         }
       ]
     },
@@ -211,8 +242,8 @@
         {
           "id": "56E31C1EEC57A477",
           "type": "item",
-          "item": "minecraft:iron_nugget",
-          "count": 9
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -240,8 +271,8 @@
         {
           "id": "459B242FB2F139FD",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:andesite",
+          "count": 6
         }
       ]
     },
@@ -269,8 +300,8 @@
         {
           "id": "32D785D62477BCCC",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 4
+          "item": "minecraft:redstone",
+          "count": 3
         }
       ]
     },
@@ -298,7 +329,7 @@
         {
           "id": "236DD6A467E7CBAF",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
+          "item": "minecraft:dried_kelp",
           "count": 3
         }
       ]
@@ -327,7 +358,7 @@
         {
           "id": "52B25B0D55450B33",
           "type": "item",
-          "item": "minecraft:glass_bottle",
+          "item": "minecraft:copper_ingot",
           "count": 3
         }
       ]
@@ -356,8 +387,8 @@
         {
           "id": "5C2EA57FA446B7DC",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:redstone",
+          "count": 4
         },
         {
           "id": "1A9BA4ACD6D4FD6B",

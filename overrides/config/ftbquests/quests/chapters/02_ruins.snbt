@@ -6,7 +6,32 @@
   "icon": "minecraft:spyglass",
   "id": "0D76C0E42543182D",
   "order_index": 1,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "3DCF32A24F8D6822",
+      "linked_quest": "70162E3EEE582478",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "69778E9F6B1E4C2A",
+      "linked_quest": "061A8CB234F5E056",
+      "x": 9.0,
+      "y": 2.0
+    },
+    {
+      "id": "5D47F05A606A40DF",
+      "linked_quest": "1D2F64A8F41DAC79",
+      "x": 9.0,
+      "y": 4.0
+    },
+    {
+      "id": "433B6FF0EE3B6917",
+      "linked_quest": "6F51D03EA8CA851A",
+      "x": 9.0,
+      "y": 6.0
+    }
+  ],
   "title": "II. Эхо старого мира",
   "quests": [
     {
@@ -37,7 +62,7 @@
         {
           "id": "31D20D14EB1E0B2F",
           "type": "item",
-          "item": "minecraft:coal",
+          "item": "minecraft:cooked_porkchop",
           "count": 4
         }
       ]
@@ -66,8 +91,8 @@
         {
           "id": "641DFC9293274D65",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 2
+          "item": "minecraft:paper",
+          "count": 6
         }
       ]
     },
@@ -95,8 +120,8 @@
         {
           "id": "23B4D3C75A84A125",
           "type": "item",
-          "item": "minecraft:paper",
-          "count": 4
+          "item": "minecraft:soul_torch",
+          "count": 6
         }
       ]
     },
@@ -124,8 +149,8 @@
         {
           "id": "46FDB3DFEBD411ED",
           "type": "item",
-          "item": "minecraft:lantern",
-          "count": 2
+          "item": "minecraft:arrow",
+          "count": 8
         }
       ]
     },
@@ -153,8 +178,8 @@
         {
           "id": "2E90466CC1295B6A",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 2
+          "item": "minecraft:lead",
+          "count": 1
         }
       ]
     },
@@ -182,8 +207,8 @@
         {
           "id": "0B98F4AAC03C4EE7",
           "type": "item",
-          "item": "minecraft:lead",
-          "count": 1
+          "item": "minecraft:leather",
+          "count": 2
         }
       ]
     },
@@ -211,8 +236,8 @@
         {
           "id": "53D535D0D44B5C64",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 8
+          "item": "minecraft:compass",
+          "count": 1
         }
       ]
     },
@@ -240,8 +265,8 @@
         {
           "id": "58CFC9088DCDE4B7",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 2
+          "item": "minecraft:torch",
+          "count": 8
         }
       ]
     },
@@ -269,8 +294,8 @@
         {
           "id": "1E94F10482493814",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 8
+          "item": "minecraft:cooked_porkchop",
+          "count": 4
         },
         {
           "id": "4903520A74D1E85E",

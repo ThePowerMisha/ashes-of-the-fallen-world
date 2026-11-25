@@ -37,8 +37,8 @@
         {
           "id": "006FE646415BB662",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 8
         }
       ]
     },
@@ -66,8 +66,8 @@
         {
           "id": "62767299165707EE",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 3
+          "item": "minecraft:cooked_porkchop",
+          "count": 4
         }
       ]
     },
@@ -95,8 +95,8 @@
         {
           "id": "602B9629C7FE5086",
           "type": "item",
-          "item": "minecraft:glass_bottle",
-          "count": 3
+          "item": "minecraft:paper",
+          "count": 6
         }
       ]
     },
@@ -124,8 +124,8 @@
         {
           "id": "662799603C88021D",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 1
+          "item": "minecraft:paper",
+          "count": 4
         }
       ]
     },
@@ -153,8 +153,8 @@
         {
           "id": "38A11CBEEC21E8C7",
           "type": "item",
-          "item": "minecraft:gold_nugget",
-          "count": 9
+          "item": "minecraft:arrow",
+          "count": 8
         }
       ]
     },
@@ -182,8 +182,8 @@
         {
           "id": "36A8771FB107625F",
           "type": "item",
-          "item": "minecraft:honeycomb",
-          "count": 2
+          "item": "minecraft:lead",
+          "count": 1
         }
       ]
     },
@@ -211,8 +211,8 @@
         {
           "id": "25E29F1F66528DA6",
           "type": "item",
-          "item": "minecraft:copper_ingot",
-          "count": 4
+          "item": "minecraft:leather",
+          "count": 2
         }
       ]
     },
@@ -240,8 +240,8 @@
         {
           "id": "261F0B065DA647EB",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 5
+          "item": "minecraft:compass",
+          "count": 1
         },
         {
           "id": "747C19FC61DF1E1D",
