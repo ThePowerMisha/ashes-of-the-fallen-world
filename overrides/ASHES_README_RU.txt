@@ -1,4 +1,4 @@
-ПЕПЕЛ УШЕДШЕГО МИРА — 1.0.0-rc5-author-content.3
+ПЕПЕЛ УШЕДШЕГО МИРА — 1.0.0-rc5-author-content.4
 Minecraft 1.20.1 / Forge 47.4.28 / Java 17
 171 проект; 495 квестов; 40 глав; 30 предметов; 38 рецептов.
 Открой FTB Quests. /trigger ashes_class set 1–6 — класс; /trigger ashes_status — ранг; /trigger ashes_talent set 1 или 2; /trigger ashes_ability — талант; /trigger ashes_purify — личное очищение; /trigger ashes_cleanse — образец.
@@ -23,3 +23,5 @@ MCA: живые поселения, отношения, задания и реп
 Предгенерация чанков выполняется через Chunky. См. ashes_docs/SERVER.md.
 
 ПКМ с Печатью экспедиции — меню классов, талантов и дерева мастерства. Новые награды, иллюстрации и применения предметов описаны в ashes_docs/AUTHOR_CONTENT.md.
+
+У новых дорог, подходов и площадок есть подсыпка на мелких перепадах и опоры над провалами. См. ashes_docs/STRUCTURES.md.

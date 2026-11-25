@@ -6,6 +6,7 @@ from pathlib import Path
 import gzip, io, json, random, struct
 from site_terrain import enhance_site
 from site_supplies import SITE_FIXTURES
+from site_supports import foundation_jobs
 from site_levels import BURIAL_RESERVE, FLOOR_RESERVE, TERRACES, VARIANTS, level_layouts, terraform_levels
 
 def st(name, **props):
@@ -31,6 +32,7 @@ class Build:
         self.entities = []
         self.extra_depth = None
         self.entrance_steps = []
+        self.walkways = {}
         self.stone=('stone_bricks','cracked_stone_bricks','mossy_stone_bricks','cobblestone') if style==0 else ('cobbled_deepslate','deepslate_bricks','cracked_deepslate_bricks','tuff')
         self.wood='spruce' if style==0 else 'dark_oak'
     def put(self,x,y,z,block,props=None,tag=None):
@@ -47,10 +49,26 @@ class Build:
             for z in range(z0,z1+1):
                 for y in (0,1,2): self.rubble(x,y,z)
     def path(self,x0,z0,x1,z1):
+        self.mark_walkway(x0, z0, x1, z1, 2)
         for x in range(x0,x1+1):
             for z in range(z0,z1+1):
                 self.put(x,1,z,'cobblestone')
                 self.put(x,2,z,self.r.choice(['gravel','coarse_dirt','cobblestone','mossy_cobblestone']))
+    def mark_walkway(self, x0, z0, x1, z1, y, *, perimeter=False):
+        along_x = x1 - x0 >= z1 - z0
+        for x in range(x0, x1 + 1):
+            for z in range(z0, z1 + 1):
+                edge = x in (x0, x1) or z in (z0, z1)
+                if perimeter and not edge:
+                    continue
+                if perimeter:
+                    pier = ((z in (z0, z1) and (x - x0) % 4 == 0)
+                            or (x in (x0, x1) and (z - z0) % 4 == 0)
+                            or (x in (x0, x1) and z in (z0, z1)))
+                else:
+                    along, end = (x - x0, x1 - x0) if along_x else (z - z0, z1 - z0)
+                    pier = along % 4 == 0 or along == end
+                self.walkways[x, y, z] = self.walkways.get((x, y, z), False) or pier
     def pillar(self,x,z,h,base=3):
         for y in range(base,base+h): self.rubble(x,y,z)
     def chest(self, x, y, z, site, facing='north', *, supplies=False, submerged=False):
@@ -425,24 +443,29 @@ def generate_structures(root):
         supplies = False
         buried = site.surface != 2
         layouts = level_layouts(site.slug)
-        for number in range(2 + VARIANTS):
-            active = number >= 2
-            style = number % 2
-            seed = 20261124 + index * 101 + (number * 17 if active else style)
+        terrace_end = 2 + VARIANTS
+        version_count = terrace_end if buried else terrace_end + VARIANTS
+        for number in range(version_count):
+            supported = number >= terrace_end
+            variant = number - VARIANTS if supported else number
+            terraced = variant >= 2
+            active = supported or (buried and terraced)
+            style = variant % 2
+            seed = 20261124 + index * 101 + (variant * 17 if terraced else style)
             builder = Build(site.dimensions, seed, style)
-            levels = layouts[number - 2] if active else None
-            if active and buried:
+            levels = layouts[variant - 2] if terraced else None
+            if terraced and buried:
                 x, height, z = site.dimensions
                 builder.size = (x, height + BURIAL_RESERVE, z + BURIAL_RESERVE)
                 builder.extra_depth = levels[0]
             site.build(builder)
             entrances = set()
-            if active and not buried:
+            if terraced and not buried:
                 entrances = {col for section, rise in zip(TERRACES[site.slug], levels, strict=True)
                              for col in section.approach(rise)}
             terrain_offset = enhance_site(builder, site, entrances)
             routes = []
-            if active:
+            if terraced:
                 if buried:
                     terrain_offset = BURIAL_RESERVE
                     routes = [builder.entrance_steps]
@@ -456,6 +479,7 @@ def generate_structures(root):
                     'id': 'minecraft:jigsaw', 'name': 'ashes:surface_anchor', 'target': 'minecraft:empty',
                     'pool': 'minecraft:empty', 'final_state': 'minecraft:structure_void', 'joint': 'rollable',
                 })
+            support_count = foundation_jobs(builder) if supported else 0
             obj = builder.export()
             tables = [block['nbt']['LootTable'] for block in obj['blocks'] if 'LootTable' in block.get('nbt', {})]
             assert tables.count(table) == 1 and set(tables) <= {table, table + '_supplies'}, site.slug
@@ -476,7 +500,7 @@ def generate_structures(root):
                     'element_type': 'minecraft:single_pool_element',
                     'location': 'ashes:' + name, 'processors': {'processors': []}, 'projection': 'rigid',
                 }})
-                row.update(levels=levels, routes=routes)
+                row.update(levels=levels, routes=routes, foundations=support_count)
             report.append(row)
         write(f'worldgen/template_pool/lore/{site.slug}.json', {'fallback': 'minecraft:empty', 'elements': templates})
         sea = site.biomes == 'deep_ocean'

@@ -142,7 +142,7 @@ for order,(slug,title,icon,rows) in enumerate(chapters):
  js(Q/(slug+'.snbt'),{'default_hide_dependency_lines':False,'default_quest_shape':'','filename':slug,'group':'','icon':icon,'id':uid(slug),'order_index':order,'quest_links':[],'title':title,'quests':quests})
 assert set(refs)<=allids and len(allids)==total
 js(ROOT/'docs'/'quests.json',index)
-manifest=json.loads((ROOT/'manifest.json').read_text());manifest['version']='1.0.0-rc5-author-content.3';js(ROOT/'manifest.json',manifest)
+manifest=json.loads((ROOT/'manifest.json').read_text());manifest['version']='1.0.0-rc5-author-content.4';js(ROOT/'manifest.json',manifest)
 assert len({x['projectID'] for x in manifest['files']})==len(manifest['files'])
 print(f'{total} quests, {sum(x["task"]=="manual" for x in index)} manual; {len(manifest["files"])} locked projects; {len(items)} items')
 
@@ -158,4 +158,10 @@ from news import generate_news
 generate_news(DATA,F,fn,js)
 
 from structures import generate_structures
+from site_supports import DEPTH_SCORE, generate_foundations
 generate_structures(ROOT)
+generate_foundations(fn, js, DATA/'ashes'/'tags')
+with (F/'load.mcfunction').open('a', encoding='utf-8') as f:
+ f.write(f'scoreboard objectives add {DEPTH_SCORE} dummy\n')
+with (F/'tick.mcfunction').open('a', encoding='utf-8') as f:
+ f.write('function ashes:foundation/tick\n')

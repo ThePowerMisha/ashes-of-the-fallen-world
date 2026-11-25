@@ -5,7 +5,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/observatory_3",
+        "location": "ashes:lore/observatory_9",
         "processors": {
           "processors": []
         },
@@ -16,7 +16,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/observatory_4",
+        "location": "ashes:lore/observatory_10",
         "processors": {
           "processors": []
         },
@@ -27,7 +27,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/observatory_5",
+        "location": "ashes:lore/observatory_11",
         "processors": {
           "processors": []
         },
@@ -38,7 +38,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/observatory_6",
+        "location": "ashes:lore/observatory_12",
         "processors": {
           "processors": []
         },
@@ -49,7 +49,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/observatory_7",
+        "location": "ashes:lore/observatory_13",
         "processors": {
           "processors": []
         },
@@ -60,7 +60,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/observatory_8",
+        "location": "ashes:lore/observatory_14",
         "processors": {
           "processors": []
         },

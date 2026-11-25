@@ -5,7 +5,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/nameless_graves_3",
+        "location": "ashes:lore/nameless_graves_9",
         "processors": {
           "processors": []
         },
@@ -16,7 +16,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/nameless_graves_4",
+        "location": "ashes:lore/nameless_graves_10",
         "processors": {
           "processors": []
         },
@@ -27,7 +27,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/nameless_graves_5",
+        "location": "ashes:lore/nameless_graves_11",
         "processors": {
           "processors": []
         },
@@ -38,7 +38,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/nameless_graves_6",
+        "location": "ashes:lore/nameless_graves_12",
         "processors": {
           "processors": []
         },
@@ -49,7 +49,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/nameless_graves_7",
+        "location": "ashes:lore/nameless_graves_13",
         "processors": {
           "processors": []
         },
@@ -60,7 +60,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/nameless_graves_8",
+        "location": "ashes:lore/nameless_graves_14",
         "processors": {
           "processors": []
         },

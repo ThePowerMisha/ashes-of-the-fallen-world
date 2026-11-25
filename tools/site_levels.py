@@ -109,6 +109,11 @@ def terraform_levels(build, site, rises):
     build.size = (width + 2 * EDGE_RESERVE, height + FLOOR_RESERVE + max(0, *rises),
                   length + 2 * EDGE_RESERVE)
     original = build.blocks
+    build.walkways = {
+        (x + EDGE_RESERVE, y + original_floor - 2 + FLOOR_RESERVE + columns.get((x, z), 0),
+         z + EDGE_RESERVE): pier
+        for (x, y, z), pier in build.walkways.items()
+    }
     build.blocks = {
         (x + EDGE_RESERVE, y + FLOOR_RESERVE + columns.get((x, z), 0), z + EDGE_RESERVE): block
         for (x, y, z), block in original.items()
@@ -140,6 +145,8 @@ def terraform_levels(build, site, rises):
     routes = []
     for section, rise in zip(sections, rises, strict=True):
         route = join_terrace(build, section, rise, floor, masonry, stairs, empty, columns, site.slug)
+        for step, pos in enumerate(route):
+            build.walkways[pos] = build.walkways.get(pos, False) or step % 3 == 0 or step == len(route) - 1
         routes.append(route)
     return routes
 

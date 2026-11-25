@@ -149,6 +149,7 @@ assert {entry['structure'] for entry in site_entries}=={'ashes:'+site.slug for s
 from itertools import pairwise
 
 from site_levels import TERRACES, VARIANTS
+from site_supports import PIER_JOB, SUPPORT_JOB, VOID
 
 inventory = {row['template']: row for row in json.loads(
     (root/'docs/lore-structures.json').read_text(encoding='utf-8'))}
@@ -180,9 +181,18 @@ for entry in site_entries:
         assert len(row['routes']) == len(TERRACES.get(site, (None,))), name
         positions = {tuple(block['pos']): template['palette'][block['state']]
                      for block in template['blocks']}
+        jobs = [e for e in template['entities'] if e['nbt']['id'] == 'minecraft:marker']
+        anchors = {tuple(e['blockPos']) for e in jobs}
+        assert len(anchors) == len(jobs) == row['foundations'], name
+        assert bool(jobs) == (site in TERRACES), name
+        assert all(SUPPORT_JOB in e['nbt']['Tags'] for e in jobs), name
+        assert not jobs or any(PIER_JOB in e['nbt']['Tags'] for e in jobs), name
+        assert all(positions[pos]['Name'] not in VOID for pos in anchors), name
+        anchor_columns = {(x, z) for x, _, z in anchors}
         clear = 'minecraft:water' if site == 'drowned_city' else 'minecraft:air'
         for route in row['routes']:
             if site in TERRACES:
+                assert all((x, z) in anchor_columns for x, _, z in route), name
                 x,y,z = route[0]
                 assert all(positions[x,y+h,z]['Name'] == clear for h in (1,2)), name
             assert all(abs(x-a) + abs(z-c) == 1 and abs(y-b) <= 1
@@ -208,7 +218,8 @@ for entry in site_entries:
     assert adv['criteria']['visit']['conditions']['player'][0]['predicate']['location']['structure']==entry['structure']
     assert (functions/(adv['rewards']['function'].split(':')[1]+'.mcfunction')).is_file()
 assert len(seen_templates)==VARIANTS*len(SITES)
-assert len(inventory)==(2+VARIANTS)*len(SITES)
+assert len(inventory)==(2+VARIANTS)*len(SITES)+VARIANTS*len(TERRACES)
+print('PASS: foundation anchors and pier positions in the 90 surface and coastal layouts.')
 print(f'PASS: {len(SITES)} lore structures, {len(seen_templates)} gzip NBT templates, loot and discovery references.')
 
 assert {t['advancement'] for q in quests for t in q['tasks'] if t.get('advancement','').startswith('ashes:lore/')}=={'ashes:lore/'+e['structure'].split(':')[1] for e in site_sets['lore_sites']['structures']}

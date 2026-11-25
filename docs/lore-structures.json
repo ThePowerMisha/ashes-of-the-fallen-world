@@ -30,7 +30,73 @@
     ],
     "blocks": 3927,
     "chests": 2,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/silent_hamlet_4",
+    "size": [
+      43,
+      25,
+      43
+    ],
+    "blocks": 4044,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/silent_hamlet_5",
+    "size": [
+      43,
+      25,
+      43
+    ],
+    "blocks": 4008,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/silent_hamlet_6",
+    "size": [
+      43,
+      25,
+      43
+    ],
+    "blocks": 3863,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/silent_hamlet_7",
+    "size": [
+      43,
+      26,
+      43
+    ],
+    "blocks": 3985,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/silent_hamlet_8",
+    "size": [
+      43,
+      24,
+      43
+    ],
+    "blocks": 3719,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/silent_hamlet_9",
+    "size": [
+      43,
+      26,
+      43
+    ],
+    "blocks": 4003,
+    "chests": 2,
+    "entities": 163,
     "levels": [
       6,
       4,
@@ -166,18 +232,19 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 163
   },
   {
-    "template": "lore/silent_hamlet_4",
+    "template": "lore/silent_hamlet_10",
     "size": [
       43,
       25,
       43
     ],
-    "blocks": 4044,
+    "blocks": 4117,
     "chests": 2,
-    "entities": 0,
+    "entities": 159,
     "levels": [
       4,
       -2,
@@ -313,18 +380,19 @@
           20
         ]
       ]
-    ]
+    ],
+    "foundations": 159
   },
   {
-    "template": "lore/silent_hamlet_5",
+    "template": "lore/silent_hamlet_11",
     "size": [
       43,
       25,
       43
     ],
-    "blocks": 4008,
+    "blocks": 4083,
     "chests": 2,
-    "entities": 0,
+    "entities": 161,
     "levels": [
       4,
       4,
@@ -460,18 +528,19 @@
           20
         ]
       ]
-    ]
+    ],
+    "foundations": 161
   },
   {
-    "template": "lore/silent_hamlet_6",
+    "template": "lore/silent_hamlet_12",
     "size": [
       43,
       25,
       43
     ],
-    "blocks": 3863,
+    "blocks": 3937,
     "chests": 2,
-    "entities": 0,
+    "entities": 159,
     "levels": [
       3,
       -3,
@@ -597,18 +666,19 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 159
   },
   {
-    "template": "lore/silent_hamlet_7",
+    "template": "lore/silent_hamlet_13",
     "size": [
       43,
       26,
       43
     ],
-    "blocks": 3985,
+    "blocks": 4059,
     "chests": 2,
-    "entities": 0,
+    "entities": 162,
     "levels": [
       -3,
       6,
@@ -749,18 +819,19 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 162
   },
   {
-    "template": "lore/silent_hamlet_8",
+    "template": "lore/silent_hamlet_14",
     "size": [
       43,
       24,
       43
     ],
-    "blocks": 3719,
+    "blocks": 3796,
     "chests": 2,
-    "entities": 0,
+    "entities": 160,
     "levels": [
       -3,
       4,
@@ -881,7 +952,8 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 160
   },
   {
     "template": "lore/last_stand_1",
@@ -914,7 +986,73 @@
     ],
     "blocks": 1887,
     "chests": 2,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/last_stand_4",
+    "size": [
+      41,
+      19,
+      41
+    ],
+    "blocks": 1749,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/last_stand_5",
+    "size": [
+      41,
+      19,
+      41
+    ],
+    "blocks": 1760,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/last_stand_6",
+    "size": [
+      41,
+      19,
+      41
+    ],
+    "blocks": 1698,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/last_stand_7",
+    "size": [
+      41,
+      22,
+      41
+    ],
+    "blocks": 1870,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/last_stand_8",
+    "size": [
+      41,
+      22,
+      41
+    ],
+    "blocks": 1903,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/last_stand_9",
+    "size": [
+      41,
+      22,
+      41
+    ],
+    "blocks": 1924,
+    "chests": 2,
+    "entities": 94,
     "levels": [
       6,
       6,
@@ -1060,18 +1198,19 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 94
   },
   {
-    "template": "lore/last_stand_4",
+    "template": "lore/last_stand_10",
     "size": [
       41,
       19,
       41
     ],
-    "blocks": 1749,
+    "blocks": 1791,
     "chests": 2,
-    "entities": 0,
+    "entities": 94,
     "levels": [
       -3,
       -3,
@@ -1182,18 +1321,19 @@
           23
         ]
       ]
-    ]
+    ],
+    "foundations": 94
   },
   {
-    "template": "lore/last_stand_5",
+    "template": "lore/last_stand_11",
     "size": [
       41,
       19,
       41
     ],
-    "blocks": 1760,
+    "blocks": 1802,
     "chests": 2,
-    "entities": 0,
+    "entities": 94,
     "levels": [
       -2,
       -3,
@@ -1304,18 +1444,19 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 94
   },
   {
-    "template": "lore/last_stand_6",
+    "template": "lore/last_stand_12",
     "size": [
       41,
       19,
       41
     ],
-    "blocks": 1698,
+    "blocks": 1740,
     "chests": 2,
-    "entities": 0,
+    "entities": 94,
     "levels": [
       2,
       3,
@@ -1426,18 +1567,19 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 94
   },
   {
-    "template": "lore/last_stand_7",
+    "template": "lore/last_stand_13",
     "size": [
       41,
       22,
       41
     ],
-    "blocks": 1870,
+    "blocks": 1910,
     "chests": 2,
-    "entities": 0,
+    "entities": 94,
     "levels": [
       -2,
       6,
@@ -1563,18 +1705,19 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 94
   },
   {
-    "template": "lore/last_stand_8",
+    "template": "lore/last_stand_14",
     "size": [
       41,
       22,
       41
     ],
-    "blocks": 1903,
+    "blocks": 1942,
     "chests": 2,
-    "entities": 0,
+    "entities": 95,
     "levels": [
       5,
       -3,
@@ -1715,7 +1858,8 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 95
   },
   {
     "template": "lore/nameless_graves_1",
@@ -1748,7 +1892,73 @@
     ],
     "blocks": 1038,
     "chests": 1,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/nameless_graves_4",
+    "size": [
+      33,
+      19,
+      35
+    ],
+    "blocks": 1045,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/nameless_graves_5",
+    "size": [
+      33,
+      22,
+      35
+    ],
+    "blocks": 1055,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/nameless_graves_6",
+    "size": [
+      33,
+      21,
+      35
+    ],
+    "blocks": 1065,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/nameless_graves_7",
+    "size": [
+      33,
+      21,
+      35
+    ],
+    "blocks": 1026,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/nameless_graves_8",
+    "size": [
+      33,
+      21,
+      35
+    ],
+    "blocks": 1025,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/nameless_graves_9",
+    "size": [
+      33,
+      22,
+      35
+    ],
+    "blocks": 1090,
+    "chests": 1,
+    "entities": 110,
     "levels": [
       -2,
       5
@@ -1813,18 +2023,19 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 110
   },
   {
-    "template": "lore/nameless_graves_4",
+    "template": "lore/nameless_graves_10",
     "size": [
       33,
       19,
       35
     ],
-    "blocks": 1045,
+    "blocks": 1098,
     "chests": 1,
-    "entities": 0,
+    "entities": 109,
     "levels": [
       2,
       -3
@@ -1879,18 +2090,19 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 109
   },
   {
-    "template": "lore/nameless_graves_5",
+    "template": "lore/nameless_graves_11",
     "size": [
       33,
       22,
       35
     ],
-    "blocks": 1055,
+    "blocks": 1107,
     "chests": 1,
-    "entities": 0,
+    "entities": 110,
     "levels": [
       5,
       -3
@@ -1960,18 +2172,19 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 110
   },
   {
-    "template": "lore/nameless_graves_6",
+    "template": "lore/nameless_graves_12",
     "size": [
       33,
       21,
       35
     ],
-    "blocks": 1065,
+    "blocks": 1117,
     "chests": 1,
-    "entities": 0,
+    "entities": 109,
     "levels": [
       -2,
       4
@@ -2031,18 +2244,19 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 109
   },
   {
-    "template": "lore/nameless_graves_7",
+    "template": "lore/nameless_graves_13",
     "size": [
       33,
       21,
       35
     ],
-    "blocks": 1026,
+    "blocks": 1078,
     "chests": 1,
-    "entities": 0,
+    "entities": 109,
     "levels": [
       4,
       -3
@@ -2107,18 +2321,19 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 109
   },
   {
-    "template": "lore/nameless_graves_8",
+    "template": "lore/nameless_graves_14",
     "size": [
       33,
       21,
       35
     ],
-    "blocks": 1025,
+    "blocks": 1077,
     "chests": 1,
-    "entities": 0,
+    "entities": 109,
     "levels": [
       4,
       -2
@@ -2178,7 +2393,8 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 109
   },
   {
     "template": "lore/three_seals_altar_1",
@@ -2211,7 +2427,73 @@
     ],
     "blocks": 803,
     "chests": 1,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/three_seals_altar_4",
+    "size": [
+      29,
+      22,
+      29
+    ],
+    "blocks": 879,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/three_seals_altar_5",
+    "size": [
+      29,
+      17,
+      29
+    ],
+    "blocks": 769,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/three_seals_altar_6",
+    "size": [
+      29,
+      23,
+      29
+    ],
+    "blocks": 925,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/three_seals_altar_7",
+    "size": [
+      29,
+      21,
+      29
+    ],
+    "blocks": 842,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/three_seals_altar_8",
+    "size": [
+      29,
+      17,
+      29
+    ],
+    "blocks": 804,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/three_seals_altar_9",
+    "size": [
+      29,
+      20,
+      29
+    ],
+    "blocks": 803,
+    "chests": 1,
+    "entities": 5,
     "levels": [
       3
     ],
@@ -2243,10 +2525,11 @@
           15
         ]
       ]
-    ]
+    ],
+    "foundations": 5
   },
   {
-    "template": "lore/three_seals_altar_4",
+    "template": "lore/three_seals_altar_10",
     "size": [
       29,
       22,
@@ -2254,7 +2537,7 @@
     ],
     "blocks": 879,
     "chests": 1,
-    "entities": 0,
+    "entities": 7,
     "levels": [
       5
     ],
@@ -2296,10 +2579,11 @@
           15
         ]
       ]
-    ]
+    ],
+    "foundations": 7
   },
   {
-    "template": "lore/three_seals_altar_5",
+    "template": "lore/three_seals_altar_11",
     "size": [
       29,
       17,
@@ -2307,7 +2591,7 @@
     ],
     "blocks": 769,
     "chests": 1,
-    "entities": 0,
+    "entities": 4,
     "levels": [
       -2
     ],
@@ -2334,10 +2618,11 @@
           15
         ]
       ]
-    ]
+    ],
+    "foundations": 4
   },
   {
-    "template": "lore/three_seals_altar_6",
+    "template": "lore/three_seals_altar_12",
     "size": [
       29,
       23,
@@ -2345,7 +2630,7 @@
     ],
     "blocks": 925,
     "chests": 1,
-    "entities": 0,
+    "entities": 8,
     "levels": [
       6
     ],
@@ -2392,10 +2677,11 @@
           15
         ]
       ]
-    ]
+    ],
+    "foundations": 8
   },
   {
-    "template": "lore/three_seals_altar_7",
+    "template": "lore/three_seals_altar_13",
     "size": [
       29,
       21,
@@ -2403,7 +2689,7 @@
     ],
     "blocks": 842,
     "chests": 1,
-    "entities": 0,
+    "entities": 6,
     "levels": [
       4
     ],
@@ -2440,10 +2726,11 @@
           15
         ]
       ]
-    ]
+    ],
+    "foundations": 6
   },
   {
-    "template": "lore/three_seals_altar_8",
+    "template": "lore/three_seals_altar_14",
     "size": [
       29,
       17,
@@ -2451,7 +2738,7 @@
     ],
     "blocks": 804,
     "chests": 1,
-    "entities": 0,
+    "entities": 5,
     "levels": [
       -3
     ],
@@ -2483,7 +2770,8 @@
           15
         ]
       ]
-    ]
+    ],
+    "foundations": 5
   },
   {
     "template": "lore/broken_watch_1",
@@ -2516,7 +2804,73 @@
     ],
     "blocks": 2060,
     "chests": 2,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/broken_watch_4",
+    "size": [
+      29,
+      29,
+      29
+    ],
+    "blocks": 2310,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/broken_watch_5",
+    "size": [
+      29,
+      24,
+      29
+    ],
+    "blocks": 1823,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/broken_watch_6",
+    "size": [
+      29,
+      30,
+      29
+    ],
+    "blocks": 2450,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/broken_watch_7",
+    "size": [
+      29,
+      28,
+      29
+    ],
+    "blocks": 2175,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/broken_watch_8",
+    "size": [
+      29,
+      24,
+      29
+    ],
+    "blocks": 1845,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/broken_watch_9",
+    "size": [
+      29,
+      27,
+      29
+    ],
+    "blocks": 2060,
+    "chests": 2,
+    "entities": 5,
     "levels": [
       3
     ],
@@ -2548,10 +2902,11 @@
           5
         ]
       ]
-    ]
+    ],
+    "foundations": 5
   },
   {
-    "template": "lore/broken_watch_4",
+    "template": "lore/broken_watch_10",
     "size": [
       29,
       29,
@@ -2559,7 +2914,7 @@
     ],
     "blocks": 2310,
     "chests": 2,
-    "entities": 0,
+    "entities": 7,
     "levels": [
       5
     ],
@@ -2601,10 +2956,11 @@
           3
         ]
       ]
-    ]
+    ],
+    "foundations": 7
   },
   {
-    "template": "lore/broken_watch_5",
+    "template": "lore/broken_watch_11",
     "size": [
       29,
       24,
@@ -2612,7 +2968,7 @@
     ],
     "blocks": 1823,
     "chests": 2,
-    "entities": 0,
+    "entities": 4,
     "levels": [
       -2
     ],
@@ -2639,10 +2995,11 @@
           6
         ]
       ]
-    ]
+    ],
+    "foundations": 4
   },
   {
-    "template": "lore/broken_watch_6",
+    "template": "lore/broken_watch_12",
     "size": [
       29,
       30,
@@ -2650,7 +3007,7 @@
     ],
     "blocks": 2450,
     "chests": 2,
-    "entities": 0,
+    "entities": 8,
     "levels": [
       6
     ],
@@ -2697,10 +3054,11 @@
           2
         ]
       ]
-    ]
+    ],
+    "foundations": 8
   },
   {
-    "template": "lore/broken_watch_7",
+    "template": "lore/broken_watch_13",
     "size": [
       29,
       28,
@@ -2708,7 +3066,7 @@
     ],
     "blocks": 2175,
     "chests": 2,
-    "entities": 0,
+    "entities": 6,
     "levels": [
       4
     ],
@@ -2745,10 +3103,11 @@
           4
         ]
       ]
-    ]
+    ],
+    "foundations": 6
   },
   {
-    "template": "lore/broken_watch_8",
+    "template": "lore/broken_watch_14",
     "size": [
       29,
       24,
@@ -2756,7 +3115,7 @@
     ],
     "blocks": 1845,
     "chests": 2,
-    "entities": 0,
+    "entities": 5,
     "levels": [
       -3
     ],
@@ -2788,7 +3147,8 @@
           5
         ]
       ]
-    ]
+    ],
+    "foundations": 5
   },
   {
     "template": "lore/sealed_archive_1",
@@ -2821,7 +3181,73 @@
     ],
     "blocks": 3725,
     "chests": 2,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/sealed_archive_4",
+    "size": [
+      33,
+      25,
+      33
+    ],
+    "blocks": 4325,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/sealed_archive_5",
+    "size": [
+      33,
+      20,
+      33
+    ],
+    "blocks": 3113,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/sealed_archive_6",
+    "size": [
+      33,
+      26,
+      33
+    ],
+    "blocks": 4643,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/sealed_archive_7",
+    "size": [
+      33,
+      24,
+      33
+    ],
+    "blocks": 3960,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/sealed_archive_8",
+    "size": [
+      33,
+      20,
+      33
+    ],
+    "blocks": 3205,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/sealed_archive_9",
+    "size": [
+      33,
+      23,
+      33
+    ],
+    "blocks": 3725,
+    "chests": 2,
+    "entities": 5,
     "levels": [
       3
     ],
@@ -2853,10 +3279,11 @@
           4
         ]
       ]
-    ]
+    ],
+    "foundations": 5
   },
   {
-    "template": "lore/sealed_archive_4",
+    "template": "lore/sealed_archive_10",
     "size": [
       33,
       25,
@@ -2864,7 +3291,7 @@
     ],
     "blocks": 4325,
     "chests": 2,
-    "entities": 0,
+    "entities": 7,
     "levels": [
       5
     ],
@@ -2906,10 +3333,11 @@
           2
         ]
       ]
-    ]
+    ],
+    "foundations": 7
   },
   {
-    "template": "lore/sealed_archive_5",
+    "template": "lore/sealed_archive_11",
     "size": [
       33,
       20,
@@ -2917,7 +3345,7 @@
     ],
     "blocks": 3113,
     "chests": 2,
-    "entities": 0,
+    "entities": 4,
     "levels": [
       -2
     ],
@@ -2944,10 +3372,11 @@
           5
         ]
       ]
-    ]
+    ],
+    "foundations": 4
   },
   {
-    "template": "lore/sealed_archive_6",
+    "template": "lore/sealed_archive_12",
     "size": [
       33,
       26,
@@ -2955,7 +3384,7 @@
     ],
     "blocks": 4643,
     "chests": 2,
-    "entities": 0,
+    "entities": 8,
     "levels": [
       6
     ],
@@ -3002,10 +3431,11 @@
           1
         ]
       ]
-    ]
+    ],
+    "foundations": 8
   },
   {
-    "template": "lore/sealed_archive_7",
+    "template": "lore/sealed_archive_13",
     "size": [
       33,
       24,
@@ -3013,7 +3443,7 @@
     ],
     "blocks": 3960,
     "chests": 2,
-    "entities": 0,
+    "entities": 6,
     "levels": [
       4
     ],
@@ -3050,10 +3480,11 @@
           3
         ]
       ]
-    ]
+    ],
+    "foundations": 6
   },
   {
-    "template": "lore/sealed_archive_8",
+    "template": "lore/sealed_archive_14",
     "size": [
       33,
       20,
@@ -3061,7 +3492,7 @@
     ],
     "blocks": 3205,
     "chests": 2,
-    "entities": 0,
+    "entities": 5,
     "levels": [
       -3
     ],
@@ -3093,7 +3524,8 @@
           4
         ]
       ]
-    ]
+    ],
+    "foundations": 5
   },
   {
     "template": "lore/fallen_capital_1",
@@ -3126,7 +3558,73 @@
     ],
     "blocks": 5417,
     "chests": 2,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/fallen_capital_4",
+    "size": [
+      57,
+      29,
+      57
+    ],
+    "blocks": 5672,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/fallen_capital_5",
+    "size": [
+      57,
+      27,
+      57
+    ],
+    "blocks": 5535,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/fallen_capital_6",
+    "size": [
+      57,
+      29,
+      57
+    ],
+    "blocks": 6406,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/fallen_capital_7",
+    "size": [
+      57,
+      28,
+      57
+    ],
+    "blocks": 5851,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/fallen_capital_8",
+    "size": [
+      57,
+      29,
+      57
+    ],
+    "blocks": 5748,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/fallen_capital_9",
+    "size": [
+      57,
+      28,
+      57
+    ],
+    "blocks": 5522,
+    "chests": 2,
+    "entities": 574,
     "levels": [
       5,
       3,
@@ -3265,18 +3763,19 @@
           30
         ]
       ]
-    ]
+    ],
+    "foundations": 574
   },
   {
-    "template": "lore/fallen_capital_4",
+    "template": "lore/fallen_capital_10",
     "size": [
       57,
       29,
       57
     ],
-    "blocks": 5672,
+    "blocks": 5776,
     "chests": 2,
-    "entities": 0,
+    "entities": 572,
     "levels": [
       4,
       2,
@@ -3425,18 +3924,19 @@
           30
         ]
       ]
-    ]
+    ],
+    "foundations": 572
   },
   {
-    "template": "lore/fallen_capital_5",
+    "template": "lore/fallen_capital_11",
     "size": [
       57,
       27,
       57
     ],
-    "blocks": 5535,
+    "blocks": 5639,
     "chests": 2,
-    "entities": 0,
+    "entities": 573,
     "levels": [
       4,
       -3,
@@ -3580,18 +4080,19 @@
           29
         ]
       ]
-    ]
+    ],
+    "foundations": 573
   },
   {
-    "template": "lore/fallen_capital_6",
+    "template": "lore/fallen_capital_12",
     "size": [
       57,
       29,
       57
     ],
-    "blocks": 6406,
+    "blocks": 6506,
     "chests": 2,
-    "entities": 0,
+    "entities": 575,
     "levels": [
       5,
       4,
@@ -3775,18 +4276,19 @@
           26
         ]
       ]
-    ]
+    ],
+    "foundations": 575
   },
   {
-    "template": "lore/fallen_capital_7",
+    "template": "lore/fallen_capital_13",
     "size": [
       57,
       28,
       57
     ],
-    "blocks": 5851,
+    "blocks": 5950,
     "chests": 2,
-    "entities": 0,
+    "entities": 572,
     "levels": [
       4,
       -2,
@@ -3940,18 +4442,19 @@
           27
         ]
       ]
-    ]
+    ],
+    "foundations": 572
   },
   {
-    "template": "lore/fallen_capital_8",
+    "template": "lore/fallen_capital_14",
     "size": [
       57,
       29,
       57
     ],
-    "blocks": 5748,
+    "blocks": 5852,
     "chests": 2,
-    "entities": 0,
+    "entities": 574,
     "levels": [
       -2,
       6,
@@ -4110,7 +4613,8 @@
           29
         ]
       ]
-    ]
+    ],
+    "foundations": 574
   },
   {
     "template": "lore/mechanists_keep_1",
@@ -4143,7 +4647,73 @@
     ],
     "blocks": 4203,
     "chests": 2,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/mechanists_keep_4",
+    "size": [
+      45,
+      27,
+      45
+    ],
+    "blocks": 4312,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/mechanists_keep_5",
+    "size": [
+      45,
+      25,
+      45
+    ],
+    "blocks": 4134,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/mechanists_keep_6",
+    "size": [
+      45,
+      28,
+      45
+    ],
+    "blocks": 4323,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/mechanists_keep_7",
+    "size": [
+      45,
+      25,
+      45
+    ],
+    "blocks": 4116,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/mechanists_keep_8",
+    "size": [
+      45,
+      29,
+      45
+    ],
+    "blocks": 4425,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/mechanists_keep_9",
+    "size": [
+      45,
+      26,
+      45
+    ],
+    "blocks": 4203,
+    "chests": 2,
+    "entities": 105,
     "levels": [
       -2,
       3
@@ -4198,10 +4768,11 @@
           14
         ]
       ]
-    ]
+    ],
+    "foundations": 105
   },
   {
-    "template": "lore/mechanists_keep_4",
+    "template": "lore/mechanists_keep_10",
     "size": [
       45,
       27,
@@ -4209,7 +4780,7 @@
     ],
     "blocks": 4312,
     "chests": 2,
-    "entities": 0,
+    "entities": 107,
     "levels": [
       -3,
       4
@@ -4274,18 +4845,19 @@
           13
         ]
       ]
-    ]
+    ],
+    "foundations": 107
   },
   {
-    "template": "lore/mechanists_keep_5",
+    "template": "lore/mechanists_keep_11",
     "size": [
       45,
       25,
       45
     ],
-    "blocks": 4134,
+    "blocks": 4136,
     "chests": 2,
-    "entities": 0,
+    "entities": 104,
     "levels": [
       2,
       -2
@@ -4335,10 +4907,11 @@
           15
         ]
       ]
-    ]
+    ],
+    "foundations": 104
   },
   {
-    "template": "lore/mechanists_keep_6",
+    "template": "lore/mechanists_keep_12",
     "size": [
       45,
       28,
@@ -4346,7 +4919,7 @@
     ],
     "blocks": 4323,
     "chests": 2,
-    "entities": 0,
+    "entities": 107,
     "levels": [
       -2,
       5
@@ -4411,10 +4984,11 @@
           12
         ]
       ]
-    ]
+    ],
+    "foundations": 107
   },
   {
-    "template": "lore/mechanists_keep_7",
+    "template": "lore/mechanists_keep_13",
     "size": [
       45,
       25,
@@ -4422,7 +4996,7 @@
     ],
     "blocks": 4116,
     "chests": 2,
-    "entities": 0,
+    "entities": 104,
     "levels": [
       -2,
       2
@@ -4472,18 +5046,19 @@
           15
         ]
       ]
-    ]
+    ],
+    "foundations": 104
   },
   {
-    "template": "lore/mechanists_keep_8",
+    "template": "lore/mechanists_keep_14",
     "size": [
       45,
       29,
       45
     ],
-    "blocks": 4425,
+    "blocks": 4427,
     "chests": 2,
-    "entities": 0,
+    "entities": 108,
     "levels": [
       6,
       -2
@@ -4553,7 +5128,8 @@
           15
         ]
       ]
-    ]
+    ],
+    "foundations": 108
   },
   {
     "template": "lore/keepers_keep_1",
@@ -4586,7 +5162,73 @@
     ],
     "blocks": 4144,
     "chests": 2,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/keepers_keep_4",
+    "size": [
+      45,
+      24,
+      45
+    ],
+    "blocks": 4011,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/keepers_keep_5",
+    "size": [
+      45,
+      25,
+      45
+    ],
+    "blocks": 4141,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/keepers_keep_6",
+    "size": [
+      45,
+      26,
+      45
+    ],
+    "blocks": 4209,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/keepers_keep_7",
+    "size": [
+      45,
+      26,
+      45
+    ],
+    "blocks": 4198,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/keepers_keep_8",
+    "size": [
+      45,
+      23,
+      45
+    ],
+    "blocks": 4011,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/keepers_keep_9",
+    "size": [
+      45,
+      25,
+      45
+    ],
+    "blocks": 4144,
+    "chests": 2,
+    "entities": 106,
     "levels": [
       5,
       -2
@@ -4651,10 +5293,11 @@
           13
         ]
       ]
-    ]
+    ],
+    "foundations": 106
   },
   {
-    "template": "lore/keepers_keep_4",
+    "template": "lore/keepers_keep_10",
     "size": [
       45,
       24,
@@ -4662,7 +5305,7 @@
     ],
     "blocks": 4011,
     "chests": 2,
-    "entities": 0,
+    "entities": 106,
     "levels": [
       -2,
       4
@@ -4722,10 +5365,11 @@
           11
         ]
       ]
-    ]
+    ],
+    "foundations": 106
   },
   {
-    "template": "lore/keepers_keep_5",
+    "template": "lore/keepers_keep_11",
     "size": [
       45,
       25,
@@ -4733,7 +5377,7 @@
     ],
     "blocks": 4141,
     "chests": 2,
-    "entities": 0,
+    "entities": 106,
     "levels": [
       -2,
       5
@@ -4798,10 +5442,11 @@
           10
         ]
       ]
-    ]
+    ],
+    "foundations": 106
   },
   {
-    "template": "lore/keepers_keep_6",
+    "template": "lore/keepers_keep_12",
     "size": [
       45,
       26,
@@ -4809,7 +5454,7 @@
     ],
     "blocks": 4209,
     "chests": 2,
-    "entities": 0,
+    "entities": 108,
     "levels": [
       -3,
       6
@@ -4884,10 +5529,11 @@
           9
         ]
       ]
-    ]
+    ],
+    "foundations": 108
   },
   {
-    "template": "lore/keepers_keep_7",
+    "template": "lore/keepers_keep_13",
     "size": [
       45,
       26,
@@ -4895,7 +5541,7 @@
     ],
     "blocks": 4198,
     "chests": 2,
-    "entities": 0,
+    "entities": 107,
     "levels": [
       -2,
       6
@@ -4965,10 +5611,11 @@
           9
         ]
       ]
-    ]
+    ],
+    "foundations": 107
   },
   {
-    "template": "lore/keepers_keep_8",
+    "template": "lore/keepers_keep_14",
     "size": [
       45,
       23,
@@ -4976,7 +5623,7 @@
     ],
     "blocks": 4011,
     "chests": 2,
-    "entities": 0,
+    "entities": 106,
     "levels": [
       3,
       -3
@@ -5036,7 +5683,8 @@
           12
         ]
       ]
-    ]
+    ],
+    "foundations": 106
   },
   {
     "template": "lore/archmages_keep_1",
@@ -5069,7 +5717,73 @@
     ],
     "blocks": 3903,
     "chests": 2,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/archmages_keep_4",
+    "size": [
+      45,
+      28,
+      45
+    ],
+    "blocks": 4379,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/archmages_keep_5",
+    "size": [
+      45,
+      26,
+      45
+    ],
+    "blocks": 4245,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/archmages_keep_6",
+    "size": [
+      45,
+      25,
+      45
+    ],
+    "blocks": 4010,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/archmages_keep_7",
+    "size": [
+      45,
+      25,
+      45
+    ],
+    "blocks": 4156,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/archmages_keep_8",
+    "size": [
+      45,
+      25,
+      45
+    ],
+    "blocks": 4076,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/archmages_keep_9",
+    "size": [
+      45,
+      24,
+      45
+    ],
+    "blocks": 3903,
+    "chests": 2,
+    "entities": 109,
     "levels": [
       -3,
       -2,
@@ -5147,10 +5861,11 @@
           23
         ]
       ]
-    ]
+    ],
+    "foundations": 109
   },
   {
-    "template": "lore/archmages_keep_4",
+    "template": "lore/archmages_keep_10",
     "size": [
       45,
       28,
@@ -5158,7 +5873,7 @@
     ],
     "blocks": 4379,
     "chests": 2,
-    "entities": 0,
+    "entities": 113,
     "levels": [
       6,
       -3,
@@ -5261,10 +5976,11 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 113
   },
   {
-    "template": "lore/archmages_keep_5",
+    "template": "lore/archmages_keep_11",
     "size": [
       45,
       26,
@@ -5272,7 +5988,7 @@
     ],
     "blocks": 4245,
     "chests": 2,
-    "entities": 0,
+    "entities": 112,
     "levels": [
       -2,
       4,
@@ -5365,10 +6081,11 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 112
   },
   {
-    "template": "lore/archmages_keep_6",
+    "template": "lore/archmages_keep_12",
     "size": [
       45,
       25,
@@ -5376,7 +6093,7 @@
     ],
     "blocks": 4010,
     "chests": 2,
-    "entities": 0,
+    "entities": 110,
     "levels": [
       -2,
       3,
@@ -5459,10 +6176,11 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 110
   },
   {
-    "template": "lore/archmages_keep_7",
+    "template": "lore/archmages_keep_13",
     "size": [
       45,
       25,
@@ -5470,7 +6188,7 @@
     ],
     "blocks": 4156,
     "chests": 2,
-    "entities": 0,
+    "entities": 110,
     "levels": [
       -2,
       3,
@@ -5553,10 +6271,11 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 110
   },
   {
-    "template": "lore/archmages_keep_8",
+    "template": "lore/archmages_keep_14",
     "size": [
       45,
       25,
@@ -5564,7 +6283,7 @@
     ],
     "blocks": 4076,
     "chests": 2,
-    "entities": 0,
+    "entities": 111,
     "levels": [
       -3,
       3,
@@ -5652,7 +6371,8 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 111
   },
   {
     "template": "lore/limit_lab_1",
@@ -5757,7 +6477,8 @@
           29
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/limit_lab_4",
@@ -5850,7 +6571,8 @@
           31
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/limit_lab_5",
@@ -5923,7 +6645,8 @@
           27
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/limit_lab_6",
@@ -6011,7 +6734,8 @@
           30
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/limit_lab_7",
@@ -6109,7 +6833,8 @@
           32
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/limit_lab_8",
@@ -6187,7 +6912,8 @@
           28
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/infected_hamlet_1",
@@ -6220,7 +6946,73 @@
     ],
     "blocks": 2702,
     "chests": 2,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/infected_hamlet_4",
+    "size": [
+      41,
+      24,
+      41
+    ],
+    "blocks": 2707,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/infected_hamlet_5",
+    "size": [
+      41,
+      26,
+      41
+    ],
+    "blocks": 2822,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/infected_hamlet_6",
+    "size": [
+      41,
+      22,
+      41
+    ],
+    "blocks": 2479,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/infected_hamlet_7",
+    "size": [
+      41,
+      24,
+      41
+    ],
+    "blocks": 2886,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/infected_hamlet_8",
+    "size": [
+      41,
+      22,
+      41
+    ],
+    "blocks": 2521,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/infected_hamlet_9",
+    "size": [
+      41,
+      23,
+      41
+    ],
+    "blocks": 2767,
+    "chests": 2,
+    "entities": 222,
     "levels": [
       3,
       2,
@@ -6303,18 +7095,19 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 222
   },
   {
-    "template": "lore/infected_hamlet_4",
+    "template": "lore/infected_hamlet_10",
     "size": [
       41,
       24,
       41
     ],
-    "blocks": 2707,
+    "blocks": 2772,
     "chests": 2,
-    "entities": 0,
+    "entities": 223,
     "levels": [
       2,
       4,
@@ -6397,18 +7190,19 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 223
   },
   {
-    "template": "lore/infected_hamlet_5",
+    "template": "lore/infected_hamlet_11",
     "size": [
       41,
       26,
       41
     ],
-    "blocks": 2822,
+    "blocks": 2887,
     "chests": 2,
-    "entities": 0,
+    "entities": 226,
     "levels": [
       -3,
       6,
@@ -6511,18 +7305,19 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 226
   },
   {
-    "template": "lore/infected_hamlet_6",
+    "template": "lore/infected_hamlet_12",
     "size": [
       41,
       22,
       41
     ],
-    "blocks": 2479,
+    "blocks": 2544,
     "chests": 2,
-    "entities": 0,
+    "entities": 221,
     "levels": [
       -2,
       -2,
@@ -6595,18 +7390,19 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 221
   },
   {
-    "template": "lore/infected_hamlet_7",
+    "template": "lore/infected_hamlet_13",
     "size": [
       41,
       24,
       41
     ],
-    "blocks": 2886,
+    "blocks": 2951,
     "chests": 2,
-    "entities": 0,
+    "entities": 225,
     "levels": [
       4,
       4,
@@ -6704,18 +7500,19 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 225
   },
   {
-    "template": "lore/infected_hamlet_8",
+    "template": "lore/infected_hamlet_14",
     "size": [
       41,
       22,
       41
     ],
-    "blocks": 2521,
+    "blocks": 2586,
     "chests": 2,
-    "entities": 0,
+    "entities": 221,
     "levels": [
       2,
       -2,
@@ -6793,7 +7590,8 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 221
   },
   {
     "template": "lore/catacombs_1",
@@ -6893,7 +7691,8 @@
           27
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/catacombs_4",
@@ -6981,7 +7780,8 @@
           29
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/catacombs_5",
@@ -7049,7 +7849,8 @@
           25
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/catacombs_6",
@@ -7132,7 +7933,8 @@
           28
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/catacombs_7",
@@ -7225,7 +8027,8 @@
           30
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/catacombs_8",
@@ -7298,7 +8101,8 @@
           26
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/surviving_hamlet_1",
@@ -7331,7 +8135,73 @@
     ],
     "blocks": 3817,
     "chests": 1,
-    "entities": 3,
+    "entities": 3
+  },
+  {
+    "template": "lore/surviving_hamlet_4",
+    "size": [
+      43,
+      26,
+      43
+    ],
+    "blocks": 3851,
+    "chests": 1,
+    "entities": 3
+  },
+  {
+    "template": "lore/surviving_hamlet_5",
+    "size": [
+      43,
+      26,
+      43
+    ],
+    "blocks": 3963,
+    "chests": 1,
+    "entities": 3
+  },
+  {
+    "template": "lore/surviving_hamlet_6",
+    "size": [
+      43,
+      25,
+      43
+    ],
+    "blocks": 3637,
+    "chests": 1,
+    "entities": 3
+  },
+  {
+    "template": "lore/surviving_hamlet_7",
+    "size": [
+      43,
+      25,
+      43
+    ],
+    "blocks": 3877,
+    "chests": 1,
+    "entities": 3
+  },
+  {
+    "template": "lore/surviving_hamlet_8",
+    "size": [
+      43,
+      26,
+      43
+    ],
+    "blocks": 4350,
+    "chests": 1,
+    "entities": 3
+  },
+  {
+    "template": "lore/surviving_hamlet_9",
+    "size": [
+      43,
+      26,
+      43
+    ],
+    "blocks": 3907,
+    "chests": 1,
+    "entities": 228,
     "levels": [
       3,
       2,
@@ -7457,18 +8327,19 @@
           28
         ]
       ]
-    ]
+    ],
+    "foundations": 225
   },
   {
-    "template": "lore/surviving_hamlet_4",
+    "template": "lore/surviving_hamlet_10",
     "size": [
       43,
       26,
       43
     ],
-    "blocks": 3851,
+    "blocks": 3942,
     "chests": 1,
-    "entities": 3,
+    "entities": 231,
     "levels": [
       -3,
       6,
@@ -7604,18 +8475,19 @@
           28
         ]
       ]
-    ]
+    ],
+    "foundations": 228
   },
   {
-    "template": "lore/surviving_hamlet_5",
+    "template": "lore/surviving_hamlet_11",
     "size": [
       43,
       26,
       43
     ],
-    "blocks": 3963,
+    "blocks": 4053,
     "chests": 1,
-    "entities": 3,
+    "entities": 230,
     "levels": [
       5,
       2,
@@ -7751,18 +8623,19 @@
           28
         ]
       ]
-    ]
+    ],
+    "foundations": 227
   },
   {
-    "template": "lore/surviving_hamlet_6",
+    "template": "lore/surviving_hamlet_12",
     "size": [
       43,
       25,
       43
     ],
-    "blocks": 3637,
+    "blocks": 3727,
     "chests": 1,
-    "entities": 3,
+    "entities": 228,
     "levels": [
       -3,
       3,
@@ -7888,18 +8761,19 @@
           28
         ]
       ]
-    ]
+    ],
+    "foundations": 225
   },
   {
-    "template": "lore/surviving_hamlet_7",
+    "template": "lore/surviving_hamlet_13",
     "size": [
       43,
       25,
       43
     ],
-    "blocks": 3877,
+    "blocks": 3967,
     "chests": 1,
-    "entities": 3,
+    "entities": 229,
     "levels": [
       5,
       2,
@@ -8030,18 +8904,19 @@
           28
         ]
       ]
-    ]
+    ],
+    "foundations": 226
   },
   {
-    "template": "lore/surviving_hamlet_8",
+    "template": "lore/surviving_hamlet_14",
     "size": [
       43,
       26,
       43
     ],
-    "blocks": 4350,
+    "blocks": 4440,
     "chests": 1,
-    "entities": 3,
+    "entities": 234,
     "levels": [
       5,
       6,
@@ -8197,7 +9072,8 @@
           28
         ]
       ]
-    ]
+    ],
+    "foundations": 231
   },
   {
     "template": "lore/ancient_mine_1",
@@ -8292,7 +9168,8 @@
           28
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/ancient_mine_4",
@@ -8375,7 +9252,8 @@
           30
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/ancient_mine_5",
@@ -8438,7 +9316,8 @@
           26
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/ancient_mine_6",
@@ -8516,7 +9395,8 @@
           29
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/ancient_mine_7",
@@ -8604,7 +9484,8 @@
           31
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/ancient_mine_8",
@@ -8672,7 +9553,8 @@
           27
         ]
       ]
-    ]
+    ],
+    "foundations": 0
   },
   {
     "template": "lore/abyss_temple_1",
@@ -8705,7 +9587,73 @@
     ],
     "blocks": 2882,
     "chests": 1,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/abyss_temple_4",
+    "size": [
+      41,
+      24,
+      41
+    ],
+    "blocks": 2966,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/abyss_temple_5",
+    "size": [
+      41,
+      19,
+      41
+    ],
+    "blocks": 2769,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/abyss_temple_6",
+    "size": [
+      41,
+      25,
+      41
+    ],
+    "blocks": 3006,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/abyss_temple_7",
+    "size": [
+      41,
+      23,
+      41
+    ],
+    "blocks": 2916,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/abyss_temple_8",
+    "size": [
+      41,
+      19,
+      41
+    ],
+    "blocks": 2785,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/abyss_temple_9",
+    "size": [
+      41,
+      22,
+      41
+    ],
+    "blocks": 2882,
+    "chests": 1,
+    "entities": 85,
     "levels": [
       3
     ],
@@ -8737,10 +9685,11 @@
           24
         ]
       ]
-    ]
+    ],
+    "foundations": 85
   },
   {
-    "template": "lore/abyss_temple_4",
+    "template": "lore/abyss_temple_10",
     "size": [
       41,
       24,
@@ -8748,7 +9697,7 @@
     ],
     "blocks": 2966,
     "chests": 1,
-    "entities": 0,
+    "entities": 87,
     "levels": [
       5
     ],
@@ -8790,10 +9739,11 @@
           22
         ]
       ]
-    ]
+    ],
+    "foundations": 87
   },
   {
-    "template": "lore/abyss_temple_5",
+    "template": "lore/abyss_temple_11",
     "size": [
       41,
       19,
@@ -8801,7 +9751,7 @@
     ],
     "blocks": 2769,
     "chests": 1,
-    "entities": 0,
+    "entities": 84,
     "levels": [
       -2
     ],
@@ -8828,10 +9778,11 @@
           25
         ]
       ]
-    ]
+    ],
+    "foundations": 84
   },
   {
-    "template": "lore/abyss_temple_6",
+    "template": "lore/abyss_temple_12",
     "size": [
       41,
       25,
@@ -8839,7 +9790,7 @@
     ],
     "blocks": 3006,
     "chests": 1,
-    "entities": 0,
+    "entities": 88,
     "levels": [
       6
     ],
@@ -8886,10 +9837,11 @@
           21
         ]
       ]
-    ]
+    ],
+    "foundations": 88
   },
   {
-    "template": "lore/abyss_temple_7",
+    "template": "lore/abyss_temple_13",
     "size": [
       41,
       23,
@@ -8897,7 +9849,7 @@
     ],
     "blocks": 2916,
     "chests": 1,
-    "entities": 0,
+    "entities": 86,
     "levels": [
       4
     ],
@@ -8934,10 +9886,11 @@
           23
         ]
       ]
-    ]
+    ],
+    "foundations": 86
   },
   {
-    "template": "lore/abyss_temple_8",
+    "template": "lore/abyss_temple_14",
     "size": [
       41,
       19,
@@ -8945,7 +9898,7 @@
     ],
     "blocks": 2785,
     "chests": 1,
-    "entities": 0,
+    "entities": 85,
     "levels": [
       -3
     ],
@@ -8977,7 +9930,8 @@
           24
         ]
       ]
-    ]
+    ],
+    "foundations": 85
   },
   {
     "template": "lore/drowned_city_1",
@@ -9010,7 +9964,73 @@
     ],
     "blocks": 3534,
     "chests": 2,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/drowned_city_4",
+    "size": [
+      51,
+      17,
+      51
+    ],
+    "blocks": 2899,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/drowned_city_5",
+    "size": [
+      51,
+      18,
+      51
+    ],
+    "blocks": 3384,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/drowned_city_6",
+    "size": [
+      51,
+      19,
+      51
+    ],
+    "blocks": 3438,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/drowned_city_7",
+    "size": [
+      51,
+      20,
+      51
+    ],
+    "blocks": 3552,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/drowned_city_8",
+    "size": [
+      51,
+      20,
+      51
+    ],
+    "blocks": 3491,
+    "chests": 2,
+    "entities": 0
+  },
+  {
+    "template": "lore/drowned_city_9",
+    "size": [
+      51,
+      19,
+      51
+    ],
+    "blocks": 3534,
+    "chests": 2,
+    "entities": 238,
     "levels": [
       5,
       5,
@@ -9146,10 +10166,11 @@
           36
         ]
       ]
-    ]
+    ],
+    "foundations": 238
   },
   {
-    "template": "lore/drowned_city_4",
+    "template": "lore/drowned_city_10",
     "size": [
       51,
       17,
@@ -9157,7 +10178,7 @@
     ],
     "blocks": 2899,
     "chests": 2,
-    "entities": 0,
+    "entities": 232,
     "levels": [
       -2,
       3,
@@ -9263,10 +10284,11 @@
           36
         ]
       ]
-    ]
+    ],
+    "foundations": 232
   },
   {
-    "template": "lore/drowned_city_5",
+    "template": "lore/drowned_city_11",
     "size": [
       51,
       18,
@@ -9274,7 +10296,7 @@
     ],
     "blocks": 3384,
     "chests": 2,
-    "entities": 0,
+    "entities": 236,
     "levels": [
       -2,
       4,
@@ -9400,10 +10422,11 @@
           36
         ]
       ]
-    ]
+    ],
+    "foundations": 236
   },
   {
-    "template": "lore/drowned_city_6",
+    "template": "lore/drowned_city_12",
     "size": [
       51,
       19,
@@ -9411,7 +10434,7 @@
     ],
     "blocks": 3438,
     "chests": 2,
-    "entities": 0,
+    "entities": 237,
     "levels": [
       5,
       -3,
@@ -9542,10 +10565,11 @@
           36
         ]
       ]
-    ]
+    ],
+    "foundations": 237
   },
   {
-    "template": "lore/drowned_city_7",
+    "template": "lore/drowned_city_13",
     "size": [
       51,
       20,
@@ -9553,7 +10577,7 @@
     ],
     "blocks": 3552,
     "chests": 2,
-    "entities": 0,
+    "entities": 238,
     "levels": [
       -2,
       5,
@@ -9689,10 +10713,11 @@
           36
         ]
       ]
-    ]
+    ],
+    "foundations": 238
   },
   {
-    "template": "lore/drowned_city_8",
+    "template": "lore/drowned_city_14",
     "size": [
       51,
       20,
@@ -9700,7 +10725,7 @@
     ],
     "blocks": 3491,
     "chests": 2,
-    "entities": 0,
+    "entities": 237,
     "levels": [
       -3,
       2,
@@ -9831,7 +10856,8 @@
           36
         ]
       ]
-    ]
+    ],
+    "foundations": 237
   },
   {
     "template": "lore/observatory_1",
@@ -9864,7 +10890,73 @@
     ],
     "blocks": 2296,
     "chests": 1,
-    "entities": 0,
+    "entities": 0
+  },
+  {
+    "template": "lore/observatory_4",
+    "size": [
+      35,
+      29,
+      35
+    ],
+    "blocks": 3067,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/observatory_5",
+    "size": [
+      35,
+      24,
+      35
+    ],
+    "blocks": 2105,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/observatory_6",
+    "size": [
+      35,
+      30,
+      35
+    ],
+    "blocks": 3381,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/observatory_7",
+    "size": [
+      35,
+      28,
+      35
+    ],
+    "blocks": 2543,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/observatory_8",
+    "size": [
+      35,
+      24,
+      35
+    ],
+    "blocks": 2553,
+    "chests": 1,
+    "entities": 0
+  },
+  {
+    "template": "lore/observatory_9",
+    "size": [
+      35,
+      27,
+      35
+    ],
+    "blocks": 2296,
+    "chests": 1,
+    "entities": 5,
     "levels": [
       3
     ],
@@ -9896,10 +10988,11 @@
           4
         ]
       ]
-    ]
+    ],
+    "foundations": 5
   },
   {
-    "template": "lore/observatory_4",
+    "template": "lore/observatory_10",
     "size": [
       35,
       29,
@@ -9907,7 +11000,7 @@
     ],
     "blocks": 3067,
     "chests": 1,
-    "entities": 0,
+    "entities": 7,
     "levels": [
       5
     ],
@@ -9949,10 +11042,11 @@
           2
         ]
       ]
-    ]
+    ],
+    "foundations": 7
   },
   {
-    "template": "lore/observatory_5",
+    "template": "lore/observatory_11",
     "size": [
       35,
       24,
@@ -9960,7 +11054,7 @@
     ],
     "blocks": 2105,
     "chests": 1,
-    "entities": 0,
+    "entities": 4,
     "levels": [
       -2
     ],
@@ -9987,10 +11081,11 @@
           5
         ]
       ]
-    ]
+    ],
+    "foundations": 4
   },
   {
-    "template": "lore/observatory_6",
+    "template": "lore/observatory_12",
     "size": [
       35,
       30,
@@ -9998,7 +11093,7 @@
     ],
     "blocks": 3381,
     "chests": 1,
-    "entities": 0,
+    "entities": 8,
     "levels": [
       6
     ],
@@ -10045,10 +11140,11 @@
           1
         ]
       ]
-    ]
+    ],
+    "foundations": 8
   },
   {
-    "template": "lore/observatory_7",
+    "template": "lore/observatory_13",
     "size": [
       35,
       28,
@@ -10056,7 +11152,7 @@
     ],
     "blocks": 2543,
     "chests": 1,
-    "entities": 0,
+    "entities": 6,
     "levels": [
       4
     ],
@@ -10093,10 +11189,11 @@
           3
         ]
       ]
-    ]
+    ],
+    "foundations": 6
   },
   {
-    "template": "lore/observatory_8",
+    "template": "lore/observatory_14",
     "size": [
       35,
       24,
@@ -10104,7 +11201,7 @@
     ],
     "blocks": 2553,
     "chests": 1,
-    "entities": 0,
+    "entities": 5,
     "levels": [
       -3
     ],
@@ -10136,6 +11233,7 @@
           4
         ]
       ]
-    ]
+    ],
+    "foundations": 5
   }
 ]

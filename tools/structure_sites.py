@@ -7,6 +7,7 @@ RAILING = {'waterlogged': 'false'}
 
 
 def terrace(b, x0, z0, x1, z1, block, y=2):
+    b.mark_walkway(x0, z0, x1, z1, y, perimeter=True)
     b.fill(x0, y, z0, x1, y, z1, block)
     for x in range(x0, x1 + 1):
         for z in range(z0, z1 + 1):

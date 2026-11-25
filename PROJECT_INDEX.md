@@ -102,3 +102,5 @@
 - #atmosphere #decor #dwarfs [Поселения и атмосфера](docs/ATMOSPHERE.md). Справочник находок задаётся в `tools/site_supplies.py`, параметры хроник — в `tools/news.py`.
 
 - #vertical #worldgen `tools/site_levels.py` задаёт перепады, входы и лестницы. `docs/lore-structures.json` хранит параметры каждого шаблона для проверки.
+
+- #roads #worldgen `tools/site_supports.py` задаёт подсыпку, опоры и обработку точек в загруженных чанках. Проверки реестров и поведения описаны в `docs/TESTING.md`.

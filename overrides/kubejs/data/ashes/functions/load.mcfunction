@@ -43,3 +43,4 @@ scoreboard objectives add ashes_news trigger
 scoreboard players set #eight anews 8
 scoreboard players add #horde_started anews 0
 scoreboard players add #horde_defeated anews 0
+scoreboard objectives add ashes_gap dummy

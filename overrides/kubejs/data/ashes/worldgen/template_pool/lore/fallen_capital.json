@@ -5,7 +5,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/fallen_capital_3",
+        "location": "ashes:lore/fallen_capital_9",
         "processors": {
           "processors": []
         },
@@ -16,7 +16,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/fallen_capital_4",
+        "location": "ashes:lore/fallen_capital_10",
         "processors": {
           "processors": []
         },
@@ -27,7 +27,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/fallen_capital_5",
+        "location": "ashes:lore/fallen_capital_11",
         "processors": {
           "processors": []
         },
@@ -38,7 +38,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/fallen_capital_6",
+        "location": "ashes:lore/fallen_capital_12",
         "processors": {
           "processors": []
         },
@@ -49,7 +49,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/fallen_capital_7",
+        "location": "ashes:lore/fallen_capital_13",
         "processors": {
           "processors": []
         },
@@ -60,7 +60,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "ashes:lore/fallen_capital_8",
+        "location": "ashes:lore/fallen_capital_14",
         "processors": {
           "processors": []
         },
