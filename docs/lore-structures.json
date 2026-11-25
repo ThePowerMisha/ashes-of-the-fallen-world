@@ -6,7 +6,7 @@
       17,
       31
     ],
-    "blocks": 3334,
+    "blocks": 3335,
     "chests": 2,
     "entities": 0
   },
@@ -17,7 +17,7 @@
       17,
       31
     ],
-    "blocks": 3287,
+    "blocks": 3286,
     "chests": 2,
     "entities": 0
   },
@@ -28,7 +28,7 @@
       13,
       29
     ],
-    "blocks": 1385,
+    "blocks": 1387,
     "chests": 2,
     "entities": 0
   },
@@ -39,7 +39,7 @@
       13,
       29
     ],
-    "blocks": 1432,
+    "blocks": 1426,
     "chests": 2,
     "entities": 0
   },
@@ -72,7 +72,7 @@
       14,
       17
     ],
-    "blocks": 704,
+    "blocks": 706,
     "chests": 1,
     "entities": 0
   },
@@ -83,7 +83,7 @@
       14,
       17
     ],
-    "blocks": 699,
+    "blocks": 697,
     "chests": 1,
     "entities": 0
   },
@@ -94,7 +94,7 @@
       21,
       17
     ],
-    "blocks": 1804,
+    "blocks": 1805,
     "chests": 2,
     "entities": 0
   },
@@ -127,7 +127,7 @@
       17,
       21
     ],
-    "blocks": 3149,
+    "blocks": 3151,
     "chests": 2,
     "entities": 0
   },
@@ -149,7 +149,7 @@
       20,
       45
     ],
-    "blocks": 4855,
+    "blocks": 4853,
     "chests": 2,
     "entities": 0
   },
@@ -160,7 +160,7 @@
       20,
       33
     ],
-    "blocks": 3805,
+    "blocks": 3809,
     "chests": 2,
     "entities": 0
   },
@@ -171,7 +171,7 @@
       20,
       33
     ],
-    "blocks": 3762,
+    "blocks": 3759,
     "chests": 2,
     "entities": 0
   },
@@ -182,7 +182,7 @@
       17,
       33
     ],
-    "blocks": 3684,
+    "blocks": 3683,
     "chests": 2,
     "entities": 0
   },
@@ -193,7 +193,7 @@
       17,
       33
     ],
-    "blocks": 3614,
+    "blocks": 3613,
     "chests": 2,
     "entities": 0
   },
@@ -204,7 +204,7 @@
       19,
       33
     ],
-    "blocks": 3710,
+    "blocks": 3709,
     "chests": 2,
     "entities": 0
   },
@@ -215,7 +215,7 @@
       19,
       33
     ],
-    "blocks": 3654,
+    "blocks": 3652,
     "chests": 2,
     "entities": 0
   },
@@ -248,7 +248,7 @@
       17,
       29
     ],
-    "blocks": 2436,
+    "blocks": 2434,
     "chests": 2,
     "entities": 0
   },
@@ -292,7 +292,7 @@
       17,
       31
     ],
-    "blocks": 3135,
+    "blocks": 3134,
     "chests": 1,
     "entities": 3
   },
@@ -303,7 +303,7 @@
       17,
       31
     ],
-    "blocks": 3102,
+    "blocks": 3103,
     "chests": 1,
     "entities": 3
   },
@@ -336,7 +336,7 @@
       16,
       29
     ],
-    "blocks": 2740,
+    "blocks": 2736,
     "chests": 1,
     "entities": 0
   },
@@ -347,7 +347,7 @@
       16,
       29
     ],
-    "blocks": 2741,
+    "blocks": 2737,
     "chests": 1,
     "entities": 0
   },
@@ -380,7 +380,7 @@
       21,
       23
     ],
-    "blocks": 1545,
+    "blocks": 1544,
     "chests": 1,
     "entities": 0
   },
@@ -391,7 +391,7 @@
       21,
       23
     ],
-    "blocks": 1689,
+    "blocks": 1693,
     "chests": 1,
     "entities": 0
   }

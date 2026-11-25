@@ -52,6 +52,14 @@ FUNCTIONS = {
     "tag @s add ashes_end_seen",
     "tellraw @s[tag=!ashes_news_muted] {\"text\": \"[Хроники] За краем мира не слышно ветра. Только пустота и отзвук древней катастрофы.\", \"color\": \"dark_purple\"}"
   ],
+  "news/welcome": [
+    "tag @s add ashes_news_seen",
+    "execute store result score #join_time anews run time query daytime",
+    'execute if score #join_time anews matches 0..11999 run tellraw @s {"text":"[Хроники] Сейчас день. Выходи на тракт, пока дорога освещена.","color":"dark_aqua"}',
+    'execute if score #join_time anews matches 12000..23999 run tellraw @s {"text":"[Хроники] Сейчас ночь. Веди отряд по освещённой тропе.","color":"gray"}',
+    'execute if predicate ashes:news/rain unless predicate ashes:news/thunder run tellraw @s {"text":"[Хроники] Над долиной идёт дождь.","color":"dark_aqua"}',
+    'execute if predicate ashes:news/thunder run tellraw @s {"text":"[Хроники] На рубеже гроза.","color":"gold"}'
+  ],
   "news/player": [
     "scoreboard players enable @s ashes_news",
     "execute if score @s ashes_news matches 1 run tag @s remove ashes_news_muted",
@@ -59,6 +67,7 @@ FUNCTIONS = {
     "execute if score @s ashes_news matches 2 run tag @s add ashes_news_muted",
     "execute if score @s ashes_news matches 2 run tellraw @s {\"text\": \"[Хроники] Сообщения хроник отключены. /trigger ashes_news set 1 — включить.\", \"color\": \"dark_aqua\"}",
     "scoreboard players set @s ashes_news 0",
+    "execute if dimension minecraft:overworld if entity @s[tag=!ashes_news_seen,tag=!ashes_news_muted] run function ashes:news/welcome",
     "execute if dimension twilightforest:twilight_forest unless entity @s[tag=ashes_twilight_seen] run function ashes:news/twilight",
     "execute if dimension minecraft:the_nether unless entity @s[tag=ashes_nether_seen] run function ashes:news/nether",
     "execute if dimension minecraft:the_end unless entity @s[tag=ashes_end_seen] run function ashes:news/end"
@@ -81,7 +90,7 @@ APPEND = {
     "function ashes:news/player"
   ],
   "intro": [
-    "tellraw @s {\"text\": \"[Хроники] Хроники мира: /trigger ashes_news set 2 — скрыть сообщения, set 1 — включить.\", \"color\": \"dark_aqua\"}"
+    "tellraw @s {\"text\": \"[Хроники] Хроники мира сопровождают путешествие. /trigger ashes_news set 2 — скрыть сообщения.\", \"color\": \"dark_aqua\"}"
   ]
 }
 PREDICATES = json.loads("{\"rain\":{\"condition\":\"minecraft:weather_check\",\"raining\":true},\"thunder\":{\"condition\":\"minecraft:weather_check\",\"thundering\":true}}")

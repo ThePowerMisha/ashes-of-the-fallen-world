@@ -3,9 +3,15 @@ import json, csv, re, subprocess, shutil, tomllib
 root=Path(__file__).resolve().parents[1]
 manifest=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
 assert manifest['minecraft']['version']=='1.20.1'
-assert len(manifest['files'])==169
+assert len(manifest['files'])==171
 ids={(i['projectID'],i['fileID']) for i in manifest['files']}
-assert len(ids)==169 and len({p for p,f in ids})==169
+assert len(ids)==171 and len({p for p,f in ids})==171
+assert {(896746,8657397),(1733245,9553070)} <= ids
+shader_config=(root/'overrides/config/oculus.properties').read_text(encoding='utf-8')
+assert 'enableShaders=true' in shader_config
+assert 'shaderPack=ComplementaryUnbound_r5.6.1.zip' in shader_config
+preset=(root/'overrides/shaderpacks/ComplementaryUnbound_r5.6.1.zip.txt').read_text(encoding='utf-8')
+assert 'TM_EXPOSURE=0.90' in preset and 'T_SATURATION=0.85' in preset
 with (root/'overrides/ashes_docs/mods-lock.tsv').open(encoding='utf-8') as f:
     locked=list(csv.DictReader(f,delimiter='\t'))
 assert {(int(r['projectID']),int(r['fileID'])) for r in locked}==ids
@@ -120,11 +126,15 @@ for p in (functions/'news').glob('*.mcfunction'):
         assert (base/'data/ashes/predicates'/(name+'.json')).is_file(),name
 assert 'function ashes:news/player' in (functions/'player.mcfunction').read_text(encoding='utf-8')
 assert 'scoreboard objectives add ashes_news trigger' in (functions/'load.mcfunction').read_text(encoding='utf-8')
-print('PASS: world chronicle function and predicate references.')
+assert 'tag=!ashes_news_seen,tag=!ashes_news_muted' in (functions/'news/player.mcfunction').read_text(encoding='utf-8')
+assert 'run function ashes:news/welcome' in (functions/'news/player.mcfunction').read_text(encoding='utf-8')
+print('PASS: chronicles are enabled for new players and retain per-player mute.')
 
 # Lore structures: real templates, data registries, loot, and discovery.
 import gzip
 from structures import PLACEMENT, SITES
+from site_supplies import SITE_FIXTURES
+from devtools import NBT
 
 lorebase=base/'data/ashes'
 site_set_dir=lorebase/'worldgen/structure_set'
@@ -139,6 +149,7 @@ assert {entry['structure'] for entry in site_entries}=={'ashes:'+site.slug for s
 seen_templates=set()
 for entry in site_entries:
     site=entry['structure'].split(':')[1]
+    blocks, supplies=SITE_FIXTURES[site]
     conf=json.loads((lorebase/'worldgen/structure'/(site+'.json')).read_text(encoding='utf-8'))
     assert conf['type']=='minecraft:jigsaw' and conf['size'] > 0
     pool=conf['start_pool'].split(':')[1]
@@ -153,10 +164,14 @@ for entry in site_entries:
         nbt=gzip.decompress(p.read_bytes())
         assert nbt.startswith(b'\x0a\x00\x00') and b'DataVersion' in nbt
         assert ('ashes:lore/'+site).encode() in nbt
+        template=NBT(nbt).parse()
+        assert set(blocks) <= {state['Name'] for state in template['palette']},name
         if 'start_jigsaw_name' in conf:
             assert conf['start_jigsaw_name'].encode() in nbt
     loot=json.loads((lorebase/'loot_tables/lore'/(site+'.json')).read_text(encoding='utf-8'))
     assert loot['type']=='minecraft:chest'
+    assert loot['pools'][-1]['rolls']==1
+    assert {e['name'] for e in loot['pools'][-1]['entries']}==set(supplies)
     for pool in loot['pools']:
         for e in pool['entries']:
             if e['name'].startswith('kubejs:'): assert e['name'].split(':')[1] in items

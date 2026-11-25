@@ -2,6 +2,8 @@
 from collections import defaultdict
 from math import cos, sin
 
+from site_supplies import SITE_FIXTURES
+
 LAND_DEPTH = 5
 HOUSE_SITES = {'silent_hamlet', 'surviving_hamlet', 'infected_hamlet'}
 CASTLES = {'fallen_capital', 'mechanists_keep', 'keepers_keep', 'archmages_keep'}
@@ -29,20 +31,20 @@ def enhance_site(build, site):
                   'fortress' if site.slug in CASTLES else 'ruin')
     protected = {(x,z) for (x,_,z),(_,tag) in build.blocks.items() if tag}
     protected.update((e['blockPos'][0], e['blockPos'][2]) for e in build.entities)
-    decorate(build, decor_kind, protected)
+    decorate(build, decor_kind, protected, SITE_FIXTURES[site.slug][0])
     if outdoor:
         add_terrain(build, site.biomes)
         return LAND_DEPTH
     return 0
 
 
-def decorate(build, kind, protected):
+def decorate(build, kind, protected, fixtures):
     width, height, length = build.size
     columns = defaultdict(list)
     for (x,y,z),(state,_) in build.blocks.items():
         if state['Name'] != 'minecraft:air':
             columns[x,z].append(y)
-    candidates=[]
+    candidates, open_floor = [], []
     for (x,z), levels in columns.items():
         if x<=0 or z<=0 or x>=width-1 or z>=length-1:
             continue
@@ -65,16 +67,25 @@ def decorate(build, kind, protected):
             # Put most props against actual walls and keep passages and open courts clear.
             if near_wall or kind=='water':
                 candidates.append((x,y+1,z))
-                break
+            else:
+                open_floor.append((x,y+1,z))
+            break
     build.r.shuffle(candidates)
+    build.r.shuffle(open_floor)
+    wall_or_water=set(candidates)
     chosen=[]
     limit=max(3, min(18, width*length//80))
-    for x,y,z in candidates:
-        if len(chosen)>=limit: break
-        if any(abs(x-a)+abs(z-c)<4 for a,_,c in chosen): continue
+    for x,y,z in candidates + open_floor:
+        index=len(chosen)
+        if index >= limit or (index >= len(fixtures) and (x,y,z) not in wall_or_water):
+            break
+        separation=2 if index < len(fixtures) else 4
+        if any(abs(x-a)+abs(z-c) < separation for a,_,c in chosen):
+            continue
         chosen.append((x,y,z))
-        block=DECOR[kind][(len(chosen)+build.style)%len(DECOR[kind])]
+        block=fixtures[index] if index < len(fixtures) else DECOR[kind][(index+build.style)%len(DECOR[kind])]
         build.put(x,y,z,block,DECO_PROPERTIES.get(block))
+    assert len(chosen) >= len(fixtures), (kind, build.size, fixtures)
 
 
 def add_terrain(build, biome):

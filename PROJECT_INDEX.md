@@ -98,3 +98,5 @@
 - #author-content #quests #artifacts #classes #terrain [Авторский контент](docs/AUTHOR_CONTENT.md) · генераторы `tools/quest_content.py`, `tools/artifacts.py`, `tools/skills.py` и `tools/site_terrain.py`.
 
 - #oculus #immediatelyfast [Диагностика запуска клиента](docs/MOD_AUDIT.md#immediatelyfast-и-oculus-180).
+
+- #atmosphere #decor #dwarfs [Поселения и атмосфера](docs/ATMOSPHERE.md). Справочник находок задаётся в `tools/site_supplies.py`, параметры хроник — в `tools/news.py`.

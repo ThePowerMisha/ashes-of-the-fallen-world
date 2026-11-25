@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from pathlib import Path
 import gzip, io, json, random, struct
 from site_terrain import enhance_site
+from site_supplies import SITE_FIXTURES
 
 def st(name, **props):
     return {'Name': name if ':' in name else 'minecraft:'+name, **({'Properties':props} if props else {})}
@@ -394,6 +395,7 @@ def lore_loot(site):
         {'rolls': 1, 'entries': [entry]},
         {'rolls': 1, 'entries': [item_entry('kubejs:' + site.memento, 1)]},
         theme_pool(site),
+        {'rolls': 1, 'entries': [item_entry(name, 1) for name in SITE_FIXTURES[site.slug][1]]},
     ]}
 
 

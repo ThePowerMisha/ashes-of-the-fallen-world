@@ -145,6 +145,10 @@
       "mca-reputation",
       "mca-mob-compat",
       "mca-family-life"
+    ],
+    "author_atmosphere": [
+      "amendments",
+      "dwarfs-tyranny"
     ]
   },
   "reviewed_dependencies": {
@@ -277,6 +281,9 @@
     ],
     "mca-family-life": [
       "minecraft-comes-alive-reborn"
+    ],
+    "amendments": [
+      "selene"
     ]
   },
   "excluded": {

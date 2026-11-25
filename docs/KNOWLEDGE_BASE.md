@@ -49,3 +49,5 @@ RC5: игровые тесты клиента/сервера, фактическ
 - #author-content #class-menu #terrain [Квесты, применения предметов и классы](AUTHOR_CONTENT.md). `tools/validate.py` проверяет награды, ссылки на рисунки, навыки и генераторы. Рельеф и декор формирует `tools/site_terrain.py` при сборке шаблонов.
 
 - #oculus #immediatelyfast Старый пакет класса `ImmediateState` завершает запуск клиента с кодом 255. [Проверенные версии](MOD_AUDIT.md#immediatelyfast-и-oculus-180).
+
+- #decor #dwarfs #shaders [Поселения и атмосфера](ATMOSPHERE.md). `tools/validate.py` сверяет по два блока в каждом NBT, дополнительную добычу и наличие шейдерного профиля.

@@ -84,3 +84,5 @@
 - #chunky #pregen [Предгенерация чанков](SERVER.md#предгенерация-чанков).
 
 - #author-content #quests #artifacts #classes #terrain [Авторский контент](AUTHOR_CONTENT.md) · генераторы `tools/quest_content.py`, `tools/artifacts.py`, `tools/skills.py` и `tools/site_terrain.py`.
+
+- #atmosphere #decor #dwarfs [Поселения и атмосфера](ATMOSPHERE.md).

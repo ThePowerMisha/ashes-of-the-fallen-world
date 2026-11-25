@@ -11,6 +11,9 @@ logs/
 crash-reports/
 backups/
 shaderpacks/
+!overrides/shaderpacks/
+overrides/shaderpacks/*
+!overrides/shaderpacks/*.zip.txt
 .local/
 .env
 .env.*
