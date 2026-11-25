@@ -47,3 +47,7 @@ Botania 1.20.1-450 требует Patchouli 1.20.1-83 или новее и Curio
 - После установки TerraBlender 3.0.1.10 загрузка дошла до регистрации рецептов. MineColonies Compatibility 2.128 обращается к `net.satisfy.vinery.core.registry.RecipeTypesRegistry`. В Vinery 1.4.28 класс находится в другом пакете. В манифесте закреплён [Vinery 1.4.41 для Forge 1.20.1](https://www.curseforge.com/minecraft/mc-mods/lets-do-vinery/files/6965751). Точный путь класса проверен в JAR.
 
 Если правишь уже установленный профиль CurseForge, закрой Minecraft и замени оба старых JAR в его папке `mods`. При установленном TerraBlender 3.0.1.10 достаточно заменить Vinery. Первый запуск после обновления проверь на новом тестовом мире.
+
+## ImmediatelyFast и Oculus 1.8.0
+
+В старом ImmediatelyFast 1.2.4 инициализация графики завершается с кодом 255. Эта версия ищет `net.coderbot.iris.vertices.ImmediateState`, а Oculus 1.8.0 содержит `net.irisshaders.iris.vertices.ImmediateState`. ImmediatelyFast 1.5.5 проверяет оба пакета. Forge-метаданные файла допускают версии Minecraft от 1.20 до 1.20.4 включительно.

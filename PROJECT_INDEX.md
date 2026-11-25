@@ -96,3 +96,5 @@
 - #mca [Файлы MCA Reborn 7.7.1-beta.6 и пяти аддонов](docs/MCA.md#версии-и-источники).
 
 - #author-content #quests #artifacts #classes #terrain [Авторский контент](docs/AUTHOR_CONTENT.md) · генераторы `tools/quest_content.py`, `tools/artifacts.py`, `tools/skills.py` и `tools/site_terrain.py`.
+
+- #oculus #immediatelyfast [Диагностика запуска клиента](docs/MOD_AUDIT.md#immediatelyfast-и-oculus-180).

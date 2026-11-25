@@ -47,3 +47,5 @@ RC5: игровые тесты клиента/сервера, фактическ
 - #shaders #oculus Оба архива включают одинаковые проекты, в том числе Oculus и пять шейдерпаков. `overrides/config/oculus.properties` хранит выбор Complementary Unbound и оставляет шейдеры выключенными на первом запуске. [Настройки](GRAPHICS.md).
 
 - #author-content #class-menu #terrain [Квесты, применения предметов и классы](AUTHOR_CONTENT.md). `tools/validate.py` проверяет награды, ссылки на рисунки, навыки и генераторы. Рельеф и декор формирует `tools/site_terrain.py` при сборке шаблонов.
+
+- #oculus #immediatelyfast Старый пакет класса `ImmediateState` завершает запуск клиента с кодом 255. [Проверенные версии](MOD_AUDIT.md#immediatelyfast-и-oculus-180).
