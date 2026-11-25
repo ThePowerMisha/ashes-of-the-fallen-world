@@ -13,7 +13,11 @@
       "id": "175CB9D5290AABE1",
       "title": "Устав дозорного",
       "description": [
-        "Старые дозорные уходили по крышам, когда дороги становились опасны. Проверь раскладку ParCool в настройках управления."
+        "Старые дозорные уходили по крышам, когда дороги становились опасны. Проверь раскладку ParCool в настройках управления.",
+        "",
+        "Из записей экспедиции. Тропы прокладывали там, где уступы можно пройти с грузом. На сложных поворотах уцелели крюки и перила.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
       ],
       "icon": "kubejs:scout_report",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "2BD8F0EBC1A09919"
+      ],
+      "rewards": [
+        {
+          "id": "774CC3766F291884",
+          "type": "item",
+          "item": "minecraft:compass",
+          "count": 1
+        }
       ]
     },
     {
@@ -49,13 +61,22 @@
       ],
       "dependencies": [
         "175CB9D5290AABE1"
+      ],
+      "rewards": [
+        {
+          "id": "5300739A26DFEB89",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        }
       ]
     },
     {
       "id": "52D44E39BB13DEEB",
       "title": "Первый барьер",
       "description": [
-        "Потренируй перелезание через ограждения и прыжки на тренировочной площадке."
+        "Потренируй перелезание через ограждения и прыжки на тренировочной площадке.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:leather_boots",
       "x": 4.0,
@@ -69,13 +90,22 @@
       ],
       "dependencies": [
         "0F5BBD8CFB8525EE"
+      ],
+      "rewards": [
+        {
+          "id": "349B69476D7D8C06",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 6
+        }
       ]
     },
     {
       "id": "04344DB13E590CA6",
       "title": "Безопасное падение",
       "description": [
-        "Освой кувырок на небольшой высоте, проверь расход выносливости."
+        "Освой кувырок на небольшой высоте, проверь расход выносливости.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:leather_boots",
       "x": 6.0,
@@ -89,13 +119,22 @@
       ],
       "dependencies": [
         "52D44E39BB13DEEB"
+      ],
+      "rewards": [
+        {
+          "id": "5FC68FAFCEBDFE72",
+          "type": "item",
+          "item": "minecraft:soul_torch",
+          "count": 6
+        }
       ]
     },
     {
       "id": "3834A13EB74310A4",
       "title": "Тесные проходы",
       "description": [
-        "Испытай ползание и скольжение в безопасном коридоре."
+        "Испытай ползание и скольжение в безопасном коридоре.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:leather_boots",
       "x": 0.0,
@@ -109,13 +148,22 @@
       ],
       "dependencies": [
         "04344DB13E590CA6"
+      ],
+      "rewards": [
+        {
+          "id": "64C18144C8103F61",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 8
+        }
       ]
     },
     {
       "id": "3B657869164D73F6",
       "title": "Вертикальная разведка",
       "description": [
-        "Освой прыжки от стены и подъём на уступ. Не тренируйся над пропастью."
+        "Освой прыжки от стены и подъём на уступ. Не тренируйся над пропастью.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:leather_boots",
       "x": 2.0,
@@ -129,13 +177,22 @@
       ],
       "dependencies": [
         "3834A13EB74310A4"
+      ],
+      "rewards": [
+        {
+          "id": "4D235FC730950D7D",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 1
+        }
       ]
     },
     {
       "id": "7267C93E3BF9838C",
       "title": "Запас выносливости",
       "description": [
-        "Возьми еду и проверь восстановление выносливости."
+        "Возьми еду и проверь восстановление выносливости.",
+        "Подходящие варианты — хлеб, печёный картофель или жареное мясо. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:bread",
       "x": 4.0,
@@ -144,19 +201,34 @@
         {
           "id": "6676D1F2B2310FCC",
           "type": "item",
-          "item": "minecraft:bread",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/provisions)"
+            }
+          },
           "count": 8
         }
       ],
       "dependencies": [
         "3B657869164D73F6"
+      ],
+      "rewards": [
+        {
+          "id": "6A2373F7756ACAF2",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
       "id": "49CBE8A61636881C",
       "title": "Маршрут дозора",
       "description": [
-        "Пройди собственный маршрут по стене поселения без падений."
+        "Пройди собственный маршрут по стене поселения без падений.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:leather_boots",
       "x": 6.0,
@@ -170,6 +242,14 @@
       ],
       "dependencies": [
         "7267C93E3BF9838C"
+      ],
+      "rewards": [
+        {
+          "id": "3430EB1FCCDF8063",
+          "type": "item",
+          "item": "minecraft:compass",
+          "count": 1
+        }
       ]
     },
     {
@@ -196,8 +276,19 @@
         {
           "id": "3A0CBCD0EB216DAF",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:torch",
+          "count": 8
+        },
+        {
+          "id": "59B1ACAB31A1DAE3",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "6182ADAE2FE8BA82",
+          "type": "item",
+          "item": "kubejs:power_regulator",
+          "count": 1
         }
       ]
     }

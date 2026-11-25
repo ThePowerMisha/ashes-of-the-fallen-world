@@ -13,7 +13,13 @@
       "id": "226256B371A5E712",
       "title": "Справочник рецептов",
       "description": [
-        "В JEI проверь клавиши просмотра рецепта и применения предмета. Изучи управление поиском по модам."
+        "В JEI проверь клавиши просмотра рецепта и применения предмета. Изучи управление поиском по модам.",
+        "",
+        "Из записей экспедиции. Записки разведчика сложены по направлениям. Быстрый путь к нужному навыку начинается с Печати экспедиции.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}",
+        "После выполнения отметь задание вручную.",
+        "В JEI можно посмотреть ресурсы, профессии и мультиблоки Mekanism. При совпадении рецептов проверь переключатель Polymorph и единые материалы Almost Unified."
       ],
       "icon": "minecraft:book",
       "x": 0.0,
@@ -27,6 +33,14 @@
       ],
       "dependencies": [
         "2BD8F0EBC1A09919"
+      ],
+      "rewards": [
+        {
+          "id": "4BCC67A1CD6595C6",
+          "type": "item",
+          "item": "minecraft:stick",
+          "count": 8
+        }
       ]
     },
     {
@@ -48,13 +62,22 @@
       ],
       "dependencies": [
         "226256B371A5E712"
+      ],
+      "rewards": [
+        {
+          "id": "6D3F550A72A5CDC4",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 3
+        }
       ]
     },
     {
       "id": "3DCB029535E51940",
       "title": "Мастерские жителей",
       "description": [
-        "Открой категории Just Enough Professions, найди рабочие блоки нужных профессий."
+        "Открой категории Just Enough Professions, найди рабочие блоки нужных профессий.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:book",
       "x": 4.0,
@@ -68,13 +91,22 @@
       ],
       "dependencies": [
         "412120BF10682AF1"
+      ],
+      "rewards": [
+        {
+          "id": "237D9AFE450E6ED4",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        }
       ]
     },
     {
       "id": "0AC85DA3B4EBF47C",
       "title": "Машинные схемы",
       "description": [
-        "Открой Just Enough Mekanism Multiblocks в JEI и проверь размер установки до строительства."
+        "Открой Just Enough Mekanism Multiblocks в JEI и проверь размер установки до строительства.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:book",
       "x": 6.0,
@@ -88,13 +120,23 @@
       ],
       "dependencies": [
         "3DCB029535E51940"
+      ],
+      "rewards": [
+        {
+          "id": "2A67E4B55DC360D2",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 3
+        }
       ]
     },
     {
       "id": "5922EEAE48FBED5C",
       "title": "Подсказки",
       "description": [
-        "Удерживай Shift над предметом и изучи данные JEI Integration. Используй AppleSkin для оценки пищи."
+        "Удерживай Shift над предметом и изучи данные JEI Integration. Используй AppleSkin для оценки пищи.",
+        "После выполнения отметь задание вручную.",
+        "Jade показывает блок и его состояние. GuideME открывает справочник AE2. Lootr выдаёт личную добычу, а Corpse оставляет вещи в месте гибели."
       ],
       "icon": "minecraft:book",
       "x": 0.0,
@@ -108,6 +150,14 @@
       ],
       "dependencies": [
         "0AC85DA3B4EBF47C"
+      ],
+      "rewards": [
+        {
+          "id": "077A11E3B466257E",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 4
+        }
       ]
     },
     {
@@ -134,8 +184,19 @@
         {
           "id": "1D620C72D685EDD9",
           "type": "item",
-          "item": "minecraft:gold_ingot",
+          "item": "minecraft:leather",
           "count": 2
+        },
+        {
+          "id": "21B61C21026467DC",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "4A565C0E90B22F53",
+          "type": "item",
+          "item": "kubejs:cleansing_charge",
+          "count": 1
         }
       ]
     }

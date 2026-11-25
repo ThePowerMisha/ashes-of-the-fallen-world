@@ -1,0 +1,303 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "43_survey",
+  "group": "",
+  "icon": "minecraft:compass",
+  "id": "58FF34EE34001624",
+  "order_index": 42,
+  "quest_links": [
+    {
+      "id": "7FADFD6F55889574",
+      "linked_quest": "70162E3EEE582478",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "27D57E549A4A3297",
+      "linked_quest": "1D2F64A8F41DAC79",
+      "x": 9.0,
+      "y": 2.0
+    }
+  ],
+  "title": "Путеводители и дальние руины",
+  "quests": [
+    {
+      "id": "061A8CB234F5E056",
+      "title": "Карта биомов",
+      "description": [
+        "Найди нужный биом компасом природы. Запиши ориентир на карте Xaero.",
+        "",
+        "Из записей экспедиции. Дозор отмечал не только башни. На карте берегов уцелели подсказки о путях к далёким руинам.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
+      ],
+      "icon": "naturescompass:naturescompass",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7E45D35D64750E94",
+          "type": "item",
+          "item": "naturescompass:naturescompass",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "639F04B923139E25"
+      ],
+      "rewards": [
+        {
+          "id": "7E990F90F5D60399",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "600ED2E857F8EC8C",
+      "title": "Поиск руин",
+      "description": [
+        "Найди структуру компасом исследователя и проложи маршрут с безопасным выходом."
+      ],
+      "icon": "explorerscompass:explorerscompass",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "184D51A86610FA43",
+          "type": "item",
+          "item": "explorerscompass:explorerscompass",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "061A8CB234F5E056"
+      ],
+      "rewards": [
+        {
+          "id": "66A70EBC310F1A00",
+          "type": "item",
+          "item": "minecraft:soul_torch",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "6166FCEC5045A682",
+      "title": "Развилки атласа",
+      "description": [
+        "Сравни поселение Towns and Towers или Bons Voyage с руинами Integrated Dungeons and Structures либо When Dungeons Arise. Отметь одно место для повторного похода.",
+        "После выполнения отметь задание вручную.",
+        "Для большого маршрута отметь по одному ориентиру в каждом типе руин."
+      ],
+      "icon": "minecraft:compass",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0F2294A3B962A325",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "600ED2E857F8EC8C"
+      ],
+      "rewards": [
+        {
+          "id": "42D4A05B9321C629",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "21029B8EC8FCD126",
+      "title": "Нижние тропы",
+      "description": [
+        "Исследуй пещеру, шахту или крепость YUNG’s, затем вернись к отмеченной развилке.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:compass",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "256D9384B4F44198",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "6166FCEC5045A682"
+      ],
+      "rewards": [
+        {
+          "id": "39AD7E8354B9C2D4",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6AE4A71E2D66F0E4",
+      "title": "Край моря и огня",
+      "description": [
+        "Сходи к океанскому монументу, храму джунглей или крепости Нижнего мира YUNG’s. Запиши безопасный подход.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:compass",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "45CA0EB8B8FE142A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "21029B8EC8FCD126"
+      ],
+      "rewards": [
+        {
+          "id": "46B21D8189E240F2",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "52D761B829FFB6D1",
+      "title": "Дальняя география",
+      "description": [
+        "Сравни рельеф Tectonic и биомы Terralith. Отметь глубокую пещеру, перевал или редкий сухопутный ориентир.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:compass",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "3A2B8326355799B6",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "6AE4A71E2D66F0E4"
+      ],
+      "rewards": [
+        {
+          "id": "232D6BDB8BE1DC6A",
+          "type": "item",
+          "item": "minecraft:compass",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6A0C7BDBCB94E748",
+      "title": "Лесной бестиарий",
+      "description": [
+        "Наблюдай за животными Naturalist или Alex’s Mobs. Определи, каких зверей безопаснее обходить.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:compass",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6A2CE4D965FBA53C",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "52D761B829FFB6D1"
+      ],
+      "rewards": [
+        {
+          "id": "029C4C473DAD1F02",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "415240F19D21873C",
+      "title": "Ночь без огня",
+      "description": [
+        "Проверь календарь Enhanced Celestials и подготовь безопасный наблюдательный пост. Сохрани следы необычного события From The Fog, если оно произойдёт.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:compass",
+      "x": 6.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6B682F73EE78ECA3",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "6A0C7BDBCB94E748"
+      ],
+      "rewards": [
+        {
+          "id": "4D6A00DB7E47C375",
+          "type": "item",
+          "item": "minecraft:cooked_porkchop",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "280DB6D983E358CB",
+      "title": "Снаружи Края",
+      "description": [
+        "В отдельном походе найди остров с расширенной структурой YUNG’s Better End Island и отметь безопасный путь назад.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:compass",
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "39BACC6226B9416C",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "415240F19D21873C"
+      ],
+      "rewards": [
+        {
+          "id": "350EBE4682876CD2",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 6
+        },
+        {
+          "id": "3FAED5A4FD2C25E9",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "442FA45D1D61C6B1",
+          "type": "item",
+          "item": "kubejs:repair_kit",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

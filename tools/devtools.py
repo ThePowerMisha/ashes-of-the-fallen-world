@@ -190,7 +190,7 @@ def references(root, templates=None):
         for q in c["quests"]:
             for task in q["tasks"]:
                 if task["type"] == "item":
-                    refs["item"].add(task["item"])
+                    refs["item"].add(task["item"]["id"] if isinstance(task["item"], dict) else task["item"])
             for reward in q.get("rewards", []):
                 if reward.get("type") == "item":
                     refs["item"].add(reward["item"])
@@ -259,7 +259,7 @@ def balance(root):
             byid[q["id"]] = q
         summaries[name] = dict(quests=len(qlist), manual=sum(any(t["type"] == "checkmark" for t in q["tasks"]) for q in qlist),
                                rewards=Counter(r.get("type", "unknown") for q in qlist for r in q.get("rewards", [])),
-                               item_tasks=dict(Counter(t["item"].split(":")[0] for q in qlist for t in q["tasks"] if t["type"] == "item")))
+                               item_tasks=dict(Counter(((t["item"]["id"] if isinstance(t["item"], dict) else t["item"])).split(":")[0] for q in qlist for t in q["tasks"] if t["type"] == "item")))
     depths, active = {}, set()
 
     def depth(qid):

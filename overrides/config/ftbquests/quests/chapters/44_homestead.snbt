@@ -1,0 +1,229 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "44_homestead",
+  "group": "",
+  "icon": "minecraft:composter",
+  "id": "22D4E2501D658C2E",
+  "order_index": 43,
+  "quest_links": [
+    {
+      "id": "21410FED9D72506D",
+      "linked_quest": "365F0A63AF35BD13",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "7D3136CBE9162DEA",
+      "linked_quest": "59B3BE45BFA33BD1",
+      "x": 9.0,
+      "y": 2.0
+    }
+  ],
+  "title": "Ферма, кухня и дом",
+  "quests": [
+    {
+      "id": "76B27439B998FCAE",
+      "title": "Сезонная грядка",
+      "description": [
+        "Подготовь компостер и по Serene Seasons выбери подходящую культуру для текущего сезона.",
+        "",
+        "Из записей экспедиции. Сад пережил две зимы. По соседству с прессом восстановили печь, чтобы перерабатывать урожай на месте.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
+      ],
+      "icon": "minecraft:composter",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "77F96B5DA0BEF10C",
+          "type": "item",
+          "item": "minecraft:composter",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "365F0A63AF35BD13"
+      ],
+      "rewards": [
+        {
+          "id": "6D456BAAEB9F100F",
+          "type": "item",
+          "item": "minecraft:brick",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "20E8796A80EBACEA",
+      "title": "Полевая кухня",
+      "description": [
+        "Собери кухню Farmer’s Delight и приготовь первое блюдо."
+      ],
+      "icon": "farmersdelight:cooking_pot",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5F94ADC279179C46",
+          "type": "item",
+          "item": "farmersdelight:cooking_pot",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "76B27439B998FCAE"
+      ],
+      "rewards": [
+        {
+          "id": "6833A7B0E2665129",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "39E7C9B8D56CD34A",
+      "title": "Сад и сок",
+      "description": [
+        "Поставь яблочный пресс Vinery и попробуй производство соков."
+      ],
+      "icon": "vinery:apple_press",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "6B470B9BC7042054",
+          "type": "item",
+          "item": "vinery:apple_press",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "20E8796A80EBACEA"
+      ],
+      "rewards": [
+        {
+          "id": "3CA541A425C7D9D4",
+          "type": "item",
+          "item": "minecraft:cake",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1DF2015174F1EEC6",
+      "title": "Припасы в дорогу",
+      "description": [
+        "Собери дорожные пайки из доступной готовой еды и проверь сытость с AppleSkin.",
+        "Подходящие варианты — хлеб, печёный картофель или жареное мясо. Их можно собрать в любом сочетании."
+      ],
+      "icon": "minecraft:composter",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "4C57F35B66F3294B",
+          "type": "item",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/provisions)"
+            }
+          },
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "39E7C9B8D56CD34A"
+      ],
+      "rewards": [
+        {
+          "id": "2EB80153E566A803",
+          "type": "item",
+          "item": "minecraft:shears",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0CFE43D14F839EE8",
+      "title": "Домашний запас",
+      "description": [
+        "Устрой деревянный склад у кухни. Поставь мешок Supplementaries или отдели личные вещи в рюкзак Sophisticated Backpacks.",
+        "Подходящие варианты — обычные деревянные сундуки. Их можно собрать в любом сочетании."
+      ],
+      "icon": "minecraft:composter",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "6E11E753195A2C5D",
+          "type": "item",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/wooden_chests)"
+            }
+          },
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "1DF2015174F1EEC6"
+      ],
+      "rewards": [
+        {
+          "id": "26E454B1EDE773E3",
+          "type": "item",
+          "item": "minecraft:string",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "47986A9114F07985",
+      "title": "Дом для гостей",
+      "description": [
+        "Поставь рабочее освещение и обставь спальню. Проверь, как устроены место для сна и свет в твоём убежище.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:composter",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "7EE02D190BA17D8A",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0CFE43D14F839EE8"
+      ],
+      "rewards": [
+        {
+          "id": "5D019933DD4CB191",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 5
+        },
+        {
+          "id": "214342FB74D1E3D3",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "64BD7B2F5824A615",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

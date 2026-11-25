@@ -13,7 +13,11 @@
       "id": "345483B6D9AF0E64",
       "title": "Матрица очищения",
       "description": [
-        "Создай экспериментальную матрицу. Она предназначена для переработки знаков, а не для автоматического удаления заражённых блоков."
+        "Создай экспериментальную матрицу. Она предназначена для переработки знаков, а не для автоматического удаления заражённых блоков.",
+        "",
+        "Из записей экспедиции. Первую весну после бедствия заметили по пчёлам. Они вернулись на склон, где всё лето восстанавливали старые тропы.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
       ],
       "icon": "kubejs:purifier_matrix",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "38741EC4B6B368B9"
+      ],
+      "rewards": [
+        {
+          "id": "1F60B0211D6B7A73",
+          "type": "item",
+          "item": "minecraft:brown_mushroom",
+          "count": 3
+        }
       ]
     },
     {
@@ -49,13 +61,22 @@
       ],
       "dependencies": [
         "345483B6D9AF0E64"
+      ],
+      "rewards": [
+        {
+          "id": "778B9A5A4C14D7AD",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 4
+        }
       ]
     },
     {
       "id": "0E490542BD998D2F",
       "title": "Перепись очагов",
       "description": [
-        "Вместе обозначьте очаги заражения на карте и оцените пути отхода."
+        "Вместе обозначьте очаги заражения на карте и оцените пути отхода.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:prismarine_crystals",
       "x": 4.0,
@@ -69,13 +90,22 @@
       ],
       "dependencies": [
         "4FEC3C13F13B3356"
+      ],
+      "rewards": [
+        {
+          "id": "027F8CBB33A32DA1",
+          "type": "item",
+          "item": "minecraft:cake",
+          "count": 1
+        }
       ]
     },
     {
       "id": "19F055DFDBEFF2F7",
       "title": "Земля снова дышит",
       "description": [
-        "Примените штатный очиститель Sculk Horde на тестовом участке. Убедитесь, что блоки восстановлены."
+        "Примените штатный очиститель Sculk Horde на тестовом участке. Убедитесь, что блоки восстановлены.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:prismarine_crystals",
       "x": 6.0,
@@ -89,13 +119,22 @@
       ],
       "dependencies": [
         "0E490542BD998D2F"
+      ],
+      "rewards": [
+        {
+          "id": "35CE94713569A01C",
+          "type": "item",
+          "item": "minecraft:shears",
+          "count": 1
+        }
       ]
     },
     {
       "id": "32DDE67B6B13397D",
       "title": "Зелёный рубеж",
       "description": [
-        "Высади деревья на освобождённой территории. Верни жизнь в долину."
+        "Высади деревья на освобождённой территории. Верни жизнь в долину.",
+        "Подходящие варианты — саженцы любых пород. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:oak_sapling",
       "x": 0.0,
@@ -104,12 +143,26 @@
         {
           "id": "415293B5FD3976A2",
           "type": "item",
-          "item": "minecraft:oak_sapling",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/saplings)"
+            }
+          },
           "count": 16
         }
       ],
       "dependencies": [
         "19F055DFDBEFF2F7"
+      ],
+      "rewards": [
+        {
+          "id": "5EE77CAAA224ABE4",
+          "type": "item",
+          "item": "minecraft:string",
+          "count": 4
+        }
       ]
     },
     {
@@ -136,8 +189,19 @@
         {
           "id": "16A33AFCD9C629E3",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:bone_meal",
+          "count": 5
+        },
+        {
+          "id": "5F6D9C8AE2C528D1",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "358FB9EAC27C7FAD",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
         }
       ]
     }

@@ -6,14 +6,31 @@
   "icon": "minecraft:bread",
   "id": "46CFD786EE6F0A4A",
   "order_index": 23,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "76E5742D7DD4F74C",
+      "linked_quest": "76B27439B998FCAE",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "740FA2CDD3EFDA97",
+      "linked_quest": "3E7B5156DC212552",
+      "x": 9.0,
+      "y": 2.0
+    }
+  ],
   "title": "Полевое снабжение и фермерство",
   "quests": [
     {
       "id": "365F0A63AF35BD13",
       "title": "Костёр",
       "description": [
-        "Готовь первую еду без топлива в печи."
+        "Готовь первую еду без топлива в печи.",
+        "",
+        "Из записей экспедиции. Повар экспедиции оставил рецепт на крышке ящика. Под крышкой были сухие припасы на обратный путь.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:campfire",
       "x": 0.0,
@@ -28,6 +45,14 @@
       ],
       "dependencies": [
         "59B3BE45BFA33BD1"
+      ],
+      "rewards": [
+        {
+          "id": "1D2B61038EEA82A2",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        }
       ]
     },
     {
@@ -49,6 +74,14 @@
       ],
       "dependencies": [
         "365F0A63AF35BD13"
+      ],
+      "rewards": [
+        {
+          "id": "354E04AEFA970217",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 4
+        }
       ]
     },
     {
@@ -75,8 +108,8 @@
         {
           "id": "39F310EE3AFCB6D6",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:cake",
+          "count": 1
         }
       ]
     },
@@ -99,6 +132,14 @@
       ],
       "dependencies": [
         "0FD50F494B3103A5"
+      ],
+      "rewards": [
+        {
+          "id": "66619DFA867798B4",
+          "type": "item",
+          "item": "minecraft:shears",
+          "count": 1
+        }
       ]
     },
     {
@@ -120,13 +161,22 @@
       ],
       "dependencies": [
         "2CBBC776F020B772"
+      ],
+      "rewards": [
+        {
+          "id": "600E10BD8491E29D",
+          "type": "item",
+          "item": "minecraft:string",
+          "count": 4
+        }
       ]
     },
     {
       "id": "4FD5BC87A7617653",
       "title": "Грибы",
       "description": [
-        "Подготовь резервный источник пищи в холодный сезон."
+        "Подготовь резервный источник пищи в холодный сезон.",
+        "Подходящие варианты — красные и коричневые грибы. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:red_mushroom",
       "x": 2.0,
@@ -135,7 +185,13 @@
         {
           "id": "5CD60FD318B01F12",
           "type": "item",
-          "item": "minecraft:red_mushroom",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/mushrooms)"
+            }
+          },
           "count": 4
         }
       ],
@@ -146,8 +202,8 @@
         {
           "id": "4CC0B0892E4B9883",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:bone_meal",
+          "count": 5
         }
       ]
     },
@@ -155,7 +211,8 @@
       "id": "747CA2EDACA78B9D",
       "title": "Нож",
       "description": [
-        "Освой нож Farmer’s Delight и дополнительную переработку продуктов."
+        "Освой нож Farmer’s Delight и дополнительную переработку продуктов.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:bread",
       "x": 4.0,
@@ -169,6 +226,14 @@
       ],
       "dependencies": [
         "4FD5BC87A7617653"
+      ],
+      "rewards": [
+        {
+          "id": "41D9358E668CA5D4",
+          "type": "item",
+          "item": "minecraft:brick",
+          "count": 3
+        }
       ]
     },
     {
@@ -190,6 +255,14 @@
       ],
       "dependencies": [
         "747CA2EDACA78B9D"
+      ],
+      "rewards": [
+        {
+          "id": "615276644FEFEE2F",
+          "type": "item",
+          "item": "minecraft:stick",
+          "count": 3
+        }
       ]
     },
     {
@@ -211,6 +284,14 @@
       ],
       "dependencies": [
         "2904A4F62830340E"
+      ],
+      "rewards": [
+        {
+          "id": "6CB88724155C37D4",
+          "type": "item",
+          "item": "minecraft:oak_slab",
+          "count": 3
+        }
       ]
     },
     {
@@ -232,13 +313,22 @@
       ],
       "dependencies": [
         "2672CBA464D3AC67"
+      ],
+      "rewards": [
+        {
+          "id": "4FD6193DF2977DE1",
+          "type": "item",
+          "item": "minecraft:cake",
+          "count": 1
+        }
       ]
     },
     {
       "id": "694CA148F7CE988F",
       "title": "Сезонные посадки",
       "description": [
-        "Проверь календарь Serene Seasons и запланируй культуры."
+        "Проверь календарь Serene Seasons и запланируй культуры.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:bread",
       "x": 4.0,
@@ -252,13 +342,22 @@
       ],
       "dependencies": [
         "1DAC0078E1F03ED4"
+      ],
+      "rewards": [
+        {
+          "id": "5213F1C378CF8653",
+          "type": "item",
+          "item": "minecraft:shears",
+          "count": 1
+        }
       ]
     },
     {
       "id": "03A3D761FA1AF2F2",
       "title": "Теплица",
       "description": [
-        "Создай защищённую грядку; проверь сезонные ограничения мода."
+        "Создай защищённую грядку; проверь сезонные ограничения мода.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:bread",
       "x": 6.0,
@@ -272,6 +371,14 @@
       ],
       "dependencies": [
         "694CA148F7CE988F"
+      ],
+      "rewards": [
+        {
+          "id": "6D028A2AA1654F5E",
+          "type": "item",
+          "item": "minecraft:string",
+          "count": 4
+        }
       ]
     },
     {
@@ -293,6 +400,14 @@
       ],
       "dependencies": [
         "03A3D761FA1AF2F2"
+      ],
+      "rewards": [
+        {
+          "id": "1094AFA739AC58FA",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 5
+        }
       ]
     },
     {
@@ -314,6 +429,14 @@
       ],
       "dependencies": [
         "5EEC390EA5CA32D0"
+      ],
+      "rewards": [
+        {
+          "id": "38B7CD6DCE721E3C",
+          "type": "item",
+          "item": "minecraft:clay_ball",
+          "count": 4
+        }
       ]
     },
     {
@@ -340,8 +463,19 @@
         {
           "id": "79382DA8F1B1F389",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:glass_bottle",
+          "count": 3
+        },
+        {
+          "id": "2E37993E78C078C2",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "7139E43E1BE12864",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
         }
       ]
     }

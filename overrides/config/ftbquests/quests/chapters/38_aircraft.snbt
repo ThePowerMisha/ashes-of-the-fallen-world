@@ -13,7 +13,11 @@
       "id": "6EF36B1C61409211",
       "title": "Карты древних путей",
       "description": [
-        "Горные перевалы больше не должны разделять выживших. Инженеры возвращают воздушные караваны."
+        "Горные перевалы больше не должны разделять выживших. Инженеры возвращают воздушные караваны.",
+        "",
+        "Из записей экспедиции. Пилоты рисовали на борту белую метку. С земли она показывала, с какой стороны подойти к каравану.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
       ],
       "icon": "kubejs:scout_report",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "3E032F770950CD2C"
+      ],
+      "rewards": [
+        {
+          "id": "51879199CD04DEA5",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 3
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "6EF36B1C61409211"
+      ],
+      "rewards": [
+        {
+          "id": "652C0B0B43A05E09",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "56A07B2655B650AD",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -99,6 +119,14 @@
       ],
       "dependencies": [
         "2A0A631C54025161"
+      ],
+      "rewards": [
+        {
+          "id": "3B65BFB2D4CE8097",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -120,6 +148,14 @@
       ],
       "dependencies": [
         "1B81E531E038DC1B"
+      ],
+      "rewards": [
+        {
+          "id": "064436C64206B479",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
       ]
     },
     {
@@ -146,7 +182,7 @@
         {
           "id": "7DDC5D7EA3E92654",
           "type": "item",
-          "item": "minecraft:bread",
+          "item": "minecraft:string",
           "count": 4
         }
       ]
@@ -170,13 +206,22 @@
       ],
       "dependencies": [
         "0A86C544C966A568"
+      ],
+      "rewards": [
+        {
+          "id": "755D3440481E4121",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 4
+        }
       ]
     },
     {
       "id": "0F61E942A8AAE7B9",
       "title": "Первый вылет",
       "description": [
-        "Сделай короткий безопасный полёт, научись снижаться и садиться."
+        "Сделай короткий безопасный полёт, научись снижаться и садиться.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "immersive_aircraft:airship",
       "x": 6.0,
@@ -190,6 +235,14 @@
       ],
       "dependencies": [
         "7C2BB0165B80FC08"
+      ],
+      "rewards": [
+        {
+          "id": "7FE426024E45767D",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 4
+        }
       ]
     },
     {
@@ -211,13 +264,22 @@
       ],
       "dependencies": [
         "0F61E942A8AAE7B9"
+      ],
+      "rewards": [
+        {
+          "id": "0DBB1207339A022A",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 3
+        }
       ]
     },
     {
       "id": "6A90A30B9D417E86",
       "title": "Взлётная площадка",
       "description": [
-        "Разметь безопасную площадку рядом с поселением, не над заражением."
+        "Разметь безопасную площадку рядом с поселением, не над заражением.",
+        "Подходящие варианты — обычные фонари и фонари душ. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:lantern",
       "x": 2.0,
@@ -226,19 +288,34 @@
         {
           "id": "50B787F96366BD15",
           "type": "item",
-          "item": "minecraft:lantern",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/lanterns)"
+            }
+          },
           "count": 8
         }
       ],
       "dependencies": [
         "1478A82F11E2DEB5"
+      ],
+      "rewards": [
+        {
+          "id": "308859DD53AD8169",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
       "id": "3CCCB6CC7B50AA4F",
       "title": "Грузовой маршрут",
       "description": [
-        "Организуй рейс между двумя лагерями, сохрани координаты и запас топлива."
+        "Организуй рейс между двумя лагерями, сохрани координаты и запас топлива.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "immersive_aircraft:airship",
       "x": 4.0,
@@ -252,6 +329,14 @@
       ],
       "dependencies": [
         "6A90A30B9D417E86"
+      ],
+      "rewards": [
+        {
+          "id": "4997D81C65D58737",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 6
+        }
       ]
     },
     {
@@ -278,8 +363,19 @@
         {
           "id": "5ADF23FE4661EC72",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        },
+        {
+          "id": "48D3CB2DD3F9BC6B",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "6CF5B44E3E8B94FA",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
         }
       ]
     }

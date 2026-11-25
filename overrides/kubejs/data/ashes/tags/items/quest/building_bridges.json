@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "mcwbridges:oak_log_bridge_middle",
+    "mcwbridges:oak_rail_bridge",
+    "mcwbridges:spruce_log_bridge_middle",
+    "mcwbridges:spruce_rail_bridge",
+    "mcwbridges:birch_log_bridge_middle",
+    "mcwbridges:birch_rail_bridge",
+    "mcwbridges:jungle_log_bridge_middle",
+    "mcwbridges:jungle_rail_bridge",
+    "mcwbridges:acacia_log_bridge_middle",
+    "mcwbridges:acacia_rail_bridge",
+    "mcwbridges:dark_oak_log_bridge_middle",
+    "mcwbridges:dark_oak_rail_bridge"
+  ]
+}

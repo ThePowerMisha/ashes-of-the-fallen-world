@@ -6,14 +6,31 @@
   "icon": "create:cogwheel",
   "id": "7CA069A611891F2C",
   "order_index": 12,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "2C93F557EBA2453A",
+      "linked_quest": "1614B23DF38B5F78",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "608CD850E402FBD1",
+      "linked_quest": "6EF36B1C61409211",
+      "x": 9.0,
+      "y": 2.0
+    }
+  ],
   "title": "Механики: заводы и железные дороги",
   "quests": [
     {
       "id": "61599793FC06A562",
       "title": "Андезитовая эпоха",
       "description": [
-        "Сплав — основа ранней промышленности. Сравни рецепт в JEI и наладь его массовое производство."
+        "Сплав — основа ранней промышленности. Сравни рецепт в JEI и наладь его массовое производство.",
+        "",
+        "Из записей экспедиции. Механики оставляли узор из трёх заклёпок на обслуженных маховиках. На обороте лежали схемы аварийной остановки.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
       ],
       "icon": "create:andesite_alloy",
       "x": 0.0,
@@ -28,6 +45,14 @@
       ],
       "dependencies": [
         "3E032F770950CD2C"
+      ],
+      "rewards": [
+        {
+          "id": "689E2D133BCBC327",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 4
+        }
       ]
     },
     {
@@ -49,6 +74,14 @@
       ],
       "dependencies": [
         "61599793FC06A562"
+      ],
+      "rewards": [
+        {
+          "id": "4BA0D521D261FBAF",
+          "type": "item",
+          "item": "minecraft:oak_planks",
+          "count": 2
+        }
       ]
     },
     {
@@ -75,8 +108,8 @@
         {
           "id": "6F4F7B3059B49C52",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:gold_nugget",
+          "count": 6
         }
       ]
     },
@@ -99,6 +132,14 @@
       ],
       "dependencies": [
         "6AC0CEE2FFA7E038"
+      ],
+      "rewards": [
+        {
+          "id": "75782676D371880E",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 4
+        }
       ]
     },
     {
@@ -120,6 +161,14 @@
       ],
       "dependencies": [
         "5AD9CD1AA40FC422"
+      ],
+      "rewards": [
+        {
+          "id": "00662E4984490780",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -146,8 +195,8 @@
         {
           "id": "65298AA413FCE686",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:andesite",
+          "count": 6
         }
       ]
     },
@@ -170,6 +219,14 @@
       ],
       "dependencies": [
         "2949889AF9CF8819"
+      ],
+      "rewards": [
+        {
+          "id": "430482C2A29207C9",
+          "type": "item",
+          "item": "create:andesite_casing",
+          "count": 1
+        }
       ]
     },
     {
@@ -191,6 +248,14 @@
       ],
       "dependencies": [
         "6EFBB6D755C36A90"
+      ],
+      "rewards": [
+        {
+          "id": "3684F7942DC4ADA4",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 3
+        }
       ]
     },
     {
@@ -212,6 +277,14 @@
       ],
       "dependencies": [
         "0BF2EE804EFE4A6C"
+      ],
+      "rewards": [
+        {
+          "id": "143AEDD55F5D1568",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -233,6 +306,14 @@
       ],
       "dependencies": [
         "2BD63AE202707DE1"
+      ],
+      "rewards": [
+        {
+          "id": "452669AE442E2AC8",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 4
+        }
       ]
     },
     {
@@ -254,6 +335,14 @@
       ],
       "dependencies": [
         "00DFB75AEF29D433"
+      ],
+      "rewards": [
+        {
+          "id": "2988E40216E3B2A0",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 6
+        }
       ]
     },
     {
@@ -275,6 +364,14 @@
       ],
       "dependencies": [
         "4D1724C5FC95C093"
+      ],
+      "rewards": [
+        {
+          "id": "0C814CE75465B1B4",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 2
+        }
       ]
     },
     {
@@ -296,6 +393,14 @@
       ],
       "dependencies": [
         "0074E5C2BE8480F8"
+      ],
+      "rewards": [
+        {
+          "id": "12B7927D12C6959B",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -317,6 +422,14 @@
       ],
       "dependencies": [
         "0387158F8348C34E"
+      ],
+      "rewards": [
+        {
+          "id": "7D1349B715815788",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 6
+        }
       ]
     },
     {
@@ -338,6 +451,14 @@
       ],
       "dependencies": [
         "6A830EEA2BEB48DE"
+      ],
+      "rewards": [
+        {
+          "id": "4BCF4A4347ABD423",
+          "type": "item",
+          "item": "create:iron_sheet",
+          "count": 2
+        }
       ]
     },
     {
@@ -359,6 +480,14 @@
       ],
       "dependencies": [
         "5F1554C042E4514E"
+      ],
+      "rewards": [
+        {
+          "id": "3D1062C71BCF4E3F",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 3
+        }
       ]
     },
     {
@@ -380,6 +509,14 @@
       ],
       "dependencies": [
         "7281570321FA4C0D"
+      ],
+      "rewards": [
+        {
+          "id": "4A8CAB3686D9F95A",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -401,6 +538,14 @@
       ],
       "dependencies": [
         "4830405C159E6D73"
+      ],
+      "rewards": [
+        {
+          "id": "23793EE2E9CA726A",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 4
+        }
       ]
     },
     {
@@ -422,6 +567,14 @@
       ],
       "dependencies": [
         "03431AF36AB450E1"
+      ],
+      "rewards": [
+        {
+          "id": "52C7CB0D22CD7A87",
+          "type": "item",
+          "item": "create:copper_sheet",
+          "count": 2
+        }
       ]
     },
     {
@@ -443,6 +596,14 @@
       ],
       "dependencies": [
         "4136CF254A020506"
+      ],
+      "rewards": [
+        {
+          "id": "784A34C0A831C074",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 4
+        }
       ]
     },
     {
@@ -464,6 +625,14 @@
       ],
       "dependencies": [
         "23ABE0F37C2F1A26"
+      ],
+      "rewards": [
+        {
+          "id": "19DFA572382EF712",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -485,6 +654,14 @@
       ],
       "dependencies": [
         "3F16E794BBAF85C0"
+      ],
+      "rewards": [
+        {
+          "id": "4BE25865A0323596",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 6
+        }
       ]
     },
     {
@@ -511,8 +688,19 @@
         {
           "id": "29798D8D250BA8AA",
           "type": "item",
-          "item": "minecraft:gold_ingot",
+          "item": "create:iron_sheet",
           "count": 2
+        },
+        {
+          "id": "7856595E3615D1BC",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "1036222ECDCC1F58",
+          "type": "item",
+          "item": "kubejs:cleansing_charge",
+          "count": 1
         }
       ]
     }

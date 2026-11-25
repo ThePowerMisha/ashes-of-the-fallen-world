@@ -6,14 +6,49 @@
   "icon": "minecraft:chest",
   "id": "6B991D3310281564",
   "order_index": 9,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "29511C808A8AB93D",
+      "linked_quest": "44D76969ACF3EA94",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "22FE6D98AC7022F3",
+      "linked_quest": "365F0A63AF35BD13",
+      "x": 9.0,
+      "y": 2.0
+    },
+    {
+      "id": "19C82E06AA55A8A7",
+      "linked_quest": "76B27439B998FCAE",
+      "x": 9.0,
+      "y": 4.0
+    },
+    {
+      "id": "78093F3665054C57",
+      "linked_quest": "1614B23DF38B5F78",
+      "x": 9.0,
+      "y": 6.0
+    },
+    {
+      "id": "6BFB260F1CE89434",
+      "linked_quest": "6EF36B1C61409211",
+      "x": 9.0,
+      "y": 8.0
+    }
+  ],
   "title": "Логистика и снабжение",
   "quests": [
     {
       "id": "59B3BE45BFA33BD1",
       "title": "Склад припасов",
       "description": [
-        "Раздели продовольствие, инструменты и добычу. Склад общего пользования важнее личных сундуков."
+        "Раздели продовольствие, инструменты и добычу. Склад общего пользования важнее личных сундуков.",
+        "",
+        "Из записей экспедиции. Караваны грузили воду ближе к дверям, а запчасти ставили так, чтобы их можно было достать даже с перевёрнутой телеги.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:barrel",
       "x": 0.0,
@@ -28,6 +63,14 @@
       ],
       "dependencies": [
         "3975AD60CA7C4E0E"
+      ],
+      "rewards": [
+        {
+          "id": "07BC10A5E7A4E24D",
+          "type": "item",
+          "item": "minecraft:stick",
+          "count": 3
+        }
       ]
     },
     {
@@ -49,6 +92,14 @@
       ],
       "dependencies": [
         "59B3BE45BFA33BD1"
+      ],
+      "rewards": [
+        {
+          "id": "7FED8445A1B4A578",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 4
+        }
       ]
     },
     {
@@ -75,8 +126,8 @@
         {
           "id": "3739D8E2F98EF470",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:leather",
+          "count": 2
         }
       ]
     },
@@ -84,7 +135,8 @@
       "id": "6A690C9B9A35F096",
       "title": "Свет на дорогах",
       "description": [
-        "Авторский рецепт даёт два фонаря за слиток железа и два факела. Освети дороги между строениями."
+        "Авторский рецепт даёт два фонаря за слиток железа и два факела. Освети дороги между строениями.",
+        "Подходящие варианты — обычные фонари и фонари душ. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:lantern",
       "x": 6.0,
@@ -93,12 +145,26 @@
         {
           "id": "5CDC6CD65580E146",
           "type": "item",
-          "item": "minecraft:lantern",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/lanterns)"
+            }
+          },
           "count": 8
         }
       ],
       "dependencies": [
         "2735B34AD6437D19"
+      ],
+      "rewards": [
+        {
+          "id": "21866858365C5A84",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 3
+        }
       ]
     },
     {
@@ -120,6 +186,14 @@
       ],
       "dependencies": [
         "6A690C9B9A35F096"
+      ],
+      "rewards": [
+        {
+          "id": "591E98371A859FB8",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 6
+        }
       ]
     },
     {
@@ -146,8 +220,8 @@
         {
           "id": "319086B623DDC1D0",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:stick",
+          "count": 8
         }
       ]
     },
@@ -155,7 +229,8 @@
       "id": "2F4BD0D1790C3B68",
       "title": "Караван",
       "description": [
-        "Организуйте перевозку из удалённой шахты в поселение: поезд Create или другой безопасный путь."
+        "Организуйте перевозку из удалённой шахты в поселение: поезд Create или другой безопасный путь.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:chest",
       "x": 4.0,
@@ -169,6 +244,14 @@
       ],
       "dependencies": [
         "66E1FA7B1F64D94B"
+      ],
+      "rewards": [
+        {
+          "id": "2BCC1470C2F0EDE7",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 3
+        }
       ]
     },
     {
@@ -190,6 +273,25 @@
       ],
       "dependencies": [
         "2F4BD0D1790C3B68"
+      ],
+      "rewards": [
+        {
+          "id": "3F9CD4A19E103177",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        },
+        {
+          "id": "3D383483326CB2ED",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "06E2BF824A1CC3FC",
+          "type": "item",
+          "item": "kubejs:scout_report",
+          "count": 1
+        }
       ]
     }
   ]

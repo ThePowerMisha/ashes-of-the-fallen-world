@@ -13,7 +13,11 @@
       "id": "5536D27758BD6EFC",
       "title": "Щит дозора",
       "description": [
-        "Проверь блокирование обычных ударов и восстановление щита."
+        "Проверь блокирование обычных ударов и восстановление щита.",
+        "",
+        "Из записей экспедиции. Бестиарий начинают записи о следах. У некоторых тварей расстояние между отпечатками важнее их размера.",
+        "",
+        "{image:kubejs:textures/quest/abyss.png width:150 height:84 align:1}"
       ],
       "icon": "minecraft:shield",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "639F04B923139E25"
+      ],
+      "rewards": [
+        {
+          "id": "062B503A384495A3",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 4
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "5536D27758BD6EFC"
+      ],
+      "rewards": [
+        {
+          "id": "2001E4CB15C430E1",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 12
+        }
       ]
     },
     {
@@ -75,8 +95,8 @@
         {
           "id": "31C606BC71BEAE6E",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:glowstone_dust",
+          "count": 3
         }
       ]
     },
@@ -84,7 +104,8 @@
       "id": "0425098E2DA7488A",
       "title": "Пугающая нежить",
       "description": [
-        "Победи опасного противника Born in Chaos в открытой местности."
+        "Победи опасного противника Born in Chaos в открытой местности.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 6.0,
@@ -98,13 +119,22 @@
       ],
       "dependencies": [
         "4878DCC2115F849B"
+      ],
+      "rewards": [
+        {
+          "id": "3DC8E76EA81945B2",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
       ]
     },
     {
       "id": "2C23AF4D3E05AE03",
       "title": "Склепы",
       "description": [
-        "Встреться с противником The Graveyard и изучи его атаки."
+        "Встреться с противником The Graveyard и изучи его атаки.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 0.0,
@@ -118,13 +148,22 @@
       ],
       "dependencies": [
         "0425098E2DA7488A"
+      ],
+      "rewards": [
+        {
+          "id": "36CEC749E1A937C9",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 3
+        }
       ]
     },
     {
       "id": "2AB8EF1828982046",
       "title": "Кровавая луна",
       "description": [
-        "Переживи событие Enhanced Celestials в подготовленном убежище."
+        "Переживи событие Enhanced Celestials в подготовленном убежище.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 2.0,
@@ -138,13 +177,22 @@
       ],
       "dependencies": [
         "2C23AF4D3E05AE03"
+      ],
+      "rewards": [
+        {
+          "id": "4D807F6AA7CA5B96",
+          "type": "item",
+          "item": "minecraft:spectral_arrow",
+          "count": 6
+        }
       ]
     },
     {
       "id": "0CDD0318273B5754",
       "title": "Цветок-охотник",
       "description": [
-        "Найди Foliaath из Mowzie’s Mobs и победи его, учитывая дистанцию."
+        "Найди Foliaath из Mowzie’s Mobs и победи его, учитывая дистанцию.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 4.0,
@@ -158,13 +206,22 @@
       ],
       "dependencies": [
         "2AB8EF1828982046"
+      ],
+      "rewards": [
+        {
+          "id": "2DD4D67E99619112",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 4
+        }
       ]
     },
     {
       "id": "44DB31E93CD9C296",
       "title": "Кованый страж",
       "description": [
-        "Победи Ferrous Wroughtnaut, атакуй в уязвимые моменты."
+        "Победи Ferrous Wroughtnaut, атакуй в уязвимые моменты.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 6.0,
@@ -178,13 +235,22 @@
       ],
       "dependencies": [
         "0CDD0318273B5754"
+      ],
+      "rewards": [
+        {
+          "id": "1DB31BE6C787C08E",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 4
+        }
       ]
     },
     {
       "id": "10B2269FB2888FAF",
       "title": "Ледяная пещера",
       "description": [
-        "Найди Frostmaw; подготовь отход и лечение."
+        "Найди Frostmaw; подготовь отход и лечение.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 0.0,
@@ -198,13 +264,22 @@
       ],
       "dependencies": [
         "44DB31E93CD9C296"
+      ],
+      "rewards": [
+        {
+          "id": "46897F48DA533CCD",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 12
+        }
       ]
     },
     {
       "id": "2F1D9F460CEA5708",
       "title": "Солнечное испытание",
       "description": [
-        "Исследуй линию Umvuthi из Mowzie’s Mobs, подготовь соответствующее снаряжение."
+        "Исследуй линию Umvuthi из Mowzie’s Mobs, подготовь соответствующее снаряжение.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 2.0,
@@ -218,13 +293,22 @@
       ],
       "dependencies": [
         "10B2269FB2888FAF"
+      ],
+      "rewards": [
+        {
+          "id": "3F57633A5BE94620",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 3
+        }
       ]
     },
     {
       "id": "2F9ADEB4E6F50A98",
       "title": "Страж подземья",
       "description": [
-        "Победи Ender Golem или другого доступного стража Cataclysm."
+        "Победи Ender Golem или другого доступного стража Cataclysm.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 4.0,
@@ -238,13 +322,22 @@
       ],
       "dependencies": [
         "2F1D9F460CEA5708"
+      ],
+      "rewards": [
+        {
+          "id": "5F47417CA737FF38",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
       ]
     },
     {
       "id": "3BBB2D79C054FF7E",
       "title": "Забытый кузнец",
       "description": [
-        "Сразись с Netherite Monstrosity; не строй арену у базы."
+        "Сразись с Netherite Monstrosity; не строй арену у базы.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 6.0,
@@ -258,13 +351,22 @@
       ],
       "dependencies": [
         "2F9ADEB4E6F50A98"
+      ],
+      "rewards": [
+        {
+          "id": "729B2015C142C6A9",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 3
+        }
       ]
     },
     {
       "id": "5C3D2FB5CFD51F5C",
       "title": "Пламя преисподней",
       "description": [
-        "Победи Ignis по механике Cataclysm."
+        "Победи Ignis по механике Cataclysm.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 0.0,
@@ -278,13 +380,22 @@
       ],
       "dependencies": [
         "3BBB2D79C054FF7E"
+      ],
+      "rewards": [
+        {
+          "id": "4EB6EC3CA5780F41",
+          "type": "item",
+          "item": "minecraft:spectral_arrow",
+          "count": 6
+        }
       ]
     },
     {
       "id": "7EFEEB52E9EBE246",
       "title": "Глубинное чудовище",
       "description": [
-        "Подготовь дыхание под водой и сразись с Leviathan."
+        "Подготовь дыхание под водой и сразись с Leviathan.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 2.0,
@@ -298,13 +409,22 @@
       ],
       "dependencies": [
         "5C3D2FB5CFD51F5C"
+      ],
+      "rewards": [
+        {
+          "id": "46CA095C43144565",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 4
+        }
       ]
     },
     {
       "id": "0FD5D467A328021E",
       "title": "Пустынный страж",
       "description": [
-        "Найди Ancient Remnant и изучи его фазы."
+        "Найди Ancient Remnant и изучи его фазы.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 4.0,
@@ -318,13 +438,22 @@
       ],
       "dependencies": [
         "7EFEEB52E9EBE246"
+      ],
+      "rewards": [
+        {
+          "id": "273216942EB578D6",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 4
+        }
       ]
     },
     {
       "id": "6BA68BC061389FC3",
       "title": "Пустотный хранитель",
       "description": [
-        "Подготовь команду и сразись с Ender Guardian."
+        "Подготовь команду и сразись с Ender Guardian.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:netherite_sword",
       "x": 6.0,
@@ -338,6 +467,14 @@
       ],
       "dependencies": [
         "0FD5D467A328021E"
+      ],
+      "rewards": [
+        {
+          "id": "31B1F829C542A2C9",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 12
+        }
       ]
     },
     {
@@ -359,6 +496,14 @@
       ],
       "dependencies": [
         "6BA68BC061389FC3"
+      ],
+      "rewards": [
+        {
+          "id": "3E480D8B5DBB1A10",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 3
+        }
       ]
     },
     {
@@ -380,6 +525,14 @@
       ],
       "dependencies": [
         "608A3D2F3E352D81"
+      ],
+      "rewards": [
+        {
+          "id": "10A2EEA3AD346626",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
       ]
     },
     {
@@ -406,8 +559,19 @@
         {
           "id": "27F3D5C8FDE0250F",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:golden_carrot",
+          "count": 3
+        },
+        {
+          "id": "6AA3C0E02641BA73",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "05926E8477BFEC77",
+          "type": "item",
+          "item": "kubejs:foundation_stone",
+          "count": 1
         }
       ]
     }

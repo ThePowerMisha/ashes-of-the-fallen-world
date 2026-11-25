@@ -6,14 +6,32 @@
   "icon": "ae2:drive",
   "id": "0021D94CABEB35C8",
   "order_index": 15,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "1E3765B9A087FC98",
+      "linked_quest": "1614B23DF38B5F78",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "43FCB4F19AB78C29",
+      "linked_quest": "4C304581395E83C9",
+      "x": 9.0,
+      "y": 2.0
+    }
+  ],
   "title": "Цифровые склады и логистика",
   "quests": [
     {
       "id": "44D76969ACF3EA94",
       "title": "Первые ящики",
       "description": [
-        "Создай Functional Storage: ящики для массовых материалов, фильтры для железа и камня."
+        "Создай Functional Storage: ящики для массовых материалов, фильтры для железа и камня.",
+        "",
+        "Из записей экспедиции. На выгрузке машинисты спорили о том, сколько бочек помещается в одном вагоне. Архив записал ответ прямо на складе.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "ae2:drive",
       "x": 0.0,
@@ -27,13 +45,22 @@
       ],
       "dependencies": [
         "59B3BE45BFA33BD1"
+      ],
+      "rewards": [
+        {
+          "id": "164A92E267C2EB3B",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 6
+        }
       ]
     },
     {
       "id": "1FE8444A81C28F44",
       "title": "Ящик под контролем",
       "description": [
-        "Свяжи ящики контроллером и установи точку подключения общего склада."
+        "Свяжи ящики контроллером и установи точку подключения общего склада.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "ae2:drive",
       "x": 2.0,
@@ -47,6 +74,14 @@
       ],
       "dependencies": [
         "44D76969ACF3EA94"
+      ],
+      "rewards": [
+        {
+          "id": "14F1EDDE1B0B5023",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -73,7 +108,7 @@
         {
           "id": "2403C937009CF2D9",
           "type": "item",
-          "item": "minecraft:bread",
+          "item": "minecraft:copper_ingot",
           "count": 4
         }
       ]
@@ -82,7 +117,8 @@
       "id": "14D50B416AD42159",
       "title": "Склад инструментов",
       "description": [
-        "Раздели запасные инструменты и руду; настрой обновления Sophisticated Storage."
+        "Раздели запасные инструменты и руду; настрой обновления Sophisticated Storage.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "ae2:drive",
       "x": 6.0,
@@ -96,6 +132,14 @@
       ],
       "dependencies": [
         "2766C9EBD515555E"
+      ],
+      "rewards": [
+        {
+          "id": "4F3AC319D9DBE39B",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 4
+        }
       ]
     },
     {
@@ -117,6 +161,14 @@
       ],
       "dependencies": [
         "14D50B416AD42159"
+      ],
+      "rewards": [
+        {
+          "id": "340B4EABB7C73288",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 4
+        }
       ]
     },
     {
@@ -143,7 +195,7 @@
         {
           "id": "5C8F2E7170B97439",
           "type": "item",
-          "item": "minecraft:bread",
+          "item": "minecraft:charcoal",
           "count": 4
         }
       ]
@@ -167,6 +219,14 @@
       ],
       "dependencies": [
         "244062727ED0166F"
+      ],
+      "rewards": [
+        {
+          "id": "6DFB2524FACDFF0B",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 3
+        }
       ]
     },
     {
@@ -188,6 +248,14 @@
       ],
       "dependencies": [
         "769C41B670988EE6"
+      ],
+      "rewards": [
+        {
+          "id": "138CCD62CD08616C",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 3
+        }
       ]
     },
     {
@@ -209,6 +277,14 @@
       ],
       "dependencies": [
         "2AF8015257B05D95"
+      ],
+      "rewards": [
+        {
+          "id": "47EF2B44A286CEB5",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 6
+        }
       ]
     },
     {
@@ -230,6 +306,14 @@
       ],
       "dependencies": [
         "73CBD1184A28F140"
+      ],
+      "rewards": [
+        {
+          "id": "1082B48358CBFC59",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
       ]
     },
     {
@@ -251,6 +335,14 @@
       ],
       "dependencies": [
         "6C4F789B78C7E385"
+      ],
+      "rewards": [
+        {
+          "id": "5C1766E76B568BA6",
+          "type": "item",
+          "item": "ae2:silicon",
+          "count": 2
+        }
       ]
     },
     {
@@ -272,6 +364,14 @@
       ],
       "dependencies": [
         "7A3BB9EE22CCA944"
+      ],
+      "rewards": [
+        {
+          "id": "7560C28565CE2096",
+          "type": "item",
+          "item": "ae2:silicon",
+          "count": 2
+        }
       ]
     },
     {
@@ -293,6 +393,14 @@
       ],
       "dependencies": [
         "7C606738152D8D38"
+      ],
+      "rewards": [
+        {
+          "id": "2218295DC166ADDD",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 4
+        }
       ]
     },
     {
@@ -314,6 +422,14 @@
       ],
       "dependencies": [
         "347E163AD4F1DD16"
+      ],
+      "rewards": [
+        {
+          "id": "2D85990BE2B9A1E3",
+          "type": "item",
+          "item": "ae2:sky_stone_block",
+          "count": 2
+        }
       ]
     },
     {
@@ -335,6 +451,14 @@
       ],
       "dependencies": [
         "5CD5FEE01BEB06D8"
+      ],
+      "rewards": [
+        {
+          "id": "65B8FF591EC5AA2A",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 3
+        }
       ]
     },
     {
@@ -356,6 +480,14 @@
       ],
       "dependencies": [
         "1518BDA7BD6E814F"
+      ],
+      "rewards": [
+        {
+          "id": "7AF0CF2F41493C31",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
@@ -377,6 +509,14 @@
       ],
       "dependencies": [
         "5B11120FF83CE743"
+      ],
+      "rewards": [
+        {
+          "id": "39553FC20D234AC2",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 6
+        }
       ]
     },
     {
@@ -398,6 +538,14 @@
       ],
       "dependencies": [
         "2C8963642072C036"
+      ],
+      "rewards": [
+        {
+          "id": "716B420D8261AE1F",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -419,6 +567,14 @@
       ],
       "dependencies": [
         "22B50E4F76097D00"
+      ],
+      "rewards": [
+        {
+          "id": "6D8040A97BF99DA0",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -440,6 +596,14 @@
       ],
       "dependencies": [
         "366E5AEB6B5C03FD"
+      ],
+      "rewards": [
+        {
+          "id": "74249771B2998EB4",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 4
+        }
       ]
     },
     {
@@ -461,6 +625,14 @@
       ],
       "dependencies": [
         "625180778E98F542"
+      ],
+      "rewards": [
+        {
+          "id": "0878AB1406A71445",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 4
+        }
       ]
     },
     {
@@ -482,6 +654,14 @@
       ],
       "dependencies": [
         "0791BCD58BFB178B"
+      ],
+      "rewards": [
+        {
+          "id": "59932DC0DCA24ED6",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 4
+        }
       ]
     },
     {
@@ -508,8 +688,19 @@
         {
           "id": "77AEF4B9AFF9C064",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:quartz",
+          "count": 3
+        },
+        {
+          "id": "24B5C3C9B7D4781C",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "14EF3FE98E597DD3",
+          "type": "item",
+          "item": "kubejs:source_capacitor",
+          "count": 1
         }
       ]
     }

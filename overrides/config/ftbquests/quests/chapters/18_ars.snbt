@@ -13,7 +13,11 @@
       "id": "0885DA1C2755C4BA",
       "title": "Первая искра",
       "description": [
-        "Собери источник магической энергии для первых компонентов."
+        "Собери источник магической энергии для первых компонентов.",
+        "",
+        "Из записей экспедиции. В журнале Селены у каждого опыта есть три графы. Последняя — сколько силы пришлось потратить, чтобы остановить процесс.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
       ],
       "icon": "ars_nouveau:source_gem",
       "x": 0.0,
@@ -28,6 +32,14 @@
       ],
       "dependencies": [
         "1D129E2C407448C4"
+      ],
+      "rewards": [
+        {
+          "id": "0B835631A866723A",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 3
+        }
       ]
     },
     {
@@ -49,6 +61,14 @@
       ],
       "dependencies": [
         "0885DA1C2755C4BA"
+      ],
+      "rewards": [
+        {
+          "id": "4ED95D0D24AE17D8",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 6
+        }
       ]
     },
     {
@@ -75,7 +95,7 @@
         {
           "id": "143DD608582A9BF5",
           "type": "item",
-          "item": "minecraft:bread",
+          "item": "minecraft:glass",
           "count": 4
         }
       ]
@@ -99,13 +119,22 @@
       ],
       "dependencies": [
         "5798EB03CC2FD066"
+      ],
+      "rewards": [
+        {
+          "id": "2A4E208563AEF021",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
       "id": "76DA401CBE95A0BE",
       "title": "Сбор урожая",
       "description": [
-        "Освой Agronomic Sourcelink: урожай питает сеть Source."
+        "Освой Agronomic Sourcelink: урожай питает сеть Source.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "ars_nouveau:source_gem",
       "x": 0.0,
@@ -119,13 +148,22 @@
       ],
       "dependencies": [
         "01D299A34CE1414C"
+      ],
+      "rewards": [
+        {
+          "id": "5CEAE09D7061ACCD",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 3
+        }
       ]
     },
     {
       "id": "4185485C2567A8CD",
       "title": "Магическое питание",
       "description": [
-        "Подготовь альтернативный источник Source и оцени его расход."
+        "Подготовь альтернативный источник Source и оцени его расход.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "ars_nouveau:source_gem",
       "x": 2.0,
@@ -139,6 +177,14 @@
       ],
       "dependencies": [
         "76DA401CBE95A0BE"
+      ],
+      "rewards": [
+        {
+          "id": "347C18CABC99B7E1",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
@@ -160,6 +206,14 @@
       ],
       "dependencies": [
         "4185485C2567A8CD"
+      ],
+      "rewards": [
+        {
+          "id": "314D338AC404978D",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 2
+        }
       ]
     },
     {
@@ -181,13 +235,22 @@
       ],
       "dependencies": [
         "01F77DB579562FD1"
+      ],
+      "rewards": [
+        {
+          "id": "1724696AEBE8545B",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 5
+        }
       ]
     },
     {
       "id": "3EEEF1D7FFDF417C",
       "title": "Релейная сеть",
       "description": [
-        "Направь Source из генератора к магическим машинам."
+        "Направь Source из генератора к магическим машинам.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "ars_nouveau:source_gem",
       "x": 0.0,
@@ -201,13 +264,22 @@
       ],
       "dependencies": [
         "791A35EAA78AA8F7"
+      ],
+      "rewards": [
+        {
+          "id": "1DA164E0F1043AF9",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 3
+        }
       ]
     },
     {
       "id": "54D86C692707F4DC",
       "title": "Доставка",
       "description": [
-        "Настрой транспорт предметов через Starbuncles; защити их маршрут."
+        "Настрой транспорт предметов через Starbuncles; защити их маршрут.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "ars_nouveau:source_gem",
       "x": 2.0,
@@ -221,13 +293,22 @@
       ],
       "dependencies": [
         "3EEEF1D7FFDF417C"
+      ],
+      "rewards": [
+        {
+          "id": "63008101F080046A",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 2
+        }
       ]
     },
     {
       "id": "7B912A79B5502C78",
       "title": "Урожай без рук",
       "description": [
-        "Испытай Drygmy или Wixie по руководству; избегай избыточных сущностей."
+        "Испытай Drygmy или Wixie по руководству; избегай избыточных сущностей.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "ars_nouveau:source_gem",
       "x": 4.0,
@@ -241,13 +322,22 @@
       ],
       "dependencies": [
         "54D86C692707F4DC"
+      ],
+      "rewards": [
+        {
+          "id": "21ADF8EFB79ED0FF",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 4
+        }
       ]
     },
     {
       "id": "4E86EB8E77CAB2A5",
       "title": "Лечение",
       "description": [
-        "Составь и испытай заклинание лечения на союзнике с его согласия."
+        "Составь и испытай заклинание лечения на союзнике с его согласия.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "ars_nouveau:source_gem",
       "x": 6.0,
@@ -261,13 +351,22 @@
       ],
       "dependencies": [
         "7B912A79B5502C78"
+      ],
+      "rewards": [
+        {
+          "id": "7ECCF3C9D20AF309",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
       "id": "47B1D3120FC086E5",
       "title": "Свет",
       "description": [
-        "Создай полезное заклинание освещения для пещер."
+        "Создай полезное заклинание освещения для пещер.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "ars_nouveau:source_gem",
       "x": 0.0,
@@ -281,13 +380,22 @@
       ],
       "dependencies": [
         "4E86EB8E77CAB2A5"
+      ],
+      "rewards": [
+        {
+          "id": "5930C7421B4C04F2",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 3
+        }
       ]
     },
     {
       "id": "0FA4A5DE6F5A951A",
       "title": "Защита",
       "description": [
-        "Составь заклинание с контролем угрозы, не повреждай союзников."
+        "Составь заклинание с контролем угрозы, не повреждай союзников.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "ars_nouveau:source_gem",
       "x": 2.0,
@@ -301,6 +409,14 @@
       ],
       "dependencies": [
         "47B1D3120FC086E5"
+      ],
+      "rewards": [
+        {
+          "id": "3C7C943F60E69A51",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
@@ -322,6 +438,14 @@
       ],
       "dependencies": [
         "0FA4A5DE6F5A951A"
+      ],
+      "rewards": [
+        {
+          "id": "1EDD04D159D4C60F",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 2
+        }
       ]
     },
     {
@@ -343,6 +467,14 @@
       ],
       "dependencies": [
         "67CEA906574E0600"
+      ],
+      "rewards": [
+        {
+          "id": "6900AC019D45C67A",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 5
+        }
       ]
     },
     {
@@ -369,8 +501,19 @@
         {
           "id": "487C58A923EBCC12",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:lapis_lazuli",
+          "count": 3
+        },
+        {
+          "id": "548E08A3FDF26070",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "7ED31EB9ADCD6EC7",
+          "type": "item",
+          "item": "kubejs:ward_charm",
+          "count": 1
         }
       ]
     }

@@ -1,5 +1,7 @@
 from pathlib import Path
 import json, hashlib, zipfile, csv
+from quest_content import decorate_quest
+from quest_progress import bind_alternatives, links_for, tag_files, task_family
 from extension import EXTRA_ITEMS, EXTRA_RECIPES
 ROOT=Path(__file__).resolve().parents[1]; O=ROOT/'overrides'; K=O/'kubejs'; DATA=K/'data'; F=DATA/'ashes'/'functions'; Q=O/'config'/'ftbquests'/'quests'/'chapters'
 def put(p,s):
@@ -126,18 +128,20 @@ for order,(slug,title,icon,rows) in enumerate(chapters):
    if name=='Очищение блока': name='Штатный очиститель'; desc='Изготовь очиститель Sculk Horde. После установки проверь восстановление земли.'
    if name=='Разведка узла': name='Гробница орды'; desc='Посети штатную гробницу Sculk Horde; достижение фиксирует посещение.'
    if name=='Защита поселения': desc='Изготовь штатный защитный блок Sculk Horde. Установи его и проверь границу отдельно.'
-  q={'id':qid,'title':name,'description':[desc],'icon':item or icon,'x':float(i%4*2),'y':float(i//4*2),'tasks':[task]}
+  task_icon = icon if not item or item.startswith('#') else item
+  q={'id':qid,'title':name,'description':[desc],'icon':task_icon,'x':float(i%4*2),'y':float(i//4*2),'tasks':[task]}
   if slug=='40_lore_sites': q.update(x=float(i%2*3),y=float(i//2*2))
   if slug=='33_finale' and i==4: deps.append(ends['32_abyss'])
   if deps:q['dependencies']=deps
-  if i in (2,5) and item:q['rewards']=[{'id':uid(f'{slug}/{i}/reward'),'type':'item','item':'minecraft:bread','count':4}]
-  if slug in extra_parents and i==len(rows)-1: q['rewards']=[{'id':uid(f'{slug}/{i}/reward'),'type':'item','item':'minecraft:gold_ingot','count':2}]
-  quests.append(q); prev=qid; total+=1; refs+=deps; allids.add(qid); index.append({'chapter':title,'quest':name,'task':('advancement:'+adv) if adv else item or 'manual','count':count,'id':qid,'dependencies':deps})
+  decorate_quest(q,slug,order,i,rows,uid)
+  bind_alternatives(slug,q)
+  quests.append(q); prev=qid; total+=1; refs+=deps; allids.add(qid); index.append({'chapter':title,'quest':name,'task':('advancement:'+adv) if adv else item or 'manual','count':count,'id':qid,'dependencies':deps,**({'family':family} if (family:=task_family(task)) else {})})
  ends[slug]=prev
- js(Q/(slug+'.snbt'),{'default_hide_dependency_lines':False,'default_quest_shape':'','filename':slug,'group':'','icon':icon,'id':uid(slug),'order_index':order,'quest_links':[],'title':title,'quests':quests})
+ js(Q/(slug+'.snbt'),{'default_hide_dependency_lines':False,'default_quest_shape':'','filename':slug,'group':'','icon':icon,'id':uid(slug),'order_index':order,'quest_links':links_for(slug,uid),'title':title,'quests':quests})
 assert set(refs)<=allids and len(allids)==total
+tag_files(DATA, js)
 js(ROOT/'docs'/'quests.json',index)
-manifest=json.loads((ROOT/'manifest.json').read_text());manifest['version']='1.0.0-rc5-companions.2';js(ROOT/'manifest.json',manifest)
+manifest=json.loads((ROOT/'manifest.json').read_text());manifest['version']='1.0.0-rc5-quests.1';js(ROOT/'manifest.json',manifest)
 assert len({x['projectID'] for x in manifest['files']})==len(manifest['files'])
 print(f'{total} quests, {sum(x["task"]=="manual" for x in index)} manual; {len(manifest["files"])} locked projects; {len(items)} items')
 

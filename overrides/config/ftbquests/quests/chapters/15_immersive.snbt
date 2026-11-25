@@ -13,7 +13,12 @@
       "id": "4ED039172C7EDDFE",
       "title": "Инженерный справочник",
       "description": [
-        "Открой Engineer’s Manual и изучи многоблочные машины. Подтверди после чтения."
+        "Открой Engineer’s Manual и изучи многоблочные машины. Подтверди после чтения.",
+        "",
+        "Из записей экспедиции. На зубьях старой дробилки сохранились кусочки руды. От найденных образцов можно оттолкнуться при разведке шахты.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 0.0,
@@ -27,13 +32,22 @@
       ],
       "dependencies": [
         "3E032F770950CD2C"
+      ],
+      "rewards": [
+        {
+          "id": "3F9E50A0D3C23E00",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
       ]
     },
     {
       "id": "7E9EDD7C7585D32C",
       "title": "Креозот",
       "description": [
-        "Построй коксовую печь и организуй отвод креозота, не смешивая его с водой."
+        "Построй коксовую печь и организуй отвод креозота, не смешивая его с водой.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 2.0,
@@ -47,13 +61,22 @@
       ],
       "dependencies": [
         "4ED039172C7EDDFE"
+      ],
+      "rewards": [
+        {
+          "id": "7EC8FC39FF9F6765",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 4
+        }
       ]
     },
     {
       "id": "45D7A75E17044C3C",
       "title": "Обработанная древесина",
       "description": [
-        "Используй креозот для изготовления конструкционных деталей и опор."
+        "Используй креозот для изготовления конструкционных деталей и опор.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 4.0,
@@ -67,13 +90,22 @@
       ],
       "dependencies": [
         "7E9EDD7C7585D32C"
+      ],
+      "rewards": [
+        {
+          "id": "1145726D7DE1833D",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 4
+        }
       ]
     },
     {
       "id": "60AD0790CB02E5C8",
       "title": "Доменная печь",
       "description": [
-        "Получай сталь через доменную печь, затем переходи к электропроизводству."
+        "Получай сталь через доменную печь, затем переходи к электропроизводству.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 6.0,
@@ -87,13 +119,22 @@
       ],
       "dependencies": [
         "45D7A75E17044C3C"
+      ],
+      "rewards": [
+        {
+          "id": "17F426257814D9E5",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 4
+        }
       ]
     },
     {
       "id": "4ED26D2994096579",
       "title": "Медный провод",
       "description": [
-        "Подготовь медь для низковольтной сети."
+        "Подготовь медь для низковольтной сети.",
+        "Подходящие варианты — медные слитки из общего тега Forge. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:copper_ingot",
       "x": 0.0,
@@ -102,19 +143,34 @@
         {
           "id": "4A69E7137635819E",
           "type": "item",
-          "item": "minecraft:copper_ingot",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/copper)"
+            }
+          },
           "count": 16
         }
       ],
       "dependencies": [
         "60AD0790CB02E5C8"
+      ],
+      "rewards": [
+        {
+          "id": "6EF832DB77044D2C",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 3
+        }
       ]
     },
     {
       "id": "0A5AA6950682A39B",
       "title": "Провода и реле",
       "description": [
-        "Собери LV-сеть, соблюдай направление соединителей и избегай пересечения проводов."
+        "Собери LV-сеть, соблюдай направление соединителей и избегай пересечения проводов.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 2.0,
@@ -128,13 +184,22 @@
       ],
       "dependencies": [
         "4ED26D2994096579"
+      ],
+      "rewards": [
+        {
+          "id": "3D0872367A4D5EE5",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
       "id": "5F22A35B17F2494C",
       "title": "Водяное колесо",
       "description": [
-        "Построй генератор Immersive Engineering; проверь выдачу энергии."
+        "Построй генератор Immersive Engineering; проверь выдачу энергии.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 4.0,
@@ -148,13 +213,22 @@
       ],
       "dependencies": [
         "0A5AA6950682A39B"
+      ],
+      "rewards": [
+        {
+          "id": "7B1951422AB10454",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 6
+        }
       ]
     },
     {
       "id": "47FB2B7095CDC286",
       "title": "Дробильный цех",
       "description": [
-        "Собери Crusher по руководству и подведи достаточную мощность."
+        "Собери Crusher по руководству и подведи достаточную мощность.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 6.0,
@@ -168,13 +242,22 @@
       ],
       "dependencies": [
         "5F22A35B17F2494C"
+      ],
+      "rewards": [
+        {
+          "id": "09AEC2BA36B3D2D2",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
       ]
     },
     {
       "id": "725A042E8A511686",
       "title": "Металлопресс",
       "description": [
-        "Сделай формы и автоматизируй выпуск пластин, стержней и проволоки."
+        "Сделай формы и автоматизируй выпуск пластин, стержней и проволоки.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 0.0,
@@ -188,13 +271,22 @@
       ],
       "dependencies": [
         "47FB2B7095CDC286"
+      ],
+      "rewards": [
+        {
+          "id": "17B6516D287B72B6",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 4
+        }
       ]
     },
     {
       "id": "54802656C801BD6F",
       "title": "Конвейеры",
       "description": [
-        "Организуй безопасный поток предметов и ограждение оборудования."
+        "Организуй безопасный поток предметов и ограждение оборудования.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 2.0,
@@ -208,13 +300,22 @@
       ],
       "dependencies": [
         "725A042E8A511686"
+      ],
+      "rewards": [
+        {
+          "id": "7FB23B6159581C26",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 4
+        }
       ]
     },
     {
       "id": "20B754F36BD104A9",
       "title": "Бурение образцов",
       "description": [
-        "Исследуй минеральную жилу с помощью Core Sample Drill."
+        "Исследуй минеральную жилу с помощью Core Sample Drill.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 4.0,
@@ -228,13 +329,22 @@
       ],
       "dependencies": [
         "54802656C801BD6F"
+      ],
+      "rewards": [
+        {
+          "id": "0DF53530B1358FDB",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 4
+        }
       ]
     },
     {
       "id": "7D5B5F6732789359",
       "title": "Экскаватор",
       "description": [
-        "Построй Excavator на найденной жиле. Подготовь запас энергии и выходной склад."
+        "Построй Excavator на найденной жиле. Подготовь запас энергии и выходной склад.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 6.0,
@@ -248,13 +358,22 @@
       ],
       "dependencies": [
         "20B754F36BD104A9"
+      ],
+      "rewards": [
+        {
+          "id": "0AB960E8E1577A00",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 3
+        }
       ]
     },
     {
       "id": "2A27EFFBF06768D2",
       "title": "Жидкостная логистика",
       "description": [
-        "Освой насосы и резервуары, не разливай жидкости у жилых помещений."
+        "Освой насосы и резервуары, не разливай жидкости у жилых помещений.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 0.0,
@@ -268,13 +387,22 @@
       ],
       "dependencies": [
         "7D5B5F6732789359"
+      ],
+      "rewards": [
+        {
+          "id": "1783A685A9F27BBF",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
       ]
     },
     {
       "id": "1E84ADF423B47205",
       "title": "Пластик",
       "description": [
-        "Начни Industrial Foregoing с получения латекса и его переработки."
+        "Начни Industrial Foregoing с получения латекса и его переработки.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 2.0,
@@ -288,13 +416,22 @@
       ],
       "dependencies": [
         "2A27EFFBF06768D2"
+      ],
+      "rewards": [
+        {
+          "id": "44068D0C3E6C11DC",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 6
+        }
       ]
     },
     {
       "id": "2FFB4F9E627DAE88",
       "title": "Рабочая рама",
       "description": [
-        "Собери первый Machine Frame в Dissolution Chamber, проверь JEI."
+        "Собери первый Machine Frame в Dissolution Chamber, проверь JEI.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 4.0,
@@ -308,13 +445,22 @@
       ],
       "dependencies": [
         "1E84ADF423B47205"
+      ],
+      "rewards": [
+        {
+          "id": "0AC28DC64C84CB8A",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
       ]
     },
     {
       "id": "1AA9D94730B2AA8D",
       "title": "Автоферма",
       "description": [
-        "Настрой Plant Sower и Plant Gatherer с ограниченной зоной, чтобы не ломать соседние поля."
+        "Настрой Plant Sower и Plant Gatherer с ограниченной зоной, чтобы не ломать соседние поля.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 6.0,
@@ -328,13 +474,22 @@
       ],
       "dependencies": [
         "2FFB4F9E627DAE88"
+      ],
+      "rewards": [
+        {
+          "id": "0B9CF4EF57F39021",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 4
+        }
       ]
     },
     {
       "id": "2EFB56AB51F2C3A5",
       "title": "Лазерная добыча",
       "description": [
-        "Настрой Laser Drill и Ore Laser Base в отдельном помещении, проверь линзы."
+        "Настрой Laser Drill и Ore Laser Base в отдельном помещении, проверь линзы.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:iron_block",
       "x": 0.0,
@@ -348,6 +503,14 @@
       ],
       "dependencies": [
         "1AA9D94730B2AA8D"
+      ],
+      "rewards": [
+        {
+          "id": "69196D830F885EA3",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 4
+        }
       ]
     },
     {
@@ -369,6 +532,14 @@
       ],
       "dependencies": [
         "2EFB56AB51F2C3A5"
+      ],
+      "rewards": [
+        {
+          "id": "7E7B4DE308841B2B",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 4
+        }
       ]
     },
     {
@@ -395,8 +566,19 @@
         {
           "id": "573D3981C1803A90",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:quartz",
+          "count": 3
+        },
+        {
+          "id": "700167996D757AC3",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "77D5BD2FCAEDD85F",
+          "type": "item",
+          "item": "kubejs:field_kit",
+          "count": 1
         }
       ]
     }

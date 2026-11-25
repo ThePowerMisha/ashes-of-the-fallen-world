@@ -1,0 +1,250 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "45_networks",
+  "group": "",
+  "icon": "minecraft:redstone",
+  "id": "74E8915DDA09D1F8",
+  "order_index": 44,
+  "quest_links": [
+    {
+      "id": "0255F2334C70AB7F",
+      "linked_quest": "61599793FC06A562",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "7FBDC234A9651787",
+      "linked_quest": "44D76969ACF3EA94",
+      "x": 9.0,
+      "y": 2.0
+    },
+    {
+      "id": "21AEEBC7A397FFA9",
+      "linked_quest": "4C304581395E83C9",
+      "x": 9.0,
+      "y": 4.0
+    }
+  ],
+  "title": "От тележки до цифрового склада",
+  "quests": [
+    {
+      "id": "1614B23DF38B5F78",
+      "title": "Механическая линия",
+      "description": [
+        "Подай вращение на разгрузочную площадку Create. Подготовь место для передачи припасов.",
+        "",
+        "Из записей экспедиции. Механики записали маршрут припасов от тележки до ячейки. По нему нашли забытый щиток питания.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
+      ],
+      "icon": "create:shaft",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "270382AC8C563A29",
+          "type": "item",
+          "item": "create:shaft",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "59B3BE45BFA33BD1"
+      ],
+      "rewards": [
+        {
+          "id": "516AD2D153590C14",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "42CFFE3FE111B79A",
+      "title": "Железнодорожная сцепка",
+      "description": [
+        "Проверь сцепку Steam ’n’ Rails на запасном пути и подключи вагон к перевозкам."
+      ],
+      "icon": "railways:track_coupler",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "64B6B1382705ABC8",
+          "type": "item",
+          "item": "railways:track_coupler",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1614B23DF38B5F78"
+      ],
+      "rewards": [
+        {
+          "id": "553B7BCC5AF9A15D",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "09ABBF48E388E37C",
+      "title": "Труба между складами",
+      "description": [
+        "Перенеси груз из разгрузочного сундука в отдельный буфер."
+      ],
+      "icon": "pipez:item_pipe",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "7FD4799A845B13A8",
+          "type": "item",
+          "item": "pipez:item_pipe",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "42CFFE3FE111B79A"
+      ],
+      "rewards": [
+        {
+          "id": "1F0EEFB875E1D3CA",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "31C250674DB5D9D2",
+      "title": "Ввод энергии",
+      "description": [
+        "Запитай сеть AE2 от выбранной энергоустановки. Powah и Mekanism подходят для питания через соответствующую сеть."
+      ],
+      "icon": "ae2:energy_acceptor",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0DBFC6AD99F86B62",
+          "type": "item",
+          "item": "ae2:energy_acceptor",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "09ABBF48E388E37C"
+      ],
+      "rewards": [
+        {
+          "id": "58225C5867A7F4AA",
+          "type": "item",
+          "item": "minecraft:gold_nugget",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "7D0F4FE39F8F7BEA",
+      "title": "Между двумя базами",
+      "description": [
+        "Настрой точку Flux Networks на стороне приёма и проверь доставку энергии."
+      ],
+      "icon": "fluxnetworks:flux_point",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "395F13BC99F74A69",
+          "type": "item",
+          "item": "fluxnetworks:flux_point",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "31C250674DB5D9D2"
+      ],
+      "rewards": [
+        {
+          "id": "20834A504BFA4FA7",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "0A4395707057CC38",
+      "title": "Импорт добычи",
+      "description": [
+        "Подключи буфер к AE2 и проверь, что предметы действительно появляются в терминале."
+      ],
+      "icon": "ae2:import_bus",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "141BDB4ABB3DC676",
+          "type": "item",
+          "item": "ae2:import_bus",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7D0F4FE39F8F7BEA"
+      ],
+      "rewards": [
+        {
+          "id": "3E649DC4CC09F236",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5FD59CBEE3EB049A",
+      "title": "Связь города и мастерской",
+      "description": [
+        "Настрой маршрут поставок MineColonies либо закрепи общего ответственного за обучение и склад. Проверь путь груза от добычи до общего доступа.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:redstone",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "046D2C31B69B92CB",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "0A4395707057CC38"
+      ],
+      "rewards": [
+        {
+          "id": "38EC606F1C1FC8E1",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 4
+        },
+        {
+          "id": "3C1A3154F88FDFE8",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "617C35AAA7604FAA",
+          "type": "item",
+          "item": "kubejs:cleansing_charge",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

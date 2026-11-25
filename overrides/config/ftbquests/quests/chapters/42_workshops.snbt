@@ -1,0 +1,251 @@
+{
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "42_workshops",
+  "group": "",
+  "icon": "minecraft:stonecutter",
+  "id": "3B2805CDFF28A9D8",
+  "order_index": 41,
+  "quest_links": [
+    {
+      "id": "741806D2A81645DB",
+      "linked_quest": "062F3CFF1FBB87BF",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "6105927E376284FE",
+      "linked_quest": "3AB0292EB8CEF53D",
+      "x": 9.0,
+      "y": 2.0
+    }
+  ],
+  "title": "Мастерские строителей",
+  "quests": [
+    {
+      "id": "0122D2A16739B6CF",
+      "title": "Стол отделки",
+      "description": [
+        "Изготовь рабочий стол Chipped и сравни исходный блок с его декоративным вариантом.",
+        "",
+        "Из записей экспедиции. На записках каменщика остались три образца узоров для ворот и два для мостовых опор.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
+      ],
+      "icon": "chipped:botanist_workbench",
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "34A8959992D3DF05",
+          "type": "item",
+          "item": "chipped:botanist_workbench",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5A38822BEA58C471"
+      ],
+      "rewards": [
+        {
+          "id": "566CA1EACF4C5FE4",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "56966E561BDAD24F",
+      "title": "Резьба по материалу",
+      "description": [
+        "Изготовь резец Rechiseled, выбери вариант узора и примерь соединение текстур на стене."
+      ],
+      "icon": "rechiseled:chisel",
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "576823830857E7AD",
+          "type": "item",
+          "item": "rechiseled:chisel",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0122D2A16739B6CF"
+      ],
+      "rewards": [
+        {
+          "id": "0E561F1E9CB73232",
+          "type": "item",
+          "item": "minecraft:clay_ball",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "3CDABE324E4CA964",
+      "title": "Каркас и облицовка",
+      "description": [
+        "Поставь каркас FramedBlocks и облицуй его блоком в стиле квартала."
+      ],
+      "icon": "framedblocks:framed_cube",
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "3CFCDBF10CAB6195",
+          "type": "item",
+          "item": "framedblocks:framed_cube",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "56966E561BDAD24F"
+      ],
+      "rewards": [
+        {
+          "id": "7BEE55DC57A40862",
+          "type": "item",
+          "item": "minecraft:gravel",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "1064C967A65B2F6C",
+      "title": "Мост через ручей",
+      "description": [
+        "Выбери деревянные секции Macaw’s Bridges и подбери материал опор для перехода.",
+        "Подходящие варианты — деревянные мосты Macaw’s. Их можно собрать в любом сочетании."
+      ],
+      "icon": "minecraft:stonecutter",
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "57C8F5AF2C7EE415",
+          "type": "item",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/building_bridges)"
+            }
+          },
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "3CDABE324E4CA964"
+      ],
+      "rewards": [
+        {
+          "id": "6664885C5E0ACCCE",
+          "type": "item",
+          "item": "minecraft:moss_block",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "7CC4C823360C4742",
+      "title": "Дом на склоне",
+      "description": [
+        "Собери фасад из крыш, окон, дверей и люков Macaw’s. Проверь открывание и проходы перед установкой мебели.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:stonecutter",
+      "x": 0.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "5D856B63726FB114",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "1064C967A65B2F6C"
+      ],
+      "rewards": [
+        {
+          "id": "1A37170816C195F7",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "127EFB2DB48C0675",
+      "title": "Общественный интерьер",
+      "description": [
+        "Поставь стул Handcrafted. Добавь свет, сиденье или балки из Supplementaries, Amendments либо Decorative Blocks."
+      ],
+      "icon": "handcrafted:oak_chair",
+      "x": 2.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "578540A5919BBB28",
+          "type": "item",
+          "item": "handcrafted:oak_chair",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7CC4C823360C4742"
+      ],
+      "rewards": [
+        {
+          "id": "6C4DA71C2870C7FB",
+          "type": "item",
+          "item": "minecraft:oak_planks",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "176DB35413E9F1C5",
+      "title": "Расширение поселения",
+      "description": [
+        "Сравни стили и планы MineColonies со StyleColonies, SmallColonies и SmallColonies ME. Выбери один вариант для свободного квартала.",
+        "После выполнения отметь задание вручную."
+      ],
+      "icon": "minecraft:stonecutter",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "id": "71831500D451F495",
+          "type": "checkmark",
+          "title": "Подтвердить выполненное действие вручную"
+        }
+      ],
+      "dependencies": [
+        "127EFB2DB48C0675"
+      ],
+      "rewards": [
+        {
+          "id": "6DB5AAEFC477BCD7",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "id": "736957EA61F37200",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "09C49824561FCFA6",
+          "type": "item",
+          "item": "kubejs:scout_report",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,12 @@
       "id": "1C93F5F0EC35EAEF",
       "title": "Школы магии",
       "description": [
-        "Открой интерфейс Iron’s Spells и изучи школы, ману, перезарядку."
+        "Открой интерфейс Iron’s Spells и изучи школы, ману, перезарядку.",
+        "",
+        "Из записей экспедиции. В сумке архивиста нашли два листка. На одном перечислены заклинания защиты, на другом — признаки, что пора отступать.",
+        "",
+        "{image:kubejs:textures/quest/abyss.png width:150 height:84 align:1}",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 0.0,
@@ -27,13 +32,22 @@
       ],
       "dependencies": [
         "1D129E2C407448C4"
+      ],
+      "rewards": [
+        {
+          "id": "0F94005BD1FB3484",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 2
+        }
       ]
     },
     {
       "id": "4F0EB4F73AC9C3E2",
       "title": "Стол надписей",
       "description": [
-        "Создай Inscription Table и добавь первый свиток в книгу."
+        "Создай Inscription Table и добавь первый свиток в книгу.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 2.0,
@@ -47,13 +61,22 @@
       ],
       "dependencies": [
         "1C93F5F0EC35EAEF"
+      ],
+      "rewards": [
+        {
+          "id": "03BA8D286657E313",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 4
+        }
       ]
     },
     {
       "id": "482515ECCAF4CBDF",
       "title": "Чернила",
       "description": [
-        "Собери чернила и материалы для улучшения редкости заклинаний."
+        "Собери чернила и материалы для улучшения редкости заклинаний.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 4.0,
@@ -67,13 +90,22 @@
       ],
       "dependencies": [
         "4F0EB4F73AC9C3E2"
+      ],
+      "rewards": [
+        {
+          "id": "633B2CC433F3C06B",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
       "id": "5B5D6ADDBAA1B0F0",
       "title": "Боевой свиток",
       "description": [
-        "Освой дальнобойное заклинание против обычных монстров."
+        "Освой дальнобойное заклинание против обычных монстров.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 6.0,
@@ -87,13 +119,22 @@
       ],
       "dependencies": [
         "482515ECCAF4CBDF"
+      ],
+      "rewards": [
+        {
+          "id": "6A0231F163757347",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 3
+        }
       ]
     },
     {
       "id": "13261315FFCE0D2F",
       "title": "Защитный свиток",
       "description": [
-        "Подготовь защитное или лечебное заклинание для группы."
+        "Подготовь защитное или лечебное заклинание для группы.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 0.0,
@@ -107,13 +148,22 @@
       ],
       "dependencies": [
         "5B5D6ADDBAA1B0F0"
+      ],
+      "rewards": [
+        {
+          "id": "6815EA088578D077",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
       "id": "0EDCFE54C086E397",
       "title": "Экономия маны",
       "description": [
-        "Сравни стоимость и перезарядку двух заклинаний. Не трать резерв на слабых врагов."
+        "Сравни стоимость и перезарядку двух заклинаний. Не трать резерв на слабых врагов.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 2.0,
@@ -127,13 +177,22 @@
       ],
       "dependencies": [
         "13261315FFCE0D2F"
+      ],
+      "rewards": [
+        {
+          "id": "67DABAA8C18EC9B2",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 2
+        }
       ]
     },
     {
       "id": "4A42601C653D1DA2",
       "title": "Одежда мага",
       "description": [
-        "Создай комплект, усиливающий выбранную школу; сверь бонусы в подсказках."
+        "Создай комплект, усиливающий выбранную школу; сверь бонусы в подсказках.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 4.0,
@@ -147,13 +206,22 @@
       ],
       "dependencies": [
         "0EDCFE54C086E397"
+      ],
+      "rewards": [
+        {
+          "id": "29BE202E7B0D7B70",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 5
+        }
       ]
     },
     {
       "id": "6D0C2E9E70A1A511",
       "title": "Походная книга",
       "description": [
-        "Подготовь отдельный набор заклинаний для подземелий."
+        "Подготовь отдельный набор заклинаний для подземелий.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 6.0,
@@ -167,13 +235,22 @@
       ],
       "dependencies": [
         "4A42601C653D1DA2"
+      ],
+      "rewards": [
+        {
+          "id": "16B643C3946F311D",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 3
+        }
       ]
     },
     {
       "id": "723898BECE1BB014",
       "title": "Мастер чар",
       "description": [
-        "Освой повышение уровня заклинания без уничтожения редких свитков."
+        "Освой повышение уровня заклинания без уничтожения редких свитков.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 0.0,
@@ -187,13 +264,22 @@
       ],
       "dependencies": [
         "6D0C2E9E70A1A511"
+      ],
+      "rewards": [
+        {
+          "id": "65AC317FC3BFB296",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 2
+        }
       ]
     },
     {
       "id": "6E7757423552B7DF",
       "title": "Тёмный трактат",
       "description": [
-        "Открой книгу Goety, изучи получение Soul Energy и условия ритуалов."
+        "Открой книгу Goety, изучи получение Soul Energy и условия ритуалов.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 2.0,
@@ -207,13 +293,22 @@
       ],
       "dependencies": [
         "723898BECE1BB014"
+      ],
+      "rewards": [
+        {
+          "id": "6356BEDEEF8D055E",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 4
+        }
       ]
     },
     {
       "id": "7052F6B8550E1EDA",
       "title": "Осколок души",
       "description": [
-        "Подготовь сосуд или инструмент для накопления душ по руководству Goety."
+        "Подготовь сосуд или инструмент для накопления душ по руководству Goety.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 4.0,
@@ -227,13 +322,22 @@
       ],
       "dependencies": [
         "6E7757423552B7DF"
+      ],
+      "rewards": [
+        {
+          "id": "13F577377D943DFD",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 1
+        }
       ]
     },
     {
       "id": "096367977E149F98",
       "title": "Первый фокус",
       "description": [
-        "Создай жезл и фокус, проверь управление и расход энергии."
+        "Создай жезл и фокус, проверь управление и расход энергии.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 6.0,
@@ -247,13 +351,22 @@
       ],
       "dependencies": [
         "7052F6B8550E1EDA"
+      ],
+      "rewards": [
+        {
+          "id": "683D4EA87F0677E7",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 3
+        }
       ]
     },
     {
       "id": "28DB31F5C8174797",
       "title": "Призыв",
       "description": [
-        "Вызови первого прислужника вдали от поселения; научись отзывать его."
+        "Вызови первого прислужника вдали от поселения; научись отзывать его.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 0.0,
@@ -267,13 +380,22 @@
       ],
       "dependencies": [
         "096367977E149F98"
+      ],
+      "rewards": [
+        {
+          "id": "2C85F6AF4A8F9151",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
       "id": "798BED712EB0BB17",
       "title": "Ритуальный зал",
       "description": [
-        "Построй отдельную ритуальную площадку и соблюдай требования алтаря."
+        "Построй отдельную ритуальную площадку и соблюдай требования алтаря.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 2.0,
@@ -287,13 +409,22 @@
       ],
       "dependencies": [
         "28DB31F5C8174797"
+      ],
+      "rewards": [
+        {
+          "id": "720BC55016429673",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 2
+        }
       ]
     },
     {
       "id": "77EDA001BF8A4D34",
       "title": "Некромантия",
       "description": [
-        "Освой защитный призыв; не оставляй много существ постоянно активными."
+        "Освой защитный призыв; не оставляй много существ постоянно активными.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 4.0,
@@ -307,13 +438,22 @@
       ],
       "dependencies": [
         "798BED712EB0BB17"
+      ],
+      "rewards": [
+        {
+          "id": "3948D351D1746B95",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 5
+        }
       ]
     },
     {
       "id": "5821D3458CCB2A6F",
       "title": "Тьма под контролем",
       "description": [
-        "Испытай тёмное заклинание против враждебной цели."
+        "Испытай тёмное заклинание против враждебной цели.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:enchanted_book",
       "x": 6.0,
@@ -327,6 +467,14 @@
       ],
       "dependencies": [
         "77EDA001BF8A4D34"
+      ],
+      "rewards": [
+        {
+          "id": "77CD8E0EEA1B8C7F",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 3
+        }
       ]
     },
     {
@@ -353,8 +501,19 @@
         {
           "id": "52D60920B1CC972C",
           "type": "item",
-          "item": "minecraft:gold_ingot",
+          "item": "minecraft:amethyst_shard",
           "count": 2
+        },
+        {
+          "id": "2F6881C27B6C066B",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "46DDEA6E82093974",
+          "type": "item",
+          "item": "kubejs:foundation_stone",
+          "count": 1
         }
       ]
     }

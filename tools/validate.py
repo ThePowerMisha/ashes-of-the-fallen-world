@@ -1,11 +1,12 @@
+from quest_progress import item_id
 from pathlib import Path
 import json, csv, re, subprocess, shutil, tomllib
 root=Path(__file__).resolve().parents[1]
 manifest=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
 assert manifest['minecraft']['version']=='1.20.1'
-assert len(manifest['files'])==170
+assert len(manifest['files'])==173
 ids={(i['projectID'],i['fileID']) for i in manifest['files']}
-assert len(ids)==170 and len({p for p,f in ids})==170
+assert len(ids)==173 and len({p for p,f in ids})==173
 with (root/'overrides/ashes_docs/mods-lock.tsv').open(encoding='utf-8') as f:
     locked=list(csv.DictReader(f,delimiter='\t'))
 assert {(int(r['projectID']),int(r['fileID'])) for r in locked}==ids
@@ -20,12 +21,12 @@ for p in sorted((root/'overrides/config/ftbquests/quests/chapters').glob('*.snbt
             assert t['id'] not in task_ids; task_ids.add(t['id'])
             assert t['type'] in ('item','checkmark','advancement')
             if t['type']=='advancement': assert ':' in t['advancement']
-            if t['type']=='item': assert ':' in t['item'] and t['count']>0
+            if t['type']=='item': assert ':' in item_id(t['item']) and t['count']>0
         for r in q.get('rewards',[]):
             assert r['id'] not in reward_ids; reward_ids.add(r['id'])
 byid={q['id']:q for q in quests}
-assert len(byid)==len(quests)==495
-assert len(chapter_ids)==40
+assert len(byid)==len(quests)==532
+assert len(chapter_ids)==45
 assert len(chapter_ids|set(byid)|task_ids|reward_ids)==len(chapter_ids)+len(byid)+len(task_ids)+len(reward_ids)
 seen=set(); visiting=set()
 def visit(qid):
@@ -40,7 +41,7 @@ base=root/'overrides/kubejs'
 items=set(re.findall(r"event.create\('([^']+)'\)",(base/'startup_scripts/ashes_items.js').read_text(encoding='utf-8')))
 recipes=(base/'server_scripts/ashes_recipes.js').read_text(encoding='utf-8')
 refs=set(re.findall(r'kubejs:([a-z_]+)',recipes))
-refs|={t['item'].split(':')[1] for q in quests for t in q['tasks'] if t.get('item','').startswith('kubejs:')}
+refs|={item_id(t['item']).split(':')[1] for q in quests for t in q['tasks'] if item_id(t.get('item','')).startswith('kubejs:')}
 assert refs<=items and len(items)==30
 rids=re.findall(r"\.id\('([^']+)'\)",recipes);assert len(set(rids))==len(rids)==32
 functions=base/'data/ashes/functions'

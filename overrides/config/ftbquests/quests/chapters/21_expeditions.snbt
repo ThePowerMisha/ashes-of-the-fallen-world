@@ -6,14 +6,32 @@
   "icon": "minecraft:filled_map",
   "id": "4C5B07647387E929",
   "order_index": 20,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "3E9E03EC2D52FAD1",
+      "linked_quest": "061A8CB234F5E056",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "42A402465014FA16",
+      "linked_quest": "1D2F64A8F41DAC79",
+      "x": 9.0,
+      "y": 2.0
+    }
+  ],
   "title": "Атлас погибшего мира",
   "quests": [
     {
       "id": "70162E3EEE582478",
       "title": "Лесной приют",
       "description": [
-        "Поставь безопасный лагерь на границе большого леса."
+        "Поставь безопасный лагерь на границе большого леса.",
+        "",
+        "Из записей экспедиции. На карте пепелищ новые тропы чертили поверх старых. Ищите переходы, где уцелевшая дорога выходит к воде.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}",
+        "Подходящие варианты — обычные костры и костры душ. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:campfire",
       "x": 0.0,
@@ -22,12 +40,26 @@
         {
           "id": "2C9EBB69160B7396",
           "type": "item",
-          "item": "minecraft:campfire",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/campfires)"
+            }
+          },
           "count": 2
         }
       ],
       "dependencies": [
         "639F04B923139E25"
+      ],
+      "rewards": [
+        {
+          "id": "027E70618E565B04",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 8
+        }
       ]
     },
     {
@@ -49,13 +81,22 @@
       ],
       "dependencies": [
         "70162E3EEE582478"
+      ],
+      "rewards": [
+        {
+          "id": "0710A5F42DE83D48",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 1
+        }
       ]
     },
     {
       "id": "1B0E3F001AEDDB5B",
       "title": "Долина рек",
       "description": [
-        "Нанеси водный маршрут между двумя районами."
+        "Нанеси водный маршрут между двумя районами.",
+        "Подходящие варианты — обычные лодки и лодки с сундуком. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:oak_boat",
       "x": 4.0,
@@ -64,7 +105,13 @@
         {
           "id": "2794CB3A449CD6F4",
           "type": "item",
-          "item": "minecraft:oak_boat",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/boats)"
+            }
+          },
           "count": 1
         }
       ],
@@ -75,8 +122,8 @@
         {
           "id": "44564C25EEC79CAA",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:leather",
+          "count": 2
         }
       ]
     },
@@ -84,7 +131,8 @@
       "id": "3D3EAF0E202B05DD",
       "title": "Старые дороги",
       "description": [
-        "Найди остатки дорог или небольшие руины, запиши координаты."
+        "Найди остатки дорог или небольшие руины, запиши координаты.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:filled_map",
       "x": 6.0,
@@ -98,13 +146,22 @@
       ],
       "dependencies": [
         "1B0E3F001AEDDB5B"
+      ],
+      "rewards": [
+        {
+          "id": "3023ABF51AF1F0A0",
+          "type": "item",
+          "item": "minecraft:compass",
+          "count": 1
+        }
       ]
     },
     {
       "id": "49521727BFFDCBE5",
       "title": "Пустая деревня",
       "description": [
-        "Исследуй заброшенную деревню; не уничтожай здания и полезные блоки."
+        "Исследуй заброшенную деревню; не уничтожай здания и полезные блоки.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:filled_map",
       "x": 0.0,
@@ -118,13 +175,22 @@
       ],
       "dependencies": [
         "3D3EAF0E202B05DD"
+      ],
+      "rewards": [
+        {
+          "id": "3CC6C5845D03509A",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        }
       ]
     },
     {
       "id": "11492658362D6EDF",
       "title": "Крепостная стена",
       "description": [
-        "Найди замок When Dungeons Arise, осмотри безопасный вход."
+        "Найди замок When Dungeons Arise, осмотри безопасный вход.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:filled_map",
       "x": 2.0,
@@ -138,13 +204,22 @@
       ],
       "dependencies": [
         "49521727BFFDCBE5"
+      ],
+      "rewards": [
+        {
+          "id": "32A59B86D61906C1",
+          "type": "item",
+          "item": "minecraft:cooked_porkchop",
+          "count": 4
+        }
       ]
     },
     {
       "id": "4CE6E410A061A2BF",
       "title": "Павшие башни",
       "description": [
-        "Исследуй сторожевую башню и отметь её на карте."
+        "Исследуй сторожевую башню и отметь её на карте.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:filled_map",
       "x": 4.0,
@@ -158,13 +233,22 @@
       ],
       "dependencies": [
         "11492658362D6EDF"
+      ],
+      "rewards": [
+        {
+          "id": "6D64E172594C2DD1",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 6
+        }
       ]
     },
     {
       "id": "45E36DA2F6B26F88",
       "title": "Крипта",
       "description": [
-        "Исследуй сооружение The Graveyard, забери добычу и покинь его."
+        "Исследуй сооружение The Graveyard, забери добычу и покинь его.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:filled_map",
       "x": 6.0,
@@ -178,13 +262,22 @@
       ],
       "dependencies": [
         "4CE6E410A061A2BF"
+      ],
+      "rewards": [
+        {
+          "id": "4C3D016ED6EAF6BB",
+          "type": "item",
+          "item": "minecraft:soul_torch",
+          "count": 6
+        }
       ]
     },
     {
       "id": "39DA3FC2A9030ECA",
       "title": "Шахта",
       "description": [
-        "Найди шахту YUNG’s, подготовь лестницы и запас света."
+        "Найди шахту YUNG’s, подготовь лестницы и запас света.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:filled_map",
       "x": 0.0,
@@ -198,13 +291,22 @@
       ],
       "dependencies": [
         "45E36DA2F6B26F88"
+      ],
+      "rewards": [
+        {
+          "id": "21769B8CA608C2ED",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 8
+        }
       ]
     },
     {
       "id": "31539A566448FE6C",
       "title": "Подземный лабиринт",
       "description": [
-        "Исследуй подземелье YUNG’s, проверь личные сундуки Lootr."
+        "Исследуй подземелье YUNG’s, проверь личные сундуки Lootr.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:filled_map",
       "x": 2.0,
@@ -218,6 +320,14 @@
       ],
       "dependencies": [
         "39DA3FC2A9030ECA"
+      ],
+      "rewards": [
+        {
+          "id": "1974AAC84FD8B322",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 1
+        }
       ]
     },
     {
@@ -239,6 +349,14 @@
       ],
       "dependencies": [
         "31539A566448FE6C"
+      ],
+      "rewards": [
+        {
+          "id": "5DD6211B66CF6C00",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 2
+        }
       ]
     },
     {
@@ -260,13 +378,22 @@
       ],
       "dependencies": [
         "3DFB041B9E3A26C8"
+      ],
+      "rewards": [
+        {
+          "id": "422E161BCC7330F9",
+          "type": "item",
+          "item": "minecraft:compass",
+          "count": 1
+        }
       ]
     },
     {
       "id": "0AFA200743E91115",
       "title": "Забытый склад",
       "description": [
-        "Найди склад или лагерь среди руин и отметь место для будущего восстановления."
+        "Найди склад или лагерь среди руин и отметь место для будущего восстановления.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:filled_map",
       "x": 0.0,
@@ -280,6 +407,14 @@
       ],
       "dependencies": [
         "1627C65994A6A4E2"
+      ],
+      "rewards": [
+        {
+          "id": "5874311387572B71",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        }
       ]
     },
     {
@@ -301,6 +436,14 @@
       ],
       "dependencies": [
         "0AFA200743E91115"
+      ],
+      "rewards": [
+        {
+          "id": "20195F0569410F92",
+          "type": "item",
+          "item": "minecraft:cooked_porkchop",
+          "count": 4
+        }
       ]
     },
     {
@@ -322,13 +465,22 @@
       ],
       "dependencies": [
         "3CAD3983287A5AFE"
+      ],
+      "rewards": [
+        {
+          "id": "649A11DAD768E582",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 6
+        }
       ]
     },
     {
       "id": "1DBC9ADB5C6053AD",
       "title": "Путевой знак",
       "description": [
-        "Установи Waystone в безопасном месте и проверь стоимость перемещения."
+        "Установи Waystone в безопасном месте и проверь стоимость перемещения.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:filled_map",
       "x": 6.0,
@@ -342,13 +494,22 @@
       ],
       "dependencies": [
         "4D171E57BA3CA057"
+      ],
+      "rewards": [
+        {
+          "id": "139DE89E6EFB3925",
+          "type": "item",
+          "item": "minecraft:soul_torch",
+          "count": 6
+        }
       ]
     },
     {
       "id": "2D3E2BE8D272DDCC",
       "title": "Второй аванпост",
       "description": [
-        "Создай лагерь в другом биоме, свяжи его с картой и складом."
+        "Создай лагерь в другом биоме, свяжи его с картой и складом.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:filled_map",
       "x": 0.0,
@@ -362,6 +523,14 @@
       ],
       "dependencies": [
         "1DBC9ADB5C6053AD"
+      ],
+      "rewards": [
+        {
+          "id": "5A5A779399E69009",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 4
+        }
       ]
     },
     {
@@ -388,8 +557,19 @@
         {
           "id": "77E9DCFA76B81409",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:lead",
+          "count": 1
+        },
+        {
+          "id": "66093CFC24D07136",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "0A972748996F0852",
+          "type": "item",
+          "item": "kubejs:cleansing_charge",
+          "count": 1
         }
       ]
     }

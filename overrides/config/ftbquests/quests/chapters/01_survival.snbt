@@ -6,14 +6,44 @@
   "icon": "minecraft:campfire",
   "id": "1795C5B5DFF17A6F",
   "order_index": 0,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "76AE8C3113E51046",
+      "linked_quest": "226256B371A5E712",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "4EF464CE9ABD0175",
+      "linked_quest": "175CB9D5290AABE1",
+      "x": 9.0,
+      "y": 2.0
+    },
+    {
+      "id": "161C5C16F8CE82CB",
+      "linked_quest": "061A8CB234F5E056",
+      "x": 9.0,
+      "y": 4.0
+    },
+    {
+      "id": "4514192FDDC01498",
+      "linked_quest": "76B27439B998FCAE",
+      "x": 9.0,
+      "y": 6.0
+    }
+  ],
   "title": "I. Последние выжившие",
   "quests": [
     {
       "id": "2BD8F0EBC1A09919",
       "title": "Пробуждение",
       "description": [
-        "Ты очнулся среди руин. Мир помнит Великий Раскол. Открой карту и договорись с друзьями о месте встречи."
+        "Ты очнулся среди руин. Мир помнит Великий Раскол. Открой карту и договорись с друзьями о месте встречи.",
+        "",
+        "Из записей экспедиции. На полях первой карты отмечены колодец и костёр. Между ними всего сто шагов. В ночь Раскола эта дорога спасла целую деревню.",
+        "",
+        "{image:kubejs:textures/quest/frontier.png width:150 height:84 align:1}",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:campfire",
       "x": 0.0,
@@ -24,13 +54,22 @@
           "type": "checkmark",
           "title": "Подтвердить выполненное действие вручную"
         }
+      ],
+      "rewards": [
+        {
+          "id": "02F200B21208ACB0",
+          "type": "item",
+          "item": "minecraft:stick",
+          "count": 4
+        }
       ]
     },
     {
       "id": "241188EAD5CC01B0",
       "title": "Огонь в ночи",
       "description": [
-        "Разожги костёр. Ночь опаснее, чем кажется."
+        "Разожги костёр. Ночь опаснее, чем кажется.",
+        "Подходящие варианты — обычные костры и костры душ. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:campfire",
       "x": 2.0,
@@ -39,19 +78,34 @@
         {
           "id": "7DEFDC0A97AD779B",
           "type": "item",
-          "item": "minecraft:campfire",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/campfires)"
+            }
+          },
           "count": 1
         }
       ],
       "dependencies": [
         "2BD8F0EBC1A09919"
+      ],
+      "rewards": [
+        {
+          "id": "47A085C020BE8C31",
+          "type": "item",
+          "item": "minecraft:string",
+          "count": 4
+        }
       ]
     },
     {
       "id": "1743AC68D363D7A5",
       "title": "Первое убежище",
       "description": [
-        "Подготовь кровать и укрытие."
+        "Подготовь кровать и укрытие.",
+        "Подходящие варианты — любая кровать. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:white_bed",
       "x": 4.0,
@@ -60,7 +114,13 @@
         {
           "id": "48C8F0C7BBDED2E4",
           "type": "item",
-          "item": "minecraft:white_bed",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/beds)"
+            }
+          },
           "count": 1
         }
       ],
@@ -71,8 +131,8 @@
         {
           "id": "267F613CEFF0A60F",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:raw_iron",
+          "count": 3
         }
       ]
     },
@@ -95,13 +155,22 @@
       ],
       "dependencies": [
         "1743AC68D363D7A5"
+      ],
+      "rewards": [
+        {
+          "id": "2C6E131F58772900",
+          "type": "item",
+          "item": "minecraft:string",
+          "count": 3
+        }
       ]
     },
     {
       "id": "60117B7CC818676B",
       "title": "Запасы",
       "description": [
-        "Обеспечь команду едой."
+        "Обеспечь команду едой.",
+        "Подходящие варианты — хлеб, печёный картофель или жареное мясо. Их можно собрать в любом сочетании."
       ],
       "icon": "minecraft:bread",
       "x": 0.0,
@@ -110,19 +179,34 @@
         {
           "id": "71623F40D658726C",
           "type": "item",
-          "item": "minecraft:bread",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/provisions)"
+            }
+          },
           "count": 8
         }
       ],
       "dependencies": [
         "32A0C94B9D047B54"
+      ],
+      "rewards": [
+        {
+          "id": "42B55B084982EFD7",
+          "type": "item",
+          "item": "minecraft:obsidian",
+          "count": 1
+        }
       ]
     },
     {
       "id": "101FA07CABA6B876",
       "title": "Дорога домой",
       "description": [
-        "Построй путевой камень; активируй его в общем поселении."
+        "Построй путевой камень; активируй его в общем поселении.",
+        "Подходящие варианты — обычные, мшистые, песчаниковые, глубинные, чернитовые или эндерняковые путевые камни. Их можно собрать в любом сочетании."
       ],
       "icon": "waystones:waystone",
       "x": 2.0,
@@ -131,7 +215,13 @@
         {
           "id": "7F83E164841228CA",
           "type": "item",
-          "item": "waystones:waystone",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/waystones)"
+            }
+          },
           "count": 1
         }
       ],
@@ -142,8 +232,8 @@
         {
           "id": "14B8971662D03A93",
           "type": "item",
-          "item": "minecraft:bread",
-          "count": 4
+          "item": "minecraft:stick",
+          "count": 8
         }
       ]
     },
@@ -151,7 +241,8 @@
       "id": "1DC2561A626A6D17",
       "title": "Выбрать путь",
       "description": [
-        "Выбери класс командой /trigger ashes_class set 1–6. Используй /trigger ashes_status для проверки. Подтверди после выбора."
+        "Выбери класс командой /trigger ashes_class set 1–6. Используй /trigger ashes_status для проверки. Подтверди после выбора.",
+        "После выполнения отметь задание вручную."
       ],
       "icon": "minecraft:campfire",
       "x": 4.0,
@@ -165,6 +256,14 @@
       ],
       "dependencies": [
         "101FA07CABA6B876"
+      ],
+      "rewards": [
+        {
+          "id": "71B5470E32F4D41F",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 3
+        }
       ]
     },
     {
@@ -186,6 +285,19 @@
       ],
       "dependencies": [
         "1DC2561A626A6D17"
+      ],
+      "rewards": [
+        {
+          "id": "50F6107A93D8AADA",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 8
+        },
+        {
+          "id": "7C25620FEAE5C8F0",
+          "type": "xp",
+          "xp": 12
+        }
       ]
     }
   ]

@@ -101,3 +101,5 @@
 - #controls Начальные назначения клавиш для импорта CurseForge хранятся в `overrides/options.txt`.
 
 - #mods Amendments 2.2.6 и зависимость Moonlight Lib закреплены в списке модов.
+
+- Кампания FTB Quests из author-content: 532 заданий в 45 главах, новые награды, маршруты и иллюстрации.

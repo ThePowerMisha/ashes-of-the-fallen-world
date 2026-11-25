@@ -6,14 +6,31 @@
   "icon": "mekanism:metallurgic_infuser",
   "id": "49686D1C8AC016C7",
   "order_index": 13,
-  "quest_links": [],
+  "quest_links": [
+    {
+      "id": "1CA3B36D18288C96",
+      "linked_quest": "4C304581395E83C9",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "7AC2D8F9883BE84D",
+      "linked_quest": "1614B23DF38B5F78",
+      "x": 9.0,
+      "y": 2.0
+    }
+  ],
   "title": "Промышленная сеть: Mekanism",
   "quests": [
     {
       "id": "28318EF40188761A",
       "title": "Осмий",
       "description": [
-        "Добывай осмий вместе с железом. Храни металл отдельно от руды."
+        "Добывай осмий вместе с железом. Храни металл отдельно от руды.",
+        "",
+        "Из записей экспедиции. Варден обвёл красным линии, на которых загорались провода. В новом цехе эти линии можно проложить заново.",
+        "",
+        "{image:kubejs:textures/quest/orders.png width:150 height:84 align:1}"
       ],
       "icon": "mekanism:ingot_osmium",
       "x": 0.0,
@@ -28,6 +45,14 @@
       ],
       "dependencies": [
         "3E032F770950CD2C"
+      ],
+      "rewards": [
+        {
+          "id": "31A3531DFD8F38AE",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 4
+        }
       ]
     },
     {
@@ -49,6 +74,14 @@
       ],
       "dependencies": [
         "28318EF40188761A"
+      ],
+      "rewards": [
+        {
+          "id": "1A822A2341239371",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 3
+        }
       ]
     },
     {
@@ -75,7 +108,7 @@
         {
           "id": "6293148DB96E7791",
           "type": "item",
-          "item": "minecraft:bread",
+          "item": "minecraft:charcoal",
           "count": 4
         }
       ]
@@ -84,7 +117,8 @@
       "id": "4F1262BD36A0EEE5",
       "title": "Сталь",
       "description": [
-        "Дважды обогащай железо углеродом и переплавляй пыль."
+        "Дважды обогащай железо углеродом и переплавляй пыль.",
+        "Подходящие варианты — стальные слитки из общего тега Forge. Их можно собрать в любом сочетании."
       ],
       "icon": "mekanism:ingot_steel",
       "x": 6.0,
@@ -93,12 +127,26 @@
         {
           "id": "3430D1FAC17E71EB",
           "type": "item",
-          "item": "mekanism:ingot_steel",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "Count": 1,
+            "tag": {
+              "ftbfiltersystem:filter": "item_tag(ashes:quest/steel)"
+            }
+          },
           "count": 8
         }
       ],
       "dependencies": [
         "790D3B8FCACCD3ED"
+      ],
+      "rewards": [
+        {
+          "id": "79BCCDB904B95340",
+          "type": "item",
+          "item": "mekanism:dust_coal",
+          "count": 3
+        }
       ]
     },
     {
@@ -120,6 +168,14 @@
       ],
       "dependencies": [
         "4F1262BD36A0EEE5"
+      ],
+      "rewards": [
+        {
+          "id": "7576A276AAB38FE1",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 3
+        }
       ]
     },
     {
@@ -146,7 +202,7 @@
         {
           "id": "63C759F68D3CCD6F",
           "type": "item",
-          "item": "minecraft:bread",
+          "item": "minecraft:redstone",
           "count": 4
         }
       ]
@@ -170,6 +226,14 @@
       ],
       "dependencies": [
         "43491CF9707B4E89"
+      ],
+      "rewards": [
+        {
+          "id": "47826FC3B0BE81D1",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 4
+        }
       ]
     },
     {
@@ -191,6 +255,14 @@
       ],
       "dependencies": [
         "7B2CAEDD9EDD8981"
+      ],
+      "rewards": [
+        {
+          "id": "3ADA9B9C0F8ED45B",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
       ]
     },
     {
@@ -212,6 +284,14 @@
       ],
       "dependencies": [
         "645C46AD04BC642F"
+      ],
+      "rewards": [
+        {
+          "id": "662B8819152AE34A",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -233,6 +313,14 @@
       ],
       "dependencies": [
         "4637DBB340DFFE13"
+      ],
+      "rewards": [
+        {
+          "id": "43CFADEA42540850",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 4
+        }
       ]
     },
     {
@@ -254,6 +342,14 @@
       ],
       "dependencies": [
         "6B452FEAE6C697B7"
+      ],
+      "rewards": [
+        {
+          "id": "1FA1852C63210276",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 4
+        }
       ]
     },
     {
@@ -275,6 +371,14 @@
       ],
       "dependencies": [
         "51E049EBE3808EA0"
+      ],
+      "rewards": [
+        {
+          "id": "4F1D436F2441B5F9",
+          "type": "item",
+          "item": "mekanism:dust_coal",
+          "count": 3
+        }
       ]
     },
     {
@@ -296,6 +400,14 @@
       ],
       "dependencies": [
         "07030D1273858555"
+      ],
+      "rewards": [
+        {
+          "id": "7FF30FDBE581BB80",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -317,6 +429,14 @@
       ],
       "dependencies": [
         "64F3975F03D00C47"
+      ],
+      "rewards": [
+        {
+          "id": "338F4D3EAF429E66",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 4
+        }
       ]
     },
     {
@@ -338,6 +458,14 @@
       ],
       "dependencies": [
         "573C0BF53951DCA1"
+      ],
+      "rewards": [
+        {
+          "id": "10BD8AA60F187A32",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 4
+        }
       ]
     },
     {
@@ -359,6 +487,14 @@
       ],
       "dependencies": [
         "60C13286B9110E6D"
+      ],
+      "rewards": [
+        {
+          "id": "6B2A6FDE79D5AECC",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
       ]
     },
     {
@@ -380,6 +516,14 @@
       ],
       "dependencies": [
         "3E17CC4017B2AEBA"
+      ],
+      "rewards": [
+        {
+          "id": "1A3DBEEBE10E2F62",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -401,6 +545,14 @@
       ],
       "dependencies": [
         "4BE133D7FC2BDDAF"
+      ],
+      "rewards": [
+        {
+          "id": "769B564FE328F797",
+          "type": "item",
+          "item": "mekanism:dust_osmium",
+          "count": 2
+        }
       ]
     },
     {
@@ -422,6 +574,14 @@
       ],
       "dependencies": [
         "1AB32FDE3CFA9BDF"
+      ],
+      "rewards": [
+        {
+          "id": "4B24E2888025637C",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 4
+        }
       ]
     },
     {
@@ -443,6 +603,14 @@
       ],
       "dependencies": [
         "5B0166D08CB76C78"
+      ],
+      "rewards": [
+        {
+          "id": "17EC457CD6DCD163",
+          "type": "item",
+          "item": "mekanism:dust_coal",
+          "count": 3
+        }
       ]
     },
     {
@@ -464,6 +632,14 @@
       ],
       "dependencies": [
         "3E6B6897AA949D8B"
+      ],
+      "rewards": [
+        {
+          "id": "0678BBCDAAF2E559",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
       ]
     },
     {
@@ -490,8 +666,19 @@
         {
           "id": "064FE0A7CCF34EE9",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "minecraft:redstone",
+          "count": 4
+        },
+        {
+          "id": "61AACE080E9219B3",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "2CCE85EB684711AB",
+          "type": "item",
+          "item": "kubejs:source_capacitor",
+          "count": 1
         }
       ]
     }

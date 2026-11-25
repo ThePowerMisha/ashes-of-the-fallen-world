@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Ashes of the Fallen World — DH Turbo",
-  "version": "1.0.0-rc5-companions.2",
+  "version": "1.0.0-rc5-quests.1",
   "author": "Ashes Project",
   "files": [
     {
@@ -862,6 +862,21 @@
     {
       "projectID": 896746,
       "fileID": 8657397,
+      "required": true
+    },
+    {
+      "projectID": 943925,
+      "fileID": 4926070,
+      "required": true
+    },
+    {
+      "projectID": 889915,
+      "fileID": 6402486,
+      "required": true
+    },
+    {
+      "projectID": 1783771,
+      "fileID": 9441973,
       "required": true
     }
   ],
