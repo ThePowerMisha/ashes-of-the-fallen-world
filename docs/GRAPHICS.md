@@ -1,5 +1,8 @@
 # Графические настройки RC3
 
-Оба архива CurseForge включают Oculus 1.8.0, Embeddium 0.3.31, Dynamic Lights, Extras и Options API. Первый запуск проходит с выключенными шейдерами. Включите их в «Настройки → Настройки графики → Шейдеры». По умолчанию выбран Complementary Unbound. Также доступны Complementary Reimagined, Bliss, Solas и BSL. Предгенерацию выполняет Chunky.
+Оба архива CurseForge включают Oculus 1.8.0, Embeddium 0.3.31, Dynamic Lights, Extras и Options API. Первый запуск проходит с выключенными шейдерами. Включите их в «Настройки → Настройки графики → Шейдеры». По умолчанию выбран Complementary Unbound. Также доступны Complementary Reimagined, Bliss, Solas и BSL.
 
 ParCool: клиентский профиль с умеренными скоростями и отключением резких поворотов камеры. Это клиентские настройки, а не серверный запрет действий. JEI Integration показывает характеристики по Shift. 
+
+## DH Turbo
+Эксперимент DH Turbo для одиночной игры: Distant Horizons 3.3.3 и Turbo 1.6.0, без Chunky и YUNG’s Better Caves. Начальные настройки: восемь потоков Turbo, точное фоновое уточнение выключено, дальность обычных чанков 8, симуляция 6, ограничение 60 FPS. Игровые замеры предстоят.

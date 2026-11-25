@@ -37,7 +37,7 @@ python tools/package.py dist/Ashes-CurseForge.zip
 [Авторские текстуры и анимации](docs/ASSETS.md): 30 уникальных текстур, восемь анимированных артефактов.
 
 ## RC3
-В RC3 Distant Horizons входил в оба профиля. В текущей сборке предгенерацию выполняет Chunky, а Oculus доступен в обоих профилях. Добавлены ParCool, Twilight Forest, Immersive Aircraft, стили MineColonies, дополнения JEI, укрупнённые жилы и хроники мира. Новый мир рекомендуется. `/trigger ashes_news set 2` отключает хроники, `set 1` включает.
+В RC3 Distant Horizons входил в оба профиля. Эксперимент DH Turbo для одиночной игры: Distant Horizons 3.3.3 и Turbo 1.6.0, без Chunky и YUNG’s Better Caves. Начальные настройки: восемь потоков Turbo, точное фоновое уточнение выключено, дальность обычных чанков 8, симуляция 6, ограничение 60 FPS. Игровые замеры предстоят. Добавлены ParCool, Twilight Forest, Immersive Aircraft, стили MineColonies, дополнения JEI, укрупнённые жилы и хроники мира. Новый мир рекомендуется. `/trigger ashes_news set 2` отключает хроники, `set 1` включает.
 [Импорт Once upon an year](docs/ONCE_IMPORT.md) · [Генерация мира](docs/WORLDGEN.md) · [Хроники](docs/WORLD_NEWS.md).
 
 ## RC4 — исправление запуска

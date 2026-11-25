@@ -1,8 +1,8 @@
 version:3465
 lang:ru_ru
-renderDistance:12
+renderDistance:8
 simulationDistance:6
-maxFps:120
+maxFps:60
 vsync:false
 graphicsMode:1
 renderClouds:"false"

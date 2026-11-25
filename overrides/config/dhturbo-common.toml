@@ -1,0 +1,3 @@
+threads = 8
+exact_radius = 0
+real_chunks_nearby = false
