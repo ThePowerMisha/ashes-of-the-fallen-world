@@ -45,7 +45,7 @@
           "id": "423B2CD346B51B82",
           "type": "item",
           "item": "minecraft:moss_block",
-          "count": 2
+          "count": 16
         }
       ]
     },
@@ -74,7 +74,7 @@
           "id": "3085DBCF8BFBB735",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 16
         }
       ]
     },
@@ -110,7 +110,7 @@
           "id": "3AD83D5ACAD7CA71",
           "type": "item",
           "item": "minecraft:oak_log",
-          "count": 6
+          "count": 48
         }
       ]
     },
@@ -146,7 +146,7 @@
           "id": "3CE45A7EDFDDD26C",
           "type": "item",
           "item": "minecraft:iron_nugget",
-          "count": 8
+          "count": 64
         }
       ]
     },
@@ -182,7 +182,7 @@
           "id": "651D731CE88180D8",
           "type": "item",
           "item": "minecraft:clay_ball",
-          "count": 6
+          "count": 48
         }
       ]
     },
@@ -211,7 +211,7 @@
           "id": "0B92795125D07FD6",
           "type": "item",
           "item": "minecraft:gravel",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -240,7 +240,7 @@
           "id": "1222E782885345E5",
           "type": "item",
           "item": "minecraft:moss_block",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -269,7 +269,7 @@
           "id": "38FFED77D2921DA6",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -298,7 +298,7 @@
           "id": "75CB6389B698F868",
           "type": "item",
           "item": "minecraft:oak_log",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -327,12 +327,12 @@
           "id": "3D569396DA2B88BE",
           "type": "item",
           "item": "minecraft:iron_nugget",
-          "count": 8
+          "count": 64
         },
         {
           "id": "34DE587DE1DA763C",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "6F1C78AB091C381A",

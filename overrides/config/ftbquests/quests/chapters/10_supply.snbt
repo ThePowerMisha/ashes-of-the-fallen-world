@@ -69,7 +69,7 @@
           "id": "07BC10A5E7A4E24D",
           "type": "item",
           "item": "minecraft:stick",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -98,7 +98,7 @@
           "id": "7FED8445A1B4A578",
           "type": "item",
           "item": "minecraft:coal",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -127,7 +127,7 @@
           "id": "3739D8E2F98EF470",
           "type": "item",
           "item": "minecraft:leather",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -163,7 +163,7 @@
           "id": "21866858365C5A84",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 3
+          "count": 24
         }
       ]
     },
@@ -192,7 +192,7 @@
           "id": "591E98371A859FB8",
           "type": "item",
           "item": "minecraft:iron_nugget",
-          "count": 6
+          "count": 48
         }
       ]
     },
@@ -221,7 +221,7 @@
           "id": "319086B623DDC1D0",
           "type": "item",
           "item": "minecraft:stick",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -250,7 +250,7 @@
           "id": "2BCC1470C2F0EDE7",
           "type": "item",
           "item": "minecraft:charcoal",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -279,12 +279,12 @@
           "id": "3F9CD4A19E103177",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 64
         },
         {
           "id": "3D383483326CB2ED",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "06E2BF824A1CC3FC",

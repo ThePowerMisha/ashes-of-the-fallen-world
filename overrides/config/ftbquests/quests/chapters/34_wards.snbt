@@ -38,7 +38,7 @@
           "id": "1A0FEC90F0670E8D",
           "type": "item",
           "item": "minecraft:soul_torch",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -67,7 +67,7 @@
           "id": "7D708A756765D710",
           "type": "item",
           "item": "minecraft:arrow",
-          "count": 10
+          "count": 50
         }
       ]
     },
@@ -96,7 +96,7 @@
           "id": "07179392600F8B7D",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -125,7 +125,12 @@
           "id": "55CB65CF0AADCC51",
           "type": "item",
           "item": "minecraft:cooked_beef",
-          "count": 4
+          "count": 40
+        },
+        {
+          "id": "2CA206A69D9C8BEC",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
@@ -154,7 +159,12 @@
           "id": "717053EE3B53083C",
           "type": "item",
           "item": "minecraft:glowstone_dust",
-          "count": 3
+          "count": 30
+        },
+        {
+          "id": "46E19497672DD352",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
@@ -183,7 +193,7 @@
           "id": "3F06D7CA74F3B925",
           "type": "item",
           "item": "minecraft:gold_nugget",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -212,7 +222,7 @@
           "id": "06D65179002BB167",
           "type": "item",
           "item": "minecraft:spectral_arrow",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -241,12 +251,12 @@
           "id": "7D16FA1870E50643",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 3
+          "count": 45
         },
         {
           "id": "4D86E12A5AE9A195",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "5A06F23F563FA060",

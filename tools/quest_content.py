@@ -1,5 +1,5 @@
 """Authored journal entries and quest rewards, keyed by chapter identifiers."""
-from quest_rewards import choose_reward
+from quest_rewards import reward_terms
 
 # A chapter opening gets a short dispatch from the world and an illustration.
 DISPATCHES = (
@@ -70,10 +70,10 @@ def decorate_quest(quest, chapter, order, position, rows, uid):
     # Keep the original reward ID so old completion and claimed reward data still applies.
     base = f'{chapter}/{position}/reward'
     targets = {row[1] for row in rows}
-    item, count = choose_reward(chapter, order, position, rows)
+    item, count, experience = reward_terms(chapter, order, position, rows, quest)
     rewards = [{'id': uid(base), 'type': 'item', 'item': item, 'count': count}]
-    if position == len(rows) - 1:
-        rewards.append({'id': uid(base + '/experience'), 'type': 'xp', 'xp': 12 if order < 8 else 20})
+    if experience:
+        rewards.append({'id': uid(base + '/experience'), 'type': 'xp', 'xp': experience})
     if position == len(rows) - 1 and order >= 8:
         candidates = ['kubejs:' + name for name in SUPPLIES if 'kubejs:' + name not in targets]
         rewards.append({'id': uid(base + '/supply'), 'type': 'item',

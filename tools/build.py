@@ -141,7 +141,7 @@ for order,(slug,title,icon,rows) in enumerate(chapters):
 assert set(refs)<=allids and len(allids)==total
 tag_files(DATA, js)
 js(ROOT/'docs'/'quests.json',index)
-manifest=json.loads((ROOT/'manifest.json').read_text());manifest['version']='1.0.0-rc5-quests.1';js(ROOT/'manifest.json',manifest)
+manifest=json.loads((ROOT/'manifest.json').read_text());manifest['version']='1.0.0-rc5-quests.2';js(ROOT/'manifest.json',manifest)
 assert len({x['projectID'] for x in manifest['files']})==len(manifest['files'])
 print(f'{total} quests, {sum(x["task"]=="manual" for x in index)} manual; {len(manifest["files"])} locked projects; {len(items)} items')
 

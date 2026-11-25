@@ -51,7 +51,7 @@
           "id": "1372ADC94CFA6B3A",
           "type": "item",
           "item": "minecraft:glass_bottle",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -79,8 +79,8 @@
         {
           "id": "71EDEDB14689A098",
           "type": "item",
-          "item": "minecraft:shield",
-          "count": 1
+          "item": "minecraft:iron_ingot",
+          "count": 5
         }
       ]
     },
@@ -109,7 +109,7 @@
           "id": "52AA37132C437351",
           "type": "item",
           "item": "minecraft:cooked_beef",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -137,8 +137,13 @@
         {
           "id": "4852DBC5E91DD916",
           "type": "item",
-          "item": "minecraft:arrow",
-          "count": 12
+          "item": "minecraft:gold_ingot",
+          "count": 16
+        },
+        {
+          "id": "531C18C513945E44",
+          "type": "xp",
+          "xp": 80
         }
       ]
     },
@@ -166,8 +171,13 @@
         {
           "id": "4F3578E41D285A3C",
           "type": "item",
-          "item": "minecraft:glowstone_dust",
-          "count": 3
+          "item": "minecraft:diamond",
+          "count": 5
+        },
+        {
+          "id": "37FB81CAFB4F5C4D",
+          "type": "xp",
+          "xp": 120
         }
       ]
     },
@@ -196,7 +206,7 @@
           "id": "186470AD67E13B7A",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 16
         }
       ]
     },
@@ -225,7 +235,7 @@
           "id": "3B0C5D0323BF6B4A",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -253,13 +263,13 @@
         {
           "id": "38946B93C1DEB41E",
           "type": "item",
-          "item": "minecraft:spectral_arrow",
-          "count": 6
+          "item": "minecraft:diamond",
+          "count": 8
         },
         {
           "id": "665B8EE9FEB0F849",
           "type": "xp",
-          "xp": 12
+          "xp": 200
         }
       ]
     }

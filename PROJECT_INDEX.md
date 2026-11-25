@@ -103,3 +103,5 @@
 - #mods Amendments 2.2.6 и зависимость Moonlight Lib закреплены в списке модов.
 
 - Кампания FTB Quests из author-content: 532 заданий в 45 главах, новые награды, маршруты и иллюстрации.
+
+#quests #balance Правила выдачи наград находятся в tools/quest_rewards.py, сводка в docs/BALANCE.md.

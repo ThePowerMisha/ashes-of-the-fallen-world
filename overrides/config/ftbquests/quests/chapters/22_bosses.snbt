@@ -38,7 +38,7 @@
           "id": "062B503A384495A3",
           "type": "item",
           "item": "minecraft:cooked_beef",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -67,7 +67,7 @@
           "id": "2001E4CB15C430E1",
           "type": "item",
           "item": "minecraft:arrow",
-          "count": 12
+          "count": 60
         }
       ]
     },
@@ -96,7 +96,7 @@
           "id": "31C606BC71BEAE6E",
           "type": "item",
           "item": "minecraft:glowstone_dust",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -125,7 +125,7 @@
           "id": "3DC8E76EA81945B2",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -154,7 +154,7 @@
           "id": "36CEC749E1A937C9",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -183,7 +183,7 @@
           "id": "4D807F6AA7CA5B96",
           "type": "item",
           "item": "minecraft:spectral_arrow",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -212,7 +212,7 @@
           "id": "2DD4D67E99619112",
           "type": "item",
           "item": "minecraft:glass_bottle",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -241,7 +241,7 @@
           "id": "1DB31BE6C787C08E",
           "type": "item",
           "item": "minecraft:cooked_beef",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -270,7 +270,7 @@
           "id": "46897F48DA533CCD",
           "type": "item",
           "item": "minecraft:arrow",
-          "count": 12
+          "count": 60
         }
       ]
     },
@@ -299,7 +299,7 @@
           "id": "3F57633A5BE94620",
           "type": "item",
           "item": "minecraft:glowstone_dust",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -328,7 +328,7 @@
           "id": "5F47417CA737FF38",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -357,7 +357,7 @@
           "id": "729B2015C142C6A9",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -386,7 +386,7 @@
           "id": "4EB6EC3CA5780F41",
           "type": "item",
           "item": "minecraft:spectral_arrow",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -415,7 +415,7 @@
           "id": "46CA095C43144565",
           "type": "item",
           "item": "minecraft:glass_bottle",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -444,7 +444,7 @@
           "id": "273216942EB578D6",
           "type": "item",
           "item": "minecraft:cooked_beef",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -473,7 +473,7 @@
           "id": "31B1F829C542A2C9",
           "type": "item",
           "item": "minecraft:arrow",
-          "count": 12
+          "count": 60
         }
       ]
     },
@@ -501,8 +501,13 @@
         {
           "id": "3E480D8B5DBB1A10",
           "type": "item",
-          "item": "minecraft:glowstone_dust",
-          "count": 3
+          "item": "minecraft:gold_ingot",
+          "count": 24
+        },
+        {
+          "id": "15F534DB4269CE64",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
@@ -531,7 +536,12 @@
           "id": "10A2EEA3AD346626",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 20
+        },
+        {
+          "id": "07545BC35DE4C882",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
@@ -560,12 +570,12 @@
           "id": "27F3D5C8FDE0250F",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 3
+          "count": 45
         },
         {
           "id": "6AA3C0E02641BA73",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "05926E8477BFEC77",

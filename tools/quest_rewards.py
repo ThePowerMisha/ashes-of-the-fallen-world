@@ -86,3 +86,45 @@ def choose_reward(chapter, order, position, rows):
                if namespaced(item) not in targets]
     assert options, chapter
     return options[(order + position) % len(options)]
+
+BOSS_REWARDS = {
+    ('07_war', 'Падение древнего владыки'): ('minecraft:diamond', 8, 200),
+    ('22_bosses', 'Победа над иссушителем'): ('minecraft:gold_ingot', 24, 100),
+    ('07_war', 'Хранитель катакомб'): ('minecraft:diamond', 5, 120),
+    ('07_war', 'Первый хранитель'): ('minecraft:gold_ingot', 16, 80),
+    ('08_final', 'Сердце тьмы'): ('minecraft:diamond', 12, 300),
+    ('32_abyss', 'Поражение орды'): ('minecraft:gold_ingot', 32, 150),
+    ('08_final', 'Новая эпоха'): ('minecraft:diamond', 10, 250),
+}
+
+REWARD_SUBSTITUTES = {
+    'minecraft:compass': 'minecraft:iron_ingot',
+    'minecraft:shears': 'minecraft:iron_ingot',
+    'minecraft:shield': 'minecraft:iron_ingot',
+    'minecraft:cake': 'minecraft:cooked_beef',
+}
+
+
+def reward_terms(chapter, order, position, rows, quest):
+    boss_reward = BOSS_REWARDS.get((chapter, quest['title']))
+    if boss_reward:
+        return boss_reward
+
+    item, count = choose_reward(chapter, order, position, rows)
+    is_final = position == len(rows) - 1
+    task = quest['tasks'][0]
+    if is_final:
+        multiplier, experience = 15, 90 if order < 8 else 150
+    elif task['type'] == 'advancement' or rows[position][1] == 'minecraft:dragon_breath':
+        multiplier, experience = 10, 50
+    elif task['type'] == 'item' and task['count'] >= 8:
+        multiplier, experience = 8, 0
+    else:
+        multiplier, experience = 5, 0
+
+    substitute = REWARD_SUBSTITUTES.get(item)
+    if substitute and substitute not in {row[1] for row in rows}:
+        item = substitute
+    elif substitute:
+        return item, count, experience + 5 * multiplier
+    return item, min(count * multiplier, 64), experience

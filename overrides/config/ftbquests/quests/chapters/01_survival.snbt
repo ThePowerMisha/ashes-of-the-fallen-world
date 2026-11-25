@@ -60,7 +60,7 @@
           "id": "02F200B21208ACB0",
           "type": "item",
           "item": "minecraft:stick",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -96,7 +96,7 @@
           "id": "47A085C020BE8C31",
           "type": "item",
           "item": "minecraft:string",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -132,7 +132,7 @@
           "id": "267F613CEFF0A60F",
           "type": "item",
           "item": "minecraft:raw_iron",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -161,7 +161,7 @@
           "id": "2C6E131F58772900",
           "type": "item",
           "item": "minecraft:string",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -197,7 +197,7 @@
           "id": "42B55B084982EFD7",
           "type": "item",
           "item": "minecraft:obsidian",
-          "count": 1
+          "count": 8
         }
       ]
     },
@@ -233,7 +233,7 @@
           "id": "14B8971662D03A93",
           "type": "item",
           "item": "minecraft:stick",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -262,7 +262,7 @@
           "id": "71B5470E32F4D41F",
           "type": "item",
           "item": "minecraft:charcoal",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -291,12 +291,12 @@
           "id": "50F6107A93D8AADA",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 64
         },
         {
           "id": "7C25620FEAE5C8F0",
           "type": "xp",
-          "xp": 12
+          "xp": 90
         }
       ]
     }

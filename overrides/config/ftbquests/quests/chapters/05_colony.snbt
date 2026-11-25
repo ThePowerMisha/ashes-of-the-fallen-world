@@ -76,7 +76,7 @@
           "id": "3E10979626A9828D",
           "type": "item",
           "item": "minecraft:moss_block",
-          "count": 2
+          "count": 16
         }
       ]
     },
@@ -105,7 +105,7 @@
           "id": "44787D68C436A11E",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -134,7 +134,7 @@
           "id": "4977A4187EDAE89F",
           "type": "item",
           "item": "minecraft:oak_planks",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -163,7 +163,7 @@
           "id": "565B1626B03F276E",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -192,7 +192,7 @@
           "id": "562B39ACD763A795",
           "type": "item",
           "item": "minecraft:oak_log",
-          "count": 6
+          "count": 48
         }
       ]
     },
@@ -221,7 +221,7 @@
           "id": "3559C472ADD0FEEF",
           "type": "item",
           "item": "minecraft:iron_nugget",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -257,7 +257,7 @@
           "id": "39F51AA585465221",
           "type": "item",
           "item": "minecraft:clay_ball",
-          "count": 6
+          "count": 48
         }
       ]
     },
@@ -293,7 +293,7 @@
           "id": "26BDADB26DF66D76",
           "type": "item",
           "item": "ae2:sky_stone_block",
-          "count": 2
+          "count": 16
         }
       ]
     },
@@ -322,7 +322,7 @@
           "id": "6EC0065CE4E0F946",
           "type": "item",
           "item": "minecraft:moss_block",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -351,12 +351,12 @@
           "id": "4CFCFDC9C864E84A",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 64
         },
         {
           "id": "74C533982E1C641B",
           "type": "xp",
-          "xp": 12
+          "xp": 90
         }
       ]
     }

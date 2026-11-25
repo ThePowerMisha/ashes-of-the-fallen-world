@@ -37,8 +37,13 @@
         {
           "id": "3F69991620E1D75B",
           "type": "item",
-          "item": "minecraft:compass",
-          "count": 1
+          "item": "minecraft:iron_ingot",
+          "count": 10
+        },
+        {
+          "id": "219F0AA23DC449F3",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
@@ -67,7 +72,7 @@
           "id": "7F0A62A183AFF469",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -96,7 +101,12 @@
           "id": "20852A76568C1010",
           "type": "item",
           "item": "minecraft:cooked_porkchop",
-          "count": 4
+          "count": 40
+        },
+        {
+          "id": "3CDBA9CD08291883",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
@@ -125,7 +135,7 @@
           "id": "1E43E31A53CCA62F",
           "type": "item",
           "item": "minecraft:paper",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -154,7 +164,12 @@
           "id": "14489877193553B0",
           "type": "item",
           "item": "minecraft:soul_torch",
-          "count": 6
+          "count": 60
+        },
+        {
+          "id": "534715AD0A15E606",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
@@ -183,7 +198,7 @@
           "id": "24B7DF2F8654DBE2",
           "type": "item",
           "item": "minecraft:arrow",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -212,7 +227,12 @@
           "id": "194B94A41B3F43DA",
           "type": "item",
           "item": "minecraft:lead",
-          "count": 1
+          "count": 10
+        },
+        {
+          "id": "235859773BB4D962",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
@@ -241,7 +261,7 @@
           "id": "52645E3597523A07",
           "type": "item",
           "item": "minecraft:leather",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -270,7 +290,12 @@
           "id": "489FB114E4FFD879",
           "type": "item",
           "item": "minecraft:paper",
-          "count": 4
+          "count": 40
+        },
+        {
+          "id": "7A9C5235F25B5026",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
@@ -299,7 +324,7 @@
           "id": "47C547F75D9E7D3F",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -328,7 +353,12 @@
           "id": "68961DB25CCFC2AC",
           "type": "item",
           "item": "minecraft:cooked_porkchop",
-          "count": 4
+          "count": 40
+        },
+        {
+          "id": "339BAF6756D3D279",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
@@ -357,12 +387,12 @@
           "id": "23FA638D79E068D3",
           "type": "item",
           "item": "minecraft:paper",
-          "count": 6
+          "count": 64
         },
         {
           "id": "4BC8241D461BDBCB",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "68923814C9196664",

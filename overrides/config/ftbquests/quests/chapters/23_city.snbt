@@ -57,7 +57,7 @@
           "id": "701EB2325CA445BC",
           "type": "item",
           "item": "minecraft:oak_planks",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -86,7 +86,7 @@
           "id": "3CDCE94D1505CB8B",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -115,7 +115,7 @@
           "id": "1B8B24551E8A773D",
           "type": "item",
           "item": "minecraft:oak_log",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -144,7 +144,7 @@
           "id": "152142ED6B8F0ED1",
           "type": "item",
           "item": "minecraft:iron_nugget",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -173,7 +173,7 @@
           "id": "6B66D8BC3C0FC526",
           "type": "item",
           "item": "minecraft:clay_ball",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -202,7 +202,7 @@
           "id": "37B97CC446A371AE",
           "type": "item",
           "item": "minecraft:gravel",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -231,7 +231,7 @@
           "id": "69C15989EDD00037",
           "type": "item",
           "item": "minecraft:moss_block",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -260,7 +260,7 @@
           "id": "5A52BC319C1C42A5",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -289,7 +289,7 @@
           "id": "3B5B9DB8E88ADACB",
           "type": "item",
           "item": "minecraft:oak_planks",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -318,7 +318,7 @@
           "id": "72E31D26D7076980",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -347,7 +347,7 @@
           "id": "3832594DE4BC5BAB",
           "type": "item",
           "item": "minecraft:oak_log",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -376,7 +376,7 @@
           "id": "62CA377D5EB9C9F1",
           "type": "item",
           "item": "minecraft:iron_nugget",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -405,7 +405,7 @@
           "id": "39F02228E2918345",
           "type": "item",
           "item": "minecraft:clay_ball",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -434,7 +434,7 @@
           "id": "636CCFF7FE1097A5",
           "type": "item",
           "item": "minecraft:gravel",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -463,7 +463,7 @@
           "id": "653472C8129FB384",
           "type": "item",
           "item": "minecraft:moss_block",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -492,7 +492,7 @@
           "id": "142072E08EC426ED",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -528,7 +528,7 @@
           "id": "5B9207781E1A9D6B",
           "type": "item",
           "item": "minecraft:oak_planks",
-          "count": 6
+          "count": 48
         }
       ]
     },
@@ -564,7 +564,7 @@
           "id": "585DC945A832B5A2",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 16
         }
       ]
     },
@@ -593,7 +593,7 @@
           "id": "26E087418DDD2990",
           "type": "item",
           "item": "minecraft:oak_log",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -622,7 +622,7 @@
           "id": "58601ADD90ED6EBB",
           "type": "item",
           "item": "minecraft:iron_nugget",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -651,7 +651,7 @@
           "id": "5EBD2AD2E3DDAC80",
           "type": "item",
           "item": "minecraft:clay_ball",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -680,12 +680,12 @@
           "id": "1AF2580EA7A0EE39",
           "type": "item",
           "item": "minecraft:gravel",
-          "count": 6
+          "count": 64
         },
         {
           "id": "08CFDF63D04023B1",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "64419B94D5078055",
