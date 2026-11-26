@@ -148,7 +148,7 @@ assert set(refs)<=allids and len(allids)==total
 tag_files(DATA, js)
 write_coverage(ROOT, chapters)
 js(ROOT/'docs'/'quests.json',index)
-manifest=json.loads((ROOT/'manifest.json').read_text());manifest['version']='1.0.0-rc5-author-content.5';js(ROOT/'manifest.json',manifest)
+manifest=json.loads((ROOT/'manifest.json').read_text());manifest['version']='1.0.0-rc5-author-content.6';js(ROOT/'manifest.json',manifest)
 assert len({x['projectID'] for x in manifest['files']})==len(manifest['files'])
 print(f'{total} quests, {sum(x["task"]=="manual" for x in index)} manual; {len(manifest["files"])} locked projects; {len(items)} items')
 

@@ -38,7 +38,7 @@
           "id": "0962BB17B9FF95DA",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -67,7 +67,7 @@
           "id": "1DD76CF10BA411DF",
           "type": "item",
           "item": "minecraft:spectral_arrow",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -96,7 +96,7 @@
           "id": "424BC38F785AC04C",
           "type": "item",
           "item": "minecraft:glass_bottle",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -124,8 +124,8 @@
         {
           "id": "70D22F0BC1793F49",
           "type": "item",
-          "item": "minecraft:shield",
-          "count": 1
+          "item": "minecraft:iron_ingot",
+          "count": 5
         }
       ]
     },
@@ -154,7 +154,7 @@
           "id": "099BD78345A362E4",
           "type": "item",
           "item": "minecraft:cooked_beef",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -183,7 +183,7 @@
           "id": "0887B4B00E32D3FC",
           "type": "item",
           "item": "minecraft:arrow",
-          "count": 12
+          "count": 60
         }
       ]
     },
@@ -212,7 +212,7 @@
           "id": "51359A616A877904",
           "type": "item",
           "item": "minecraft:glowstone_dust",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -241,7 +241,7 @@
           "id": "25FA660D7FB3A82A",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -270,7 +270,7 @@
           "id": "162B965084C5031D",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -299,7 +299,7 @@
           "id": "1991617E735AE77B",
           "type": "item",
           "item": "minecraft:spectral_arrow",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -328,7 +328,7 @@
           "id": "082A90BBDB7B64C5",
           "type": "item",
           "item": "minecraft:glass_bottle",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -356,8 +356,8 @@
         {
           "id": "271B648A624BB5E8",
           "type": "item",
-          "item": "minecraft:shield",
-          "count": 1
+          "item": "minecraft:iron_ingot",
+          "count": 5
         }
       ]
     },
@@ -386,7 +386,7 @@
           "id": "7C5A5C8A0348A603",
           "type": "item",
           "item": "minecraft:cooked_beef",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -415,12 +415,12 @@
           "id": "0725338FDC4C4990",
           "type": "item",
           "item": "minecraft:arrow",
-          "count": 12
+          "count": 64
         },
         {
           "id": "0A73C0E44567C61E",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "5CE2728A6E338E5D",

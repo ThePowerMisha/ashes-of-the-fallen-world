@@ -3,7 +3,6 @@
     "world": [
       "tectonic",
       "terralith",
-      "yungs-better-caves",
       "yungs-better-mineshafts-forge",
       "when-dungeons-arise",
       "idas",
@@ -90,14 +89,15 @@
       "ferritecore",
       "immediatelyfast",
       "entityculling",
-      "chunky-pregenerator-forge",
       "spark",
       "complementary-unbound",
       "ftb-quests-forge",
       "kubejs",
       "lootjs",
       "almost-unified",
-      "polymorph"
+      "polymorph",
+      "distant-horizons",
+      "turbo-for-distant-horizons"
     ],
     "once_import": [
       "dynamiclights-reforged",
@@ -147,7 +147,6 @@
       "mca-family-life"
     ],
     "author_atmosphere": [
-      "amendments",
       "dwarfs-tyranny"
     ]
   },
@@ -282,6 +281,9 @@
     "mca-family-life": [
       "minecraft-comes-alive-reborn"
     ],
+    "turbo-for-distant-horizons": [
+      "distant-horizons"
+    ],
     "amendments": [
       "selene"
     ],
@@ -297,12 +299,13 @@
     ]
   },
   "excluded": {
-    "distant-horizons": "Chunky is the pregenerator selected for both profiles.",
     "sound-filters": "Redundant with Sound Physics Remastered.",
     "mekalus-oculus-fork-with-fixed-mekanism-mekasuit": "Conflicts with Oculus",
     "ore-excavation": "Ultimine already installed",
     "journeymap": "Xaero already installed",
     "biomes-o-plenty": "Avoid additional biome generator",
-    "mca-colony-integration": "Only Minecraft 1.21.1 NeoForge files found; pack is 1.20.1 Forge."
+    "mca-colony-integration": "Only Minecraft 1.21.1 NeoForge files found; pack is 1.20.1 Forge.",
+    "chunky-pregenerator-forge": "Отключён в эксперименте DH Turbo.",
+    "yungs-better-caves": "Отключён в эксперименте DH Turbo."
   }
 }

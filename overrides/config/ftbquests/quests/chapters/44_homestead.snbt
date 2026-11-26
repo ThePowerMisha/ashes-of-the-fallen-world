@@ -51,7 +51,7 @@
           "id": "6D456BAAEB9F100F",
           "type": "item",
           "item": "minecraft:brick",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -80,7 +80,7 @@
           "id": "6833A7B0E2665129",
           "type": "item",
           "item": "minecraft:charcoal",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -108,8 +108,8 @@
         {
           "id": "3CA541A425C7D9D4",
           "type": "item",
-          "item": "minecraft:cake",
-          "count": 1
+          "item": "minecraft:cooked_beef",
+          "count": 5
         }
       ]
     },
@@ -144,8 +144,8 @@
         {
           "id": "2EB80153E566A803",
           "type": "item",
-          "item": "minecraft:shears",
-          "count": 1
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ]
     },
@@ -181,7 +181,7 @@
           "id": "26E454B1EDE773E3",
           "type": "item",
           "item": "minecraft:string",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -210,12 +210,12 @@
           "id": "5D019933DD4CB191",
           "type": "item",
           "item": "minecraft:bone_meal",
-          "count": 5
+          "count": 64
         },
         {
           "id": "214342FB74D1E3D3",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "64BD7B2F5824A615",

@@ -57,7 +57,7 @@
           "id": "77F07455B7091B6E",
           "type": "item",
           "item": "minecraft:glass_bottle",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -86,7 +86,7 @@
           "id": "2669BEA057CD68F8",
           "type": "item",
           "item": "minecraft:book",
-          "count": 1
+          "count": 5
         }
       ]
     },
@@ -115,7 +115,7 @@
           "id": "342E2BCDFB6969C0",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -144,7 +144,7 @@
           "id": "04D29954B5016790",
           "type": "item",
           "item": "minecraft:leather",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -173,7 +173,7 @@
           "id": "63D8CB2A5CFA0A23",
           "type": "item",
           "item": "minecraft:glowstone_dust",
-          "count": 2
+          "count": 16
         }
       ]
     },
@@ -202,7 +202,7 @@
           "id": "562F8D85B42D4BBC",
           "type": "item",
           "item": "minecraft:paper",
-          "count": 5
+          "count": 25
         }
       ]
     },
@@ -231,7 +231,7 @@
           "id": "2A0F1FDA3CE5EA4F",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -260,7 +260,7 @@
           "id": "70C62CCC930C65F8",
           "type": "item",
           "item": "minecraft:amethyst_shard",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -289,7 +289,7 @@
           "id": "18587D1227625175",
           "type": "item",
           "item": "minecraft:glass_bottle",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -318,12 +318,12 @@
           "id": "6308D59E0B35C265",
           "type": "item",
           "item": "minecraft:book",
-          "count": 1
+          "count": 15
         },
         {
           "id": "4E54C7779A80CE88",
           "type": "xp",
-          "xp": 12
+          "xp": 90
         }
       ]
     }

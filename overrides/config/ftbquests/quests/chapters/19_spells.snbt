@@ -38,7 +38,7 @@
           "id": "0F94005BD1FB3484",
           "type": "item",
           "item": "minecraft:amethyst_shard",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -67,7 +67,7 @@
           "id": "03BA8D286657E313",
           "type": "item",
           "item": "minecraft:glass_bottle",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -96,7 +96,7 @@
           "id": "633B2CC433F3C06B",
           "type": "item",
           "item": "minecraft:book",
-          "count": 1
+          "count": 5
         }
       ]
     },
@@ -125,7 +125,7 @@
           "id": "6A0231F163757347",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -154,7 +154,7 @@
           "id": "6815EA088578D077",
           "type": "item",
           "item": "minecraft:leather",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -183,7 +183,7 @@
           "id": "67DABAA8C18EC9B2",
           "type": "item",
           "item": "minecraft:glowstone_dust",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -212,7 +212,7 @@
           "id": "29BE202E7B0D7B70",
           "type": "item",
           "item": "minecraft:paper",
-          "count": 5
+          "count": 25
         }
       ]
     },
@@ -241,7 +241,7 @@
           "id": "16B643C3946F311D",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -270,7 +270,7 @@
           "id": "65AC317FC3BFB296",
           "type": "item",
           "item": "minecraft:amethyst_shard",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -299,7 +299,7 @@
           "id": "6356BEDEEF8D055E",
           "type": "item",
           "item": "minecraft:glass_bottle",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -328,7 +328,7 @@
           "id": "13F577377D943DFD",
           "type": "item",
           "item": "minecraft:book",
-          "count": 1
+          "count": 5
         }
       ]
     },
@@ -357,7 +357,7 @@
           "id": "683D4EA87F0677E7",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -386,7 +386,7 @@
           "id": "2C85F6AF4A8F9151",
           "type": "item",
           "item": "minecraft:leather",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -415,7 +415,7 @@
           "id": "720BC55016429673",
           "type": "item",
           "item": "minecraft:glowstone_dust",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -444,7 +444,7 @@
           "id": "3948D351D1746B95",
           "type": "item",
           "item": "minecraft:paper",
-          "count": 5
+          "count": 25
         }
       ]
     },
@@ -473,7 +473,7 @@
           "id": "77CD8E0EEA1B8C7F",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -502,12 +502,12 @@
           "id": "52D60920B1CC972C",
           "type": "item",
           "item": "minecraft:amethyst_shard",
-          "count": 2
+          "count": 30
         },
         {
           "id": "2F6881C27B6C066B",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "46DDEA6E82093974",

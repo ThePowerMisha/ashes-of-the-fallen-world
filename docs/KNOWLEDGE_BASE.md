@@ -42,7 +42,7 @@ RC5: игровые тесты клиента/сервера, фактическ
 
 - #mods #updates `python tools/audit_updates.py --include-beta` ищет более новые файлы по меткам Minecraft 1.20.1 и Forge. [Снимок и приоритеты](MOD_UPDATES.md).
 
-- #chunky #pregen В стандартном профиле и Horizons предгенерация выполняется через Chunky. [Команды и настройка](SERVER.md#предгенерация-чанков).
+- #dh-turbo #worldgen В оба архива входит эксперимент Distant Horizons и Turbo для одиночной игры. [Графика и настройки](GRAPHICS.md#dh-turbo).
 
 - #shaders #oculus Оба архива включают одинаковые проекты, в том числе Oculus и пять шейдерпаков. `overrides/config/oculus.properties` хранит выбор Complementary Unbound и оставляет шейдеры выключенными на первом запуске. [Настройки](GRAPHICS.md).
 
@@ -56,4 +56,4 @@ RC5: игровые тесты клиента/сервера, фактическ
 
 - #roads #worldgen `tools/site_supports.py` формирует метки оснований и одноразовую обработку по глубине. Подсыпка ограничена пятью блоками, на большей глубине работают опоры. [Устройство](STRUCTURES.md#основания-дорог-и-площадок).
 
-- #quests #filters #routing [Покрытие книги](QUEST_COVERAGE.md). `tools/quest_progress.py` генерирует теги и ссылки между главами, `tools/quest_rewards.py` отвечает за расходники и заготовки. `tools/quest_coverage.py` сверяет карту с полным модлоком.
+- #quests #filters #routing [Покрытие книги](QUEST_COVERAGE.md). `tools/quest_progress.py` генерирует теги и ссылки между главами, `tools/quest_rewards.py` задаёт множители припасов и отдельные награды за боссов. `tools/quest_coverage.py` сверяет карту с полным модлоком.

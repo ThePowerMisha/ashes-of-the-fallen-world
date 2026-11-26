@@ -37,8 +37,8 @@
         {
           "id": "774CC3766F291884",
           "type": "item",
-          "item": "minecraft:compass",
-          "count": 1
+          "item": "minecraft:iron_ingot",
+          "count": 5
         }
       ]
     },
@@ -67,7 +67,7 @@
           "id": "5300739A26DFEB89",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -96,7 +96,7 @@
           "id": "349B69476D7D8C06",
           "type": "item",
           "item": "minecraft:paper",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -125,7 +125,7 @@
           "id": "5FC68FAFCEBDFE72",
           "type": "item",
           "item": "minecraft:soul_torch",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -154,7 +154,7 @@
           "id": "64C18144C8103F61",
           "type": "item",
           "item": "minecraft:arrow",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -183,7 +183,7 @@
           "id": "4D235FC730950D7D",
           "type": "item",
           "item": "minecraft:lead",
-          "count": 1
+          "count": 5
         }
       ]
     },
@@ -219,7 +219,7 @@
           "id": "6A2373F7756ACAF2",
           "type": "item",
           "item": "minecraft:leather",
-          "count": 2
+          "count": 16
         }
       ]
     },
@@ -247,8 +247,8 @@
         {
           "id": "3430EB1FCCDF8063",
           "type": "item",
-          "item": "minecraft:compass",
-          "count": 1
+          "item": "minecraft:iron_ingot",
+          "count": 5
         }
       ]
     },
@@ -277,12 +277,12 @@
           "id": "3A0CBCD0EB216DAF",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 64
         },
         {
           "id": "59B1ACAB31A1DAE3",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "6182ADAE2FE8BA82",

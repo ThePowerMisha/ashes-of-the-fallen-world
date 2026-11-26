@@ -38,7 +38,7 @@
           "id": "1B1FA26CBF79E09D",
           "type": "item",
           "item": "minecraft:soul_torch",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -67,7 +67,7 @@
           "id": "4597E2D25B16C8C0",
           "type": "item",
           "item": "minecraft:lead",
-          "count": 1
+          "count": 5
         }
       ]
     },
@@ -96,7 +96,7 @@
           "id": "669F3536E9579779",
           "type": "item",
           "item": "minecraft:leather",
-          "count": 2
+          "count": 16
         }
       ]
     },
@@ -125,7 +125,7 @@
           "id": "46A494B093797E07",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -154,7 +154,7 @@
           "id": "045282B89DCE6AA3",
           "type": "item",
           "item": "minecraft:cooked_porkchop",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -183,7 +183,7 @@
           "id": "79D37182F33A5D56",
           "type": "item",
           "item": "minecraft:paper",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -212,7 +212,7 @@
           "id": "21A176771A361BF5",
           "type": "item",
           "item": "minecraft:soul_torch",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -241,7 +241,7 @@
           "id": "4015EC215685F0EE",
           "type": "item",
           "item": "minecraft:paper",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -270,7 +270,7 @@
           "id": "2D23C445039F74A4",
           "type": "item",
           "item": "minecraft:leather",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -299,12 +299,12 @@
           "id": "0B298923FC04DD1F",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 64
         },
         {
           "id": "251C980FCB81282E",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "2B5B04529EDF422B",

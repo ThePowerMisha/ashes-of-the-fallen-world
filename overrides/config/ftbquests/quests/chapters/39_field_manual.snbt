@@ -39,7 +39,7 @@
           "id": "4BCC67A1CD6595C6",
           "type": "item",
           "item": "minecraft:stick",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -68,7 +68,7 @@
           "id": "6D3F550A72A5CDC4",
           "type": "item",
           "item": "minecraft:charcoal",
-          "count": 3
+          "count": 24
         }
       ]
     },
@@ -97,7 +97,7 @@
           "id": "237D9AFE450E6ED4",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -126,7 +126,7 @@
           "id": "2A67E4B55DC360D2",
           "type": "item",
           "item": "minecraft:cooked_beef",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -156,7 +156,7 @@
           "id": "077A11E3B466257E",
           "type": "item",
           "item": "minecraft:coal",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -185,12 +185,12 @@
           "id": "1D620C72D685EDD9",
           "type": "item",
           "item": "minecraft:leather",
-          "count": 2
+          "count": 30
         },
         {
           "id": "21B61C21026467DC",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "4A565C0E90B22F53",

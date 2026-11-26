@@ -51,7 +51,7 @@
           "id": "31A3531DFD8F38AE",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 4
+          "count": 32
         }
       ]
     },
@@ -80,7 +80,7 @@
           "id": "1A822A2341239371",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -109,7 +109,7 @@
           "id": "6293148DB96E7791",
           "type": "item",
           "item": "minecraft:charcoal",
-          "count": 4
+          "count": 32
         }
       ]
     },
@@ -145,7 +145,7 @@
           "id": "79BCCDB904B95340",
           "type": "item",
           "item": "mekanism:dust_coal",
-          "count": 3
+          "count": 24
         }
       ]
     },
@@ -174,7 +174,7 @@
           "id": "7576A276AAB38FE1",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -203,7 +203,7 @@
           "id": "63C759F68D3CCD6F",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 4
+          "count": 32
         }
       ]
     },
@@ -232,7 +232,7 @@
           "id": "47826FC3B0BE81D1",
           "type": "item",
           "item": "minecraft:glass",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -261,7 +261,7 @@
           "id": "3ADA9B9C0F8ED45B",
           "type": "item",
           "item": "minecraft:gold_ingot",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -290,7 +290,7 @@
           "id": "662B8819152AE34A",
           "type": "item",
           "item": "minecraft:copper_ingot",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -319,7 +319,7 @@
           "id": "43CFADEA42540850",
           "type": "item",
           "item": "minecraft:glass",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -348,7 +348,7 @@
           "id": "1FA1852C63210276",
           "type": "item",
           "item": "minecraft:charcoal",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -377,7 +377,7 @@
           "id": "4F1D436F2441B5F9",
           "type": "item",
           "item": "mekanism:dust_coal",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -406,7 +406,7 @@
           "id": "7FF30FDBE581BB80",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -435,7 +435,7 @@
           "id": "338F4D3EAF429E66",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -464,7 +464,7 @@
           "id": "10BD8AA60F187A32",
           "type": "item",
           "item": "minecraft:glass",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -493,7 +493,7 @@
           "id": "6B2A6FDE79D5AECC",
           "type": "item",
           "item": "minecraft:gold_ingot",
-          "count": 2
+          "count": 16
         }
       ]
     },
@@ -522,7 +522,7 @@
           "id": "1A3DBEEBE10E2F62",
           "type": "item",
           "item": "minecraft:copper_ingot",
-          "count": 3
+          "count": 24
         }
       ]
     },
@@ -551,7 +551,7 @@
           "id": "769B564FE328F797",
           "type": "item",
           "item": "mekanism:dust_osmium",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -580,7 +580,7 @@
           "id": "4B24E2888025637C",
           "type": "item",
           "item": "minecraft:charcoal",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -609,7 +609,7 @@
           "id": "17EC457CD6DCD163",
           "type": "item",
           "item": "mekanism:dust_coal",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -638,7 +638,7 @@
           "id": "0678BBCDAAF2E559",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -667,12 +667,12 @@
           "id": "064FE0A7CCF34EE9",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 4
+          "count": 60
         },
         {
           "id": "61AACE080E9219B3",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "2CCE85EB684711AB",

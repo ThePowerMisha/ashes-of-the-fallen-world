@@ -91,7 +91,7 @@
 
 - #mods #updates `tools/audit_updates.py` и [сводка по обновлениям](docs/MOD_UPDATES.md).
 
-- #chunky #pregen [Предгенерация чанков](docs/SERVER.md#предгенерация-чанков) и состав обоих профилей в `docs/mod-plan.json`.
+- #dh-turbo #worldgen [Профиль одиночной игры](docs/GRAPHICS.md#dh-turbo) и состав обоих архивов в `docs/mod-plan.json`.
 
 - #mca [Файлы MCA Reborn 7.7.1-beta.6 и пяти аддонов](docs/MCA.md#версии-и-источники).
 
@@ -105,4 +105,4 @@
 
 - #roads #worldgen `tools/site_supports.py` задаёт подсыпку, опоры и обработку точек в загруженных чанках. Проверки реестров и поведения описаны в `docs/TESTING.md`.
 
-- #quests #filters #rewards [Покрытие проектов](docs/QUEST_COVERAGE.md). `tools/quest_progress.py` задаёт предметные группы и ссылки, `tools/quest_rewards.py` подбирает припасы.
+- #quests #filters #rewards [Покрытие проектов](docs/QUEST_COVERAGE.md). `tools/quest_progress.py` задаёт предметные группы и ссылки, `tools/quest_rewards.py` задаёт припасы, множители и награды за боссов.

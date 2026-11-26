@@ -51,7 +51,7 @@
           "id": "6388924A28EE96FA",
           "type": "item",
           "item": "minecraft:gravel",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -80,7 +80,7 @@
           "id": "425B57D92CC31DBA",
           "type": "item",
           "item": "minecraft:moss_block",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -109,7 +109,7 @@
           "id": "3E056A0BD748934A",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -145,7 +145,7 @@
           "id": "69768547E6C917F8",
           "type": "item",
           "item": "minecraft:oak_planks",
-          "count": 6
+          "count": 48
         }
       ]
     },
@@ -181,7 +181,7 @@
           "id": "2A3FA4756E56E04A",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -217,7 +217,7 @@
           "id": "7200DFF5BDBD5445",
           "type": "item",
           "item": "minecraft:oak_log",
-          "count": 6
+          "count": 48
         }
       ]
     },
@@ -246,7 +246,7 @@
           "id": "159F2142562645DF",
           "type": "item",
           "item": "minecraft:iron_nugget",
-          "count": 8
+          "count": 40
         }
       ]
     },
@@ -275,7 +275,7 @@
           "id": "3ACC1B6240D65C2E",
           "type": "item",
           "item": "ae2:sky_stone_block",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -304,7 +304,7 @@
           "id": "05E4AC01F3BF2E75",
           "type": "item",
           "item": "minecraft:gravel",
-          "count": 6
+          "count": 30
         }
       ]
     },
@@ -333,7 +333,7 @@
           "id": "78EE5796700BC805",
           "type": "item",
           "item": "minecraft:moss_block",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -362,12 +362,12 @@
           "id": "08ADFEFD6CE6BE47",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 8
+          "count": 64
         },
         {
           "id": "2DBF739A546E2AE9",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "65435182DB8E8344",

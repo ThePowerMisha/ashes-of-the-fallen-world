@@ -103,7 +103,7 @@ kotlin-for-forge	351264	7291067	kotlinforforge-4.12.0-all.jar
 puzzles-lib	495476	6918565	PuzzlesLib-v8.1.33-1.20.1-Forge.jar
 jade	324717	6855440	Jade-1.20.1-Forge-11.13.2.jar
 mekanism-tools	268567	6552915	MekanismTools-1.20.1-10.4.16.80.jar
-chunky-pregenerator-forge	485681	5320028	Chunky-1.3.146.jar
+distant-horizons	508933	9004753	DistantHorizons-3.3.3-1.20.1-fabric-forge.jar
 explorers-compass	491794	7892927	ExplorersCompass-1.20.1-1.4.0-forge.jar
 powah-rearchitected	633483	6828054	Powah-5.0.11.jar
 flux-networks	248020	5234697	FluxNetworks-1.20.1-7.2.1.15.jar
@@ -113,7 +113,7 @@ caelus	308989	5281700	caelus-forge-3.2.0+1.20.1.jar
 resourceful-config	714059	5020441	resourcefulconfig-forge-1.20.1-2.1.2.jar
 puffish-attributes	991341	7551331	puffish_attributes-0.8.2-1.20-forge.jar
 from-the-fog	852533	4603882	From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar
-yungs-better-caves	340583	8806070	YungsBetterCaves-1.20.1-Forge-2.0.7.jar
+turbo-for-distant-horizons	1734835	9490329	dhturbo-forge-1.20.1-1.6.0.jar
 decorative-blocks	362528	5058421	decorative_blocks-forge-1.20.1-4.1.1.jar
 lets-do-vinery	704465	6965751	letsdo-vinery-forge-1.4.41.jar
 do-api	864599	5468182	letsdo-API-forge-1.2.15-forge.jar
@@ -169,7 +169,7 @@ mca-reputation	1656551	9400164	mcareputation-0.6.2.jar
 mca-mob-compat	1691620	9406119	mcamobcompat-forge-0.3.0-1.20.1.jar
 mca-family-life	1751458	9495197	mcafamilylife-0.3.0-1.20.1.jar
 amendments	896746	8657397	amendments-1.20-2.2.6.jar
-dwarfs-tyranny	1733245	9553070	dwarfs_tyranny-1.0.8f-forge-1.20.1.jar
 ftb-filter-system	943925	4926070	ftb-filter-system-forge-1.0.2.jar
 ftb-xmod-compat	889915	6402486	ftb-xmod-compat-forge-2.1.3.jar
 dreadhollow-quest-count-fix	1783771	9441973	DREADHOLLOW-quest-count-fix-1.0.0.jar
+dwarfs-tyranny	1733245	9553070	dwarfs_tyranny-1.0.8f-forge-1.20.1.jar

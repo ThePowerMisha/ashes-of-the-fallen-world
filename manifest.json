@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Ashes of the Fallen World",
-  "version": "1.0.0-rc5-author-content.5",
+  "name": "Ashes of the Fallen World — DH Turbo",
+  "version": "1.0.0-rc5-author-content.6",
   "author": "Ashes Project",
   "files": [
     {
@@ -535,8 +535,8 @@
       "required": true
     },
     {
-      "projectID": 485681,
-      "fileID": 5320028,
+      "projectID": 508933,
+      "fileID": 9004753,
       "required": true
     },
     {
@@ -585,8 +585,8 @@
       "required": true
     },
     {
-      "projectID": 340583,
-      "fileID": 8806070,
+      "projectID": 1734835,
+      "fileID": 9490329,
       "required": true
     },
     {
@@ -865,11 +865,6 @@
       "required": true
     },
     {
-      "projectID": 1733245,
-      "fileID": 9553070,
-      "required": true
-    },
-    {
       "projectID": 943925,
       "fileID": 4926070,
       "required": true
@@ -882,6 +877,11 @@
     {
       "projectID": 1783771,
       "fileID": 9441973,
+      "required": true
+    },
+    {
+      "projectID": 1733245,
+      "fileID": 9553070,
       "required": true
     }
   ],

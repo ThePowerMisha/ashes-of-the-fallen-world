@@ -31,7 +31,7 @@ ROUTE_PROJECTS = {
                     'macaws-windows handcrafted decorative-blocks supplementaries amendments quark',
     '43_survey': 'tectonic terralith natures-compass explorers-compass xaeros-minimap xaeros-world-map '
                  'when-dungeons-arise towns-and-towers idas bons-voyage yungs-better-dungeons '
-                 'yungs-better-mineshafts-forge yungs-better-strongholds yungs-better-caves '
+                 'yungs-better-mineshafts-forge yungs-better-strongholds '
                  'yungs-better-ocean-monuments yungs-better-nether-fortresses yungs-better-jungle-temples '
                  'yungs-better-end-island naturalist alexs-mobs enhanced-celestials from-the-fog',
     '44_homestead': 'lets-do-vinery appleskin',
@@ -42,8 +42,8 @@ GUIDES = {
     'Рецепты и интерфейс, глава 39': 'jei jei-integration just-enough-resources-jer just-enough-professions-jep '
                                     'just-enough-mekanism-multiblocks polymorph almost-unified mouse-tweaks',
     'Графика, справка GRAPHICS.md': 'oculus complementary-unbound bliss-shader complementary-reimagined solas-shader '
-                                    'bsl-shaders ambientsounds sound-physics-remastered dynamiclights-reforged magnesium-extras',
-    'Предгенерация и диагностика, справка SERVER.md': 'chunky-pregenerator-forge spark',
+                                    'bsl-shaders distant-horizons turbo-for-distant-horizons ambientsounds sound-physics-remastered dynamiclights-reforged magnesium-extras',
+    'Серверная диагностика, справка SERVER.md': 'spark',
 }
 INFRASTRUCTURE = {
     'Библиотеки и совместимость': 'playeranimator geckolib sophisticated-core selene rhino architectury-api balm '

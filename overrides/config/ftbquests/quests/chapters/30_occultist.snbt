@@ -38,7 +38,7 @@
           "id": "628E3EA7B3078471",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -67,7 +67,7 @@
           "id": "3920AD8FF4DB8B04",
           "type": "item",
           "item": "minecraft:leather",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -96,7 +96,7 @@
           "id": "1D937547A8855372",
           "type": "item",
           "item": "minecraft:glowstone_dust",
-          "count": 2
+          "count": 16
         }
       ]
     },
@@ -125,7 +125,7 @@
           "id": "426409E7D2222318",
           "type": "item",
           "item": "minecraft:paper",
-          "count": 5
+          "count": 40
         }
       ]
     },
@@ -154,7 +154,7 @@
           "id": "5993BA04D2D80EC6",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -183,7 +183,7 @@
           "id": "560A3DF25D7B4B77",
           "type": "item",
           "item": "minecraft:amethyst_shard",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -212,7 +212,7 @@
           "id": "4D3C25ADC385660D",
           "type": "item",
           "item": "minecraft:glass_bottle",
-          "count": 4
+          "count": 20
         }
       ]
     },
@@ -241,7 +241,7 @@
           "id": "2BC7CAFD52E25CB9",
           "type": "item",
           "item": "minecraft:book",
-          "count": 1
+          "count": 5
         }
       ]
     },
@@ -270,7 +270,7 @@
           "id": "2D73EC6F828C82F6",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 3
+          "count": 15
         }
       ]
     },
@@ -299,12 +299,12 @@
           "id": "58E04F60CFC1C08B",
           "type": "item",
           "item": "minecraft:leather",
-          "count": 2
+          "count": 30
         },
         {
           "id": "7195FABC80D19EFB",
           "type": "xp",
-          "xp": 20
+          "xp": 150
         },
         {
           "id": "0ABCDBE59201E28E",

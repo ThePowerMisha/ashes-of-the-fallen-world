@@ -9,7 +9,11 @@ ids={(i['projectID'],i['fileID']) for i in manifest['files']}
 assert len(ids)==174 and len({p for p,f in ids})==174
 assert {(896746,8657397),(1733245,9553070),(943925,4926070),(889915,6402486),(1783771,9441973)} <= ids
 shader_config=(root/'overrides/config/oculus.properties').read_text(encoding='utf-8')
-assert 'enableShaders=true' in shader_config
+assert 'enableShaders=false' in shader_config
+assert {(508933, 9004753), (1734835, 9490329), (686911, 8348481)} <= ids
+assert not {485681, 340583} & {project for project, _ in ids}
+turbo_config = tomllib.loads((root/'overrides/config/dhturbo-common.toml').read_text(encoding='utf-8'))
+assert turbo_config == {'threads': 8, 'exact_radius': 0, 'real_chunks_nearby': False}
 assert 'shaderPack=ComplementaryUnbound_r5.6.1.zip' in shader_config
 preset=(root/'overrides/shaderpacks/ComplementaryUnbound_r5.6.1.zip.txt').read_text(encoding='utf-8')
 assert 'TM_EXPOSURE=0.90' in preset and 'T_SATURATION=0.85' in preset
