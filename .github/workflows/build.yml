@@ -34,3 +34,9 @@ jobs:
         with:
           name: Ashes-CurseForge
           path: dist/*.zip
+      - name: Submit version to CurseForge
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/curseforge-v')
+        env:
+          CURSEFORGE_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
+          CURSEFORGE_UPLOAD_TOKEN: ${{ secrets.CURSEFORGE_UPLOAD_TOKEN }}
+        run: python tools/publish_curseforge.py dist/Ashes-CurseForge.zip "$GITHUB_REF_NAME"

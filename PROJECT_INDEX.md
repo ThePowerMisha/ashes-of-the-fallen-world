@@ -16,6 +16,7 @@
 
 ## GitHub
 - `.github/workflows/build.yml`: статическая проверка воспроизводимости и упаковка ZIP.
+- #release #curseforge [Публикация и обновление профиля](docs/CURSEFORGE.md). Тег `curseforge-v<версия>` отправляет проверенный ZIP в проект CurseForge через `tools/publish_curseforge.py`.
 - `.gitignore`: исключает скачанные моды, миры, логи, секреты и локальную среду.
 
 ## 0.3.0-alpha
