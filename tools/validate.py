@@ -4,9 +4,9 @@ import json, csv, re, subprocess, shutil, tomllib
 root=Path(__file__).resolve().parents[1]
 manifest=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
 assert manifest['minecraft']['version']=='1.20.1'
-assert len(manifest['files'])==173
+assert len(manifest['files'])==174
 ids={(i['projectID'],i['fileID']) for i in manifest['files']}
-assert len(ids)==173 and len({p for p,f in ids})==173
+assert len(ids)==174 and len({p for p,f in ids})==174
 with (root/'overrides/ashes_docs/mods-lock.tsv').open(encoding='utf-8') as f:
     locked=list(csv.DictReader(f,delimiter='\t'))
 assert {(int(r['projectID']),int(r['fileID'])) for r in locked}==ids

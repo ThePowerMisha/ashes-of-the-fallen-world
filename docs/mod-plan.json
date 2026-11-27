@@ -298,7 +298,6 @@
   "excluded": {
     "sound-filters": "Redundant with Sound Physics Remastered.",
     "mekalus-oculus-fork-with-fixed-mekanism-mekasuit": "Conflicts with Oculus",
-    "ore-excavation": "Ultimine already installed",
     "journeymap": "Xaero already installed",
     "biomes-o-plenty": "Avoid additional biome generator",
     "mca-colony-integration": "Only Minecraft 1.21.1 NeoForge files found; pack is 1.20.1 Forge.",
